@@ -38,6 +38,7 @@ namespace PrismFullNavigation.ViewModels
             MenuItemsList.Add("PageParameters - Push Detail");
             MenuItemsList.Add("PageParameters - Modal Page");
             MenuItemsList.Add("MasterDetail");
+            MenuItemsList.Add("RootPage");
 
         }
 
@@ -55,10 +56,10 @@ namespace PrismFullNavigation.ViewModels
                         break;
 
                     case 1:
-                         navResult = await NavigationService.NavigateAsync("NavigationPage/" +
-                            "TabbedPageRuntime?createTab=" +
-                            "Tab1Page|" +
-                            "Tab2Page");
+                         navResult = await NavigationService.NavigateAsync("NavigationPage/"+
+                            "TabbedPageRuntime?" +
+                            "createTab=Tab1Page&" +
+                            "createTab=Tab2Page");
 
                         break;
                     case 2:
@@ -67,9 +68,9 @@ namespace PrismFullNavigation.ViewModels
                     case 3:
 
                         navResult = await NavigationService.NavigateAsync("NavigationPage/" +
-                           "TabbedPageRuntimeModal?createTab=" +
-                           "Tab1Page|" +
-                           "Tab2Page", useModalNavigation: true);
+                        "TabbedPageRuntimeModal?" +
+                        "createTab=Tab1Page&" +
+                        "createTab=Tab2Page", useModalNavigation: true);
                         break;
                     case 4:
                          navResult = await NavigationService.NavigateAsync("NavigationPage/Page1Page");
@@ -85,6 +86,9 @@ namespace PrismFullNavigation.ViewModels
                         break;
                     case 7:
                          navResult = await NavigationService.NavigateAsync("MenuMasterDetailPage/NavigationPage/NavigationPage");
+                        break;
+                    case 8:
+                        navResult = await NavigationService.NavigateAsync("/NavigationPage/MainPage");
                         break;
                 }
 

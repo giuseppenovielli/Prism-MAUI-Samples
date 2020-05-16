@@ -1,0 +1,6 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="ms-appx://Microsoft.UI.Xaml.2.1/Microsoft.UI.Xaml/Themes/generic.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+</ResourceDictionary>
+

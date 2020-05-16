@@ -31,7 +31,7 @@ namespace PrismFullNavigation.ViewModels
 
         public Page1ClearStackNavPageViewModel(INavigationService navigationService) : base(navigationService)
         {
-            TitlePage = "Page1ClearStackNavPage";
+            TitlePage = "Page1 - Push Detail Page";
 
 
             SendCommandClick = new DelegateCommand(async delegate
