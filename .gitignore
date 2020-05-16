@@ -1,0 +1,10 @@
+PrismFullNavigation/.vs/
+PrismFullNavigation/PrismFullNavigation/.vs/
+.DS_Store/
+PrismFullNavigation/PrismFullNavigation/bin/
+PrismFullNavigation/PrismFullNavigation/obj/
+PrismFullNavigation/PrismFullNavigation.Android/bin/
+PrismFullNavigation/PrismFullNavigation.Android/obj/
+PrismFullNavigation/PrismFullNavigation.iOS/bin/
+PrismFullNavigation/PrismFullNavigation.iOS/obj/
+
