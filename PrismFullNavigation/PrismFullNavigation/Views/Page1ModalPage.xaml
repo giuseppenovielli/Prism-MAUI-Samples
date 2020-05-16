@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<local:BasePage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="PrismFullNavigation.Views.Page1ModalPage"
+            xmlns:local="clr-namespace:PrismFullNavigation.Views"
+           xmlns:viewmodels="clr-namespace:PrismFullNavigation.ViewModels"
+    x:DataType="viewmodels:Page1ModalPageViewModel"
+    Title="{Binding TitlePage}"
+    Padding="10">
+
+    <StackLayout
+        VerticalOptions="Center"
+        HorizontalOptions="CenterAndExpand"
+        Spacing="5">
+
+            <Entry
+        Text="{Binding Name}"
+        Placeholder="Write your name"/>
+
+        <StackLayout
+            HorizontalOptions="Center">
+                    <Button
+            IsEnabled="{Binding ButtonIsEnable}"
+            Text="Send Name to Page2"
+            Command="{Binding SendCommandClick}"
+            CommandParameter="{Binding .}"/>
+
+        </StackLayout>
+
+
+
+
+    </StackLayout>
+
+
+
+
+
+
+
+
+</local:BasePage>

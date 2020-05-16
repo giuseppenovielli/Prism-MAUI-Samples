@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MasterDetailPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:views="clr-namespace:PrismFullNavigation.Views"
+    xmlns:prism="http://prismlibrary.com"
+    x:Class="PrismFullNavigation.Views.MenuMasterDetailPage">
+
+       <MasterDetailPage.Behaviors>
+            <prism:EventToCommandBehavior EventName="IsPresentedChanged"
+                                          Command="{Binding PresentedChangedCommand}"
+                                          CommandParameter="{Binding .}" />
+        </MasterDetailPage.Behaviors>
+
+    <MasterDetailPage.Master>
+        <views:MenuPage
+            BindingContext="{Binding MenuPageViewModel}"
+            prism:ViewModelLocator.AutowireViewModel="False"/>
+    </MasterDetailPage.Master>
+</MasterDetailPage>
