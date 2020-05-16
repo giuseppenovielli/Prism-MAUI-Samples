@@ -7,7 +7,8 @@
     mc:Ignorable="d"
     xmlns:views="clr-namespace:PrismFullNavigation.Views"
     xmlns:prism="http://prismlibrary.com"
-    x:Class="PrismFullNavigation.Views.MenuMasterDetailPage">
+    x:Class="PrismFullNavigation.Views.MenuMasterDetailPage"
+    Title="{Binding TitlePage}">
 
     <MasterDetailPage.Behaviors>
         <prism:EventToCommandBehavior EventName="IsPresentedChanged"
@@ -22,7 +23,7 @@
     <MasterDetailPage.Detail>
         <NavigationPage>
             <x:Arguments>
-                <ContentPage/>
+                <views:Page1Page/>
                 </x:Arguments>
         </NavigationPage>
     </MasterDetailPage.Detail>

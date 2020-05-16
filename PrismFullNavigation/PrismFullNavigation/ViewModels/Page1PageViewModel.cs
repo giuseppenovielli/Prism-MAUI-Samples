@@ -33,9 +33,11 @@ namespace PrismFullNavigation.ViewModels
 
             SendCommandClick = new DelegateCommand(async delegate
             {
+                //Set parameters to Send
                 var navParameters = new NavigationParameters();
                 navParameters.Add("name", Name);
 
+                //Navigate to Page2Page
                 var result = await NavigationService.NavigateAsync("Page2Page", navParameters);
 
 
@@ -53,6 +55,7 @@ namespace PrismFullNavigation.ViewModels
         {
             base.OnNavigatedTo(parameters);
 
+            //Return data parameters from Page2Page
             if (parameters.ContainsKey("name"))
             {
                 Name = parameters["name"] as string;

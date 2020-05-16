@@ -38,6 +38,7 @@ namespace PrismFullNavigation.ViewModels
             MenuItemsList.Add("PageParameters - Push Detail");
             MenuItemsList.Add("PageParameters - Modal Page");
             MenuItemsList.Add("MasterDetail inside Detail Page");
+            MenuItemsList.Add("MasterDetail inside TabbedPage");
             MenuItemsList.Add("RootPage");
 
         }
@@ -88,6 +89,9 @@ namespace PrismFullNavigation.ViewModels
                          navResult = await NavigationService.NavigateAsync("NavigationPage/MenuMasterDetailPage");
                         break;
                     case 8:
+                        navResult = await NavigationService.NavigateAsync("NavigationPage/TabbedMasterDetailPage");
+                        break;
+                    case 9:
                         navResult = await NavigationService.NavigateAsync("/NavigationPage/MainPage");
                         break;
                 }

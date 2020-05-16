@@ -46,6 +46,7 @@ namespace PrismFullNavigation.ViewModels
 
             SendCommandClick = new DelegateCommand(async delegate
             {
+                
                 var navParameters = new NavigationParameters();
                 navParameters.Add("name", Name);
 

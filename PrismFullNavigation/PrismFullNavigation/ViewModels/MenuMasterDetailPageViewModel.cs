@@ -16,6 +16,7 @@ namespace PrismFullNavigation.ViewModels
 
         public MenuMasterDetailPageViewModel(INavigationService navigationService) : base(navigationService)
         {
+            TitlePage = "MasterDetail";
             PresentedChangedCommand = new DelegateCommand(PresentedChanged);
 
             MenuPageViewModel = new MenuPageViewModel(navigationService);
