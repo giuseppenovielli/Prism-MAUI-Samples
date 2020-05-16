@@ -9,15 +9,21 @@
     xmlns:prism="http://prismlibrary.com"
     x:Class="PrismFullNavigation.Views.MenuMasterDetailPage">
 
-       <MasterDetailPage.Behaviors>
-            <prism:EventToCommandBehavior EventName="IsPresentedChanged"
+    <MasterDetailPage.Behaviors>
+        <prism:EventToCommandBehavior EventName="IsPresentedChanged"
                                           Command="{Binding PresentedChangedCommand}"
                                           CommandParameter="{Binding .}" />
-        </MasterDetailPage.Behaviors>
+    </MasterDetailPage.Behaviors>
 
     <MasterDetailPage.Master>
         <views:MenuPage
-            BindingContext="{Binding MenuPageViewModel}"
-            prism:ViewModelLocator.AutowireViewModel="False"/>
+            BindingContext="{Binding MenuPageViewModel}"/>
     </MasterDetailPage.Master>
+    <MasterDetailPage.Detail>
+        <NavigationPage>
+            <x:Arguments>
+                <ContentPage/>
+                </x:Arguments>
+        </NavigationPage>
+    </MasterDetailPage.Detail>
 </MasterDetailPage>

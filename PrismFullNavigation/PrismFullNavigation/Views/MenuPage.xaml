@@ -6,25 +6,30 @@
     x:Class="PrismFullNavigation.Views.MenuPage"
     Title="Menu"
           xmlns:prism="http://prismlibrary.com"
-            prism:ViewModelLocator.AutowireViewModel="True"
+            prism:ViewModelLocator.AutowireViewModel="False"
     Padding="10">
 
 
-          <CollectionView
+          <ListView
             SelectionMode="Single"
-            SelectedItem="{Binding SelectedItem}"
+              HasUnevenRows="True"
+            SelectedItem="{Binding SelectedItem, Mode=TwoWay}"
             ItemsSource="{Binding MenuItemsList}">
        
-            <CollectionView.ItemTemplate>
+            <ListView.ItemTemplate>
+                
                 <DataTemplate>
-                    
-                            <Label
+                    <ViewCell>
+                               <Label
                                 Padding="10"
                                 Text="{Binding .}"
                                    FontSize="20" />
+
+                    </ViewCell>
+                     
                 </DataTemplate>
-            </CollectionView.ItemTemplate>
-        </CollectionView>
+            </ListView.ItemTemplate>
+        </ListView>
 
       
 </local:BasePage>

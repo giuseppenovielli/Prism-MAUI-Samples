@@ -46,8 +46,6 @@ namespace PrismFullNavigation.ViewModels
         private async Task MasterDetailClick()
         {
             var navResult = await NavigationService.NavigateAsync("/MenuMasterDetailPage/NavigationPage/Page1Page");
-
-
         }
 
 
