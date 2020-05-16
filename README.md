@@ -14,5 +14,4 @@ Provide examples with prism's navigation:
     - Master Detail inside TabbedPage
     - Set Root Page
     
-    
-
+    and other...
