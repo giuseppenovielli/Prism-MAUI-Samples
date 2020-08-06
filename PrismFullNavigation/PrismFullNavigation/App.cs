@@ -3,8 +3,6 @@ using Xamarin.Forms.Xaml;
 using Prism;
 using Prism.Ioc;
 using Prism.DryIoc;
-using PrismFullNavigation.Views;
-using PrismFullNavigation.ViewModels;
 
 [assembly: XamlCompilation(XamlCompilationOptions.Compile)]
 namespace PrismFullNavigation
@@ -29,8 +27,8 @@ namespace PrismFullNavigation
             ClearDetailNavStack = true;
 
 
-            var navResult = await NavigationService.NavigateAsync("/NavigationPage/MainPage");
-            //var navResult = await NavigationService.NavigateAsync("/MenuMasterDetailPage/NavigationPage/TabPageExample");
+           var navResult = await NavigationService.NavigateAsync("/NavigationPage/MainPage");
+           // var navResult = await NavigationService.NavigateAsync("/MenuMasterDetailPage/NavigationPage/TabPageExample");
         }
 
         protected override void RegisterTypes(IContainerRegistry containerRegistry)
