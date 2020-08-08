@@ -1,0 +1,16 @@
+<project
+  outputDir="/Users/hrcoffee2/XF-Prism-Full-Navigation-Example-master/PrismFullNavigation/PrismFullNavigation.Android/bin/obfuscate"
+  baseDir="/Users/hrcoffee2/XF-Prism-Full-Navigation-Example-master/PrismFullNavigation/PrismFullNavigation/bin/Release/netstandard2.0"
+  debug="false"
+  xmlns="http://confuser.codeplex.com">
+    <rule pattern="true" inherit="false">
+    <protection id="constants" />
+    <protection id="ctrl flow" />
+    <protection id="anti ildasm" />
+    <protection id="rename" action="remove" />
+    <protection id="resources" action="remove" />
+  </rule>
+
+	<module path="/Users/hrcoffee2/XF-Prism-Full-Navigation-Example-master/PrismFullNavigation/PrismFullNavigation/bin/Release/netstandard2.0/PrismFullNavigation.dll" />
+
+</project>
