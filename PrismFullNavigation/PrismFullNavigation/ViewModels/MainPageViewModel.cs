@@ -51,12 +51,12 @@ namespace PrismFullNavigation.ViewModels
 
         private async Task TabbedPageModalClick()
         {
-            var navResult = await NavigationService.NavigateAsync("NavigationPage/TabModalPage", useModalNavigation:true);
+            var navResult = await NavigationService.NavigateAsync("NavigationPage/TabModalPage",null, true, true);
         }
 
         private async Task PageModalClick()
         {
-            var navResult = await NavigationService.NavigateAsync("NavigationPage/Page1ModalPage", useModalNavigation: true);
+            var navResult = await NavigationService.NavigateAsync("NavigationPage/Page1ModalPage", null, true, true);
 
         }
     }

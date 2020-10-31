@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Prism.DryIoc.Forms</name>
+    </assembly>
+    <members>
+        <member name="T:Prism.DryIoc.PrismApplication">
+            <summary>
+            Application base class using DryIoc
+            </summary>
+        </member>
+        <member name="M:Prism.DryIoc.PrismApplication.#ctor">
+            <summary>
+            Initializes a new instance of PrismApplication using the default constructor
+            </summary>
+        </member>
+        <member name="M:Prism.DryIoc.PrismApplication.#ctor(Prism.IPlatformInitializer)">
+            <summary>
+            Initializes a new instance of <see cref="T:Prism.DryIoc.PrismApplication" /> with a <see cref="T:Prism.IPlatformInitializer" />.
+            Used when there are specific types that need to be registered on the platform.
+            </summary>
+            <param name="platformInitializer">The <see cref="T:Prism.IPlatformInitializer"/>.</param>
+        </member>
+        <member name="M:Prism.DryIoc.PrismApplication.#ctor(Prism.IPlatformInitializer,System.Boolean)">
+            <summary>
+            Initializes a new instance of <see cref="T:Prism.DryIoc.PrismApplication" /> with a <see cref="T:Prism.IPlatformInitializer" />.
+            Used when there are specific types that need to be registered on the platform.
+            Also determines whether to set the <see cref="T:Xamarin.Forms.Internals.DependencyResolver" /> for resolving Renderers and Platform Effects.
+            </summary>
+            <param name="platformInitializer">The <see cref="T:Prism.IPlatformInitializer"/>.</param>
+            <param name="setFormsDependencyResolver">Should <see cref="T:Prism.DryIoc.PrismApplication" /> set the <see cref="T:Xamarin.Forms.Internals.DependencyResolver" />.</param>
+        </member>
+        <member name="M:Prism.DryIoc.PrismApplication.CreateContainerExtension">
+            <summary>
+            Creates the <see cref="T:Prism.Ioc.IContainerExtension"/> for DryIoc
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Prism.DryIoc.PrismApplication.CreateContainerRules">
+            <summary>
+            Create <see cref="T:DryIoc.Rules" /> to alter behavior of <see cref="T:DryIoc.IContainer" />
+            </summary>
+            <returns>An instance of <see cref="T:DryIoc.Rules" /></returns>
+        </member>
+        <member name="T:Prism.DryIoc.DryIocContainerExtension">
+            <summary>
+            The <see cref="T:Prism.Ioc.IContainerExtension" /> Implementation to use with DryIoc
+            </summary>
+        </member>
+        <member name="P:Prism.DryIoc.DryIocContainerExtension.DefaultRules">
+            <summary>
+            Gets the Default DryIoc Container Rules used by Prism
+            </summary>
+        </member>
+        <member name="P:Prism.DryIoc.DryIocContainerExtension.Instance">
+            <summary>
+            The instance of the wrapped container
+            </summary>
+        </member>
+        <member name="M:Prism.DryIoc.DryIocContainerExtension.#ctor">
+            <summary>
+            Constructs a default instance of the <see cref="T:Prism.DryIoc.DryIocContainerExtension" />
+            </summary>
+        </member>
+        <member name="M:Prism.DryIoc.DryIocContainerExtension.#ctor(DryIoc.IContainer)">
+            <summary>
+            Constructs a new <see cref="T:Prism.DryIoc.DryIocContainerExtension" />
+            </summary>
+            <param name="container">The <see cref="T:DryIoc.IContainer" /> instance to use.</param>
+        </member>
+        <member name="P:Prism.DryIoc.DryIocContainerExtension.CurrentScope">
+            <summary>
+             Gets the current scope
+            </summary>
+        </member>
+        <member name="M:Prism.DryIoc.DryIocContainerExtension.FinalizeExtension">
+            <summary>
+            Used to perform any final steps for configuring the extension that may be required by the container.
+            </summary>
+        </member>
+        <member name="M:Prism.DryIoc.DryIocContainerExtension.RegisterInstance(System.Type,System.Object)">
+            <summary>
+            Registers an instance of a given <see cref="T:System.Type"/>
+            </summary>
+            <param name="type">The service <see cref="T:System.Type"/> that is being registered</param>
+            <param name="instance">The instance of the service or <see cref="T:System.Type" /></param>
+            <returns>The <see cref="T:Prism.Ioc.IContainerRegistry" /> instance</returns>
+        </member>
+        <member name="M:Prism.DryIoc.DryIocContainerExtension.RegisterInstance(System.Type,System.Object,System.String)">
+            <summary>
+            Registers an instance of a given <see cref="T:System.Type"/> with the specified name or key
+            </summary>
+            <param name="type">The service <see cref="T:System.Type"/> that is being registered</param>
+            <param name="instance">The instance of the service or <see cref="T:System.Type" /></param>
+            <param name="name">The name or key to register the service</param>
+            <returns>The <see cref="T:Prism.Ioc.IContainerRegistry" /> instance</returns>
+        </member>
+        <member name="M:Prism.DryIoc.DryIocContainerExtension.RegisterSingleton(System.Type,System.Type)">
+            <summary>
+            Registers a Singleton with the given service and mapping to the specified implementation <see cref="T:System.Type" />.
+            </summary>
+            <param name="from">The service <see cref="T:System.Type" /></param>
+            <param name="to">The implementation <see cref="T:System.Type" /></param>
+            <returns>The <see cref="T:Prism.Ioc.IContainerRegistry" /> instance</returns>
+        </member>
+        <member name="M:Prism.DryIoc.DryIocContainerExtension.RegisterSingleton(System.Type,System.Type,System.String)">
+            <summary>
+            Registers a Singleton with the given service and mapping to the specified implementation <see cref="T:System.Type" />.
+            </summary>
+            <param name="from">The service <see cref="T:System.Type" /></param>
+            <param name="to">The implementation <see cref="T:System.Type" /></param>
+            <param name="name">The name or key to register the service</param>
+            <returns>The <see cref="T:Prism.Ioc.IContainerRegistry" /> instance</returns>
+        </member>
+        <member name="M:Prism.DryIoc.DryIocContainerExtension.RegisterSingleton(System.Type,System.Func{System.Object})">
+            <summary>
+            Registers a Singleton with the given service <see cref="T:System.Type" /> factory delegate method.
+            </summary>
+            <param name="type">The service <see cref="T:System.Type" /></param>
+            <param name="factoryMethod">The delegate method.</param>
+            <returns>The <see cref="T:Prism.Ioc.IContainerRegistry" /> instance</returns>
+        </member>
+        <member name="M:Prism.DryIoc.DryIocContainerExtension.RegisterSingleton(System.Type,System.Func{Prism.Ioc.IContainerProvider,System.Object})">
+            <summary>
+            Registers a Singleton with the given service <see cref="T:System.Type" /> factory delegate method.
+            </summary>
+            <param name="type">The service <see cref="T:System.Type" /></param>
+            <param name="factoryMethod">The delegate method using <see cref="T:Prism.Ioc.IContainerProvider"/>.</param>
+            <returns>The <see cref="T:Prism.Ioc.IContainerRegistry" /> instance</returns>
+        </member>
+        <member name="M:Prism.DryIoc.DryIocContainerExtension.RegisterManySingleton(System.Type,System.Type[])">
+            <summary>
+            Registers a Singleton Service which implements service interfaces
+            </summary>
+            <param name="type">The implementation <see cref="T:System.Type" />.</param>
+            <param name="serviceTypes">The service <see cref="T:System.Type"/>'s.</param>
+            <returns>The <see cref="T:Prism.Ioc.IContainerRegistry" /> instance</returns>
+            <remarks>Registers all interfaces if none are specified.</remarks>
+        </member>
+        <member name="M:Prism.DryIoc.DryIocContainerExtension.RegisterScoped(System.Type,System.Type)">
+            <summary>
+            Registers a scoped service
+            </summary>
+            <param name="from">The service <see cref="T:System.Type" /></param>
+            <param name="to">The implementation <see cref="T:System.Type" /></param>
+            <returns>The <see cref="T:Prism.Ioc.IContainerRegistry" /> instance</returns>
+        </member>
+        <member name="M:Prism.DryIoc.DryIocContainerExtension.RegisterScoped(System.Type,System.Func{System.Object})">
+            <summary>
+            Registers a scoped service using a delegate method.
+            </summary>
+            <param name="type">The service <see cref="T:System.Type" /></param>
+            <param name="factoryMethod">The delegate method.</param>
+            <returns>The <see cref="T:Prism.Ioc.IContainerRegistry" /> instance</returns>
+        </member>
+        <member name="M:Prism.DryIoc.DryIocContainerExtension.RegisterScoped(System.Type,System.Func{Prism.Ioc.IContainerProvider,System.Object})">
+            <summary>
+            Registers a scoped service using a delegate method.
+            </summary>
+            <param name="type">The service <see cref="T:System.Type"/>.</param>
+            <param name="factoryMethod">The delegate method using the <see cref="T:Prism.Ioc.IContainerProvider"/>.</param>
+            <returns>The <see cref="T:Prism.Ioc.IContainerRegistry" /> instance</returns>
+        </member>
+        <member name="M:Prism.DryIoc.DryIocContainerExtension.Register(System.Type,System.Type)">
+            <summary>
+            Registers a Transient with the given service and mapping to the specified implementation <see cref="T:System.Type" />.
+            </summary>
+            <param name="from">The service <see cref="T:System.Type" /></param>
+            <param name="to">The implementation <see cref="T:System.Type" /></param>
+            <returns>The <see cref="T:Prism.Ioc.IContainerRegistry" /> instance</returns>
+        </member>
+        <member name="M:Prism.DryIoc.DryIocContainerExtension.Register(System.Type,System.Type,System.String)">
+            <summary>
+            Registers a Transient with the given service and mapping to the specified implementation <see cref="T:System.Type" />.
+            </summary>
+            <param name="from">The service <see cref="T:System.Type" /></param>
+            <param name="to">The implementation <see cref="T:System.Type" /></param>
+            <param name="name">The name or key to register the service</param>
+            <returns>The <see cref="T:Prism.Ioc.IContainerRegistry" /> instance</returns>
+        </member>
+        <member name="M:Prism.DryIoc.DryIocContainerExtension.Register(System.Type,System.Func{System.Object})">
+            <summary>
+            Registers a Transient Service using a delegate method
+            </summary>
+            <param name="type">The service <see cref="T:System.Type" /></param>
+            <param name="factoryMethod">The delegate method.</param>
+            <returns>The <see cref="T:Prism.Ioc.IContainerRegistry" /> instance</returns>
+        </member>
+        <member name="M:Prism.DryIoc.DryIocContainerExtension.Register(System.Type,System.Func{Prism.Ioc.IContainerProvider,System.Object})">
+            <summary>
+            Registers a Transient Service using a delegate method
+            </summary>
+            <param name="type">The service <see cref="T:System.Type" /></param>
+            <param name="factoryMethod">The delegate method using <see cref="T:Prism.Ioc.IContainerProvider"/>.</param>
+            <returns>The <see cref="T:Prism.Ioc.IContainerRegistry" /> instance</returns>
+        </member>
+        <member name="M:Prism.DryIoc.DryIocContainerExtension.RegisterMany(System.Type,System.Type[])">
+            <summary>
+            Registers a Transient Service which implements service interfaces
+            </summary>
+            <param name="type">The implementing <see cref="T:System.Type" />.</param>
+            <param name="serviceTypes">The service <see cref="T:System.Type"/>'s.</param>
+            <returns>The <see cref="T:Prism.Ioc.IContainerRegistry" /> instance</returns>
+            <remarks>Registers all interfaces if none are specified.</remarks>
+        </member>
+        <member name="M:Prism.DryIoc.DryIocContainerExtension.Resolve(System.Type)">
+            <summary>
+            Resolves a given <see cref="T:System.Type"/>
+            </summary>
+            <param name="type">The service <see cref="T:System.Type"/></param>
+            <returns>The resolved Service <see cref="T:System.Type"/></returns>
+        </member>
+        <member name="M:Prism.DryIoc.DryIocContainerExtension.Resolve(System.Type,System.String)">
+            <summary>
+            Resolves a given <see cref="T:System.Type"/>
+            </summary>
+            <param name="type">The service <see cref="T:System.Type"/></param>
+            <param name="name">The service name/key used when registering the <see cref="T:System.Type"/></param>
+            <returns>The resolved Service <see cref="T:System.Type"/></returns>
+        </member>
+        <member name="M:Prism.DryIoc.DryIocContainerExtension.Resolve(System.Type,System.ValueTuple{System.Type,System.Object}[])">
+            <summary>
+            Resolves a given <see cref="T:System.Type"/>
+            </summary>
+            <param name="type">The service <see cref="T:System.Type"/></param>
+            <param name="parameters">Typed parameters to use when resolving the Service</param>
+            <returns>The resolved Service <see cref="T:System.Type"/></returns>
+        </member>
+        <member name="M:Prism.DryIoc.DryIocContainerExtension.Resolve(System.Type,System.String,System.ValueTuple{System.Type,System.Object}[])">
+            <summary>
+            Resolves a given <see cref="T:System.Type"/>
+            </summary>
+            <param name="type">The service <see cref="T:System.Type"/></param>
+            <param name="name">The service name/key used when registering the <see cref="T:System.Type"/></param>
+            <param name="parameters">Typed parameters to use when resolving the Service</param>
+            <returns>The resolved Service <see cref="T:System.Type"/></returns>
+        </member>
+        <member name="M:Prism.DryIoc.DryIocContainerExtension.IsRegistered(System.Type)">
+            <summary>
+            Determines if a given service is registered
+            </summary>
+            <param name="type">The service <see cref="T:System.Type" /></param>
+            <returns><c>true</c> if the service is registered.</returns>
+        </member>
+        <member name="M:Prism.DryIoc.DryIocContainerExtension.IsRegistered(System.Type,System.String)">
+            <summary>
+            Determines if a given service is registered with the specified name
+            </summary>
+            <param name="type">The service <see cref="T:System.Type" /></param>
+            <param name="name">The service name or key used</param>
+            <returns><c>true</c> if the service is registered.</returns>
+        </member>
+        <member name="M:Prism.DryIoc.DryIocContainerExtension.CreateScope">
+            <summary>
+            Creates a new Scope
+            </summary>
+        </member>
+        <member name="M:Prism.DryIoc.DryIocContainerExtension.CreateScopeInternal">
+            <summary>
+            Creates a new Scope and provides the updated ServiceProvider
+            </summary>
+            <returns>The Scoped <see cref="T:DryIoc.IResolverContext" />.</returns>
+            <remarks>
+            This should be called by custom implementations that Implement IServiceScopeFactory
+            </remarks>
+        </member>
+        <member name="T:Prism.DryIoc.PrismIocExtensions">
+            <summary>
+            Extensions help get the underlying <see cref="T:DryIoc.IContainer" />
+            </summary>
+        </member>
+        <member name="M:Prism.DryIoc.PrismIocExtensions.GetContainer(Prism.Ioc.IContainerProvider)">
+            <summary>
+            Gets the <see cref="T:DryIoc.IContainer" /> from the <see cref="T:Prism.Ioc.IContainerProvider" />
+            </summary>
+            <param name="containerProvider">The current <see cref="T:Prism.Ioc.IContainerProvider" /></param>
+            <returns>The underlying <see cref="T:DryIoc.IContainer" /></returns>
+        </member>
+        <member name="M:Prism.DryIoc.PrismIocExtensions.GetContainer(Prism.Ioc.IContainerRegistry)">
+            <summary>
+            Gets the <see cref="T:DryIoc.IContainer" /> from the <see cref="T:Prism.Ioc.IContainerProvider" />
+            </summary>
+            <param name="containerRegistry">The current <see cref="T:Prism.Ioc.IContainerRegistry" /></param>
+            <returns>The underlying <see cref="T:DryIoc.IContainer" /></returns>
+        </member>
+    </members>
+</doc>

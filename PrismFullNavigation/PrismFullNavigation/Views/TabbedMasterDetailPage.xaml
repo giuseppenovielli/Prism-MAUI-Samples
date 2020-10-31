@@ -4,11 +4,21 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="PrismFullNavigation.Views.TabbedMasterDetailPage"
     xmlns:local="clr-namespace:PrismFullNavigation.Views"
+    xmlns:viewmodels="clr-namespace:PrismFullNavigation.ViewModels"
+    x:DataType="viewmodels:TabbedMasterDetailPageViewModel"
+     xmlns:prism="http://prismlibrary.com"
     Title="{Binding TitlePage}">
 
-    <local:MenuMasterDetailPage />
-    <local:MenuMasterDetailPage />
-    <local:MenuMasterDetailPage />
+    <local:MenuMasterDetailPage
+        prism:ViewModelLocator.AutowireViewModel="False"
+        BindingContext="{Binding MenuMasterDetailPageVM1}"/>
 
+    <local:MenuMasterDetailPage
+        prism:ViewModelLocator.AutowireViewModel="False"
+        BindingContext="{Binding MenuMasterDetailPageVM2}"/>
+
+     <local:MenuMasterDetailPage
+        prism:ViewModelLocator.AutowireViewModel="False"
+        BindingContext="{Binding MenuMasterDetailPageVM3}"/>
 
 </TabbedPage>

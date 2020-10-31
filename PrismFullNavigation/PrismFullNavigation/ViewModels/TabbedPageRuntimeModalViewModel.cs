@@ -22,7 +22,7 @@ namespace PrismFullNavigation.ViewModels
 
         public async Task PopModalAsync()
         {
-            var navResult = await NavigationService.GoBackAsync(useModalNavigation: true);
+            var navResult = await NavigationService.GoBackAsync(null, true, true);
         }
     }
 }

@@ -3,11 +3,19 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="PrismFullNavigation.Views.TabPageExample"
-                xmlns:local="clr-namespace:PrismFullNavigation.Views"
+    xmlns:viewmodels="clr-namespace:PrismFullNavigation.ViewModels"
+    x:DataType="viewmodels:TabPageExampleViewModel"
+    xmlns:local="clr-namespace:PrismFullNavigation.Views"
+     xmlns:prism="http://prismlibrary.com"
     Title="{Binding TitlePage}">
 
 
-    <local:Tab1Page/>
-    <local:Tab2Page/>
+    <local:Tab1Page
+        prism:ViewModelLocator.AutowireViewModel="False"
+        BindingContext="{Binding TabPage1}"/>
+
+    <local:Tab2Page
+        prism:ViewModelLocator.AutowireViewModel="False"
+        BindingContext="{Binding TabPage2}"/>
 
 </TabbedPage>

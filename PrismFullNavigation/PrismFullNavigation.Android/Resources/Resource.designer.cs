@@ -25,1953 +25,6 @@ namespace PrismFullNavigation.Droid
 		
 		public static void UpdateIdValues()
 		{
-			global::Prism.Resource.Animation.abc_fade_in = global::PrismFullNavigation.Droid.Resource.Animation.abc_fade_in;
-			global::Prism.Resource.Animation.abc_fade_out = global::PrismFullNavigation.Droid.Resource.Animation.abc_fade_out;
-			global::Prism.Resource.Animation.abc_grow_fade_in_from_bottom = global::PrismFullNavigation.Droid.Resource.Animation.abc_grow_fade_in_from_bottom;
-			global::Prism.Resource.Animation.abc_popup_enter = global::PrismFullNavigation.Droid.Resource.Animation.abc_popup_enter;
-			global::Prism.Resource.Animation.abc_popup_exit = global::PrismFullNavigation.Droid.Resource.Animation.abc_popup_exit;
-			global::Prism.Resource.Animation.abc_shrink_fade_out_from_bottom = global::PrismFullNavigation.Droid.Resource.Animation.abc_shrink_fade_out_from_bottom;
-			global::Prism.Resource.Animation.abc_slide_in_bottom = global::PrismFullNavigation.Droid.Resource.Animation.abc_slide_in_bottom;
-			global::Prism.Resource.Animation.abc_slide_in_top = global::PrismFullNavigation.Droid.Resource.Animation.abc_slide_in_top;
-			global::Prism.Resource.Animation.abc_slide_out_bottom = global::PrismFullNavigation.Droid.Resource.Animation.abc_slide_out_bottom;
-			global::Prism.Resource.Animation.abc_slide_out_top = global::PrismFullNavigation.Droid.Resource.Animation.abc_slide_out_top;
-			global::Prism.Resource.Animation.design_bottom_sheet_slide_in = global::PrismFullNavigation.Droid.Resource.Animation.design_bottom_sheet_slide_in;
-			global::Prism.Resource.Animation.design_bottom_sheet_slide_out = global::PrismFullNavigation.Droid.Resource.Animation.design_bottom_sheet_slide_out;
-			global::Prism.Resource.Animation.design_snackbar_in = global::PrismFullNavigation.Droid.Resource.Animation.design_snackbar_in;
-			global::Prism.Resource.Animation.design_snackbar_out = global::PrismFullNavigation.Droid.Resource.Animation.design_snackbar_out;
-			global::Prism.Resource.Animation.EnterFromLeft = global::PrismFullNavigation.Droid.Resource.Animation.EnterFromLeft;
-			global::Prism.Resource.Animation.EnterFromRight = global::PrismFullNavigation.Droid.Resource.Animation.EnterFromRight;
-			global::Prism.Resource.Animation.ExitToLeft = global::PrismFullNavigation.Droid.Resource.Animation.ExitToLeft;
-			global::Prism.Resource.Animation.ExitToRight = global::PrismFullNavigation.Droid.Resource.Animation.ExitToRight;
-			global::Prism.Resource.Animator.design_appbar_state_list_animator = global::PrismFullNavigation.Droid.Resource.Animator.design_appbar_state_list_animator;
-			global::Prism.Resource.Attribute.actionBarDivider = global::PrismFullNavigation.Droid.Resource.Attribute.actionBarDivider;
-			global::Prism.Resource.Attribute.actionBarItemBackground = global::PrismFullNavigation.Droid.Resource.Attribute.actionBarItemBackground;
-			global::Prism.Resource.Attribute.actionBarPopupTheme = global::PrismFullNavigation.Droid.Resource.Attribute.actionBarPopupTheme;
-			global::Prism.Resource.Attribute.actionBarSize = global::PrismFullNavigation.Droid.Resource.Attribute.actionBarSize;
-			global::Prism.Resource.Attribute.actionBarSplitStyle = global::PrismFullNavigation.Droid.Resource.Attribute.actionBarSplitStyle;
-			global::Prism.Resource.Attribute.actionBarStyle = global::PrismFullNavigation.Droid.Resource.Attribute.actionBarStyle;
-			global::Prism.Resource.Attribute.actionBarTabBarStyle = global::PrismFullNavigation.Droid.Resource.Attribute.actionBarTabBarStyle;
-			global::Prism.Resource.Attribute.actionBarTabStyle = global::PrismFullNavigation.Droid.Resource.Attribute.actionBarTabStyle;
-			global::Prism.Resource.Attribute.actionBarTabTextStyle = global::PrismFullNavigation.Droid.Resource.Attribute.actionBarTabTextStyle;
-			global::Prism.Resource.Attribute.actionBarTheme = global::PrismFullNavigation.Droid.Resource.Attribute.actionBarTheme;
-			global::Prism.Resource.Attribute.actionBarWidgetTheme = global::PrismFullNavigation.Droid.Resource.Attribute.actionBarWidgetTheme;
-			global::Prism.Resource.Attribute.actionButtonStyle = global::PrismFullNavigation.Droid.Resource.Attribute.actionButtonStyle;
-			global::Prism.Resource.Attribute.actionDropDownStyle = global::PrismFullNavigation.Droid.Resource.Attribute.actionDropDownStyle;
-			global::Prism.Resource.Attribute.actionLayout = global::PrismFullNavigation.Droid.Resource.Attribute.actionLayout;
-			global::Prism.Resource.Attribute.actionMenuTextAppearance = global::PrismFullNavigation.Droid.Resource.Attribute.actionMenuTextAppearance;
-			global::Prism.Resource.Attribute.actionMenuTextColor = global::PrismFullNavigation.Droid.Resource.Attribute.actionMenuTextColor;
-			global::Prism.Resource.Attribute.actionModeBackground = global::PrismFullNavigation.Droid.Resource.Attribute.actionModeBackground;
-			global::Prism.Resource.Attribute.actionModeCloseButtonStyle = global::PrismFullNavigation.Droid.Resource.Attribute.actionModeCloseButtonStyle;
-			global::Prism.Resource.Attribute.actionModeCloseDrawable = global::PrismFullNavigation.Droid.Resource.Attribute.actionModeCloseDrawable;
-			global::Prism.Resource.Attribute.actionModeCopyDrawable = global::PrismFullNavigation.Droid.Resource.Attribute.actionModeCopyDrawable;
-			global::Prism.Resource.Attribute.actionModeCutDrawable = global::PrismFullNavigation.Droid.Resource.Attribute.actionModeCutDrawable;
-			global::Prism.Resource.Attribute.actionModeFindDrawable = global::PrismFullNavigation.Droid.Resource.Attribute.actionModeFindDrawable;
-			global::Prism.Resource.Attribute.actionModePasteDrawable = global::PrismFullNavigation.Droid.Resource.Attribute.actionModePasteDrawable;
-			global::Prism.Resource.Attribute.actionModePopupWindowStyle = global::PrismFullNavigation.Droid.Resource.Attribute.actionModePopupWindowStyle;
-			global::Prism.Resource.Attribute.actionModeSelectAllDrawable = global::PrismFullNavigation.Droid.Resource.Attribute.actionModeSelectAllDrawable;
-			global::Prism.Resource.Attribute.actionModeShareDrawable = global::PrismFullNavigation.Droid.Resource.Attribute.actionModeShareDrawable;
-			global::Prism.Resource.Attribute.actionModeSplitBackground = global::PrismFullNavigation.Droid.Resource.Attribute.actionModeSplitBackground;
-			global::Prism.Resource.Attribute.actionModeStyle = global::PrismFullNavigation.Droid.Resource.Attribute.actionModeStyle;
-			global::Prism.Resource.Attribute.actionModeWebSearchDrawable = global::PrismFullNavigation.Droid.Resource.Attribute.actionModeWebSearchDrawable;
-			global::Prism.Resource.Attribute.actionOverflowButtonStyle = global::PrismFullNavigation.Droid.Resource.Attribute.actionOverflowButtonStyle;
-			global::Prism.Resource.Attribute.actionOverflowMenuStyle = global::PrismFullNavigation.Droid.Resource.Attribute.actionOverflowMenuStyle;
-			global::Prism.Resource.Attribute.actionProviderClass = global::PrismFullNavigation.Droid.Resource.Attribute.actionProviderClass;
-			global::Prism.Resource.Attribute.actionViewClass = global::PrismFullNavigation.Droid.Resource.Attribute.actionViewClass;
-			global::Prism.Resource.Attribute.activityChooserViewStyle = global::PrismFullNavigation.Droid.Resource.Attribute.activityChooserViewStyle;
-			global::Prism.Resource.Attribute.alertDialogButtonGroupStyle = global::PrismFullNavigation.Droid.Resource.Attribute.alertDialogButtonGroupStyle;
-			global::Prism.Resource.Attribute.alertDialogCenterButtons = global::PrismFullNavigation.Droid.Resource.Attribute.alertDialogCenterButtons;
-			global::Prism.Resource.Attribute.alertDialogStyle = global::PrismFullNavigation.Droid.Resource.Attribute.alertDialogStyle;
-			global::Prism.Resource.Attribute.alertDialogTheme = global::PrismFullNavigation.Droid.Resource.Attribute.alertDialogTheme;
-			global::Prism.Resource.Attribute.allowStacking = global::PrismFullNavigation.Droid.Resource.Attribute.allowStacking;
-			global::Prism.Resource.Attribute.alpha = global::PrismFullNavigation.Droid.Resource.Attribute.alpha;
-			global::Prism.Resource.Attribute.alphabeticModifiers = global::PrismFullNavigation.Droid.Resource.Attribute.alphabeticModifiers;
-			global::Prism.Resource.Attribute.arrowHeadLength = global::PrismFullNavigation.Droid.Resource.Attribute.arrowHeadLength;
-			global::Prism.Resource.Attribute.arrowShaftLength = global::PrismFullNavigation.Droid.Resource.Attribute.arrowShaftLength;
-			global::Prism.Resource.Attribute.autoCompleteTextViewStyle = global::PrismFullNavigation.Droid.Resource.Attribute.autoCompleteTextViewStyle;
-			global::Prism.Resource.Attribute.autoSizeMaxTextSize = global::PrismFullNavigation.Droid.Resource.Attribute.autoSizeMaxTextSize;
-			global::Prism.Resource.Attribute.autoSizeMinTextSize = global::PrismFullNavigation.Droid.Resource.Attribute.autoSizeMinTextSize;
-			global::Prism.Resource.Attribute.autoSizePresetSizes = global::PrismFullNavigation.Droid.Resource.Attribute.autoSizePresetSizes;
-			global::Prism.Resource.Attribute.autoSizeStepGranularity = global::PrismFullNavigation.Droid.Resource.Attribute.autoSizeStepGranularity;
-			global::Prism.Resource.Attribute.autoSizeTextType = global::PrismFullNavigation.Droid.Resource.Attribute.autoSizeTextType;
-			global::Prism.Resource.Attribute.background = global::PrismFullNavigation.Droid.Resource.Attribute.background;
-			global::Prism.Resource.Attribute.backgroundSplit = global::PrismFullNavigation.Droid.Resource.Attribute.backgroundSplit;
-			global::Prism.Resource.Attribute.backgroundStacked = global::PrismFullNavigation.Droid.Resource.Attribute.backgroundStacked;
-			global::Prism.Resource.Attribute.backgroundTint = global::PrismFullNavigation.Droid.Resource.Attribute.backgroundTint;
-			global::Prism.Resource.Attribute.backgroundTintMode = global::PrismFullNavigation.Droid.Resource.Attribute.backgroundTintMode;
-			global::Prism.Resource.Attribute.barLength = global::PrismFullNavigation.Droid.Resource.Attribute.barLength;
-			global::Prism.Resource.Attribute.behavior_autoHide = global::PrismFullNavigation.Droid.Resource.Attribute.behavior_autoHide;
-			global::Prism.Resource.Attribute.behavior_hideable = global::PrismFullNavigation.Droid.Resource.Attribute.behavior_hideable;
-			global::Prism.Resource.Attribute.behavior_overlapTop = global::PrismFullNavigation.Droid.Resource.Attribute.behavior_overlapTop;
-			global::Prism.Resource.Attribute.behavior_peekHeight = global::PrismFullNavigation.Droid.Resource.Attribute.behavior_peekHeight;
-			global::Prism.Resource.Attribute.behavior_skipCollapsed = global::PrismFullNavigation.Droid.Resource.Attribute.behavior_skipCollapsed;
-			global::Prism.Resource.Attribute.borderlessButtonStyle = global::PrismFullNavigation.Droid.Resource.Attribute.borderlessButtonStyle;
-			global::Prism.Resource.Attribute.borderWidth = global::PrismFullNavigation.Droid.Resource.Attribute.borderWidth;
-			global::Prism.Resource.Attribute.bottomSheetDialogTheme = global::PrismFullNavigation.Droid.Resource.Attribute.bottomSheetDialogTheme;
-			global::Prism.Resource.Attribute.bottomSheetStyle = global::PrismFullNavigation.Droid.Resource.Attribute.bottomSheetStyle;
-			global::Prism.Resource.Attribute.buttonBarButtonStyle = global::PrismFullNavigation.Droid.Resource.Attribute.buttonBarButtonStyle;
-			global::Prism.Resource.Attribute.buttonBarNegativeButtonStyle = global::PrismFullNavigation.Droid.Resource.Attribute.buttonBarNegativeButtonStyle;
-			global::Prism.Resource.Attribute.buttonBarNeutralButtonStyle = global::PrismFullNavigation.Droid.Resource.Attribute.buttonBarNeutralButtonStyle;
-			global::Prism.Resource.Attribute.buttonBarPositiveButtonStyle = global::PrismFullNavigation.Droid.Resource.Attribute.buttonBarPositiveButtonStyle;
-			global::Prism.Resource.Attribute.buttonBarStyle = global::PrismFullNavigation.Droid.Resource.Attribute.buttonBarStyle;
-			global::Prism.Resource.Attribute.buttonGravity = global::PrismFullNavigation.Droid.Resource.Attribute.buttonGravity;
-			global::Prism.Resource.Attribute.buttonPanelSideLayout = global::PrismFullNavigation.Droid.Resource.Attribute.buttonPanelSideLayout;
-			global::Prism.Resource.Attribute.buttonStyle = global::PrismFullNavigation.Droid.Resource.Attribute.buttonStyle;
-			global::Prism.Resource.Attribute.buttonStyleSmall = global::PrismFullNavigation.Droid.Resource.Attribute.buttonStyleSmall;
-			global::Prism.Resource.Attribute.buttonTint = global::PrismFullNavigation.Droid.Resource.Attribute.buttonTint;
-			global::Prism.Resource.Attribute.buttonTintMode = global::PrismFullNavigation.Droid.Resource.Attribute.buttonTintMode;
-			global::Prism.Resource.Attribute.cardBackgroundColor = global::PrismFullNavigation.Droid.Resource.Attribute.cardBackgroundColor;
-			global::Prism.Resource.Attribute.cardCornerRadius = global::PrismFullNavigation.Droid.Resource.Attribute.cardCornerRadius;
-			global::Prism.Resource.Attribute.cardElevation = global::PrismFullNavigation.Droid.Resource.Attribute.cardElevation;
-			global::Prism.Resource.Attribute.cardMaxElevation = global::PrismFullNavigation.Droid.Resource.Attribute.cardMaxElevation;
-			global::Prism.Resource.Attribute.cardPreventCornerOverlap = global::PrismFullNavigation.Droid.Resource.Attribute.cardPreventCornerOverlap;
-			global::Prism.Resource.Attribute.cardUseCompatPadding = global::PrismFullNavigation.Droid.Resource.Attribute.cardUseCompatPadding;
-			global::Prism.Resource.Attribute.checkboxStyle = global::PrismFullNavigation.Droid.Resource.Attribute.checkboxStyle;
-			global::Prism.Resource.Attribute.checkedTextViewStyle = global::PrismFullNavigation.Droid.Resource.Attribute.checkedTextViewStyle;
-			global::Prism.Resource.Attribute.closeIcon = global::PrismFullNavigation.Droid.Resource.Attribute.closeIcon;
-			global::Prism.Resource.Attribute.closeItemLayout = global::PrismFullNavigation.Droid.Resource.Attribute.closeItemLayout;
-			global::Prism.Resource.Attribute.collapseContentDescription = global::PrismFullNavigation.Droid.Resource.Attribute.collapseContentDescription;
-			global::Prism.Resource.Attribute.collapsedTitleGravity = global::PrismFullNavigation.Droid.Resource.Attribute.collapsedTitleGravity;
-			global::Prism.Resource.Attribute.collapsedTitleTextAppearance = global::PrismFullNavigation.Droid.Resource.Attribute.collapsedTitleTextAppearance;
-			global::Prism.Resource.Attribute.collapseIcon = global::PrismFullNavigation.Droid.Resource.Attribute.collapseIcon;
-			global::Prism.Resource.Attribute.color = global::PrismFullNavigation.Droid.Resource.Attribute.color;
-			global::Prism.Resource.Attribute.colorAccent = global::PrismFullNavigation.Droid.Resource.Attribute.colorAccent;
-			global::Prism.Resource.Attribute.colorBackgroundFloating = global::PrismFullNavigation.Droid.Resource.Attribute.colorBackgroundFloating;
-			global::Prism.Resource.Attribute.colorButtonNormal = global::PrismFullNavigation.Droid.Resource.Attribute.colorButtonNormal;
-			global::Prism.Resource.Attribute.colorControlActivated = global::PrismFullNavigation.Droid.Resource.Attribute.colorControlActivated;
-			global::Prism.Resource.Attribute.colorControlHighlight = global::PrismFullNavigation.Droid.Resource.Attribute.colorControlHighlight;
-			global::Prism.Resource.Attribute.colorControlNormal = global::PrismFullNavigation.Droid.Resource.Attribute.colorControlNormal;
-			global::Prism.Resource.Attribute.colorError = global::PrismFullNavigation.Droid.Resource.Attribute.colorError;
-			global::Prism.Resource.Attribute.colorPrimary = global::PrismFullNavigation.Droid.Resource.Attribute.colorPrimary;
-			global::Prism.Resource.Attribute.colorPrimaryDark = global::PrismFullNavigation.Droid.Resource.Attribute.colorPrimaryDark;
-			global::Prism.Resource.Attribute.colorSwitchThumbNormal = global::PrismFullNavigation.Droid.Resource.Attribute.colorSwitchThumbNormal;
-			global::Prism.Resource.Attribute.commitIcon = global::PrismFullNavigation.Droid.Resource.Attribute.commitIcon;
-			global::Prism.Resource.Attribute.contentDescription = global::PrismFullNavigation.Droid.Resource.Attribute.contentDescription;
-			global::Prism.Resource.Attribute.contentInsetEnd = global::PrismFullNavigation.Droid.Resource.Attribute.contentInsetEnd;
-			global::Prism.Resource.Attribute.contentInsetEndWithActions = global::PrismFullNavigation.Droid.Resource.Attribute.contentInsetEndWithActions;
-			global::Prism.Resource.Attribute.contentInsetLeft = global::PrismFullNavigation.Droid.Resource.Attribute.contentInsetLeft;
-			global::Prism.Resource.Attribute.contentInsetRight = global::PrismFullNavigation.Droid.Resource.Attribute.contentInsetRight;
-			global::Prism.Resource.Attribute.contentInsetStart = global::PrismFullNavigation.Droid.Resource.Attribute.contentInsetStart;
-			global::Prism.Resource.Attribute.contentInsetStartWithNavigation = global::PrismFullNavigation.Droid.Resource.Attribute.contentInsetStartWithNavigation;
-			global::Prism.Resource.Attribute.contentPadding = global::PrismFullNavigation.Droid.Resource.Attribute.contentPadding;
-			global::Prism.Resource.Attribute.contentPaddingBottom = global::PrismFullNavigation.Droid.Resource.Attribute.contentPaddingBottom;
-			global::Prism.Resource.Attribute.contentPaddingLeft = global::PrismFullNavigation.Droid.Resource.Attribute.contentPaddingLeft;
-			global::Prism.Resource.Attribute.contentPaddingRight = global::PrismFullNavigation.Droid.Resource.Attribute.contentPaddingRight;
-			global::Prism.Resource.Attribute.contentPaddingTop = global::PrismFullNavigation.Droid.Resource.Attribute.contentPaddingTop;
-			global::Prism.Resource.Attribute.contentScrim = global::PrismFullNavigation.Droid.Resource.Attribute.contentScrim;
-			global::Prism.Resource.Attribute.controlBackground = global::PrismFullNavigation.Droid.Resource.Attribute.controlBackground;
-			global::Prism.Resource.Attribute.counterEnabled = global::PrismFullNavigation.Droid.Resource.Attribute.counterEnabled;
-			global::Prism.Resource.Attribute.counterMaxLength = global::PrismFullNavigation.Droid.Resource.Attribute.counterMaxLength;
-			global::Prism.Resource.Attribute.counterOverflowTextAppearance = global::PrismFullNavigation.Droid.Resource.Attribute.counterOverflowTextAppearance;
-			global::Prism.Resource.Attribute.counterTextAppearance = global::PrismFullNavigation.Droid.Resource.Attribute.counterTextAppearance;
-			global::Prism.Resource.Attribute.customNavigationLayout = global::PrismFullNavigation.Droid.Resource.Attribute.customNavigationLayout;
-			global::Prism.Resource.Attribute.defaultQueryHint = global::PrismFullNavigation.Droid.Resource.Attribute.defaultQueryHint;
-			global::Prism.Resource.Attribute.dialogPreferredPadding = global::PrismFullNavigation.Droid.Resource.Attribute.dialogPreferredPadding;
-			global::Prism.Resource.Attribute.dialogTheme = global::PrismFullNavigation.Droid.Resource.Attribute.dialogTheme;
-			global::Prism.Resource.Attribute.displayOptions = global::PrismFullNavigation.Droid.Resource.Attribute.displayOptions;
-			global::Prism.Resource.Attribute.divider = global::PrismFullNavigation.Droid.Resource.Attribute.divider;
-			global::Prism.Resource.Attribute.dividerHorizontal = global::PrismFullNavigation.Droid.Resource.Attribute.dividerHorizontal;
-			global::Prism.Resource.Attribute.dividerPadding = global::PrismFullNavigation.Droid.Resource.Attribute.dividerPadding;
-			global::Prism.Resource.Attribute.dividerVertical = global::PrismFullNavigation.Droid.Resource.Attribute.dividerVertical;
-			global::Prism.Resource.Attribute.drawableSize = global::PrismFullNavigation.Droid.Resource.Attribute.drawableSize;
-			global::Prism.Resource.Attribute.drawerArrowStyle = global::PrismFullNavigation.Droid.Resource.Attribute.drawerArrowStyle;
-			global::Prism.Resource.Attribute.dropdownListPreferredItemHeight = global::PrismFullNavigation.Droid.Resource.Attribute.dropdownListPreferredItemHeight;
-			global::Prism.Resource.Attribute.dropDownListViewStyle = global::PrismFullNavigation.Droid.Resource.Attribute.dropDownListViewStyle;
-			global::Prism.Resource.Attribute.editTextBackground = global::PrismFullNavigation.Droid.Resource.Attribute.editTextBackground;
-			global::Prism.Resource.Attribute.editTextColor = global::PrismFullNavigation.Droid.Resource.Attribute.editTextColor;
-			global::Prism.Resource.Attribute.editTextStyle = global::PrismFullNavigation.Droid.Resource.Attribute.editTextStyle;
-			global::Prism.Resource.Attribute.elevation = global::PrismFullNavigation.Droid.Resource.Attribute.elevation;
-			global::Prism.Resource.Attribute.errorEnabled = global::PrismFullNavigation.Droid.Resource.Attribute.errorEnabled;
-			global::Prism.Resource.Attribute.errorTextAppearance = global::PrismFullNavigation.Droid.Resource.Attribute.errorTextAppearance;
-			global::Prism.Resource.Attribute.expandActivityOverflowButtonDrawable = global::PrismFullNavigation.Droid.Resource.Attribute.expandActivityOverflowButtonDrawable;
-			global::Prism.Resource.Attribute.expanded = global::PrismFullNavigation.Droid.Resource.Attribute.expanded;
-			global::Prism.Resource.Attribute.expandedTitleGravity = global::PrismFullNavigation.Droid.Resource.Attribute.expandedTitleGravity;
-			global::Prism.Resource.Attribute.expandedTitleMargin = global::PrismFullNavigation.Droid.Resource.Attribute.expandedTitleMargin;
-			global::Prism.Resource.Attribute.expandedTitleMarginBottom = global::PrismFullNavigation.Droid.Resource.Attribute.expandedTitleMarginBottom;
-			global::Prism.Resource.Attribute.expandedTitleMarginEnd = global::PrismFullNavigation.Droid.Resource.Attribute.expandedTitleMarginEnd;
-			global::Prism.Resource.Attribute.expandedTitleMarginStart = global::PrismFullNavigation.Droid.Resource.Attribute.expandedTitleMarginStart;
-			global::Prism.Resource.Attribute.expandedTitleMarginTop = global::PrismFullNavigation.Droid.Resource.Attribute.expandedTitleMarginTop;
-			global::Prism.Resource.Attribute.expandedTitleTextAppearance = global::PrismFullNavigation.Droid.Resource.Attribute.expandedTitleTextAppearance;
-			global::Prism.Resource.Attribute.fabSize = global::PrismFullNavigation.Droid.Resource.Attribute.fabSize;
-			global::Prism.Resource.Attribute.fastScrollEnabled = global::PrismFullNavigation.Droid.Resource.Attribute.fastScrollEnabled;
-			global::Prism.Resource.Attribute.fastScrollHorizontalThumbDrawable = global::PrismFullNavigation.Droid.Resource.Attribute.fastScrollHorizontalThumbDrawable;
-			global::Prism.Resource.Attribute.fastScrollHorizontalTrackDrawable = global::PrismFullNavigation.Droid.Resource.Attribute.fastScrollHorizontalTrackDrawable;
-			global::Prism.Resource.Attribute.fastScrollVerticalThumbDrawable = global::PrismFullNavigation.Droid.Resource.Attribute.fastScrollVerticalThumbDrawable;
-			global::Prism.Resource.Attribute.fastScrollVerticalTrackDrawable = global::PrismFullNavigation.Droid.Resource.Attribute.fastScrollVerticalTrackDrawable;
-			global::Prism.Resource.Attribute.font = global::PrismFullNavigation.Droid.Resource.Attribute.font;
-			global::Prism.Resource.Attribute.fontFamily = global::PrismFullNavigation.Droid.Resource.Attribute.fontFamily;
-			global::Prism.Resource.Attribute.fontProviderAuthority = global::PrismFullNavigation.Droid.Resource.Attribute.fontProviderAuthority;
-			global::Prism.Resource.Attribute.fontProviderCerts = global::PrismFullNavigation.Droid.Resource.Attribute.fontProviderCerts;
-			global::Prism.Resource.Attribute.fontProviderFetchStrategy = global::PrismFullNavigation.Droid.Resource.Attribute.fontProviderFetchStrategy;
-			global::Prism.Resource.Attribute.fontProviderFetchTimeout = global::PrismFullNavigation.Droid.Resource.Attribute.fontProviderFetchTimeout;
-			global::Prism.Resource.Attribute.fontProviderPackage = global::PrismFullNavigation.Droid.Resource.Attribute.fontProviderPackage;
-			global::Prism.Resource.Attribute.fontProviderQuery = global::PrismFullNavigation.Droid.Resource.Attribute.fontProviderQuery;
-			global::Prism.Resource.Attribute.fontStyle = global::PrismFullNavigation.Droid.Resource.Attribute.fontStyle;
-			global::Prism.Resource.Attribute.fontWeight = global::PrismFullNavigation.Droid.Resource.Attribute.fontWeight;
-			global::Prism.Resource.Attribute.foregroundInsidePadding = global::PrismFullNavigation.Droid.Resource.Attribute.foregroundInsidePadding;
-			global::Prism.Resource.Attribute.gapBetweenBars = global::PrismFullNavigation.Droid.Resource.Attribute.gapBetweenBars;
-			global::Prism.Resource.Attribute.goIcon = global::PrismFullNavigation.Droid.Resource.Attribute.goIcon;
-			global::Prism.Resource.Attribute.headerLayout = global::PrismFullNavigation.Droid.Resource.Attribute.headerLayout;
-			global::Prism.Resource.Attribute.height = global::PrismFullNavigation.Droid.Resource.Attribute.height;
-			global::Prism.Resource.Attribute.hideOnContentScroll = global::PrismFullNavigation.Droid.Resource.Attribute.hideOnContentScroll;
-			global::Prism.Resource.Attribute.hintAnimationEnabled = global::PrismFullNavigation.Droid.Resource.Attribute.hintAnimationEnabled;
-			global::Prism.Resource.Attribute.hintEnabled = global::PrismFullNavigation.Droid.Resource.Attribute.hintEnabled;
-			global::Prism.Resource.Attribute.hintTextAppearance = global::PrismFullNavigation.Droid.Resource.Attribute.hintTextAppearance;
-			global::Prism.Resource.Attribute.homeAsUpIndicator = global::PrismFullNavigation.Droid.Resource.Attribute.homeAsUpIndicator;
-			global::Prism.Resource.Attribute.homeLayout = global::PrismFullNavigation.Droid.Resource.Attribute.homeLayout;
-			global::Prism.Resource.Attribute.icon = global::PrismFullNavigation.Droid.Resource.Attribute.icon;
-			global::Prism.Resource.Attribute.iconifiedByDefault = global::PrismFullNavigation.Droid.Resource.Attribute.iconifiedByDefault;
-			global::Prism.Resource.Attribute.iconTint = global::PrismFullNavigation.Droid.Resource.Attribute.iconTint;
-			global::Prism.Resource.Attribute.iconTintMode = global::PrismFullNavigation.Droid.Resource.Attribute.iconTintMode;
-			global::Prism.Resource.Attribute.imageButtonStyle = global::PrismFullNavigation.Droid.Resource.Attribute.imageButtonStyle;
-			global::Prism.Resource.Attribute.indeterminateProgressStyle = global::PrismFullNavigation.Droid.Resource.Attribute.indeterminateProgressStyle;
-			global::Prism.Resource.Attribute.initialActivityCount = global::PrismFullNavigation.Droid.Resource.Attribute.initialActivityCount;
-			global::Prism.Resource.Attribute.insetForeground = global::PrismFullNavigation.Droid.Resource.Attribute.insetForeground;
-			global::Prism.Resource.Attribute.isLightTheme = global::PrismFullNavigation.Droid.Resource.Attribute.isLightTheme;
-			global::Prism.Resource.Attribute.itemBackground = global::PrismFullNavigation.Droid.Resource.Attribute.itemBackground;
-			global::Prism.Resource.Attribute.itemIconTint = global::PrismFullNavigation.Droid.Resource.Attribute.itemIconTint;
-			global::Prism.Resource.Attribute.itemPadding = global::PrismFullNavigation.Droid.Resource.Attribute.itemPadding;
-			global::Prism.Resource.Attribute.itemTextAppearance = global::PrismFullNavigation.Droid.Resource.Attribute.itemTextAppearance;
-			global::Prism.Resource.Attribute.itemTextColor = global::PrismFullNavigation.Droid.Resource.Attribute.itemTextColor;
-			global::Prism.Resource.Attribute.keylines = global::PrismFullNavigation.Droid.Resource.Attribute.keylines;
-			global::Prism.Resource.Attribute.layout = global::PrismFullNavigation.Droid.Resource.Attribute.layout;
-			global::Prism.Resource.Attribute.layoutManager = global::PrismFullNavigation.Droid.Resource.Attribute.layoutManager;
-			global::Prism.Resource.Attribute.layout_anchor = global::PrismFullNavigation.Droid.Resource.Attribute.layout_anchor;
-			global::Prism.Resource.Attribute.layout_anchorGravity = global::PrismFullNavigation.Droid.Resource.Attribute.layout_anchorGravity;
-			global::Prism.Resource.Attribute.layout_behavior = global::PrismFullNavigation.Droid.Resource.Attribute.layout_behavior;
-			global::Prism.Resource.Attribute.layout_collapseMode = global::PrismFullNavigation.Droid.Resource.Attribute.layout_collapseMode;
-			global::Prism.Resource.Attribute.layout_collapseParallaxMultiplier = global::PrismFullNavigation.Droid.Resource.Attribute.layout_collapseParallaxMultiplier;
-			global::Prism.Resource.Attribute.layout_dodgeInsetEdges = global::PrismFullNavigation.Droid.Resource.Attribute.layout_dodgeInsetEdges;
-			global::Prism.Resource.Attribute.layout_insetEdge = global::PrismFullNavigation.Droid.Resource.Attribute.layout_insetEdge;
-			global::Prism.Resource.Attribute.layout_keyline = global::PrismFullNavigation.Droid.Resource.Attribute.layout_keyline;
-			global::Prism.Resource.Attribute.layout_scrollFlags = global::PrismFullNavigation.Droid.Resource.Attribute.layout_scrollFlags;
-			global::Prism.Resource.Attribute.layout_scrollInterpolator = global::PrismFullNavigation.Droid.Resource.Attribute.layout_scrollInterpolator;
-			global::Prism.Resource.Attribute.listChoiceBackgroundIndicator = global::PrismFullNavigation.Droid.Resource.Attribute.listChoiceBackgroundIndicator;
-			global::Prism.Resource.Attribute.listDividerAlertDialog = global::PrismFullNavigation.Droid.Resource.Attribute.listDividerAlertDialog;
-			global::Prism.Resource.Attribute.listItemLayout = global::PrismFullNavigation.Droid.Resource.Attribute.listItemLayout;
-			global::Prism.Resource.Attribute.listLayout = global::PrismFullNavigation.Droid.Resource.Attribute.listLayout;
-			global::Prism.Resource.Attribute.listMenuViewStyle = global::PrismFullNavigation.Droid.Resource.Attribute.listMenuViewStyle;
-			global::Prism.Resource.Attribute.listPopupWindowStyle = global::PrismFullNavigation.Droid.Resource.Attribute.listPopupWindowStyle;
-			global::Prism.Resource.Attribute.listPreferredItemHeight = global::PrismFullNavigation.Droid.Resource.Attribute.listPreferredItemHeight;
-			global::Prism.Resource.Attribute.listPreferredItemHeightLarge = global::PrismFullNavigation.Droid.Resource.Attribute.listPreferredItemHeightLarge;
-			global::Prism.Resource.Attribute.listPreferredItemHeightSmall = global::PrismFullNavigation.Droid.Resource.Attribute.listPreferredItemHeightSmall;
-			global::Prism.Resource.Attribute.listPreferredItemPaddingLeft = global::PrismFullNavigation.Droid.Resource.Attribute.listPreferredItemPaddingLeft;
-			global::Prism.Resource.Attribute.listPreferredItemPaddingRight = global::PrismFullNavigation.Droid.Resource.Attribute.listPreferredItemPaddingRight;
-			global::Prism.Resource.Attribute.logo = global::PrismFullNavigation.Droid.Resource.Attribute.logo;
-			global::Prism.Resource.Attribute.logoDescription = global::PrismFullNavigation.Droid.Resource.Attribute.logoDescription;
-			global::Prism.Resource.Attribute.maxActionInlineWidth = global::PrismFullNavigation.Droid.Resource.Attribute.maxActionInlineWidth;
-			global::Prism.Resource.Attribute.maxButtonHeight = global::PrismFullNavigation.Droid.Resource.Attribute.maxButtonHeight;
-			global::Prism.Resource.Attribute.measureWithLargestChild = global::PrismFullNavigation.Droid.Resource.Attribute.measureWithLargestChild;
-			global::Prism.Resource.Attribute.menu = global::PrismFullNavigation.Droid.Resource.Attribute.menu;
-			global::Prism.Resource.Attribute.multiChoiceItemLayout = global::PrismFullNavigation.Droid.Resource.Attribute.multiChoiceItemLayout;
-			global::Prism.Resource.Attribute.navigationContentDescription = global::PrismFullNavigation.Droid.Resource.Attribute.navigationContentDescription;
-			global::Prism.Resource.Attribute.navigationIcon = global::PrismFullNavigation.Droid.Resource.Attribute.navigationIcon;
-			global::Prism.Resource.Attribute.navigationMode = global::PrismFullNavigation.Droid.Resource.Attribute.navigationMode;
-			global::Prism.Resource.Attribute.numericModifiers = global::PrismFullNavigation.Droid.Resource.Attribute.numericModifiers;
-			global::Prism.Resource.Attribute.overlapAnchor = global::PrismFullNavigation.Droid.Resource.Attribute.overlapAnchor;
-			global::Prism.Resource.Attribute.paddingBottomNoButtons = global::PrismFullNavigation.Droid.Resource.Attribute.paddingBottomNoButtons;
-			global::Prism.Resource.Attribute.paddingEnd = global::PrismFullNavigation.Droid.Resource.Attribute.paddingEnd;
-			global::Prism.Resource.Attribute.paddingStart = global::PrismFullNavigation.Droid.Resource.Attribute.paddingStart;
-			global::Prism.Resource.Attribute.paddingTopNoTitle = global::PrismFullNavigation.Droid.Resource.Attribute.paddingTopNoTitle;
-			global::Prism.Resource.Attribute.panelBackground = global::PrismFullNavigation.Droid.Resource.Attribute.panelBackground;
-			global::Prism.Resource.Attribute.panelMenuListTheme = global::PrismFullNavigation.Droid.Resource.Attribute.panelMenuListTheme;
-			global::Prism.Resource.Attribute.panelMenuListWidth = global::PrismFullNavigation.Droid.Resource.Attribute.panelMenuListWidth;
-			global::Prism.Resource.Attribute.passwordToggleContentDescription = global::PrismFullNavigation.Droid.Resource.Attribute.passwordToggleContentDescription;
-			global::Prism.Resource.Attribute.passwordToggleDrawable = global::PrismFullNavigation.Droid.Resource.Attribute.passwordToggleDrawable;
-			global::Prism.Resource.Attribute.passwordToggleEnabled = global::PrismFullNavigation.Droid.Resource.Attribute.passwordToggleEnabled;
-			global::Prism.Resource.Attribute.passwordToggleTint = global::PrismFullNavigation.Droid.Resource.Attribute.passwordToggleTint;
-			global::Prism.Resource.Attribute.passwordToggleTintMode = global::PrismFullNavigation.Droid.Resource.Attribute.passwordToggleTintMode;
-			global::Prism.Resource.Attribute.popupMenuStyle = global::PrismFullNavigation.Droid.Resource.Attribute.popupMenuStyle;
-			global::Prism.Resource.Attribute.popupTheme = global::PrismFullNavigation.Droid.Resource.Attribute.popupTheme;
-			global::Prism.Resource.Attribute.popupWindowStyle = global::PrismFullNavigation.Droid.Resource.Attribute.popupWindowStyle;
-			global::Prism.Resource.Attribute.preserveIconSpacing = global::PrismFullNavigation.Droid.Resource.Attribute.preserveIconSpacing;
-			global::Prism.Resource.Attribute.pressedTranslationZ = global::PrismFullNavigation.Droid.Resource.Attribute.pressedTranslationZ;
-			global::Prism.Resource.Attribute.progressBarPadding = global::PrismFullNavigation.Droid.Resource.Attribute.progressBarPadding;
-			global::Prism.Resource.Attribute.progressBarStyle = global::PrismFullNavigation.Droid.Resource.Attribute.progressBarStyle;
-			global::Prism.Resource.Attribute.queryBackground = global::PrismFullNavigation.Droid.Resource.Attribute.queryBackground;
-			global::Prism.Resource.Attribute.queryHint = global::PrismFullNavigation.Droid.Resource.Attribute.queryHint;
-			global::Prism.Resource.Attribute.radioButtonStyle = global::PrismFullNavigation.Droid.Resource.Attribute.radioButtonStyle;
-			global::Prism.Resource.Attribute.ratingBarStyle = global::PrismFullNavigation.Droid.Resource.Attribute.ratingBarStyle;
-			global::Prism.Resource.Attribute.ratingBarStyleIndicator = global::PrismFullNavigation.Droid.Resource.Attribute.ratingBarStyleIndicator;
-			global::Prism.Resource.Attribute.ratingBarStyleSmall = global::PrismFullNavigation.Droid.Resource.Attribute.ratingBarStyleSmall;
-			global::Prism.Resource.Attribute.reverseLayout = global::PrismFullNavigation.Droid.Resource.Attribute.reverseLayout;
-			global::Prism.Resource.Attribute.rippleColor = global::PrismFullNavigation.Droid.Resource.Attribute.rippleColor;
-			global::Prism.Resource.Attribute.scrimAnimationDuration = global::PrismFullNavigation.Droid.Resource.Attribute.scrimAnimationDuration;
-			global::Prism.Resource.Attribute.scrimVisibleHeightTrigger = global::PrismFullNavigation.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
-			global::Prism.Resource.Attribute.searchHintIcon = global::PrismFullNavigation.Droid.Resource.Attribute.searchHintIcon;
-			global::Prism.Resource.Attribute.searchIcon = global::PrismFullNavigation.Droid.Resource.Attribute.searchIcon;
-			global::Prism.Resource.Attribute.searchViewStyle = global::PrismFullNavigation.Droid.Resource.Attribute.searchViewStyle;
-			global::Prism.Resource.Attribute.seekBarStyle = global::PrismFullNavigation.Droid.Resource.Attribute.seekBarStyle;
-			global::Prism.Resource.Attribute.selectableItemBackground = global::PrismFullNavigation.Droid.Resource.Attribute.selectableItemBackground;
-			global::Prism.Resource.Attribute.selectableItemBackgroundBorderless = global::PrismFullNavigation.Droid.Resource.Attribute.selectableItemBackgroundBorderless;
-			global::Prism.Resource.Attribute.showAsAction = global::PrismFullNavigation.Droid.Resource.Attribute.showAsAction;
-			global::Prism.Resource.Attribute.showDividers = global::PrismFullNavigation.Droid.Resource.Attribute.showDividers;
-			global::Prism.Resource.Attribute.showText = global::PrismFullNavigation.Droid.Resource.Attribute.showText;
-			global::Prism.Resource.Attribute.showTitle = global::PrismFullNavigation.Droid.Resource.Attribute.showTitle;
-			global::Prism.Resource.Attribute.singleChoiceItemLayout = global::PrismFullNavigation.Droid.Resource.Attribute.singleChoiceItemLayout;
-			global::Prism.Resource.Attribute.spanCount = global::PrismFullNavigation.Droid.Resource.Attribute.spanCount;
-			global::Prism.Resource.Attribute.spinBars = global::PrismFullNavigation.Droid.Resource.Attribute.spinBars;
-			global::Prism.Resource.Attribute.spinnerDropDownItemStyle = global::PrismFullNavigation.Droid.Resource.Attribute.spinnerDropDownItemStyle;
-			global::Prism.Resource.Attribute.spinnerStyle = global::PrismFullNavigation.Droid.Resource.Attribute.spinnerStyle;
-			global::Prism.Resource.Attribute.splitTrack = global::PrismFullNavigation.Droid.Resource.Attribute.splitTrack;
-			global::Prism.Resource.Attribute.srcCompat = global::PrismFullNavigation.Droid.Resource.Attribute.srcCompat;
-			global::Prism.Resource.Attribute.stackFromEnd = global::PrismFullNavigation.Droid.Resource.Attribute.stackFromEnd;
-			global::Prism.Resource.Attribute.state_above_anchor = global::PrismFullNavigation.Droid.Resource.Attribute.state_above_anchor;
-			global::Prism.Resource.Attribute.state_collapsed = global::PrismFullNavigation.Droid.Resource.Attribute.state_collapsed;
-			global::Prism.Resource.Attribute.state_collapsible = global::PrismFullNavigation.Droid.Resource.Attribute.state_collapsible;
-			global::Prism.Resource.Attribute.statusBarBackground = global::PrismFullNavigation.Droid.Resource.Attribute.statusBarBackground;
-			global::Prism.Resource.Attribute.statusBarScrim = global::PrismFullNavigation.Droid.Resource.Attribute.statusBarScrim;
-			global::Prism.Resource.Attribute.subMenuArrow = global::PrismFullNavigation.Droid.Resource.Attribute.subMenuArrow;
-			global::Prism.Resource.Attribute.submitBackground = global::PrismFullNavigation.Droid.Resource.Attribute.submitBackground;
-			global::Prism.Resource.Attribute.subtitle = global::PrismFullNavigation.Droid.Resource.Attribute.subtitle;
-			global::Prism.Resource.Attribute.subtitleTextAppearance = global::PrismFullNavigation.Droid.Resource.Attribute.subtitleTextAppearance;
-			global::Prism.Resource.Attribute.subtitleTextColor = global::PrismFullNavigation.Droid.Resource.Attribute.subtitleTextColor;
-			global::Prism.Resource.Attribute.subtitleTextStyle = global::PrismFullNavigation.Droid.Resource.Attribute.subtitleTextStyle;
-			global::Prism.Resource.Attribute.suggestionRowLayout = global::PrismFullNavigation.Droid.Resource.Attribute.suggestionRowLayout;
-			global::Prism.Resource.Attribute.switchMinWidth = global::PrismFullNavigation.Droid.Resource.Attribute.switchMinWidth;
-			global::Prism.Resource.Attribute.switchPadding = global::PrismFullNavigation.Droid.Resource.Attribute.switchPadding;
-			global::Prism.Resource.Attribute.switchStyle = global::PrismFullNavigation.Droid.Resource.Attribute.switchStyle;
-			global::Prism.Resource.Attribute.switchTextAppearance = global::PrismFullNavigation.Droid.Resource.Attribute.switchTextAppearance;
-			global::Prism.Resource.Attribute.tabBackground = global::PrismFullNavigation.Droid.Resource.Attribute.tabBackground;
-			global::Prism.Resource.Attribute.tabContentStart = global::PrismFullNavigation.Droid.Resource.Attribute.tabContentStart;
-			global::Prism.Resource.Attribute.tabGravity = global::PrismFullNavigation.Droid.Resource.Attribute.tabGravity;
-			global::Prism.Resource.Attribute.tabIndicatorColor = global::PrismFullNavigation.Droid.Resource.Attribute.tabIndicatorColor;
-			global::Prism.Resource.Attribute.tabIndicatorHeight = global::PrismFullNavigation.Droid.Resource.Attribute.tabIndicatorHeight;
-			global::Prism.Resource.Attribute.tabMaxWidth = global::PrismFullNavigation.Droid.Resource.Attribute.tabMaxWidth;
-			global::Prism.Resource.Attribute.tabMinWidth = global::PrismFullNavigation.Droid.Resource.Attribute.tabMinWidth;
-			global::Prism.Resource.Attribute.tabMode = global::PrismFullNavigation.Droid.Resource.Attribute.tabMode;
-			global::Prism.Resource.Attribute.tabPadding = global::PrismFullNavigation.Droid.Resource.Attribute.tabPadding;
-			global::Prism.Resource.Attribute.tabPaddingBottom = global::PrismFullNavigation.Droid.Resource.Attribute.tabPaddingBottom;
-			global::Prism.Resource.Attribute.tabPaddingEnd = global::PrismFullNavigation.Droid.Resource.Attribute.tabPaddingEnd;
-			global::Prism.Resource.Attribute.tabPaddingStart = global::PrismFullNavigation.Droid.Resource.Attribute.tabPaddingStart;
-			global::Prism.Resource.Attribute.tabPaddingTop = global::PrismFullNavigation.Droid.Resource.Attribute.tabPaddingTop;
-			global::Prism.Resource.Attribute.tabSelectedTextColor = global::PrismFullNavigation.Droid.Resource.Attribute.tabSelectedTextColor;
-			global::Prism.Resource.Attribute.tabTextAppearance = global::PrismFullNavigation.Droid.Resource.Attribute.tabTextAppearance;
-			global::Prism.Resource.Attribute.tabTextColor = global::PrismFullNavigation.Droid.Resource.Attribute.tabTextColor;
-			global::Prism.Resource.Attribute.textAllCaps = global::PrismFullNavigation.Droid.Resource.Attribute.textAllCaps;
-			global::Prism.Resource.Attribute.textAppearanceLargePopupMenu = global::PrismFullNavigation.Droid.Resource.Attribute.textAppearanceLargePopupMenu;
-			global::Prism.Resource.Attribute.textAppearanceListItem = global::PrismFullNavigation.Droid.Resource.Attribute.textAppearanceListItem;
-			global::Prism.Resource.Attribute.textAppearanceListItemSecondary = global::PrismFullNavigation.Droid.Resource.Attribute.textAppearanceListItemSecondary;
-			global::Prism.Resource.Attribute.textAppearanceListItemSmall = global::PrismFullNavigation.Droid.Resource.Attribute.textAppearanceListItemSmall;
-			global::Prism.Resource.Attribute.textAppearancePopupMenuHeader = global::PrismFullNavigation.Droid.Resource.Attribute.textAppearancePopupMenuHeader;
-			global::Prism.Resource.Attribute.textAppearanceSearchResultSubtitle = global::PrismFullNavigation.Droid.Resource.Attribute.textAppearanceSearchResultSubtitle;
-			global::Prism.Resource.Attribute.textAppearanceSearchResultTitle = global::PrismFullNavigation.Droid.Resource.Attribute.textAppearanceSearchResultTitle;
-			global::Prism.Resource.Attribute.textAppearanceSmallPopupMenu = global::PrismFullNavigation.Droid.Resource.Attribute.textAppearanceSmallPopupMenu;
-			global::Prism.Resource.Attribute.textColorAlertDialogListItem = global::PrismFullNavigation.Droid.Resource.Attribute.textColorAlertDialogListItem;
-			global::Prism.Resource.Attribute.textColorSearchUrl = global::PrismFullNavigation.Droid.Resource.Attribute.textColorSearchUrl;
-			global::Prism.Resource.Attribute.theme = global::PrismFullNavigation.Droid.Resource.Attribute.theme;
-			global::Prism.Resource.Attribute.thickness = global::PrismFullNavigation.Droid.Resource.Attribute.thickness;
-			global::Prism.Resource.Attribute.thumbTextPadding = global::PrismFullNavigation.Droid.Resource.Attribute.thumbTextPadding;
-			global::Prism.Resource.Attribute.thumbTint = global::PrismFullNavigation.Droid.Resource.Attribute.thumbTint;
-			global::Prism.Resource.Attribute.thumbTintMode = global::PrismFullNavigation.Droid.Resource.Attribute.thumbTintMode;
-			global::Prism.Resource.Attribute.tickMark = global::PrismFullNavigation.Droid.Resource.Attribute.tickMark;
-			global::Prism.Resource.Attribute.tickMarkTint = global::PrismFullNavigation.Droid.Resource.Attribute.tickMarkTint;
-			global::Prism.Resource.Attribute.tickMarkTintMode = global::PrismFullNavigation.Droid.Resource.Attribute.tickMarkTintMode;
-			global::Prism.Resource.Attribute.tint = global::PrismFullNavigation.Droid.Resource.Attribute.tint;
-			global::Prism.Resource.Attribute.tintMode = global::PrismFullNavigation.Droid.Resource.Attribute.tintMode;
-			global::Prism.Resource.Attribute.title = global::PrismFullNavigation.Droid.Resource.Attribute.title;
-			global::Prism.Resource.Attribute.titleEnabled = global::PrismFullNavigation.Droid.Resource.Attribute.titleEnabled;
-			global::Prism.Resource.Attribute.titleMargin = global::PrismFullNavigation.Droid.Resource.Attribute.titleMargin;
-			global::Prism.Resource.Attribute.titleMarginBottom = global::PrismFullNavigation.Droid.Resource.Attribute.titleMarginBottom;
-			global::Prism.Resource.Attribute.titleMarginEnd = global::PrismFullNavigation.Droid.Resource.Attribute.titleMarginEnd;
-			global::Prism.Resource.Attribute.titleMargins = global::PrismFullNavigation.Droid.Resource.Attribute.titleMargins;
-			global::Prism.Resource.Attribute.titleMarginStart = global::PrismFullNavigation.Droid.Resource.Attribute.titleMarginStart;
-			global::Prism.Resource.Attribute.titleMarginTop = global::PrismFullNavigation.Droid.Resource.Attribute.titleMarginTop;
-			global::Prism.Resource.Attribute.titleTextAppearance = global::PrismFullNavigation.Droid.Resource.Attribute.titleTextAppearance;
-			global::Prism.Resource.Attribute.titleTextColor = global::PrismFullNavigation.Droid.Resource.Attribute.titleTextColor;
-			global::Prism.Resource.Attribute.titleTextStyle = global::PrismFullNavigation.Droid.Resource.Attribute.titleTextStyle;
-			global::Prism.Resource.Attribute.toolbarId = global::PrismFullNavigation.Droid.Resource.Attribute.toolbarId;
-			global::Prism.Resource.Attribute.toolbarNavigationButtonStyle = global::PrismFullNavigation.Droid.Resource.Attribute.toolbarNavigationButtonStyle;
-			global::Prism.Resource.Attribute.toolbarStyle = global::PrismFullNavigation.Droid.Resource.Attribute.toolbarStyle;
-			global::Prism.Resource.Attribute.tooltipForegroundColor = global::PrismFullNavigation.Droid.Resource.Attribute.tooltipForegroundColor;
-			global::Prism.Resource.Attribute.tooltipFrameBackground = global::PrismFullNavigation.Droid.Resource.Attribute.tooltipFrameBackground;
-			global::Prism.Resource.Attribute.tooltipText = global::PrismFullNavigation.Droid.Resource.Attribute.tooltipText;
-			global::Prism.Resource.Attribute.track = global::PrismFullNavigation.Droid.Resource.Attribute.track;
-			global::Prism.Resource.Attribute.trackTint = global::PrismFullNavigation.Droid.Resource.Attribute.trackTint;
-			global::Prism.Resource.Attribute.trackTintMode = global::PrismFullNavigation.Droid.Resource.Attribute.trackTintMode;
-			global::Prism.Resource.Attribute.useCompatPadding = global::PrismFullNavigation.Droid.Resource.Attribute.useCompatPadding;
-			global::Prism.Resource.Attribute.voiceIcon = global::PrismFullNavigation.Droid.Resource.Attribute.voiceIcon;
-			global::Prism.Resource.Attribute.windowActionBar = global::PrismFullNavigation.Droid.Resource.Attribute.windowActionBar;
-			global::Prism.Resource.Attribute.windowActionBarOverlay = global::PrismFullNavigation.Droid.Resource.Attribute.windowActionBarOverlay;
-			global::Prism.Resource.Attribute.windowActionModeOverlay = global::PrismFullNavigation.Droid.Resource.Attribute.windowActionModeOverlay;
-			global::Prism.Resource.Attribute.windowFixedHeightMajor = global::PrismFullNavigation.Droid.Resource.Attribute.windowFixedHeightMajor;
-			global::Prism.Resource.Attribute.windowFixedHeightMinor = global::PrismFullNavigation.Droid.Resource.Attribute.windowFixedHeightMinor;
-			global::Prism.Resource.Attribute.windowFixedWidthMajor = global::PrismFullNavigation.Droid.Resource.Attribute.windowFixedWidthMajor;
-			global::Prism.Resource.Attribute.windowFixedWidthMinor = global::PrismFullNavigation.Droid.Resource.Attribute.windowFixedWidthMinor;
-			global::Prism.Resource.Attribute.windowMinWidthMajor = global::PrismFullNavigation.Droid.Resource.Attribute.windowMinWidthMajor;
-			global::Prism.Resource.Attribute.windowMinWidthMinor = global::PrismFullNavigation.Droid.Resource.Attribute.windowMinWidthMinor;
-			global::Prism.Resource.Attribute.windowNoTitle = global::PrismFullNavigation.Droid.Resource.Attribute.windowNoTitle;
-			global::Prism.Resource.Boolean.abc_action_bar_embed_tabs = global::PrismFullNavigation.Droid.Resource.Boolean.abc_action_bar_embed_tabs;
-			global::Prism.Resource.Boolean.abc_allow_stacked_button_bar = global::PrismFullNavigation.Droid.Resource.Boolean.abc_allow_stacked_button_bar;
-			global::Prism.Resource.Boolean.abc_config_actionMenuItemAllCaps = global::PrismFullNavigation.Droid.Resource.Boolean.abc_config_actionMenuItemAllCaps;
-			global::Prism.Resource.Color.abc_background_cache_hint_selector_material_dark = global::PrismFullNavigation.Droid.Resource.Color.abc_background_cache_hint_selector_material_dark;
-			global::Prism.Resource.Color.abc_background_cache_hint_selector_material_light = global::PrismFullNavigation.Droid.Resource.Color.abc_background_cache_hint_selector_material_light;
-			global::Prism.Resource.Color.abc_btn_colored_borderless_text_material = global::PrismFullNavigation.Droid.Resource.Color.abc_btn_colored_borderless_text_material;
-			global::Prism.Resource.Color.abc_btn_colored_text_material = global::PrismFullNavigation.Droid.Resource.Color.abc_btn_colored_text_material;
-			global::Prism.Resource.Color.abc_color_highlight_material = global::PrismFullNavigation.Droid.Resource.Color.abc_color_highlight_material;
-			global::Prism.Resource.Color.abc_hint_foreground_material_dark = global::PrismFullNavigation.Droid.Resource.Color.abc_hint_foreground_material_dark;
-			global::Prism.Resource.Color.abc_hint_foreground_material_light = global::PrismFullNavigation.Droid.Resource.Color.abc_hint_foreground_material_light;
-			global::Prism.Resource.Color.abc_input_method_navigation_guard = global::PrismFullNavigation.Droid.Resource.Color.abc_input_method_navigation_guard;
-			global::Prism.Resource.Color.abc_primary_text_disable_only_material_dark = global::PrismFullNavigation.Droid.Resource.Color.abc_primary_text_disable_only_material_dark;
-			global::Prism.Resource.Color.abc_primary_text_disable_only_material_light = global::PrismFullNavigation.Droid.Resource.Color.abc_primary_text_disable_only_material_light;
-			global::Prism.Resource.Color.abc_primary_text_material_dark = global::PrismFullNavigation.Droid.Resource.Color.abc_primary_text_material_dark;
-			global::Prism.Resource.Color.abc_primary_text_material_light = global::PrismFullNavigation.Droid.Resource.Color.abc_primary_text_material_light;
-			global::Prism.Resource.Color.abc_search_url_text = global::PrismFullNavigation.Droid.Resource.Color.abc_search_url_text;
-			global::Prism.Resource.Color.abc_search_url_text_normal = global::PrismFullNavigation.Droid.Resource.Color.abc_search_url_text_normal;
-			global::Prism.Resource.Color.abc_search_url_text_pressed = global::PrismFullNavigation.Droid.Resource.Color.abc_search_url_text_pressed;
-			global::Prism.Resource.Color.abc_search_url_text_selected = global::PrismFullNavigation.Droid.Resource.Color.abc_search_url_text_selected;
-			global::Prism.Resource.Color.abc_secondary_text_material_dark = global::PrismFullNavigation.Droid.Resource.Color.abc_secondary_text_material_dark;
-			global::Prism.Resource.Color.abc_secondary_text_material_light = global::PrismFullNavigation.Droid.Resource.Color.abc_secondary_text_material_light;
-			global::Prism.Resource.Color.abc_tint_btn_checkable = global::PrismFullNavigation.Droid.Resource.Color.abc_tint_btn_checkable;
-			global::Prism.Resource.Color.abc_tint_default = global::PrismFullNavigation.Droid.Resource.Color.abc_tint_default;
-			global::Prism.Resource.Color.abc_tint_edittext = global::PrismFullNavigation.Droid.Resource.Color.abc_tint_edittext;
-			global::Prism.Resource.Color.abc_tint_seek_thumb = global::PrismFullNavigation.Droid.Resource.Color.abc_tint_seek_thumb;
-			global::Prism.Resource.Color.abc_tint_spinner = global::PrismFullNavigation.Droid.Resource.Color.abc_tint_spinner;
-			global::Prism.Resource.Color.abc_tint_switch_track = global::PrismFullNavigation.Droid.Resource.Color.abc_tint_switch_track;
-			global::Prism.Resource.Color.accent_material_dark = global::PrismFullNavigation.Droid.Resource.Color.accent_material_dark;
-			global::Prism.Resource.Color.accent_material_light = global::PrismFullNavigation.Droid.Resource.Color.accent_material_light;
-			global::Prism.Resource.Color.background_floating_material_dark = global::PrismFullNavigation.Droid.Resource.Color.background_floating_material_dark;
-			global::Prism.Resource.Color.background_floating_material_light = global::PrismFullNavigation.Droid.Resource.Color.background_floating_material_light;
-			global::Prism.Resource.Color.background_material_dark = global::PrismFullNavigation.Droid.Resource.Color.background_material_dark;
-			global::Prism.Resource.Color.background_material_light = global::PrismFullNavigation.Droid.Resource.Color.background_material_light;
-			global::Prism.Resource.Color.bright_foreground_disabled_material_dark = global::PrismFullNavigation.Droid.Resource.Color.bright_foreground_disabled_material_dark;
-			global::Prism.Resource.Color.bright_foreground_disabled_material_light = global::PrismFullNavigation.Droid.Resource.Color.bright_foreground_disabled_material_light;
-			global::Prism.Resource.Color.bright_foreground_inverse_material_dark = global::PrismFullNavigation.Droid.Resource.Color.bright_foreground_inverse_material_dark;
-			global::Prism.Resource.Color.bright_foreground_inverse_material_light = global::PrismFullNavigation.Droid.Resource.Color.bright_foreground_inverse_material_light;
-			global::Prism.Resource.Color.bright_foreground_material_dark = global::PrismFullNavigation.Droid.Resource.Color.bright_foreground_material_dark;
-			global::Prism.Resource.Color.bright_foreground_material_light = global::PrismFullNavigation.Droid.Resource.Color.bright_foreground_material_light;
-			global::Prism.Resource.Color.button_material_dark = global::PrismFullNavigation.Droid.Resource.Color.button_material_dark;
-			global::Prism.Resource.Color.button_material_light = global::PrismFullNavigation.Droid.Resource.Color.button_material_light;
-			global::Prism.Resource.Color.cardview_dark_background = global::PrismFullNavigation.Droid.Resource.Color.cardview_dark_background;
-			global::Prism.Resource.Color.cardview_light_background = global::PrismFullNavigation.Droid.Resource.Color.cardview_light_background;
-			global::Prism.Resource.Color.cardview_shadow_end_color = global::PrismFullNavigation.Droid.Resource.Color.cardview_shadow_end_color;
-			global::Prism.Resource.Color.cardview_shadow_start_color = global::PrismFullNavigation.Droid.Resource.Color.cardview_shadow_start_color;
-			global::Prism.Resource.Color.design_bottom_navigation_shadow_color = global::PrismFullNavigation.Droid.Resource.Color.design_bottom_navigation_shadow_color;
-			global::Prism.Resource.Color.design_error = global::PrismFullNavigation.Droid.Resource.Color.design_error;
-			global::Prism.Resource.Color.design_fab_shadow_end_color = global::PrismFullNavigation.Droid.Resource.Color.design_fab_shadow_end_color;
-			global::Prism.Resource.Color.design_fab_shadow_mid_color = global::PrismFullNavigation.Droid.Resource.Color.design_fab_shadow_mid_color;
-			global::Prism.Resource.Color.design_fab_shadow_start_color = global::PrismFullNavigation.Droid.Resource.Color.design_fab_shadow_start_color;
-			global::Prism.Resource.Color.design_fab_stroke_end_inner_color = global::PrismFullNavigation.Droid.Resource.Color.design_fab_stroke_end_inner_color;
-			global::Prism.Resource.Color.design_fab_stroke_end_outer_color = global::PrismFullNavigation.Droid.Resource.Color.design_fab_stroke_end_outer_color;
-			global::Prism.Resource.Color.design_fab_stroke_top_inner_color = global::PrismFullNavigation.Droid.Resource.Color.design_fab_stroke_top_inner_color;
-			global::Prism.Resource.Color.design_fab_stroke_top_outer_color = global::PrismFullNavigation.Droid.Resource.Color.design_fab_stroke_top_outer_color;
-			global::Prism.Resource.Color.design_snackbar_background_color = global::PrismFullNavigation.Droid.Resource.Color.design_snackbar_background_color;
-			global::Prism.Resource.Color.design_tint_password_toggle = global::PrismFullNavigation.Droid.Resource.Color.design_tint_password_toggle;
-			global::Prism.Resource.Color.dim_foreground_disabled_material_dark = global::PrismFullNavigation.Droid.Resource.Color.dim_foreground_disabled_material_dark;
-			global::Prism.Resource.Color.dim_foreground_disabled_material_light = global::PrismFullNavigation.Droid.Resource.Color.dim_foreground_disabled_material_light;
-			global::Prism.Resource.Color.dim_foreground_material_dark = global::PrismFullNavigation.Droid.Resource.Color.dim_foreground_material_dark;
-			global::Prism.Resource.Color.dim_foreground_material_light = global::PrismFullNavigation.Droid.Resource.Color.dim_foreground_material_light;
-			global::Prism.Resource.Color.foreground_material_dark = global::PrismFullNavigation.Droid.Resource.Color.foreground_material_dark;
-			global::Prism.Resource.Color.foreground_material_light = global::PrismFullNavigation.Droid.Resource.Color.foreground_material_light;
-			global::Prism.Resource.Color.highlighted_text_material_dark = global::PrismFullNavigation.Droid.Resource.Color.highlighted_text_material_dark;
-			global::Prism.Resource.Color.highlighted_text_material_light = global::PrismFullNavigation.Droid.Resource.Color.highlighted_text_material_light;
-			global::Prism.Resource.Color.material_blue_grey_800 = global::PrismFullNavigation.Droid.Resource.Color.material_blue_grey_800;
-			global::Prism.Resource.Color.material_blue_grey_900 = global::PrismFullNavigation.Droid.Resource.Color.material_blue_grey_900;
-			global::Prism.Resource.Color.material_blue_grey_950 = global::PrismFullNavigation.Droid.Resource.Color.material_blue_grey_950;
-			global::Prism.Resource.Color.material_deep_teal_200 = global::PrismFullNavigation.Droid.Resource.Color.material_deep_teal_200;
-			global::Prism.Resource.Color.material_deep_teal_500 = global::PrismFullNavigation.Droid.Resource.Color.material_deep_teal_500;
-			global::Prism.Resource.Color.material_grey_100 = global::PrismFullNavigation.Droid.Resource.Color.material_grey_100;
-			global::Prism.Resource.Color.material_grey_300 = global::PrismFullNavigation.Droid.Resource.Color.material_grey_300;
-			global::Prism.Resource.Color.material_grey_50 = global::PrismFullNavigation.Droid.Resource.Color.material_grey_50;
-			global::Prism.Resource.Color.material_grey_600 = global::PrismFullNavigation.Droid.Resource.Color.material_grey_600;
-			global::Prism.Resource.Color.material_grey_800 = global::PrismFullNavigation.Droid.Resource.Color.material_grey_800;
-			global::Prism.Resource.Color.material_grey_850 = global::PrismFullNavigation.Droid.Resource.Color.material_grey_850;
-			global::Prism.Resource.Color.material_grey_900 = global::PrismFullNavigation.Droid.Resource.Color.material_grey_900;
-			global::Prism.Resource.Color.notification_action_color_filter = global::PrismFullNavigation.Droid.Resource.Color.notification_action_color_filter;
-			global::Prism.Resource.Color.notification_icon_bg_color = global::PrismFullNavigation.Droid.Resource.Color.notification_icon_bg_color;
-			global::Prism.Resource.Color.notification_material_background_media_default_color = global::PrismFullNavigation.Droid.Resource.Color.notification_material_background_media_default_color;
-			global::Prism.Resource.Color.primary_dark_material_dark = global::PrismFullNavigation.Droid.Resource.Color.primary_dark_material_dark;
-			global::Prism.Resource.Color.primary_dark_material_light = global::PrismFullNavigation.Droid.Resource.Color.primary_dark_material_light;
-			global::Prism.Resource.Color.primary_material_dark = global::PrismFullNavigation.Droid.Resource.Color.primary_material_dark;
-			global::Prism.Resource.Color.primary_material_light = global::PrismFullNavigation.Droid.Resource.Color.primary_material_light;
-			global::Prism.Resource.Color.primary_text_default_material_dark = global::PrismFullNavigation.Droid.Resource.Color.primary_text_default_material_dark;
-			global::Prism.Resource.Color.primary_text_default_material_light = global::PrismFullNavigation.Droid.Resource.Color.primary_text_default_material_light;
-			global::Prism.Resource.Color.primary_text_disabled_material_dark = global::PrismFullNavigation.Droid.Resource.Color.primary_text_disabled_material_dark;
-			global::Prism.Resource.Color.primary_text_disabled_material_light = global::PrismFullNavigation.Droid.Resource.Color.primary_text_disabled_material_light;
-			global::Prism.Resource.Color.ripple_material_dark = global::PrismFullNavigation.Droid.Resource.Color.ripple_material_dark;
-			global::Prism.Resource.Color.ripple_material_light = global::PrismFullNavigation.Droid.Resource.Color.ripple_material_light;
-			global::Prism.Resource.Color.secondary_text_default_material_dark = global::PrismFullNavigation.Droid.Resource.Color.secondary_text_default_material_dark;
-			global::Prism.Resource.Color.secondary_text_default_material_light = global::PrismFullNavigation.Droid.Resource.Color.secondary_text_default_material_light;
-			global::Prism.Resource.Color.secondary_text_disabled_material_dark = global::PrismFullNavigation.Droid.Resource.Color.secondary_text_disabled_material_dark;
-			global::Prism.Resource.Color.secondary_text_disabled_material_light = global::PrismFullNavigation.Droid.Resource.Color.secondary_text_disabled_material_light;
-			global::Prism.Resource.Color.switch_thumb_disabled_material_dark = global::PrismFullNavigation.Droid.Resource.Color.switch_thumb_disabled_material_dark;
-			global::Prism.Resource.Color.switch_thumb_disabled_material_light = global::PrismFullNavigation.Droid.Resource.Color.switch_thumb_disabled_material_light;
-			global::Prism.Resource.Color.switch_thumb_material_dark = global::PrismFullNavigation.Droid.Resource.Color.switch_thumb_material_dark;
-			global::Prism.Resource.Color.switch_thumb_material_light = global::PrismFullNavigation.Droid.Resource.Color.switch_thumb_material_light;
-			global::Prism.Resource.Color.switch_thumb_normal_material_dark = global::PrismFullNavigation.Droid.Resource.Color.switch_thumb_normal_material_dark;
-			global::Prism.Resource.Color.switch_thumb_normal_material_light = global::PrismFullNavigation.Droid.Resource.Color.switch_thumb_normal_material_light;
-			global::Prism.Resource.Color.tooltip_background_dark = global::PrismFullNavigation.Droid.Resource.Color.tooltip_background_dark;
-			global::Prism.Resource.Color.tooltip_background_light = global::PrismFullNavigation.Droid.Resource.Color.tooltip_background_light;
-			global::Prism.Resource.Dimension.abc_action_bar_content_inset_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_action_bar_content_inset_material;
-			global::Prism.Resource.Dimension.abc_action_bar_content_inset_with_nav = global::PrismFullNavigation.Droid.Resource.Dimension.abc_action_bar_content_inset_with_nav;
-			global::Prism.Resource.Dimension.abc_action_bar_default_height_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_action_bar_default_height_material;
-			global::Prism.Resource.Dimension.abc_action_bar_default_padding_end_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_action_bar_default_padding_end_material;
-			global::Prism.Resource.Dimension.abc_action_bar_default_padding_start_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_action_bar_default_padding_start_material;
-			global::Prism.Resource.Dimension.abc_action_bar_elevation_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_action_bar_elevation_material;
-			global::Prism.Resource.Dimension.abc_action_bar_icon_vertical_padding_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_action_bar_icon_vertical_padding_material;
-			global::Prism.Resource.Dimension.abc_action_bar_overflow_padding_end_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_action_bar_overflow_padding_end_material;
-			global::Prism.Resource.Dimension.abc_action_bar_overflow_padding_start_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_action_bar_overflow_padding_start_material;
-			global::Prism.Resource.Dimension.abc_action_bar_stacked_max_height = global::PrismFullNavigation.Droid.Resource.Dimension.abc_action_bar_stacked_max_height;
-			global::Prism.Resource.Dimension.abc_action_bar_stacked_tab_max_width = global::PrismFullNavigation.Droid.Resource.Dimension.abc_action_bar_stacked_tab_max_width;
-			global::Prism.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_action_bar_subtitle_bottom_margin_material;
-			global::Prism.Resource.Dimension.abc_action_bar_subtitle_top_margin_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_action_bar_subtitle_top_margin_material;
-			global::Prism.Resource.Dimension.abc_action_button_min_height_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_action_button_min_height_material;
-			global::Prism.Resource.Dimension.abc_action_button_min_width_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_action_button_min_width_material;
-			global::Prism.Resource.Dimension.abc_action_button_min_width_overflow_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_action_button_min_width_overflow_material;
-			global::Prism.Resource.Dimension.abc_alert_dialog_button_bar_height = global::PrismFullNavigation.Droid.Resource.Dimension.abc_alert_dialog_button_bar_height;
-			global::Prism.Resource.Dimension.abc_button_inset_horizontal_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_button_inset_horizontal_material;
-			global::Prism.Resource.Dimension.abc_button_inset_vertical_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_button_inset_vertical_material;
-			global::Prism.Resource.Dimension.abc_button_padding_horizontal_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_button_padding_horizontal_material;
-			global::Prism.Resource.Dimension.abc_button_padding_vertical_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_button_padding_vertical_material;
-			global::Prism.Resource.Dimension.abc_cascading_menus_min_smallest_width = global::PrismFullNavigation.Droid.Resource.Dimension.abc_cascading_menus_min_smallest_width;
-			global::Prism.Resource.Dimension.abc_config_prefDialogWidth = global::PrismFullNavigation.Droid.Resource.Dimension.abc_config_prefDialogWidth;
-			global::Prism.Resource.Dimension.abc_control_corner_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_control_corner_material;
-			global::Prism.Resource.Dimension.abc_control_inset_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_control_inset_material;
-			global::Prism.Resource.Dimension.abc_control_padding_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_control_padding_material;
-			global::Prism.Resource.Dimension.abc_dialog_fixed_height_major = global::PrismFullNavigation.Droid.Resource.Dimension.abc_dialog_fixed_height_major;
-			global::Prism.Resource.Dimension.abc_dialog_fixed_height_minor = global::PrismFullNavigation.Droid.Resource.Dimension.abc_dialog_fixed_height_minor;
-			global::Prism.Resource.Dimension.abc_dialog_fixed_width_major = global::PrismFullNavigation.Droid.Resource.Dimension.abc_dialog_fixed_width_major;
-			global::Prism.Resource.Dimension.abc_dialog_fixed_width_minor = global::PrismFullNavigation.Droid.Resource.Dimension.abc_dialog_fixed_width_minor;
-			global::Prism.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons = global::PrismFullNavigation.Droid.Resource.Dimension.abc_dialog_list_padding_bottom_no_buttons;
-			global::Prism.Resource.Dimension.abc_dialog_list_padding_top_no_title = global::PrismFullNavigation.Droid.Resource.Dimension.abc_dialog_list_padding_top_no_title;
-			global::Prism.Resource.Dimension.abc_dialog_min_width_major = global::PrismFullNavigation.Droid.Resource.Dimension.abc_dialog_min_width_major;
-			global::Prism.Resource.Dimension.abc_dialog_min_width_minor = global::PrismFullNavigation.Droid.Resource.Dimension.abc_dialog_min_width_minor;
-			global::Prism.Resource.Dimension.abc_dialog_padding_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_dialog_padding_material;
-			global::Prism.Resource.Dimension.abc_dialog_padding_top_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_dialog_padding_top_material;
-			global::Prism.Resource.Dimension.abc_dialog_title_divider_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_dialog_title_divider_material;
-			global::Prism.Resource.Dimension.abc_disabled_alpha_material_dark = global::PrismFullNavigation.Droid.Resource.Dimension.abc_disabled_alpha_material_dark;
-			global::Prism.Resource.Dimension.abc_disabled_alpha_material_light = global::PrismFullNavigation.Droid.Resource.Dimension.abc_disabled_alpha_material_light;
-			global::Prism.Resource.Dimension.abc_dropdownitem_icon_width = global::PrismFullNavigation.Droid.Resource.Dimension.abc_dropdownitem_icon_width;
-			global::Prism.Resource.Dimension.abc_dropdownitem_text_padding_left = global::PrismFullNavigation.Droid.Resource.Dimension.abc_dropdownitem_text_padding_left;
-			global::Prism.Resource.Dimension.abc_dropdownitem_text_padding_right = global::PrismFullNavigation.Droid.Resource.Dimension.abc_dropdownitem_text_padding_right;
-			global::Prism.Resource.Dimension.abc_edit_text_inset_bottom_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_edit_text_inset_bottom_material;
-			global::Prism.Resource.Dimension.abc_edit_text_inset_horizontal_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_edit_text_inset_horizontal_material;
-			global::Prism.Resource.Dimension.abc_edit_text_inset_top_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_edit_text_inset_top_material;
-			global::Prism.Resource.Dimension.abc_floating_window_z = global::PrismFullNavigation.Droid.Resource.Dimension.abc_floating_window_z;
-			global::Prism.Resource.Dimension.abc_list_item_padding_horizontal_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_list_item_padding_horizontal_material;
-			global::Prism.Resource.Dimension.abc_panel_menu_list_width = global::PrismFullNavigation.Droid.Resource.Dimension.abc_panel_menu_list_width;
-			global::Prism.Resource.Dimension.abc_progress_bar_height_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_progress_bar_height_material;
-			global::Prism.Resource.Dimension.abc_search_view_preferred_height = global::PrismFullNavigation.Droid.Resource.Dimension.abc_search_view_preferred_height;
-			global::Prism.Resource.Dimension.abc_search_view_preferred_width = global::PrismFullNavigation.Droid.Resource.Dimension.abc_search_view_preferred_width;
-			global::Prism.Resource.Dimension.abc_seekbar_track_background_height_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_seekbar_track_background_height_material;
-			global::Prism.Resource.Dimension.abc_seekbar_track_progress_height_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_seekbar_track_progress_height_material;
-			global::Prism.Resource.Dimension.abc_select_dialog_padding_start_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_select_dialog_padding_start_material;
-			global::Prism.Resource.Dimension.abc_switch_padding = global::PrismFullNavigation.Droid.Resource.Dimension.abc_switch_padding;
-			global::Prism.Resource.Dimension.abc_text_size_body_1_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_text_size_body_1_material;
-			global::Prism.Resource.Dimension.abc_text_size_body_2_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_text_size_body_2_material;
-			global::Prism.Resource.Dimension.abc_text_size_button_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_text_size_button_material;
-			global::Prism.Resource.Dimension.abc_text_size_caption_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_text_size_caption_material;
-			global::Prism.Resource.Dimension.abc_text_size_display_1_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_text_size_display_1_material;
-			global::Prism.Resource.Dimension.abc_text_size_display_2_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_text_size_display_2_material;
-			global::Prism.Resource.Dimension.abc_text_size_display_3_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_text_size_display_3_material;
-			global::Prism.Resource.Dimension.abc_text_size_display_4_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_text_size_display_4_material;
-			global::Prism.Resource.Dimension.abc_text_size_headline_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_text_size_headline_material;
-			global::Prism.Resource.Dimension.abc_text_size_large_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_text_size_large_material;
-			global::Prism.Resource.Dimension.abc_text_size_medium_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_text_size_medium_material;
-			global::Prism.Resource.Dimension.abc_text_size_menu_header_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_text_size_menu_header_material;
-			global::Prism.Resource.Dimension.abc_text_size_menu_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_text_size_menu_material;
-			global::Prism.Resource.Dimension.abc_text_size_small_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_text_size_small_material;
-			global::Prism.Resource.Dimension.abc_text_size_subhead_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_text_size_subhead_material;
-			global::Prism.Resource.Dimension.abc_text_size_subtitle_material_toolbar = global::PrismFullNavigation.Droid.Resource.Dimension.abc_text_size_subtitle_material_toolbar;
-			global::Prism.Resource.Dimension.abc_text_size_title_material = global::PrismFullNavigation.Droid.Resource.Dimension.abc_text_size_title_material;
-			global::Prism.Resource.Dimension.abc_text_size_title_material_toolbar = global::PrismFullNavigation.Droid.Resource.Dimension.abc_text_size_title_material_toolbar;
-			global::Prism.Resource.Dimension.cardview_compat_inset_shadow = global::PrismFullNavigation.Droid.Resource.Dimension.cardview_compat_inset_shadow;
-			global::Prism.Resource.Dimension.cardview_default_elevation = global::PrismFullNavigation.Droid.Resource.Dimension.cardview_default_elevation;
-			global::Prism.Resource.Dimension.cardview_default_radius = global::PrismFullNavigation.Droid.Resource.Dimension.cardview_default_radius;
-			global::Prism.Resource.Dimension.compat_button_inset_horizontal_material = global::PrismFullNavigation.Droid.Resource.Dimension.compat_button_inset_horizontal_material;
-			global::Prism.Resource.Dimension.compat_button_inset_vertical_material = global::PrismFullNavigation.Droid.Resource.Dimension.compat_button_inset_vertical_material;
-			global::Prism.Resource.Dimension.compat_button_padding_horizontal_material = global::PrismFullNavigation.Droid.Resource.Dimension.compat_button_padding_horizontal_material;
-			global::Prism.Resource.Dimension.compat_button_padding_vertical_material = global::PrismFullNavigation.Droid.Resource.Dimension.compat_button_padding_vertical_material;
-			global::Prism.Resource.Dimension.compat_control_corner_material = global::PrismFullNavigation.Droid.Resource.Dimension.compat_control_corner_material;
-			global::Prism.Resource.Dimension.design_appbar_elevation = global::PrismFullNavigation.Droid.Resource.Dimension.design_appbar_elevation;
-			global::Prism.Resource.Dimension.design_bottom_navigation_active_item_max_width = global::PrismFullNavigation.Droid.Resource.Dimension.design_bottom_navigation_active_item_max_width;
-			global::Prism.Resource.Dimension.design_bottom_navigation_active_text_size = global::PrismFullNavigation.Droid.Resource.Dimension.design_bottom_navigation_active_text_size;
-			global::Prism.Resource.Dimension.design_bottom_navigation_elevation = global::PrismFullNavigation.Droid.Resource.Dimension.design_bottom_navigation_elevation;
-			global::Prism.Resource.Dimension.design_bottom_navigation_height = global::PrismFullNavigation.Droid.Resource.Dimension.design_bottom_navigation_height;
-			global::Prism.Resource.Dimension.design_bottom_navigation_item_max_width = global::PrismFullNavigation.Droid.Resource.Dimension.design_bottom_navigation_item_max_width;
-			global::Prism.Resource.Dimension.design_bottom_navigation_item_min_width = global::PrismFullNavigation.Droid.Resource.Dimension.design_bottom_navigation_item_min_width;
-			global::Prism.Resource.Dimension.design_bottom_navigation_margin = global::PrismFullNavigation.Droid.Resource.Dimension.design_bottom_navigation_margin;
-			global::Prism.Resource.Dimension.design_bottom_navigation_shadow_height = global::PrismFullNavigation.Droid.Resource.Dimension.design_bottom_navigation_shadow_height;
-			global::Prism.Resource.Dimension.design_bottom_navigation_text_size = global::PrismFullNavigation.Droid.Resource.Dimension.design_bottom_navigation_text_size;
-			global::Prism.Resource.Dimension.design_bottom_sheet_modal_elevation = global::PrismFullNavigation.Droid.Resource.Dimension.design_bottom_sheet_modal_elevation;
-			global::Prism.Resource.Dimension.design_bottom_sheet_peek_height_min = global::PrismFullNavigation.Droid.Resource.Dimension.design_bottom_sheet_peek_height_min;
-			global::Prism.Resource.Dimension.design_fab_border_width = global::PrismFullNavigation.Droid.Resource.Dimension.design_fab_border_width;
-			global::Prism.Resource.Dimension.design_fab_elevation = global::PrismFullNavigation.Droid.Resource.Dimension.design_fab_elevation;
-			global::Prism.Resource.Dimension.design_fab_image_size = global::PrismFullNavigation.Droid.Resource.Dimension.design_fab_image_size;
-			global::Prism.Resource.Dimension.design_fab_size_mini = global::PrismFullNavigation.Droid.Resource.Dimension.design_fab_size_mini;
-			global::Prism.Resource.Dimension.design_fab_size_normal = global::PrismFullNavigation.Droid.Resource.Dimension.design_fab_size_normal;
-			global::Prism.Resource.Dimension.design_fab_translation_z_pressed = global::PrismFullNavigation.Droid.Resource.Dimension.design_fab_translation_z_pressed;
-			global::Prism.Resource.Dimension.design_navigation_elevation = global::PrismFullNavigation.Droid.Resource.Dimension.design_navigation_elevation;
-			global::Prism.Resource.Dimension.design_navigation_icon_padding = global::PrismFullNavigation.Droid.Resource.Dimension.design_navigation_icon_padding;
-			global::Prism.Resource.Dimension.design_navigation_icon_size = global::PrismFullNavigation.Droid.Resource.Dimension.design_navigation_icon_size;
-			global::Prism.Resource.Dimension.design_navigation_max_width = global::PrismFullNavigation.Droid.Resource.Dimension.design_navigation_max_width;
-			global::Prism.Resource.Dimension.design_navigation_padding_bottom = global::PrismFullNavigation.Droid.Resource.Dimension.design_navigation_padding_bottom;
-			global::Prism.Resource.Dimension.design_navigation_separator_vertical_padding = global::PrismFullNavigation.Droid.Resource.Dimension.design_navigation_separator_vertical_padding;
-			global::Prism.Resource.Dimension.design_snackbar_action_inline_max_width = global::PrismFullNavigation.Droid.Resource.Dimension.design_snackbar_action_inline_max_width;
-			global::Prism.Resource.Dimension.design_snackbar_background_corner_radius = global::PrismFullNavigation.Droid.Resource.Dimension.design_snackbar_background_corner_radius;
-			global::Prism.Resource.Dimension.design_snackbar_elevation = global::PrismFullNavigation.Droid.Resource.Dimension.design_snackbar_elevation;
-			global::Prism.Resource.Dimension.design_snackbar_extra_spacing_horizontal = global::PrismFullNavigation.Droid.Resource.Dimension.design_snackbar_extra_spacing_horizontal;
-			global::Prism.Resource.Dimension.design_snackbar_max_width = global::PrismFullNavigation.Droid.Resource.Dimension.design_snackbar_max_width;
-			global::Prism.Resource.Dimension.design_snackbar_min_width = global::PrismFullNavigation.Droid.Resource.Dimension.design_snackbar_min_width;
-			global::Prism.Resource.Dimension.design_snackbar_padding_horizontal = global::PrismFullNavigation.Droid.Resource.Dimension.design_snackbar_padding_horizontal;
-			global::Prism.Resource.Dimension.design_snackbar_padding_vertical = global::PrismFullNavigation.Droid.Resource.Dimension.design_snackbar_padding_vertical;
-			global::Prism.Resource.Dimension.design_snackbar_padding_vertical_2lines = global::PrismFullNavigation.Droid.Resource.Dimension.design_snackbar_padding_vertical_2lines;
-			global::Prism.Resource.Dimension.design_snackbar_text_size = global::PrismFullNavigation.Droid.Resource.Dimension.design_snackbar_text_size;
-			global::Prism.Resource.Dimension.design_tab_max_width = global::PrismFullNavigation.Droid.Resource.Dimension.design_tab_max_width;
-			global::Prism.Resource.Dimension.design_tab_scrollable_min_width = global::PrismFullNavigation.Droid.Resource.Dimension.design_tab_scrollable_min_width;
-			global::Prism.Resource.Dimension.design_tab_text_size = global::PrismFullNavigation.Droid.Resource.Dimension.design_tab_text_size;
-			global::Prism.Resource.Dimension.design_tab_text_size_2line = global::PrismFullNavigation.Droid.Resource.Dimension.design_tab_text_size_2line;
-			global::Prism.Resource.Dimension.disabled_alpha_material_dark = global::PrismFullNavigation.Droid.Resource.Dimension.disabled_alpha_material_dark;
-			global::Prism.Resource.Dimension.disabled_alpha_material_light = global::PrismFullNavigation.Droid.Resource.Dimension.disabled_alpha_material_light;
-			global::Prism.Resource.Dimension.fastscroll_default_thickness = global::PrismFullNavigation.Droid.Resource.Dimension.fastscroll_default_thickness;
-			global::Prism.Resource.Dimension.fastscroll_margin = global::PrismFullNavigation.Droid.Resource.Dimension.fastscroll_margin;
-			global::Prism.Resource.Dimension.fastscroll_minimum_range = global::PrismFullNavigation.Droid.Resource.Dimension.fastscroll_minimum_range;
-			global::Prism.Resource.Dimension.highlight_alpha_material_colored = global::PrismFullNavigation.Droid.Resource.Dimension.highlight_alpha_material_colored;
-			global::Prism.Resource.Dimension.highlight_alpha_material_dark = global::PrismFullNavigation.Droid.Resource.Dimension.highlight_alpha_material_dark;
-			global::Prism.Resource.Dimension.highlight_alpha_material_light = global::PrismFullNavigation.Droid.Resource.Dimension.highlight_alpha_material_light;
-			global::Prism.Resource.Dimension.hint_alpha_material_dark = global::PrismFullNavigation.Droid.Resource.Dimension.hint_alpha_material_dark;
-			global::Prism.Resource.Dimension.hint_alpha_material_light = global::PrismFullNavigation.Droid.Resource.Dimension.hint_alpha_material_light;
-			global::Prism.Resource.Dimension.hint_pressed_alpha_material_dark = global::PrismFullNavigation.Droid.Resource.Dimension.hint_pressed_alpha_material_dark;
-			global::Prism.Resource.Dimension.hint_pressed_alpha_material_light = global::PrismFullNavigation.Droid.Resource.Dimension.hint_pressed_alpha_material_light;
-			global::Prism.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame = global::PrismFullNavigation.Droid.Resource.Dimension.item_touch_helper_max_drag_scroll_per_frame;
-			global::Prism.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity = global::PrismFullNavigation.Droid.Resource.Dimension.item_touch_helper_swipe_escape_max_velocity;
-			global::Prism.Resource.Dimension.item_touch_helper_swipe_escape_velocity = global::PrismFullNavigation.Droid.Resource.Dimension.item_touch_helper_swipe_escape_velocity;
-			global::Prism.Resource.Dimension.notification_action_icon_size = global::PrismFullNavigation.Droid.Resource.Dimension.notification_action_icon_size;
-			global::Prism.Resource.Dimension.notification_action_text_size = global::PrismFullNavigation.Droid.Resource.Dimension.notification_action_text_size;
-			global::Prism.Resource.Dimension.notification_big_circle_margin = global::PrismFullNavigation.Droid.Resource.Dimension.notification_big_circle_margin;
-			global::Prism.Resource.Dimension.notification_content_margin_start = global::PrismFullNavigation.Droid.Resource.Dimension.notification_content_margin_start;
-			global::Prism.Resource.Dimension.notification_large_icon_height = global::PrismFullNavigation.Droid.Resource.Dimension.notification_large_icon_height;
-			global::Prism.Resource.Dimension.notification_large_icon_width = global::PrismFullNavigation.Droid.Resource.Dimension.notification_large_icon_width;
-			global::Prism.Resource.Dimension.notification_main_column_padding_top = global::PrismFullNavigation.Droid.Resource.Dimension.notification_main_column_padding_top;
-			global::Prism.Resource.Dimension.notification_media_narrow_margin = global::PrismFullNavigation.Droid.Resource.Dimension.notification_media_narrow_margin;
-			global::Prism.Resource.Dimension.notification_right_icon_size = global::PrismFullNavigation.Droid.Resource.Dimension.notification_right_icon_size;
-			global::Prism.Resource.Dimension.notification_right_side_padding_top = global::PrismFullNavigation.Droid.Resource.Dimension.notification_right_side_padding_top;
-			global::Prism.Resource.Dimension.notification_small_icon_background_padding = global::PrismFullNavigation.Droid.Resource.Dimension.notification_small_icon_background_padding;
-			global::Prism.Resource.Dimension.notification_small_icon_size_as_large = global::PrismFullNavigation.Droid.Resource.Dimension.notification_small_icon_size_as_large;
-			global::Prism.Resource.Dimension.notification_subtext_size = global::PrismFullNavigation.Droid.Resource.Dimension.notification_subtext_size;
-			global::Prism.Resource.Dimension.notification_top_pad = global::PrismFullNavigation.Droid.Resource.Dimension.notification_top_pad;
-			global::Prism.Resource.Dimension.notification_top_pad_large_text = global::PrismFullNavigation.Droid.Resource.Dimension.notification_top_pad_large_text;
-			global::Prism.Resource.Dimension.tooltip_corner_radius = global::PrismFullNavigation.Droid.Resource.Dimension.tooltip_corner_radius;
-			global::Prism.Resource.Dimension.tooltip_horizontal_padding = global::PrismFullNavigation.Droid.Resource.Dimension.tooltip_horizontal_padding;
-			global::Prism.Resource.Dimension.tooltip_margin = global::PrismFullNavigation.Droid.Resource.Dimension.tooltip_margin;
-			global::Prism.Resource.Dimension.tooltip_precise_anchor_extra_offset = global::PrismFullNavigation.Droid.Resource.Dimension.tooltip_precise_anchor_extra_offset;
-			global::Prism.Resource.Dimension.tooltip_precise_anchor_threshold = global::PrismFullNavigation.Droid.Resource.Dimension.tooltip_precise_anchor_threshold;
-			global::Prism.Resource.Dimension.tooltip_vertical_padding = global::PrismFullNavigation.Droid.Resource.Dimension.tooltip_vertical_padding;
-			global::Prism.Resource.Dimension.tooltip_y_offset_non_touch = global::PrismFullNavigation.Droid.Resource.Dimension.tooltip_y_offset_non_touch;
-			global::Prism.Resource.Dimension.tooltip_y_offset_touch = global::PrismFullNavigation.Droid.Resource.Dimension.tooltip_y_offset_touch;
-			global::Prism.Resource.Drawable.abc_ab_share_pack_mtrl_alpha = global::PrismFullNavigation.Droid.Resource.Drawable.abc_ab_share_pack_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_action_bar_item_background_material = global::PrismFullNavigation.Droid.Resource.Drawable.abc_action_bar_item_background_material;
-			global::Prism.Resource.Drawable.abc_btn_borderless_material = global::PrismFullNavigation.Droid.Resource.Drawable.abc_btn_borderless_material;
-			global::Prism.Resource.Drawable.abc_btn_check_material = global::PrismFullNavigation.Droid.Resource.Drawable.abc_btn_check_material;
-			global::Prism.Resource.Drawable.abc_btn_check_to_on_mtrl_000 = global::PrismFullNavigation.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_000;
-			global::Prism.Resource.Drawable.abc_btn_check_to_on_mtrl_015 = global::PrismFullNavigation.Droid.Resource.Drawable.abc_btn_check_to_on_mtrl_015;
-			global::Prism.Resource.Drawable.abc_btn_colored_material = global::PrismFullNavigation.Droid.Resource.Drawable.abc_btn_colored_material;
-			global::Prism.Resource.Drawable.abc_btn_default_mtrl_shape = global::PrismFullNavigation.Droid.Resource.Drawable.abc_btn_default_mtrl_shape;
-			global::Prism.Resource.Drawable.abc_btn_radio_material = global::PrismFullNavigation.Droid.Resource.Drawable.abc_btn_radio_material;
-			global::Prism.Resource.Drawable.abc_btn_radio_to_on_mtrl_000 = global::PrismFullNavigation.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_000;
-			global::Prism.Resource.Drawable.abc_btn_radio_to_on_mtrl_015 = global::PrismFullNavigation.Droid.Resource.Drawable.abc_btn_radio_to_on_mtrl_015;
-			global::Prism.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001 = global::PrismFullNavigation.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00001;
-			global::Prism.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012 = global::PrismFullNavigation.Droid.Resource.Drawable.abc_btn_switch_to_on_mtrl_00012;
-			global::Prism.Resource.Drawable.abc_cab_background_internal_bg = global::PrismFullNavigation.Droid.Resource.Drawable.abc_cab_background_internal_bg;
-			global::Prism.Resource.Drawable.abc_cab_background_top_material = global::PrismFullNavigation.Droid.Resource.Drawable.abc_cab_background_top_material;
-			global::Prism.Resource.Drawable.abc_cab_background_top_mtrl_alpha = global::PrismFullNavigation.Droid.Resource.Drawable.abc_cab_background_top_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_control_background_material = global::PrismFullNavigation.Droid.Resource.Drawable.abc_control_background_material;
-			global::Prism.Resource.Drawable.abc_dialog_material_background = global::PrismFullNavigation.Droid.Resource.Drawable.abc_dialog_material_background;
-			global::Prism.Resource.Drawable.abc_edit_text_material = global::PrismFullNavigation.Droid.Resource.Drawable.abc_edit_text_material;
-			global::Prism.Resource.Drawable.abc_ic_ab_back_material = global::PrismFullNavigation.Droid.Resource.Drawable.abc_ic_ab_back_material;
-			global::Prism.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp = global::PrismFullNavigation.Droid.Resource.Drawable.abc_ic_arrow_drop_right_black_24dp;
-			global::Prism.Resource.Drawable.abc_ic_clear_material = global::PrismFullNavigation.Droid.Resource.Drawable.abc_ic_clear_material;
-			global::Prism.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha = global::PrismFullNavigation.Droid.Resource.Drawable.abc_ic_commit_search_api_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_ic_go_search_api_material = global::PrismFullNavigation.Droid.Resource.Drawable.abc_ic_go_search_api_material;
-			global::Prism.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha = global::PrismFullNavigation.Droid.Resource.Drawable.abc_ic_menu_copy_mtrl_am_alpha;
-			global::Prism.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha = global::PrismFullNavigation.Droid.Resource.Drawable.abc_ic_menu_cut_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_ic_menu_overflow_material = global::PrismFullNavigation.Droid.Resource.Drawable.abc_ic_menu_overflow_material;
-			global::Prism.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha = global::PrismFullNavigation.Droid.Resource.Drawable.abc_ic_menu_paste_mtrl_am_alpha;
-			global::Prism.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha = global::PrismFullNavigation.Droid.Resource.Drawable.abc_ic_menu_selectall_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_ic_menu_share_mtrl_alpha = global::PrismFullNavigation.Droid.Resource.Drawable.abc_ic_menu_share_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_ic_search_api_material = global::PrismFullNavigation.Droid.Resource.Drawable.abc_ic_search_api_material;
-			global::Prism.Resource.Drawable.abc_ic_star_black_16dp = global::PrismFullNavigation.Droid.Resource.Drawable.abc_ic_star_black_16dp;
-			global::Prism.Resource.Drawable.abc_ic_star_black_36dp = global::PrismFullNavigation.Droid.Resource.Drawable.abc_ic_star_black_36dp;
-			global::Prism.Resource.Drawable.abc_ic_star_black_48dp = global::PrismFullNavigation.Droid.Resource.Drawable.abc_ic_star_black_48dp;
-			global::Prism.Resource.Drawable.abc_ic_star_half_black_16dp = global::PrismFullNavigation.Droid.Resource.Drawable.abc_ic_star_half_black_16dp;
-			global::Prism.Resource.Drawable.abc_ic_star_half_black_36dp = global::PrismFullNavigation.Droid.Resource.Drawable.abc_ic_star_half_black_36dp;
-			global::Prism.Resource.Drawable.abc_ic_star_half_black_48dp = global::PrismFullNavigation.Droid.Resource.Drawable.abc_ic_star_half_black_48dp;
-			global::Prism.Resource.Drawable.abc_ic_voice_search_api_material = global::PrismFullNavigation.Droid.Resource.Drawable.abc_ic_voice_search_api_material;
-			global::Prism.Resource.Drawable.abc_item_background_holo_dark = global::PrismFullNavigation.Droid.Resource.Drawable.abc_item_background_holo_dark;
-			global::Prism.Resource.Drawable.abc_item_background_holo_light = global::PrismFullNavigation.Droid.Resource.Drawable.abc_item_background_holo_light;
-			global::Prism.Resource.Drawable.abc_list_divider_mtrl_alpha = global::PrismFullNavigation.Droid.Resource.Drawable.abc_list_divider_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_list_focused_holo = global::PrismFullNavigation.Droid.Resource.Drawable.abc_list_focused_holo;
-			global::Prism.Resource.Drawable.abc_list_longpressed_holo = global::PrismFullNavigation.Droid.Resource.Drawable.abc_list_longpressed_holo;
-			global::Prism.Resource.Drawable.abc_list_pressed_holo_dark = global::PrismFullNavigation.Droid.Resource.Drawable.abc_list_pressed_holo_dark;
-			global::Prism.Resource.Drawable.abc_list_pressed_holo_light = global::PrismFullNavigation.Droid.Resource.Drawable.abc_list_pressed_holo_light;
-			global::Prism.Resource.Drawable.abc_list_selector_background_transition_holo_dark = global::PrismFullNavigation.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_dark;
-			global::Prism.Resource.Drawable.abc_list_selector_background_transition_holo_light = global::PrismFullNavigation.Droid.Resource.Drawable.abc_list_selector_background_transition_holo_light;
-			global::Prism.Resource.Drawable.abc_list_selector_disabled_holo_dark = global::PrismFullNavigation.Droid.Resource.Drawable.abc_list_selector_disabled_holo_dark;
-			global::Prism.Resource.Drawable.abc_list_selector_disabled_holo_light = global::PrismFullNavigation.Droid.Resource.Drawable.abc_list_selector_disabled_holo_light;
-			global::Prism.Resource.Drawable.abc_list_selector_holo_dark = global::PrismFullNavigation.Droid.Resource.Drawable.abc_list_selector_holo_dark;
-			global::Prism.Resource.Drawable.abc_list_selector_holo_light = global::PrismFullNavigation.Droid.Resource.Drawable.abc_list_selector_holo_light;
-			global::Prism.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult = global::PrismFullNavigation.Droid.Resource.Drawable.abc_menu_hardkey_panel_mtrl_mult;
-			global::Prism.Resource.Drawable.abc_popup_background_mtrl_mult = global::PrismFullNavigation.Droid.Resource.Drawable.abc_popup_background_mtrl_mult;
-			global::Prism.Resource.Drawable.abc_ratingbar_indicator_material = global::PrismFullNavigation.Droid.Resource.Drawable.abc_ratingbar_indicator_material;
-			global::Prism.Resource.Drawable.abc_ratingbar_material = global::PrismFullNavigation.Droid.Resource.Drawable.abc_ratingbar_material;
-			global::Prism.Resource.Drawable.abc_ratingbar_small_material = global::PrismFullNavigation.Droid.Resource.Drawable.abc_ratingbar_small_material;
-			global::Prism.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha = global::PrismFullNavigation.Droid.Resource.Drawable.abc_scrubber_control_off_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000 = global::PrismFullNavigation.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_000;
-			global::Prism.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005 = global::PrismFullNavigation.Droid.Resource.Drawable.abc_scrubber_control_to_pressed_mtrl_005;
-			global::Prism.Resource.Drawable.abc_scrubber_primary_mtrl_alpha = global::PrismFullNavigation.Droid.Resource.Drawable.abc_scrubber_primary_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_scrubber_track_mtrl_alpha = global::PrismFullNavigation.Droid.Resource.Drawable.abc_scrubber_track_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_seekbar_thumb_material = global::PrismFullNavigation.Droid.Resource.Drawable.abc_seekbar_thumb_material;
-			global::Prism.Resource.Drawable.abc_seekbar_tick_mark_material = global::PrismFullNavigation.Droid.Resource.Drawable.abc_seekbar_tick_mark_material;
-			global::Prism.Resource.Drawable.abc_seekbar_track_material = global::PrismFullNavigation.Droid.Resource.Drawable.abc_seekbar_track_material;
-			global::Prism.Resource.Drawable.abc_spinner_mtrl_am_alpha = global::PrismFullNavigation.Droid.Resource.Drawable.abc_spinner_mtrl_am_alpha;
-			global::Prism.Resource.Drawable.abc_spinner_textfield_background_material = global::PrismFullNavigation.Droid.Resource.Drawable.abc_spinner_textfield_background_material;
-			global::Prism.Resource.Drawable.abc_switch_thumb_material = global::PrismFullNavigation.Droid.Resource.Drawable.abc_switch_thumb_material;
-			global::Prism.Resource.Drawable.abc_switch_track_mtrl_alpha = global::PrismFullNavigation.Droid.Resource.Drawable.abc_switch_track_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_tab_indicator_material = global::PrismFullNavigation.Droid.Resource.Drawable.abc_tab_indicator_material;
-			global::Prism.Resource.Drawable.abc_tab_indicator_mtrl_alpha = global::PrismFullNavigation.Droid.Resource.Drawable.abc_tab_indicator_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_textfield_activated_mtrl_alpha = global::PrismFullNavigation.Droid.Resource.Drawable.abc_textfield_activated_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_textfield_default_mtrl_alpha = global::PrismFullNavigation.Droid.Resource.Drawable.abc_textfield_default_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha = global::PrismFullNavigation.Droid.Resource.Drawable.abc_textfield_search_activated_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_textfield_search_default_mtrl_alpha = global::PrismFullNavigation.Droid.Resource.Drawable.abc_textfield_search_default_mtrl_alpha;
-			global::Prism.Resource.Drawable.abc_textfield_search_material = global::PrismFullNavigation.Droid.Resource.Drawable.abc_textfield_search_material;
-			global::Prism.Resource.Drawable.abc_text_cursor_material = global::PrismFullNavigation.Droid.Resource.Drawable.abc_text_cursor_material;
-			global::Prism.Resource.Drawable.abc_text_select_handle_left_mtrl_dark = global::PrismFullNavigation.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_dark;
-			global::Prism.Resource.Drawable.abc_text_select_handle_left_mtrl_light = global::PrismFullNavigation.Droid.Resource.Drawable.abc_text_select_handle_left_mtrl_light;
-			global::Prism.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark = global::PrismFullNavigation.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_dark;
-			global::Prism.Resource.Drawable.abc_text_select_handle_middle_mtrl_light = global::PrismFullNavigation.Droid.Resource.Drawable.abc_text_select_handle_middle_mtrl_light;
-			global::Prism.Resource.Drawable.abc_text_select_handle_right_mtrl_dark = global::PrismFullNavigation.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_dark;
-			global::Prism.Resource.Drawable.abc_text_select_handle_right_mtrl_light = global::PrismFullNavigation.Droid.Resource.Drawable.abc_text_select_handle_right_mtrl_light;
-			global::Prism.Resource.Drawable.abc_vector_test = global::PrismFullNavigation.Droid.Resource.Drawable.abc_vector_test;
-			global::Prism.Resource.Drawable.avd_hide_password = global::PrismFullNavigation.Droid.Resource.Drawable.avd_hide_password;
-			global::Prism.Resource.Drawable.avd_show_password = global::PrismFullNavigation.Droid.Resource.Drawable.avd_show_password;
-			global::Prism.Resource.Drawable.design_bottom_navigation_item_background = global::PrismFullNavigation.Droid.Resource.Drawable.design_bottom_navigation_item_background;
-			global::Prism.Resource.Drawable.design_fab_background = global::PrismFullNavigation.Droid.Resource.Drawable.design_fab_background;
-			global::Prism.Resource.Drawable.design_ic_visibility = global::PrismFullNavigation.Droid.Resource.Drawable.design_ic_visibility;
-			global::Prism.Resource.Drawable.design_ic_visibility_off = global::PrismFullNavigation.Droid.Resource.Drawable.design_ic_visibility_off;
-			global::Prism.Resource.Drawable.design_password_eye = global::PrismFullNavigation.Droid.Resource.Drawable.design_password_eye;
-			global::Prism.Resource.Drawable.design_snackbar_background = global::PrismFullNavigation.Droid.Resource.Drawable.design_snackbar_background;
-			global::Prism.Resource.Drawable.navigation_empty_icon = global::PrismFullNavigation.Droid.Resource.Drawable.navigation_empty_icon;
-			global::Prism.Resource.Drawable.notification_action_background = global::PrismFullNavigation.Droid.Resource.Drawable.notification_action_background;
-			global::Prism.Resource.Drawable.notification_bg = global::PrismFullNavigation.Droid.Resource.Drawable.notification_bg;
-			global::Prism.Resource.Drawable.notification_bg_low = global::PrismFullNavigation.Droid.Resource.Drawable.notification_bg_low;
-			global::Prism.Resource.Drawable.notification_bg_low_normal = global::PrismFullNavigation.Droid.Resource.Drawable.notification_bg_low_normal;
-			global::Prism.Resource.Drawable.notification_bg_low_pressed = global::PrismFullNavigation.Droid.Resource.Drawable.notification_bg_low_pressed;
-			global::Prism.Resource.Drawable.notification_bg_normal = global::PrismFullNavigation.Droid.Resource.Drawable.notification_bg_normal;
-			global::Prism.Resource.Drawable.notification_bg_normal_pressed = global::PrismFullNavigation.Droid.Resource.Drawable.notification_bg_normal_pressed;
-			global::Prism.Resource.Drawable.notification_icon_background = global::PrismFullNavigation.Droid.Resource.Drawable.notification_icon_background;
-			global::Prism.Resource.Drawable.notification_template_icon_bg = global::PrismFullNavigation.Droid.Resource.Drawable.notification_template_icon_bg;
-			global::Prism.Resource.Drawable.notification_template_icon_low_bg = global::PrismFullNavigation.Droid.Resource.Drawable.notification_template_icon_low_bg;
-			global::Prism.Resource.Drawable.notification_tile_bg = global::PrismFullNavigation.Droid.Resource.Drawable.notification_tile_bg;
-			global::Prism.Resource.Drawable.notify_panel_notification_icon_bg = global::PrismFullNavigation.Droid.Resource.Drawable.notify_panel_notification_icon_bg;
-			global::Prism.Resource.Drawable.tooltip_frame_dark = global::PrismFullNavigation.Droid.Resource.Drawable.tooltip_frame_dark;
-			global::Prism.Resource.Drawable.tooltip_frame_light = global::PrismFullNavigation.Droid.Resource.Drawable.tooltip_frame_light;
-			global::Prism.Resource.Id.action0 = global::PrismFullNavigation.Droid.Resource.Id.action0;
-			global::Prism.Resource.Id.actions = global::PrismFullNavigation.Droid.Resource.Id.actions;
-			global::Prism.Resource.Id.action_bar = global::PrismFullNavigation.Droid.Resource.Id.action_bar;
-			global::Prism.Resource.Id.action_bar_activity_content = global::PrismFullNavigation.Droid.Resource.Id.action_bar_activity_content;
-			global::Prism.Resource.Id.action_bar_container = global::PrismFullNavigation.Droid.Resource.Id.action_bar_container;
-			global::Prism.Resource.Id.action_bar_root = global::PrismFullNavigation.Droid.Resource.Id.action_bar_root;
-			global::Prism.Resource.Id.action_bar_spinner = global::PrismFullNavigation.Droid.Resource.Id.action_bar_spinner;
-			global::Prism.Resource.Id.action_bar_subtitle = global::PrismFullNavigation.Droid.Resource.Id.action_bar_subtitle;
-			global::Prism.Resource.Id.action_bar_title = global::PrismFullNavigation.Droid.Resource.Id.action_bar_title;
-			global::Prism.Resource.Id.action_container = global::PrismFullNavigation.Droid.Resource.Id.action_container;
-			global::Prism.Resource.Id.action_context_bar = global::PrismFullNavigation.Droid.Resource.Id.action_context_bar;
-			global::Prism.Resource.Id.action_divider = global::PrismFullNavigation.Droid.Resource.Id.action_divider;
-			global::Prism.Resource.Id.action_image = global::PrismFullNavigation.Droid.Resource.Id.action_image;
-			global::Prism.Resource.Id.action_menu_divider = global::PrismFullNavigation.Droid.Resource.Id.action_menu_divider;
-			global::Prism.Resource.Id.action_menu_presenter = global::PrismFullNavigation.Droid.Resource.Id.action_menu_presenter;
-			global::Prism.Resource.Id.action_mode_bar = global::PrismFullNavigation.Droid.Resource.Id.action_mode_bar;
-			global::Prism.Resource.Id.action_mode_bar_stub = global::PrismFullNavigation.Droid.Resource.Id.action_mode_bar_stub;
-			global::Prism.Resource.Id.action_mode_close_button = global::PrismFullNavigation.Droid.Resource.Id.action_mode_close_button;
-			global::Prism.Resource.Id.action_text = global::PrismFullNavigation.Droid.Resource.Id.action_text;
-			global::Prism.Resource.Id.activity_chooser_view_content = global::PrismFullNavigation.Droid.Resource.Id.activity_chooser_view_content;
-			global::Prism.Resource.Id.add = global::PrismFullNavigation.Droid.Resource.Id.add;
-			global::Prism.Resource.Id.alertTitle = global::PrismFullNavigation.Droid.Resource.Id.alertTitle;
-			global::Prism.Resource.Id.all = global::PrismFullNavigation.Droid.Resource.Id.all;
-			global::Prism.Resource.Id.ALT = global::PrismFullNavigation.Droid.Resource.Id.ALT;
-			global::Prism.Resource.Id.always = global::PrismFullNavigation.Droid.Resource.Id.always;
-			global::Prism.Resource.Id.async = global::PrismFullNavigation.Droid.Resource.Id.async;
-			global::Prism.Resource.Id.auto = global::PrismFullNavigation.Droid.Resource.Id.auto;
-			global::Prism.Resource.Id.beginning = global::PrismFullNavigation.Droid.Resource.Id.beginning;
-			global::Prism.Resource.Id.blocking = global::PrismFullNavigation.Droid.Resource.Id.blocking;
-			global::Prism.Resource.Id.bottom = global::PrismFullNavigation.Droid.Resource.Id.bottom;
-			global::Prism.Resource.Id.bottomtab_navarea = global::PrismFullNavigation.Droid.Resource.Id.bottomtab_navarea;
-			global::Prism.Resource.Id.bottomtab_tabbar = global::PrismFullNavigation.Droid.Resource.Id.bottomtab_tabbar;
-			global::Prism.Resource.Id.buttonPanel = global::PrismFullNavigation.Droid.Resource.Id.buttonPanel;
-			global::Prism.Resource.Id.cancel_action = global::PrismFullNavigation.Droid.Resource.Id.cancel_action;
-			global::Prism.Resource.Id.center = global::PrismFullNavigation.Droid.Resource.Id.center;
-			global::Prism.Resource.Id.center_horizontal = global::PrismFullNavigation.Droid.Resource.Id.center_horizontal;
-			global::Prism.Resource.Id.center_vertical = global::PrismFullNavigation.Droid.Resource.Id.center_vertical;
-			global::Prism.Resource.Id.checkbox = global::PrismFullNavigation.Droid.Resource.Id.checkbox;
-			global::Prism.Resource.Id.chronometer = global::PrismFullNavigation.Droid.Resource.Id.chronometer;
-			global::Prism.Resource.Id.clip_horizontal = global::PrismFullNavigation.Droid.Resource.Id.clip_horizontal;
-			global::Prism.Resource.Id.clip_vertical = global::PrismFullNavigation.Droid.Resource.Id.clip_vertical;
-			global::Prism.Resource.Id.collapseActionView = global::PrismFullNavigation.Droid.Resource.Id.collapseActionView;
-			global::Prism.Resource.Id.container = global::PrismFullNavigation.Droid.Resource.Id.container;
-			global::Prism.Resource.Id.contentPanel = global::PrismFullNavigation.Droid.Resource.Id.contentPanel;
-			global::Prism.Resource.Id.coordinator = global::PrismFullNavigation.Droid.Resource.Id.coordinator;
-			global::Prism.Resource.Id.CTRL = global::PrismFullNavigation.Droid.Resource.Id.CTRL;
-			global::Prism.Resource.Id.custom = global::PrismFullNavigation.Droid.Resource.Id.custom;
-			global::Prism.Resource.Id.customPanel = global::PrismFullNavigation.Droid.Resource.Id.customPanel;
-			global::Prism.Resource.Id.decor_content_parent = global::PrismFullNavigation.Droid.Resource.Id.decor_content_parent;
-			global::Prism.Resource.Id.default_activity_button = global::PrismFullNavigation.Droid.Resource.Id.default_activity_button;
-			global::Prism.Resource.Id.design_bottom_sheet = global::PrismFullNavigation.Droid.Resource.Id.design_bottom_sheet;
-			global::Prism.Resource.Id.design_menu_item_action_area = global::PrismFullNavigation.Droid.Resource.Id.design_menu_item_action_area;
-			global::Prism.Resource.Id.design_menu_item_action_area_stub = global::PrismFullNavigation.Droid.Resource.Id.design_menu_item_action_area_stub;
-			global::Prism.Resource.Id.design_menu_item_text = global::PrismFullNavigation.Droid.Resource.Id.design_menu_item_text;
-			global::Prism.Resource.Id.design_navigation_view = global::PrismFullNavigation.Droid.Resource.Id.design_navigation_view;
-			global::Prism.Resource.Id.disableHome = global::PrismFullNavigation.Droid.Resource.Id.disableHome;
-			global::Prism.Resource.Id.edit_query = global::PrismFullNavigation.Droid.Resource.Id.edit_query;
-			global::Prism.Resource.Id.end = global::PrismFullNavigation.Droid.Resource.Id.end;
-			global::Prism.Resource.Id.end_padder = global::PrismFullNavigation.Droid.Resource.Id.end_padder;
-			global::Prism.Resource.Id.enterAlways = global::PrismFullNavigation.Droid.Resource.Id.enterAlways;
-			global::Prism.Resource.Id.enterAlwaysCollapsed = global::PrismFullNavigation.Droid.Resource.Id.enterAlwaysCollapsed;
-			global::Prism.Resource.Id.exitUntilCollapsed = global::PrismFullNavigation.Droid.Resource.Id.exitUntilCollapsed;
-			global::Prism.Resource.Id.expanded_menu = global::PrismFullNavigation.Droid.Resource.Id.expanded_menu;
-			global::Prism.Resource.Id.expand_activities_button = global::PrismFullNavigation.Droid.Resource.Id.expand_activities_button;
-			global::Prism.Resource.Id.fill = global::PrismFullNavigation.Droid.Resource.Id.fill;
-			global::Prism.Resource.Id.fill_horizontal = global::PrismFullNavigation.Droid.Resource.Id.fill_horizontal;
-			global::Prism.Resource.Id.fill_vertical = global::PrismFullNavigation.Droid.Resource.Id.fill_vertical;
-			global::Prism.Resource.Id.@fixed = global::PrismFullNavigation.Droid.Resource.Id.@fixed;
-			global::Prism.Resource.Id.flyoutcontent_appbar = global::PrismFullNavigation.Droid.Resource.Id.flyoutcontent_appbar;
-			global::Prism.Resource.Id.flyoutcontent_recycler = global::PrismFullNavigation.Droid.Resource.Id.flyoutcontent_recycler;
-			global::Prism.Resource.Id.forever = global::PrismFullNavigation.Droid.Resource.Id.forever;
-			global::Prism.Resource.Id.FUNCTION = global::PrismFullNavigation.Droid.Resource.Id.FUNCTION;
-			global::Prism.Resource.Id.ghost_view = global::PrismFullNavigation.Droid.Resource.Id.ghost_view;
-			global::Prism.Resource.Id.home = global::PrismFullNavigation.Droid.Resource.Id.home;
-			global::Prism.Resource.Id.homeAsUp = global::PrismFullNavigation.Droid.Resource.Id.homeAsUp;
-			global::Prism.Resource.Id.icon = global::PrismFullNavigation.Droid.Resource.Id.icon;
-			global::Prism.Resource.Id.icon_group = global::PrismFullNavigation.Droid.Resource.Id.icon_group;
-			global::Prism.Resource.Id.ifRoom = global::PrismFullNavigation.Droid.Resource.Id.ifRoom;
-			global::Prism.Resource.Id.image = global::PrismFullNavigation.Droid.Resource.Id.image;
-			global::Prism.Resource.Id.info = global::PrismFullNavigation.Droid.Resource.Id.info;
-			global::Prism.Resource.Id.italic = global::PrismFullNavigation.Droid.Resource.Id.italic;
-			global::Prism.Resource.Id.item_touch_helper_previous_elevation = global::PrismFullNavigation.Droid.Resource.Id.item_touch_helper_previous_elevation;
-			global::Prism.Resource.Id.largeLabel = global::PrismFullNavigation.Droid.Resource.Id.largeLabel;
-			global::Prism.Resource.Id.left = global::PrismFullNavigation.Droid.Resource.Id.left;
-			global::Prism.Resource.Id.line1 = global::PrismFullNavigation.Droid.Resource.Id.line1;
-			global::Prism.Resource.Id.line3 = global::PrismFullNavigation.Droid.Resource.Id.line3;
-			global::Prism.Resource.Id.listMode = global::PrismFullNavigation.Droid.Resource.Id.listMode;
-			global::Prism.Resource.Id.list_item = global::PrismFullNavigation.Droid.Resource.Id.list_item;
-			global::Prism.Resource.Id.main_appbar = global::PrismFullNavigation.Droid.Resource.Id.main_appbar;
-			global::Prism.Resource.Id.main_tablayout = global::PrismFullNavigation.Droid.Resource.Id.main_tablayout;
-			global::Prism.Resource.Id.main_toolbar = global::PrismFullNavigation.Droid.Resource.Id.main_toolbar;
-			global::Prism.Resource.Id.masked = global::PrismFullNavigation.Droid.Resource.Id.masked;
-			global::Prism.Resource.Id.media_actions = global::PrismFullNavigation.Droid.Resource.Id.media_actions;
-			global::Prism.Resource.Id.message = global::PrismFullNavigation.Droid.Resource.Id.message;
-			global::Prism.Resource.Id.META = global::PrismFullNavigation.Droid.Resource.Id.META;
-			global::Prism.Resource.Id.middle = global::PrismFullNavigation.Droid.Resource.Id.middle;
-			global::Prism.Resource.Id.mini = global::PrismFullNavigation.Droid.Resource.Id.mini;
-			global::Prism.Resource.Id.multiply = global::PrismFullNavigation.Droid.Resource.Id.multiply;
-			global::Prism.Resource.Id.navigation_header_container = global::PrismFullNavigation.Droid.Resource.Id.navigation_header_container;
-			global::Prism.Resource.Id.never = global::PrismFullNavigation.Droid.Resource.Id.never;
-			global::Prism.Resource.Id.none = global::PrismFullNavigation.Droid.Resource.Id.none;
-			global::Prism.Resource.Id.normal = global::PrismFullNavigation.Droid.Resource.Id.normal;
-			global::Prism.Resource.Id.notification_background = global::PrismFullNavigation.Droid.Resource.Id.notification_background;
-			global::Prism.Resource.Id.notification_main_column = global::PrismFullNavigation.Droid.Resource.Id.notification_main_column;
-			global::Prism.Resource.Id.notification_main_column_container = global::PrismFullNavigation.Droid.Resource.Id.notification_main_column_container;
-			global::Prism.Resource.Id.parallax = global::PrismFullNavigation.Droid.Resource.Id.parallax;
-			global::Prism.Resource.Id.parentPanel = global::PrismFullNavigation.Droid.Resource.Id.parentPanel;
-			global::Prism.Resource.Id.parent_matrix = global::PrismFullNavigation.Droid.Resource.Id.parent_matrix;
-			global::Prism.Resource.Id.pin = global::PrismFullNavigation.Droid.Resource.Id.pin;
-			global::Prism.Resource.Id.progress_circular = global::PrismFullNavigation.Droid.Resource.Id.progress_circular;
-			global::Prism.Resource.Id.progress_horizontal = global::PrismFullNavigation.Droid.Resource.Id.progress_horizontal;
-			global::Prism.Resource.Id.radio = global::PrismFullNavigation.Droid.Resource.Id.radio;
-			global::Prism.Resource.Id.right = global::PrismFullNavigation.Droid.Resource.Id.right;
-			global::Prism.Resource.Id.right_icon = global::PrismFullNavigation.Droid.Resource.Id.right_icon;
-			global::Prism.Resource.Id.right_side = global::PrismFullNavigation.Droid.Resource.Id.right_side;
-			global::Prism.Resource.Id.save_non_transition_alpha = global::PrismFullNavigation.Droid.Resource.Id.save_non_transition_alpha;
-			global::Prism.Resource.Id.screen = global::PrismFullNavigation.Droid.Resource.Id.screen;
-			global::Prism.Resource.Id.scroll = global::PrismFullNavigation.Droid.Resource.Id.scroll;
-			global::Prism.Resource.Id.scrollable = global::PrismFullNavigation.Droid.Resource.Id.scrollable;
-			global::Prism.Resource.Id.scrollIndicatorDown = global::PrismFullNavigation.Droid.Resource.Id.scrollIndicatorDown;
-			global::Prism.Resource.Id.scrollIndicatorUp = global::PrismFullNavigation.Droid.Resource.Id.scrollIndicatorUp;
-			global::Prism.Resource.Id.scrollView = global::PrismFullNavigation.Droid.Resource.Id.scrollView;
-			global::Prism.Resource.Id.search_badge = global::PrismFullNavigation.Droid.Resource.Id.search_badge;
-			global::Prism.Resource.Id.search_bar = global::PrismFullNavigation.Droid.Resource.Id.search_bar;
-			global::Prism.Resource.Id.search_button = global::PrismFullNavigation.Droid.Resource.Id.search_button;
-			global::Prism.Resource.Id.search_close_btn = global::PrismFullNavigation.Droid.Resource.Id.search_close_btn;
-			global::Prism.Resource.Id.search_edit_frame = global::PrismFullNavigation.Droid.Resource.Id.search_edit_frame;
-			global::Prism.Resource.Id.search_go_btn = global::PrismFullNavigation.Droid.Resource.Id.search_go_btn;
-			global::Prism.Resource.Id.search_mag_icon = global::PrismFullNavigation.Droid.Resource.Id.search_mag_icon;
-			global::Prism.Resource.Id.search_plate = global::PrismFullNavigation.Droid.Resource.Id.search_plate;
-			global::Prism.Resource.Id.search_src_text = global::PrismFullNavigation.Droid.Resource.Id.search_src_text;
-			global::Prism.Resource.Id.search_voice_btn = global::PrismFullNavigation.Droid.Resource.Id.search_voice_btn;
-			global::Prism.Resource.Id.select_dialog_listview = global::PrismFullNavigation.Droid.Resource.Id.select_dialog_listview;
-			global::Prism.Resource.Id.shellcontent_appbar = global::PrismFullNavigation.Droid.Resource.Id.shellcontent_appbar;
-			global::Prism.Resource.Id.shellcontent_toolbar = global::PrismFullNavigation.Droid.Resource.Id.shellcontent_toolbar;
-			global::Prism.Resource.Id.SHIFT = global::PrismFullNavigation.Droid.Resource.Id.SHIFT;
-			global::Prism.Resource.Id.shortcut = global::PrismFullNavigation.Droid.Resource.Id.shortcut;
-			global::Prism.Resource.Id.showCustom = global::PrismFullNavigation.Droid.Resource.Id.showCustom;
-			global::Prism.Resource.Id.showHome = global::PrismFullNavigation.Droid.Resource.Id.showHome;
-			global::Prism.Resource.Id.showTitle = global::PrismFullNavigation.Droid.Resource.Id.showTitle;
-			global::Prism.Resource.Id.smallLabel = global::PrismFullNavigation.Droid.Resource.Id.smallLabel;
-			global::Prism.Resource.Id.snackbar_action = global::PrismFullNavigation.Droid.Resource.Id.snackbar_action;
-			global::Prism.Resource.Id.snackbar_text = global::PrismFullNavigation.Droid.Resource.Id.snackbar_text;
-			global::Prism.Resource.Id.snap = global::PrismFullNavigation.Droid.Resource.Id.snap;
-			global::Prism.Resource.Id.spacer = global::PrismFullNavigation.Droid.Resource.Id.spacer;
-			global::Prism.Resource.Id.split_action_bar = global::PrismFullNavigation.Droid.Resource.Id.split_action_bar;
-			global::Prism.Resource.Id.src_atop = global::PrismFullNavigation.Droid.Resource.Id.src_atop;
-			global::Prism.Resource.Id.src_in = global::PrismFullNavigation.Droid.Resource.Id.src_in;
-			global::Prism.Resource.Id.src_over = global::PrismFullNavigation.Droid.Resource.Id.src_over;
-			global::Prism.Resource.Id.start = global::PrismFullNavigation.Droid.Resource.Id.start;
-			global::Prism.Resource.Id.status_bar_latest_event_content = global::PrismFullNavigation.Droid.Resource.Id.status_bar_latest_event_content;
-			global::Prism.Resource.Id.submenuarrow = global::PrismFullNavigation.Droid.Resource.Id.submenuarrow;
-			global::Prism.Resource.Id.submit_area = global::PrismFullNavigation.Droid.Resource.Id.submit_area;
-			global::Prism.Resource.Id.SYM = global::PrismFullNavigation.Droid.Resource.Id.SYM;
-			global::Prism.Resource.Id.tabMode = global::PrismFullNavigation.Droid.Resource.Id.tabMode;
-			global::Prism.Resource.Id.tag_transition_group = global::PrismFullNavigation.Droid.Resource.Id.tag_transition_group;
-			global::Prism.Resource.Id.text = global::PrismFullNavigation.Droid.Resource.Id.text;
-			global::Prism.Resource.Id.text2 = global::PrismFullNavigation.Droid.Resource.Id.text2;
-			global::Prism.Resource.Id.textinput_counter = global::PrismFullNavigation.Droid.Resource.Id.textinput_counter;
-			global::Prism.Resource.Id.textinput_error = global::PrismFullNavigation.Droid.Resource.Id.textinput_error;
-			global::Prism.Resource.Id.textSpacerNoButtons = global::PrismFullNavigation.Droid.Resource.Id.textSpacerNoButtons;
-			global::Prism.Resource.Id.textSpacerNoTitle = global::PrismFullNavigation.Droid.Resource.Id.textSpacerNoTitle;
-			global::Prism.Resource.Id.text_input_password_toggle = global::PrismFullNavigation.Droid.Resource.Id.text_input_password_toggle;
-			global::Prism.Resource.Id.time = global::PrismFullNavigation.Droid.Resource.Id.time;
-			global::Prism.Resource.Id.title = global::PrismFullNavigation.Droid.Resource.Id.title;
-			global::Prism.Resource.Id.titleDividerNoCustom = global::PrismFullNavigation.Droid.Resource.Id.titleDividerNoCustom;
-			global::Prism.Resource.Id.title_template = global::PrismFullNavigation.Droid.Resource.Id.title_template;
-			global::Prism.Resource.Id.top = global::PrismFullNavigation.Droid.Resource.Id.top;
-			global::Prism.Resource.Id.topPanel = global::PrismFullNavigation.Droid.Resource.Id.topPanel;
-			global::Prism.Resource.Id.touch_outside = global::PrismFullNavigation.Droid.Resource.Id.touch_outside;
-			global::Prism.Resource.Id.transition_current_scene = global::PrismFullNavigation.Droid.Resource.Id.transition_current_scene;
-			global::Prism.Resource.Id.transition_layout_save = global::PrismFullNavigation.Droid.Resource.Id.transition_layout_save;
-			global::Prism.Resource.Id.transition_position = global::PrismFullNavigation.Droid.Resource.Id.transition_position;
-			global::Prism.Resource.Id.transition_scene_layoutid_cache = global::PrismFullNavigation.Droid.Resource.Id.transition_scene_layoutid_cache;
-			global::Prism.Resource.Id.transition_transform = global::PrismFullNavigation.Droid.Resource.Id.transition_transform;
-			global::Prism.Resource.Id.uniform = global::PrismFullNavigation.Droid.Resource.Id.uniform;
-			global::Prism.Resource.Id.up = global::PrismFullNavigation.Droid.Resource.Id.up;
-			global::Prism.Resource.Id.useLogo = global::PrismFullNavigation.Droid.Resource.Id.useLogo;
-			global::Prism.Resource.Id.view_offset_helper = global::PrismFullNavigation.Droid.Resource.Id.view_offset_helper;
-			global::Prism.Resource.Id.visible = global::PrismFullNavigation.Droid.Resource.Id.visible;
-			global::Prism.Resource.Id.withText = global::PrismFullNavigation.Droid.Resource.Id.withText;
-			global::Prism.Resource.Id.wrap_content = global::PrismFullNavigation.Droid.Resource.Id.wrap_content;
-			global::Prism.Resource.Integer.abc_config_activityDefaultDur = global::PrismFullNavigation.Droid.Resource.Integer.abc_config_activityDefaultDur;
-			global::Prism.Resource.Integer.abc_config_activityShortDur = global::PrismFullNavigation.Droid.Resource.Integer.abc_config_activityShortDur;
-			global::Prism.Resource.Integer.app_bar_elevation_anim_duration = global::PrismFullNavigation.Droid.Resource.Integer.app_bar_elevation_anim_duration;
-			global::Prism.Resource.Integer.bottom_sheet_slide_duration = global::PrismFullNavigation.Droid.Resource.Integer.bottom_sheet_slide_duration;
-			global::Prism.Resource.Integer.cancel_button_image_alpha = global::PrismFullNavigation.Droid.Resource.Integer.cancel_button_image_alpha;
-			global::Prism.Resource.Integer.config_tooltipAnimTime = global::PrismFullNavigation.Droid.Resource.Integer.config_tooltipAnimTime;
-			global::Prism.Resource.Integer.design_snackbar_text_max_lines = global::PrismFullNavigation.Droid.Resource.Integer.design_snackbar_text_max_lines;
-			global::Prism.Resource.Integer.hide_password_duration = global::PrismFullNavigation.Droid.Resource.Integer.hide_password_duration;
-			global::Prism.Resource.Integer.show_password_duration = global::PrismFullNavigation.Droid.Resource.Integer.show_password_duration;
-			global::Prism.Resource.Integer.status_bar_notification_info_maxnum = global::PrismFullNavigation.Droid.Resource.Integer.status_bar_notification_info_maxnum;
-			global::Prism.Resource.Layout.abc_action_bar_title_item = global::PrismFullNavigation.Droid.Resource.Layout.abc_action_bar_title_item;
-			global::Prism.Resource.Layout.abc_action_bar_up_container = global::PrismFullNavigation.Droid.Resource.Layout.abc_action_bar_up_container;
-			global::Prism.Resource.Layout.abc_action_menu_item_layout = global::PrismFullNavigation.Droid.Resource.Layout.abc_action_menu_item_layout;
-			global::Prism.Resource.Layout.abc_action_menu_layout = global::PrismFullNavigation.Droid.Resource.Layout.abc_action_menu_layout;
-			global::Prism.Resource.Layout.abc_action_mode_bar = global::PrismFullNavigation.Droid.Resource.Layout.abc_action_mode_bar;
-			global::Prism.Resource.Layout.abc_action_mode_close_item_material = global::PrismFullNavigation.Droid.Resource.Layout.abc_action_mode_close_item_material;
-			global::Prism.Resource.Layout.abc_activity_chooser_view = global::PrismFullNavigation.Droid.Resource.Layout.abc_activity_chooser_view;
-			global::Prism.Resource.Layout.abc_activity_chooser_view_list_item = global::PrismFullNavigation.Droid.Resource.Layout.abc_activity_chooser_view_list_item;
-			global::Prism.Resource.Layout.abc_alert_dialog_button_bar_material = global::PrismFullNavigation.Droid.Resource.Layout.abc_alert_dialog_button_bar_material;
-			global::Prism.Resource.Layout.abc_alert_dialog_material = global::PrismFullNavigation.Droid.Resource.Layout.abc_alert_dialog_material;
-			global::Prism.Resource.Layout.abc_alert_dialog_title_material = global::PrismFullNavigation.Droid.Resource.Layout.abc_alert_dialog_title_material;
-			global::Prism.Resource.Layout.abc_dialog_title_material = global::PrismFullNavigation.Droid.Resource.Layout.abc_dialog_title_material;
-			global::Prism.Resource.Layout.abc_expanded_menu_layout = global::PrismFullNavigation.Droid.Resource.Layout.abc_expanded_menu_layout;
-			global::Prism.Resource.Layout.abc_list_menu_item_checkbox = global::PrismFullNavigation.Droid.Resource.Layout.abc_list_menu_item_checkbox;
-			global::Prism.Resource.Layout.abc_list_menu_item_icon = global::PrismFullNavigation.Droid.Resource.Layout.abc_list_menu_item_icon;
-			global::Prism.Resource.Layout.abc_list_menu_item_layout = global::PrismFullNavigation.Droid.Resource.Layout.abc_list_menu_item_layout;
-			global::Prism.Resource.Layout.abc_list_menu_item_radio = global::PrismFullNavigation.Droid.Resource.Layout.abc_list_menu_item_radio;
-			global::Prism.Resource.Layout.abc_popup_menu_header_item_layout = global::PrismFullNavigation.Droid.Resource.Layout.abc_popup_menu_header_item_layout;
-			global::Prism.Resource.Layout.abc_popup_menu_item_layout = global::PrismFullNavigation.Droid.Resource.Layout.abc_popup_menu_item_layout;
-			global::Prism.Resource.Layout.abc_screen_content_include = global::PrismFullNavigation.Droid.Resource.Layout.abc_screen_content_include;
-			global::Prism.Resource.Layout.abc_screen_simple = global::PrismFullNavigation.Droid.Resource.Layout.abc_screen_simple;
-			global::Prism.Resource.Layout.abc_screen_simple_overlay_action_mode = global::PrismFullNavigation.Droid.Resource.Layout.abc_screen_simple_overlay_action_mode;
-			global::Prism.Resource.Layout.abc_screen_toolbar = global::PrismFullNavigation.Droid.Resource.Layout.abc_screen_toolbar;
-			global::Prism.Resource.Layout.abc_search_dropdown_item_icons_2line = global::PrismFullNavigation.Droid.Resource.Layout.abc_search_dropdown_item_icons_2line;
-			global::Prism.Resource.Layout.abc_search_view = global::PrismFullNavigation.Droid.Resource.Layout.abc_search_view;
-			global::Prism.Resource.Layout.abc_select_dialog_material = global::PrismFullNavigation.Droid.Resource.Layout.abc_select_dialog_material;
-			global::Prism.Resource.Layout.BottomTabLayout = global::PrismFullNavigation.Droid.Resource.Layout.BottomTabLayout;
-			global::Prism.Resource.Layout.design_bottom_navigation_item = global::PrismFullNavigation.Droid.Resource.Layout.design_bottom_navigation_item;
-			global::Prism.Resource.Layout.design_bottom_sheet_dialog = global::PrismFullNavigation.Droid.Resource.Layout.design_bottom_sheet_dialog;
-			global::Prism.Resource.Layout.design_layout_snackbar = global::PrismFullNavigation.Droid.Resource.Layout.design_layout_snackbar;
-			global::Prism.Resource.Layout.design_layout_snackbar_include = global::PrismFullNavigation.Droid.Resource.Layout.design_layout_snackbar_include;
-			global::Prism.Resource.Layout.design_layout_tab_icon = global::PrismFullNavigation.Droid.Resource.Layout.design_layout_tab_icon;
-			global::Prism.Resource.Layout.design_layout_tab_text = global::PrismFullNavigation.Droid.Resource.Layout.design_layout_tab_text;
-			global::Prism.Resource.Layout.design_menu_item_action_area = global::PrismFullNavigation.Droid.Resource.Layout.design_menu_item_action_area;
-			global::Prism.Resource.Layout.design_navigation_item = global::PrismFullNavigation.Droid.Resource.Layout.design_navigation_item;
-			global::Prism.Resource.Layout.design_navigation_item_header = global::PrismFullNavigation.Droid.Resource.Layout.design_navigation_item_header;
-			global::Prism.Resource.Layout.design_navigation_item_separator = global::PrismFullNavigation.Droid.Resource.Layout.design_navigation_item_separator;
-			global::Prism.Resource.Layout.design_navigation_item_subheader = global::PrismFullNavigation.Droid.Resource.Layout.design_navigation_item_subheader;
-			global::Prism.Resource.Layout.design_navigation_menu = global::PrismFullNavigation.Droid.Resource.Layout.design_navigation_menu;
-			global::Prism.Resource.Layout.design_navigation_menu_item = global::PrismFullNavigation.Droid.Resource.Layout.design_navigation_menu_item;
-			global::Prism.Resource.Layout.design_text_input_password_icon = global::PrismFullNavigation.Droid.Resource.Layout.design_text_input_password_icon;
-			global::Prism.Resource.Layout.FlyoutContent = global::PrismFullNavigation.Droid.Resource.Layout.FlyoutContent;
-			global::Prism.Resource.Layout.notification_action = global::PrismFullNavigation.Droid.Resource.Layout.notification_action;
-			global::Prism.Resource.Layout.notification_action_tombstone = global::PrismFullNavigation.Droid.Resource.Layout.notification_action_tombstone;
-			global::Prism.Resource.Layout.notification_media_action = global::PrismFullNavigation.Droid.Resource.Layout.notification_media_action;
-			global::Prism.Resource.Layout.notification_media_cancel_action = global::PrismFullNavigation.Droid.Resource.Layout.notification_media_cancel_action;
-			global::Prism.Resource.Layout.notification_template_big_media = global::PrismFullNavigation.Droid.Resource.Layout.notification_template_big_media;
-			global::Prism.Resource.Layout.notification_template_big_media_custom = global::PrismFullNavigation.Droid.Resource.Layout.notification_template_big_media_custom;
-			global::Prism.Resource.Layout.notification_template_big_media_narrow = global::PrismFullNavigation.Droid.Resource.Layout.notification_template_big_media_narrow;
-			global::Prism.Resource.Layout.notification_template_big_media_narrow_custom = global::PrismFullNavigation.Droid.Resource.Layout.notification_template_big_media_narrow_custom;
-			global::Prism.Resource.Layout.notification_template_custom_big = global::PrismFullNavigation.Droid.Resource.Layout.notification_template_custom_big;
-			global::Prism.Resource.Layout.notification_template_icon_group = global::PrismFullNavigation.Droid.Resource.Layout.notification_template_icon_group;
-			global::Prism.Resource.Layout.notification_template_lines_media = global::PrismFullNavigation.Droid.Resource.Layout.notification_template_lines_media;
-			global::Prism.Resource.Layout.notification_template_media = global::PrismFullNavigation.Droid.Resource.Layout.notification_template_media;
-			global::Prism.Resource.Layout.notification_template_media_custom = global::PrismFullNavigation.Droid.Resource.Layout.notification_template_media_custom;
-			global::Prism.Resource.Layout.notification_template_part_chronometer = global::PrismFullNavigation.Droid.Resource.Layout.notification_template_part_chronometer;
-			global::Prism.Resource.Layout.notification_template_part_time = global::PrismFullNavigation.Droid.Resource.Layout.notification_template_part_time;
-			global::Prism.Resource.Layout.RootLayout = global::PrismFullNavigation.Droid.Resource.Layout.RootLayout;
-			global::Prism.Resource.Layout.select_dialog_item_material = global::PrismFullNavigation.Droid.Resource.Layout.select_dialog_item_material;
-			global::Prism.Resource.Layout.select_dialog_multichoice_material = global::PrismFullNavigation.Droid.Resource.Layout.select_dialog_multichoice_material;
-			global::Prism.Resource.Layout.select_dialog_singlechoice_material = global::PrismFullNavigation.Droid.Resource.Layout.select_dialog_singlechoice_material;
-			global::Prism.Resource.Layout.ShellContent = global::PrismFullNavigation.Droid.Resource.Layout.ShellContent;
-			global::Prism.Resource.Layout.support_simple_spinner_dropdown_item = global::PrismFullNavigation.Droid.Resource.Layout.support_simple_spinner_dropdown_item;
-			global::Prism.Resource.String.abc_action_bar_home_description = global::PrismFullNavigation.Droid.Resource.String.abc_action_bar_home_description;
-			global::Prism.Resource.String.abc_action_bar_up_description = global::PrismFullNavigation.Droid.Resource.String.abc_action_bar_up_description;
-			global::Prism.Resource.String.abc_action_menu_overflow_description = global::PrismFullNavigation.Droid.Resource.String.abc_action_menu_overflow_description;
-			global::Prism.Resource.String.abc_action_mode_done = global::PrismFullNavigation.Droid.Resource.String.abc_action_mode_done;
-			global::Prism.Resource.String.abc_activitychooserview_choose_application = global::PrismFullNavigation.Droid.Resource.String.abc_activitychooserview_choose_application;
-			global::Prism.Resource.String.abc_activity_chooser_view_see_all = global::PrismFullNavigation.Droid.Resource.String.abc_activity_chooser_view_see_all;
-			global::Prism.Resource.String.abc_capital_off = global::PrismFullNavigation.Droid.Resource.String.abc_capital_off;
-			global::Prism.Resource.String.abc_capital_on = global::PrismFullNavigation.Droid.Resource.String.abc_capital_on;
-			global::Prism.Resource.String.abc_searchview_description_clear = global::PrismFullNavigation.Droid.Resource.String.abc_searchview_description_clear;
-			global::Prism.Resource.String.abc_searchview_description_query = global::PrismFullNavigation.Droid.Resource.String.abc_searchview_description_query;
-			global::Prism.Resource.String.abc_searchview_description_search = global::PrismFullNavigation.Droid.Resource.String.abc_searchview_description_search;
-			global::Prism.Resource.String.abc_searchview_description_submit = global::PrismFullNavigation.Droid.Resource.String.abc_searchview_description_submit;
-			global::Prism.Resource.String.abc_searchview_description_voice = global::PrismFullNavigation.Droid.Resource.String.abc_searchview_description_voice;
-			global::Prism.Resource.String.abc_search_hint = global::PrismFullNavigation.Droid.Resource.String.abc_search_hint;
-			global::Prism.Resource.String.abc_shareactionprovider_share_with = global::PrismFullNavigation.Droid.Resource.String.abc_shareactionprovider_share_with;
-			global::Prism.Resource.String.abc_shareactionprovider_share_with_application = global::PrismFullNavigation.Droid.Resource.String.abc_shareactionprovider_share_with_application;
-			global::Prism.Resource.String.abc_toolbar_collapse_description = global::PrismFullNavigation.Droid.Resource.String.abc_toolbar_collapse_description;
-			global::Prism.Resource.String.appbar_scrolling_view_behavior = global::PrismFullNavigation.Droid.Resource.String.appbar_scrolling_view_behavior;
-			global::Prism.Resource.String.bottom_sheet_behavior = global::PrismFullNavigation.Droid.Resource.String.bottom_sheet_behavior;
-			global::Prism.Resource.String.character_counter_pattern = global::PrismFullNavigation.Droid.Resource.String.character_counter_pattern;
-			global::Prism.Resource.String.password_toggle_content_description = global::PrismFullNavigation.Droid.Resource.String.password_toggle_content_description;
-			global::Prism.Resource.String.path_password_eye = global::PrismFullNavigation.Droid.Resource.String.path_password_eye;
-			global::Prism.Resource.String.path_password_eye_mask_strike_through = global::PrismFullNavigation.Droid.Resource.String.path_password_eye_mask_strike_through;
-			global::Prism.Resource.String.path_password_eye_mask_visible = global::PrismFullNavigation.Droid.Resource.String.path_password_eye_mask_visible;
-			global::Prism.Resource.String.path_password_strike_through = global::PrismFullNavigation.Droid.Resource.String.path_password_strike_through;
-			global::Prism.Resource.String.search_menu_title = global::PrismFullNavigation.Droid.Resource.String.search_menu_title;
-			global::Prism.Resource.String.status_bar_notification_info_overflow = global::PrismFullNavigation.Droid.Resource.String.status_bar_notification_info_overflow;
-			global::Prism.Resource.Style.AlertDialog_AppCompat = global::PrismFullNavigation.Droid.Resource.Style.AlertDialog_AppCompat;
-			global::Prism.Resource.Style.AlertDialog_AppCompat_Light = global::PrismFullNavigation.Droid.Resource.Style.AlertDialog_AppCompat_Light;
-			global::Prism.Resource.Style.Animation_AppCompat_Dialog = global::PrismFullNavigation.Droid.Resource.Style.Animation_AppCompat_Dialog;
-			global::Prism.Resource.Style.Animation_AppCompat_DropDownUp = global::PrismFullNavigation.Droid.Resource.Style.Animation_AppCompat_DropDownUp;
-			global::Prism.Resource.Style.Animation_AppCompat_Tooltip = global::PrismFullNavigation.Droid.Resource.Style.Animation_AppCompat_Tooltip;
-			global::Prism.Resource.Style.Animation_Design_BottomSheetDialog = global::PrismFullNavigation.Droid.Resource.Style.Animation_Design_BottomSheetDialog;
-			global::Prism.Resource.Style.Base_AlertDialog_AppCompat = global::PrismFullNavigation.Droid.Resource.Style.Base_AlertDialog_AppCompat;
-			global::Prism.Resource.Style.Base_AlertDialog_AppCompat_Light = global::PrismFullNavigation.Droid.Resource.Style.Base_AlertDialog_AppCompat_Light;
-			global::Prism.Resource.Style.Base_Animation_AppCompat_Dialog = global::PrismFullNavigation.Droid.Resource.Style.Base_Animation_AppCompat_Dialog;
-			global::Prism.Resource.Style.Base_Animation_AppCompat_DropDownUp = global::PrismFullNavigation.Droid.Resource.Style.Base_Animation_AppCompat_DropDownUp;
-			global::Prism.Resource.Style.Base_Animation_AppCompat_Tooltip = global::PrismFullNavigation.Droid.Resource.Style.Base_Animation_AppCompat_Tooltip;
-			global::Prism.Resource.Style.Base_CardView = global::PrismFullNavigation.Droid.Resource.Style.Base_CardView;
-			global::Prism.Resource.Style.Base_DialogWindowTitleBackground_AppCompat = global::PrismFullNavigation.Droid.Resource.Style.Base_DialogWindowTitleBackground_AppCompat;
-			global::Prism.Resource.Style.Base_DialogWindowTitle_AppCompat = global::PrismFullNavigation.Droid.Resource.Style.Base_DialogWindowTitle_AppCompat;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Body1 = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body1;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Body2 = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Body2;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Button = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Button;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Caption = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Caption;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Display1 = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display1;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Display2 = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display2;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Display3 = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display3;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Display4 = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Display4;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Headline = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Headline;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Inverse = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Inverse;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Large = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Large_Inverse;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Medium = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Medium_Inverse;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Menu = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Menu;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_SearchResult = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_SearchResult_Title;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Small = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Small_Inverse;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Subhead = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Subhead_Inverse;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Title = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Title_Inverse;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Tooltip = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Tooltip;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_Switch;
-			global::Prism.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Prism.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Prism.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Prism.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title = global::PrismFullNavigation.Droid.Resource.Style.Base_TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Prism.Resource.Style.Base_ThemeOverlay_AppCompat = global::PrismFullNavigation.Droid.Resource.Style.Base_ThemeOverlay_AppCompat;
-			global::Prism.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar = global::PrismFullNavigation.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_ActionBar;
-			global::Prism.Resource.Style.Base_ThemeOverlay_AppCompat_Dark = global::PrismFullNavigation.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark;
-			global::Prism.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar = global::PrismFullNavigation.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Prism.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog = global::PrismFullNavigation.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog;
-			global::Prism.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert = global::PrismFullNavigation.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Prism.Resource.Style.Base_ThemeOverlay_AppCompat_Light = global::PrismFullNavigation.Droid.Resource.Style.Base_ThemeOverlay_AppCompat_Light;
-			global::Prism.Resource.Style.Base_Theme_AppCompat = global::PrismFullNavigation.Droid.Resource.Style.Base_Theme_AppCompat;
-			global::Prism.Resource.Style.Base_Theme_AppCompat_CompactMenu = global::PrismFullNavigation.Droid.Resource.Style.Base_Theme_AppCompat_CompactMenu;
-			global::Prism.Resource.Style.Base_Theme_AppCompat_Dialog = global::PrismFullNavigation.Droid.Resource.Style.Base_Theme_AppCompat_Dialog;
-			global::Prism.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge = global::PrismFullNavigation.Droid.Resource.Style.Base_Theme_AppCompat_DialogWhenLarge;
-			global::Prism.Resource.Style.Base_Theme_AppCompat_Dialog_Alert = global::PrismFullNavigation.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_Alert;
-			global::Prism.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize = global::PrismFullNavigation.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_FixedSize;
-			global::Prism.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth = global::PrismFullNavigation.Droid.Resource.Style.Base_Theme_AppCompat_Dialog_MinWidth;
-			global::Prism.Resource.Style.Base_Theme_AppCompat_Light = global::PrismFullNavigation.Droid.Resource.Style.Base_Theme_AppCompat_Light;
-			global::Prism.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar = global::PrismFullNavigation.Droid.Resource.Style.Base_Theme_AppCompat_Light_DarkActionBar;
-			global::Prism.Resource.Style.Base_Theme_AppCompat_Light_Dialog = global::PrismFullNavigation.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog;
-			global::Prism.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge = global::PrismFullNavigation.Droid.Resource.Style.Base_Theme_AppCompat_Light_DialogWhenLarge;
-			global::Prism.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert = global::PrismFullNavigation.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_Alert;
-			global::Prism.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize = global::PrismFullNavigation.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_FixedSize;
-			global::Prism.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth = global::PrismFullNavigation.Droid.Resource.Style.Base_Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Prism.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog = global::PrismFullNavigation.Droid.Resource.Style.Base_V21_ThemeOverlay_AppCompat_Dialog;
-			global::Prism.Resource.Style.Base_V21_Theme_AppCompat = global::PrismFullNavigation.Droid.Resource.Style.Base_V21_Theme_AppCompat;
-			global::Prism.Resource.Style.Base_V21_Theme_AppCompat_Dialog = global::PrismFullNavigation.Droid.Resource.Style.Base_V21_Theme_AppCompat_Dialog;
-			global::Prism.Resource.Style.Base_V21_Theme_AppCompat_Light = global::PrismFullNavigation.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light;
-			global::Prism.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog = global::PrismFullNavigation.Droid.Resource.Style.Base_V21_Theme_AppCompat_Light_Dialog;
-			global::Prism.Resource.Style.Base_V22_Theme_AppCompat = global::PrismFullNavigation.Droid.Resource.Style.Base_V22_Theme_AppCompat;
-			global::Prism.Resource.Style.Base_V22_Theme_AppCompat_Light = global::PrismFullNavigation.Droid.Resource.Style.Base_V22_Theme_AppCompat_Light;
-			global::Prism.Resource.Style.Base_V23_Theme_AppCompat = global::PrismFullNavigation.Droid.Resource.Style.Base_V23_Theme_AppCompat;
-			global::Prism.Resource.Style.Base_V23_Theme_AppCompat_Light = global::PrismFullNavigation.Droid.Resource.Style.Base_V23_Theme_AppCompat_Light;
-			global::Prism.Resource.Style.Base_V26_Theme_AppCompat = global::PrismFullNavigation.Droid.Resource.Style.Base_V26_Theme_AppCompat;
-			global::Prism.Resource.Style.Base_V26_Theme_AppCompat_Light = global::PrismFullNavigation.Droid.Resource.Style.Base_V26_Theme_AppCompat_Light;
-			global::Prism.Resource.Style.Base_V26_Widget_AppCompat_Toolbar = global::PrismFullNavigation.Droid.Resource.Style.Base_V26_Widget_AppCompat_Toolbar;
-			global::Prism.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog = global::PrismFullNavigation.Droid.Resource.Style.Base_V7_ThemeOverlay_AppCompat_Dialog;
-			global::Prism.Resource.Style.Base_V7_Theme_AppCompat = global::PrismFullNavigation.Droid.Resource.Style.Base_V7_Theme_AppCompat;
-			global::Prism.Resource.Style.Base_V7_Theme_AppCompat_Dialog = global::PrismFullNavigation.Droid.Resource.Style.Base_V7_Theme_AppCompat_Dialog;
-			global::Prism.Resource.Style.Base_V7_Theme_AppCompat_Light = global::PrismFullNavigation.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light;
-			global::Prism.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog = global::PrismFullNavigation.Droid.Resource.Style.Base_V7_Theme_AppCompat_Light_Dialog;
-			global::Prism.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView = global::PrismFullNavigation.Droid.Resource.Style.Base_V7_Widget_AppCompat_AutoCompleteTextView;
-			global::Prism.Resource.Style.Base_V7_Widget_AppCompat_EditText = global::PrismFullNavigation.Droid.Resource.Style.Base_V7_Widget_AppCompat_EditText;
-			global::Prism.Resource.Style.Base_V7_Widget_AppCompat_Toolbar = global::PrismFullNavigation.Droid.Resource.Style.Base_V7_Widget_AppCompat_Toolbar;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ActionBar = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_Solid;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabBar;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabText;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_ActionBar_TabView;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ActionButton = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_CloseMode;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_ActionButton_Overflow;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ActionMode = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_ActionMode;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ActivityChooserView = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_ActivityChooserView;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_AutoCompleteTextView;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Button = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_Button;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ButtonBar = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Button_Borderless = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_Button_Borderless_Colored;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Button_Colored = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_Button_Colored;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Button_Small = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_Button_Small;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_CheckBox;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_RadioButton;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_CompoundButton_Switch;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_DrawerArrowToggle_Common;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_DropDownItem_Spinner;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_EditText = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_EditText;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ImageButton = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_ImageButton;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Light_ActionBar = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_Solid;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_Light_ActionBar_TabView;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ListMenuView = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_ListMenuView;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ListPopupWindow = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_ListPopupWindow;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ListView = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_ListView;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ListView_DropDown = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_ListView_DropDown;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ListView_Menu = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_ListView_Menu;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_PopupMenu = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_PopupMenu_Overflow;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_PopupWindow = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_PopupWindow;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ProgressBar = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_ProgressBar_Horizontal;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_RatingBar = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Indicator;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_RatingBar_Small = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_RatingBar_Small;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_SearchView = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_SearchView;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_SearchView_ActionBar;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_SeekBar = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_SeekBar_Discrete;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Spinner = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_Spinner;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_Spinner_Underlined;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_TextView_SpinnerItem;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Toolbar = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar;
-			global::Prism.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Prism.Resource.Style.Base_Widget_Design_TabLayout = global::PrismFullNavigation.Droid.Resource.Style.Base_Widget_Design_TabLayout;
-			global::Prism.Resource.Style.CardView = global::PrismFullNavigation.Droid.Resource.Style.CardView;
-			global::Prism.Resource.Style.CardView_Dark = global::PrismFullNavigation.Droid.Resource.Style.CardView_Dark;
-			global::Prism.Resource.Style.CardView_Light = global::PrismFullNavigation.Droid.Resource.Style.CardView_Light;
-			global::Prism.Resource.Style.Platform_AppCompat = global::PrismFullNavigation.Droid.Resource.Style.Platform_AppCompat;
-			global::Prism.Resource.Style.Platform_AppCompat_Light = global::PrismFullNavigation.Droid.Resource.Style.Platform_AppCompat_Light;
-			global::Prism.Resource.Style.Platform_ThemeOverlay_AppCompat = global::PrismFullNavigation.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat;
-			global::Prism.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark = global::PrismFullNavigation.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Dark;
-			global::Prism.Resource.Style.Platform_ThemeOverlay_AppCompat_Light = global::PrismFullNavigation.Droid.Resource.Style.Platform_ThemeOverlay_AppCompat_Light;
-			global::Prism.Resource.Style.Platform_V21_AppCompat = global::PrismFullNavigation.Droid.Resource.Style.Platform_V21_AppCompat;
-			global::Prism.Resource.Style.Platform_V21_AppCompat_Light = global::PrismFullNavigation.Droid.Resource.Style.Platform_V21_AppCompat_Light;
-			global::Prism.Resource.Style.Platform_V25_AppCompat = global::PrismFullNavigation.Droid.Resource.Style.Platform_V25_AppCompat;
-			global::Prism.Resource.Style.Platform_V25_AppCompat_Light = global::PrismFullNavigation.Droid.Resource.Style.Platform_V25_AppCompat_Light;
-			global::Prism.Resource.Style.Platform_Widget_AppCompat_Spinner = global::PrismFullNavigation.Droid.Resource.Style.Platform_Widget_AppCompat_Spinner;
-			global::Prism.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat = global::PrismFullNavigation.Droid.Resource.Style.RtlOverlay_DialogWindowTitle_AppCompat;
-			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem = global::PrismFullNavigation.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_ActionBar_TitleItem;
-			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon = global::PrismFullNavigation.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_DialogTitle_Icon;
-			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem = global::PrismFullNavigation.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem;
-			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup = global::PrismFullNavigation.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_InternalGroup;
-			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text = global::PrismFullNavigation.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_PopupMenuItem_Text;
-			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon = global::PrismFullNavigation.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_SearchView_MagIcon;
-			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown = global::PrismFullNavigation.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown;
-			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1 = global::PrismFullNavigation.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon1;
-			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2 = global::PrismFullNavigation.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Icon2;
-			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query = global::PrismFullNavigation.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Query;
-			global::Prism.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::PrismFullNavigation.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
-			global::Prism.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::PrismFullNavigation.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
-			global::Prism.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::PrismFullNavigation.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
-			global::Prism.Resource.Style.TextAppearance_AppCompat = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Body1 = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Body2 = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Button = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Button;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Caption = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Caption;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Display1 = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Display1;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Display2 = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Display2;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Display3 = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Display3;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Display4 = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Display4;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Headline = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Headline;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Inverse = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Inverse;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Large = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Large;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Large_Inverse = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Large_Inverse;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Subtitle;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Light_SearchResult_Title;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Large;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Light_Widget_PopupMenu_Small;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Medium = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Medium;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Medium_Inverse = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Medium_Inverse;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Menu = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Menu;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Subtitle;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_SearchResult_Title = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_SearchResult_Title;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Small = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Small;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Small_Inverse = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Small_Inverse;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Subhead = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Subhead;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Subhead_Inverse;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Title = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Title;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Title_Inverse = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Title_Inverse;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Tooltip = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Tooltip;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Menu;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Subtitle_Inverse;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionBar_Title_Inverse;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Subtitle_Inverse;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Widget_ActionMode_Title_Inverse;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_Button = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Borderless_Colored;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Colored;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Button_Inverse;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Widget_DropDownItem;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Header;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Large;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Widget_PopupMenu_Small;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_Switch = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Widget_Switch;
-			global::Prism.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Widget_TextView_SpinnerItem;
-			global::Prism.Resource.Style.TextAppearance_Compat_Notification = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_Compat_Notification;
-			global::Prism.Resource.Style.TextAppearance_Compat_Notification_Info = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_Compat_Notification_Info;
-			global::Prism.Resource.Style.TextAppearance_Compat_Notification_Info_Media = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_Compat_Notification_Info_Media;
-			global::Prism.Resource.Style.TextAppearance_Compat_Notification_Line2 = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2;
-			global::Prism.Resource.Style.TextAppearance_Compat_Notification_Line2_Media = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_Compat_Notification_Line2_Media;
-			global::Prism.Resource.Style.TextAppearance_Compat_Notification_Media = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_Compat_Notification_Media;
-			global::Prism.Resource.Style.TextAppearance_Compat_Notification_Time = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_Compat_Notification_Time;
-			global::Prism.Resource.Style.TextAppearance_Compat_Notification_Time_Media = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_Compat_Notification_Time_Media;
-			global::Prism.Resource.Style.TextAppearance_Compat_Notification_Title = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_Compat_Notification_Title;
-			global::Prism.Resource.Style.TextAppearance_Compat_Notification_Title_Media = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_Compat_Notification_Title_Media;
-			global::Prism.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_Design_CollapsingToolbar_Expanded;
-			global::Prism.Resource.Style.TextAppearance_Design_Counter = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_Design_Counter;
-			global::Prism.Resource.Style.TextAppearance_Design_Counter_Overflow = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_Design_Counter_Overflow;
-			global::Prism.Resource.Style.TextAppearance_Design_Error = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_Design_Error;
-			global::Prism.Resource.Style.TextAppearance_Design_Hint = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_Design_Hint;
-			global::Prism.Resource.Style.TextAppearance_Design_Snackbar_Message = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_Design_Snackbar_Message;
-			global::Prism.Resource.Style.TextAppearance_Design_Tab = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_Design_Tab;
-			global::Prism.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_Widget_AppCompat_ExpandedMenu_Item;
-			global::Prism.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Subtitle;
-			global::Prism.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_Widget_AppCompat_Toolbar_Title;
-			global::Prism.Resource.Style.ThemeOverlay_AppCompat = global::PrismFullNavigation.Droid.Resource.Style.ThemeOverlay_AppCompat;
-			global::Prism.Resource.Style.ThemeOverlay_AppCompat_ActionBar = global::PrismFullNavigation.Droid.Resource.Style.ThemeOverlay_AppCompat_ActionBar;
-			global::Prism.Resource.Style.ThemeOverlay_AppCompat_Dark = global::PrismFullNavigation.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark;
-			global::Prism.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar = global::PrismFullNavigation.Droid.Resource.Style.ThemeOverlay_AppCompat_Dark_ActionBar;
-			global::Prism.Resource.Style.ThemeOverlay_AppCompat_Dialog = global::PrismFullNavigation.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog;
-			global::Prism.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert = global::PrismFullNavigation.Droid.Resource.Style.ThemeOverlay_AppCompat_Dialog_Alert;
-			global::Prism.Resource.Style.ThemeOverlay_AppCompat_Light = global::PrismFullNavigation.Droid.Resource.Style.ThemeOverlay_AppCompat_Light;
-			global::Prism.Resource.Style.Theme_AppCompat = global::PrismFullNavigation.Droid.Resource.Style.Theme_AppCompat;
-			global::Prism.Resource.Style.Theme_AppCompat_CompactMenu = global::PrismFullNavigation.Droid.Resource.Style.Theme_AppCompat_CompactMenu;
-			global::Prism.Resource.Style.Theme_AppCompat_DayNight = global::PrismFullNavigation.Droid.Resource.Style.Theme_AppCompat_DayNight;
-			global::Prism.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar = global::PrismFullNavigation.Droid.Resource.Style.Theme_AppCompat_DayNight_DarkActionBar;
-			global::Prism.Resource.Style.Theme_AppCompat_DayNight_Dialog = global::PrismFullNavigation.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog;
-			global::Prism.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge = global::PrismFullNavigation.Droid.Resource.Style.Theme_AppCompat_DayNight_DialogWhenLarge;
-			global::Prism.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert = global::PrismFullNavigation.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_Alert;
-			global::Prism.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth = global::PrismFullNavigation.Droid.Resource.Style.Theme_AppCompat_DayNight_Dialog_MinWidth;
-			global::Prism.Resource.Style.Theme_AppCompat_DayNight_NoActionBar = global::PrismFullNavigation.Droid.Resource.Style.Theme_AppCompat_DayNight_NoActionBar;
-			global::Prism.Resource.Style.Theme_AppCompat_Dialog = global::PrismFullNavigation.Droid.Resource.Style.Theme_AppCompat_Dialog;
-			global::Prism.Resource.Style.Theme_AppCompat_DialogWhenLarge = global::PrismFullNavigation.Droid.Resource.Style.Theme_AppCompat_DialogWhenLarge;
-			global::Prism.Resource.Style.Theme_AppCompat_Dialog_Alert = global::PrismFullNavigation.Droid.Resource.Style.Theme_AppCompat_Dialog_Alert;
-			global::Prism.Resource.Style.Theme_AppCompat_Dialog_MinWidth = global::PrismFullNavigation.Droid.Resource.Style.Theme_AppCompat_Dialog_MinWidth;
-			global::Prism.Resource.Style.Theme_AppCompat_Light = global::PrismFullNavigation.Droid.Resource.Style.Theme_AppCompat_Light;
-			global::Prism.Resource.Style.Theme_AppCompat_Light_DarkActionBar = global::PrismFullNavigation.Droid.Resource.Style.Theme_AppCompat_Light_DarkActionBar;
-			global::Prism.Resource.Style.Theme_AppCompat_Light_Dialog = global::PrismFullNavigation.Droid.Resource.Style.Theme_AppCompat_Light_Dialog;
-			global::Prism.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge = global::PrismFullNavigation.Droid.Resource.Style.Theme_AppCompat_Light_DialogWhenLarge;
-			global::Prism.Resource.Style.Theme_AppCompat_Light_Dialog_Alert = global::PrismFullNavigation.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_Alert;
-			global::Prism.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth = global::PrismFullNavigation.Droid.Resource.Style.Theme_AppCompat_Light_Dialog_MinWidth;
-			global::Prism.Resource.Style.Theme_AppCompat_Light_NoActionBar = global::PrismFullNavigation.Droid.Resource.Style.Theme_AppCompat_Light_NoActionBar;
-			global::Prism.Resource.Style.Theme_AppCompat_NoActionBar = global::PrismFullNavigation.Droid.Resource.Style.Theme_AppCompat_NoActionBar;
-			global::Prism.Resource.Style.Theme_Design = global::PrismFullNavigation.Droid.Resource.Style.Theme_Design;
-			global::Prism.Resource.Style.Theme_Design_BottomSheetDialog = global::PrismFullNavigation.Droid.Resource.Style.Theme_Design_BottomSheetDialog;
-			global::Prism.Resource.Style.Theme_Design_Light = global::PrismFullNavigation.Droid.Resource.Style.Theme_Design_Light;
-			global::Prism.Resource.Style.Theme_Design_Light_BottomSheetDialog = global::PrismFullNavigation.Droid.Resource.Style.Theme_Design_Light_BottomSheetDialog;
-			global::Prism.Resource.Style.Theme_Design_Light_NoActionBar = global::PrismFullNavigation.Droid.Resource.Style.Theme_Design_Light_NoActionBar;
-			global::Prism.Resource.Style.Theme_Design_NoActionBar = global::PrismFullNavigation.Droid.Resource.Style.Theme_Design_NoActionBar;
-			global::Prism.Resource.Style.Widget_AppCompat_ActionBar = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_ActionBar;
-			global::Prism.Resource.Style.Widget_AppCompat_ActionBar_Solid = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_ActionBar_Solid;
-			global::Prism.Resource.Style.Widget_AppCompat_ActionBar_TabBar = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabBar;
-			global::Prism.Resource.Style.Widget_AppCompat_ActionBar_TabText = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabText;
-			global::Prism.Resource.Style.Widget_AppCompat_ActionBar_TabView = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_ActionBar_TabView;
-			global::Prism.Resource.Style.Widget_AppCompat_ActionButton = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_ActionButton;
-			global::Prism.Resource.Style.Widget_AppCompat_ActionButton_CloseMode = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_ActionButton_CloseMode;
-			global::Prism.Resource.Style.Widget_AppCompat_ActionButton_Overflow = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_ActionButton_Overflow;
-			global::Prism.Resource.Style.Widget_AppCompat_ActionMode = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_ActionMode;
-			global::Prism.Resource.Style.Widget_AppCompat_ActivityChooserView = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_ActivityChooserView;
-			global::Prism.Resource.Style.Widget_AppCompat_AutoCompleteTextView = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_AutoCompleteTextView;
-			global::Prism.Resource.Style.Widget_AppCompat_Button = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Button;
-			global::Prism.Resource.Style.Widget_AppCompat_ButtonBar = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_ButtonBar;
-			global::Prism.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_ButtonBar_AlertDialog;
-			global::Prism.Resource.Style.Widget_AppCompat_Button_Borderless = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Button_Borderless;
-			global::Prism.Resource.Style.Widget_AppCompat_Button_Borderless_Colored = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Button_Borderless_Colored;
-			global::Prism.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Button_ButtonBar_AlertDialog;
-			global::Prism.Resource.Style.Widget_AppCompat_Button_Colored = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Button_Colored;
-			global::Prism.Resource.Style.Widget_AppCompat_Button_Small = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Button_Small;
-			global::Prism.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_CompoundButton_CheckBox;
-			global::Prism.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_CompoundButton_RadioButton;
-			global::Prism.Resource.Style.Widget_AppCompat_CompoundButton_Switch = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_CompoundButton_Switch;
-			global::Prism.Resource.Style.Widget_AppCompat_DrawerArrowToggle = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_DrawerArrowToggle;
-			global::Prism.Resource.Style.Widget_AppCompat_DropDownItem_Spinner = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_DropDownItem_Spinner;
-			global::Prism.Resource.Style.Widget_AppCompat_EditText = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_EditText;
-			global::Prism.Resource.Style.Widget_AppCompat_ImageButton = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_ImageButton;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionBar = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_Solid_Inverse;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabBar_Inverse;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabText_Inverse;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Light_ActionBar_TabView_Inverse;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionButton = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_CloseMode;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Light_ActionButton_Overflow;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Light_ActionMode_Inverse;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ActivityChooserView = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Light_ActivityChooserView;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Light_AutoCompleteTextView;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Light_DropDownItem_Spinner;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ListPopupWindow = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Light_ListPopupWindow;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_ListView_DropDown = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Light_ListView_DropDown;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_PopupMenu = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Light_PopupMenu_Overflow;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_SearchView = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Light_SearchView;
-			global::Prism.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Light_Spinner_DropDown_ActionBar;
-			global::Prism.Resource.Style.Widget_AppCompat_ListMenuView = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_ListMenuView;
-			global::Prism.Resource.Style.Widget_AppCompat_ListPopupWindow = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_ListPopupWindow;
-			global::Prism.Resource.Style.Widget_AppCompat_ListView = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_ListView;
-			global::Prism.Resource.Style.Widget_AppCompat_ListView_DropDown = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_ListView_DropDown;
-			global::Prism.Resource.Style.Widget_AppCompat_ListView_Menu = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_ListView_Menu;
-			global::Prism.Resource.Style.Widget_AppCompat_PopupMenu = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_PopupMenu;
-			global::Prism.Resource.Style.Widget_AppCompat_PopupMenu_Overflow = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_PopupMenu_Overflow;
-			global::Prism.Resource.Style.Widget_AppCompat_PopupWindow = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_PopupWindow;
-			global::Prism.Resource.Style.Widget_AppCompat_ProgressBar = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_ProgressBar;
-			global::Prism.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_ProgressBar_Horizontal;
-			global::Prism.Resource.Style.Widget_AppCompat_RatingBar = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_RatingBar;
-			global::Prism.Resource.Style.Widget_AppCompat_RatingBar_Indicator = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_RatingBar_Indicator;
-			global::Prism.Resource.Style.Widget_AppCompat_RatingBar_Small = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_RatingBar_Small;
-			global::Prism.Resource.Style.Widget_AppCompat_SearchView = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_SearchView;
-			global::Prism.Resource.Style.Widget_AppCompat_SearchView_ActionBar = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_SearchView_ActionBar;
-			global::Prism.Resource.Style.Widget_AppCompat_SeekBar = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_SeekBar;
-			global::Prism.Resource.Style.Widget_AppCompat_SeekBar_Discrete = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_SeekBar_Discrete;
-			global::Prism.Resource.Style.Widget_AppCompat_Spinner = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Spinner;
-			global::Prism.Resource.Style.Widget_AppCompat_Spinner_DropDown = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown;
-			global::Prism.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Spinner_DropDown_ActionBar;
-			global::Prism.Resource.Style.Widget_AppCompat_Spinner_Underlined = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Spinner_Underlined;
-			global::Prism.Resource.Style.Widget_AppCompat_TextView_SpinnerItem = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_TextView_SpinnerItem;
-			global::Prism.Resource.Style.Widget_AppCompat_Toolbar = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Toolbar;
-			global::Prism.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation = global::PrismFullNavigation.Droid.Resource.Style.Widget_AppCompat_Toolbar_Button_Navigation;
-			global::Prism.Resource.Style.Widget_Compat_NotificationActionContainer = global::PrismFullNavigation.Droid.Resource.Style.Widget_Compat_NotificationActionContainer;
-			global::Prism.Resource.Style.Widget_Compat_NotificationActionText = global::PrismFullNavigation.Droid.Resource.Style.Widget_Compat_NotificationActionText;
-			global::Prism.Resource.Style.Widget_Design_AppBarLayout = global::PrismFullNavigation.Droid.Resource.Style.Widget_Design_AppBarLayout;
-			global::Prism.Resource.Style.Widget_Design_BottomNavigationView = global::PrismFullNavigation.Droid.Resource.Style.Widget_Design_BottomNavigationView;
-			global::Prism.Resource.Style.Widget_Design_BottomSheet_Modal = global::PrismFullNavigation.Droid.Resource.Style.Widget_Design_BottomSheet_Modal;
-			global::Prism.Resource.Style.Widget_Design_CollapsingToolbar = global::PrismFullNavigation.Droid.Resource.Style.Widget_Design_CollapsingToolbar;
-			global::Prism.Resource.Style.Widget_Design_FloatingActionButton = global::PrismFullNavigation.Droid.Resource.Style.Widget_Design_FloatingActionButton;
-			global::Prism.Resource.Style.Widget_Design_NavigationView = global::PrismFullNavigation.Droid.Resource.Style.Widget_Design_NavigationView;
-			global::Prism.Resource.Style.Widget_Design_ScrimInsetsFrameLayout = global::PrismFullNavigation.Droid.Resource.Style.Widget_Design_ScrimInsetsFrameLayout;
-			global::Prism.Resource.Style.Widget_Design_Snackbar = global::PrismFullNavigation.Droid.Resource.Style.Widget_Design_Snackbar;
-			global::Prism.Resource.Style.Widget_Design_TabLayout = global::PrismFullNavigation.Droid.Resource.Style.Widget_Design_TabLayout;
-			global::Prism.Resource.Style.Widget_Design_TextInputLayout = global::PrismFullNavigation.Droid.Resource.Style.Widget_Design_TextInputLayout;
-			global::Prism.Resource.Styleable.ActionBar = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar;
-			global::Prism.Resource.Styleable.ActionBarLayout = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBarLayout;
-			global::Prism.Resource.Styleable.ActionBarLayout_android_layout_gravity = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBarLayout_android_layout_gravity;
-			global::Prism.Resource.Styleable.ActionBar_background = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar_background;
-			global::Prism.Resource.Styleable.ActionBar_backgroundSplit = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar_backgroundSplit;
-			global::Prism.Resource.Styleable.ActionBar_backgroundStacked = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar_backgroundStacked;
-			global::Prism.Resource.Styleable.ActionBar_contentInsetEnd = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar_contentInsetEnd;
-			global::Prism.Resource.Styleable.ActionBar_contentInsetEndWithActions = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar_contentInsetEndWithActions;
-			global::Prism.Resource.Styleable.ActionBar_contentInsetLeft = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar_contentInsetLeft;
-			global::Prism.Resource.Styleable.ActionBar_contentInsetRight = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar_contentInsetRight;
-			global::Prism.Resource.Styleable.ActionBar_contentInsetStart = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar_contentInsetStart;
-			global::Prism.Resource.Styleable.ActionBar_contentInsetStartWithNavigation = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar_contentInsetStartWithNavigation;
-			global::Prism.Resource.Styleable.ActionBar_customNavigationLayout = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar_customNavigationLayout;
-			global::Prism.Resource.Styleable.ActionBar_displayOptions = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar_displayOptions;
-			global::Prism.Resource.Styleable.ActionBar_divider = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar_divider;
-			global::Prism.Resource.Styleable.ActionBar_elevation = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar_elevation;
-			global::Prism.Resource.Styleable.ActionBar_height = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar_height;
-			global::Prism.Resource.Styleable.ActionBar_hideOnContentScroll = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar_hideOnContentScroll;
-			global::Prism.Resource.Styleable.ActionBar_homeAsUpIndicator = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar_homeAsUpIndicator;
-			global::Prism.Resource.Styleable.ActionBar_homeLayout = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar_homeLayout;
-			global::Prism.Resource.Styleable.ActionBar_icon = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar_icon;
-			global::Prism.Resource.Styleable.ActionBar_indeterminateProgressStyle = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar_indeterminateProgressStyle;
-			global::Prism.Resource.Styleable.ActionBar_itemPadding = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar_itemPadding;
-			global::Prism.Resource.Styleable.ActionBar_logo = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar_logo;
-			global::Prism.Resource.Styleable.ActionBar_navigationMode = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar_navigationMode;
-			global::Prism.Resource.Styleable.ActionBar_popupTheme = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar_popupTheme;
-			global::Prism.Resource.Styleable.ActionBar_progressBarPadding = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar_progressBarPadding;
-			global::Prism.Resource.Styleable.ActionBar_progressBarStyle = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar_progressBarStyle;
-			global::Prism.Resource.Styleable.ActionBar_subtitle = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar_subtitle;
-			global::Prism.Resource.Styleable.ActionBar_subtitleTextStyle = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar_subtitleTextStyle;
-			global::Prism.Resource.Styleable.ActionBar_title = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar_title;
-			global::Prism.Resource.Styleable.ActionBar_titleTextStyle = global::PrismFullNavigation.Droid.Resource.Styleable.ActionBar_titleTextStyle;
-			global::Prism.Resource.Styleable.ActionMenuItemView = global::PrismFullNavigation.Droid.Resource.Styleable.ActionMenuItemView;
-			global::Prism.Resource.Styleable.ActionMenuItemView_android_minWidth = global::PrismFullNavigation.Droid.Resource.Styleable.ActionMenuItemView_android_minWidth;
-			global::Prism.Resource.Styleable.ActionMenuView = global::PrismFullNavigation.Droid.Resource.Styleable.ActionMenuView;
-			global::Prism.Resource.Styleable.ActionMode = global::PrismFullNavigation.Droid.Resource.Styleable.ActionMode;
-			global::Prism.Resource.Styleable.ActionMode_background = global::PrismFullNavigation.Droid.Resource.Styleable.ActionMode_background;
-			global::Prism.Resource.Styleable.ActionMode_backgroundSplit = global::PrismFullNavigation.Droid.Resource.Styleable.ActionMode_backgroundSplit;
-			global::Prism.Resource.Styleable.ActionMode_closeItemLayout = global::PrismFullNavigation.Droid.Resource.Styleable.ActionMode_closeItemLayout;
-			global::Prism.Resource.Styleable.ActionMode_height = global::PrismFullNavigation.Droid.Resource.Styleable.ActionMode_height;
-			global::Prism.Resource.Styleable.ActionMode_subtitleTextStyle = global::PrismFullNavigation.Droid.Resource.Styleable.ActionMode_subtitleTextStyle;
-			global::Prism.Resource.Styleable.ActionMode_titleTextStyle = global::PrismFullNavigation.Droid.Resource.Styleable.ActionMode_titleTextStyle;
-			global::Prism.Resource.Styleable.ActivityChooserView = global::PrismFullNavigation.Droid.Resource.Styleable.ActivityChooserView;
-			global::Prism.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable = global::PrismFullNavigation.Droid.Resource.Styleable.ActivityChooserView_expandActivityOverflowButtonDrawable;
-			global::Prism.Resource.Styleable.ActivityChooserView_initialActivityCount = global::PrismFullNavigation.Droid.Resource.Styleable.ActivityChooserView_initialActivityCount;
-			global::Prism.Resource.Styleable.AlertDialog = global::PrismFullNavigation.Droid.Resource.Styleable.AlertDialog;
-			global::Prism.Resource.Styleable.AlertDialog_android_layout = global::PrismFullNavigation.Droid.Resource.Styleable.AlertDialog_android_layout;
-			global::Prism.Resource.Styleable.AlertDialog_buttonPanelSideLayout = global::PrismFullNavigation.Droid.Resource.Styleable.AlertDialog_buttonPanelSideLayout;
-			global::Prism.Resource.Styleable.AlertDialog_listItemLayout = global::PrismFullNavigation.Droid.Resource.Styleable.AlertDialog_listItemLayout;
-			global::Prism.Resource.Styleable.AlertDialog_listLayout = global::PrismFullNavigation.Droid.Resource.Styleable.AlertDialog_listLayout;
-			global::Prism.Resource.Styleable.AlertDialog_multiChoiceItemLayout = global::PrismFullNavigation.Droid.Resource.Styleable.AlertDialog_multiChoiceItemLayout;
-			global::Prism.Resource.Styleable.AlertDialog_showTitle = global::PrismFullNavigation.Droid.Resource.Styleable.AlertDialog_showTitle;
-			global::Prism.Resource.Styleable.AlertDialog_singleChoiceItemLayout = global::PrismFullNavigation.Droid.Resource.Styleable.AlertDialog_singleChoiceItemLayout;
-			global::Prism.Resource.Styleable.AppBarLayout = global::PrismFullNavigation.Droid.Resource.Styleable.AppBarLayout;
-			global::Prism.Resource.Styleable.AppBarLayoutStates = global::PrismFullNavigation.Droid.Resource.Styleable.AppBarLayoutStates;
-			global::Prism.Resource.Styleable.AppBarLayoutStates_state_collapsed = global::PrismFullNavigation.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsed;
-			global::Prism.Resource.Styleable.AppBarLayoutStates_state_collapsible = global::PrismFullNavigation.Droid.Resource.Styleable.AppBarLayoutStates_state_collapsible;
-			global::Prism.Resource.Styleable.AppBarLayout_android_background = global::PrismFullNavigation.Droid.Resource.Styleable.AppBarLayout_android_background;
-			global::Prism.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster = global::PrismFullNavigation.Droid.Resource.Styleable.AppBarLayout_android_keyboardNavigationCluster;
-			global::Prism.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus = global::PrismFullNavigation.Droid.Resource.Styleable.AppBarLayout_android_touchscreenBlocksFocus;
-			global::Prism.Resource.Styleable.AppBarLayout_elevation = global::PrismFullNavigation.Droid.Resource.Styleable.AppBarLayout_elevation;
-			global::Prism.Resource.Styleable.AppBarLayout_expanded = global::PrismFullNavigation.Droid.Resource.Styleable.AppBarLayout_expanded;
-			global::Prism.Resource.Styleable.AppBarLayout_Layout = global::PrismFullNavigation.Droid.Resource.Styleable.AppBarLayout_Layout;
-			global::Prism.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags = global::PrismFullNavigation.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollFlags;
-			global::Prism.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator = global::PrismFullNavigation.Droid.Resource.Styleable.AppBarLayout_Layout_layout_scrollInterpolator;
-			global::Prism.Resource.Styleable.AppCompatImageView = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatImageView;
-			global::Prism.Resource.Styleable.AppCompatImageView_android_src = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatImageView_android_src;
-			global::Prism.Resource.Styleable.AppCompatImageView_srcCompat = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatImageView_srcCompat;
-			global::Prism.Resource.Styleable.AppCompatImageView_tint = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatImageView_tint;
-			global::Prism.Resource.Styleable.AppCompatImageView_tintMode = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatImageView_tintMode;
-			global::Prism.Resource.Styleable.AppCompatSeekBar = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatSeekBar;
-			global::Prism.Resource.Styleable.AppCompatSeekBar_android_thumb = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatSeekBar_android_thumb;
-			global::Prism.Resource.Styleable.AppCompatSeekBar_tickMark = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatSeekBar_tickMark;
-			global::Prism.Resource.Styleable.AppCompatSeekBar_tickMarkTint = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTint;
-			global::Prism.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatSeekBar_tickMarkTintMode;
-			global::Prism.Resource.Styleable.AppCompatTextHelper = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTextHelper;
-			global::Prism.Resource.Styleable.AppCompatTextHelper_android_drawableBottom = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableBottom;
-			global::Prism.Resource.Styleable.AppCompatTextHelper_android_drawableEnd = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableEnd;
-			global::Prism.Resource.Styleable.AppCompatTextHelper_android_drawableLeft = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableLeft;
-			global::Prism.Resource.Styleable.AppCompatTextHelper_android_drawableRight = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableRight;
-			global::Prism.Resource.Styleable.AppCompatTextHelper_android_drawableStart = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableStart;
-			global::Prism.Resource.Styleable.AppCompatTextHelper_android_drawableTop = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTextHelper_android_drawableTop;
-			global::Prism.Resource.Styleable.AppCompatTextHelper_android_textAppearance = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTextHelper_android_textAppearance;
-			global::Prism.Resource.Styleable.AppCompatTextView = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTextView;
-			global::Prism.Resource.Styleable.AppCompatTextView_android_textAppearance = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTextView_android_textAppearance;
-			global::Prism.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTextView_autoSizeMaxTextSize;
-			global::Prism.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTextView_autoSizeMinTextSize;
-			global::Prism.Resource.Styleable.AppCompatTextView_autoSizePresetSizes = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTextView_autoSizePresetSizes;
-			global::Prism.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTextView_autoSizeStepGranularity;
-			global::Prism.Resource.Styleable.AppCompatTextView_autoSizeTextType = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTextView_autoSizeTextType;
-			global::Prism.Resource.Styleable.AppCompatTextView_fontFamily = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTextView_fontFamily;
-			global::Prism.Resource.Styleable.AppCompatTextView_textAllCaps = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTextView_textAllCaps;
-			global::Prism.Resource.Styleable.AppCompatTheme = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionBarDivider = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionBarDivider;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionBarItemBackground = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionBarItemBackground;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionBarPopupTheme = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionBarPopupTheme;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionBarSize = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionBarSize;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionBarSplitStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionBarSplitStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionBarStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionBarStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionBarTabBarStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionBarTabStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionBarTabStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionBarTabTextStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionBarTheme = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionBarTheme;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionBarWidgetTheme;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionButtonStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionButtonStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionDropDownStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionDropDownStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextAppearance;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionMenuTextColor = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionMenuTextColor;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionModeBackground = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionModeBackground;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseButtonStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionModeCloseDrawable;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionModeCopyDrawable;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionModeCutDrawable = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionModeCutDrawable;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionModeFindDrawable = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionModeFindDrawable;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionModePasteDrawable = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionModePasteDrawable;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionModePopupWindowStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionModeSelectAllDrawable;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionModeShareDrawable = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionModeShareDrawable;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionModeSplitBackground = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionModeSplitBackground;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionModeStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionModeStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionModeWebSearchDrawable;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionOverflowButtonStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_actionOverflowMenuStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_activityChooserViewStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_activityChooserViewStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_alertDialogButtonGroupStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_alertDialogCenterButtons;
-			global::Prism.Resource.Styleable.AppCompatTheme_alertDialogStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_alertDialogStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_alertDialogTheme = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_alertDialogTheme;
-			global::Prism.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_android_windowAnimationStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_android_windowIsFloating = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_android_windowIsFloating;
-			global::Prism.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_autoCompleteTextViewStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_borderlessButtonStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_borderlessButtonStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_buttonBarButtonStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_buttonBarNegativeButtonStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_buttonBarNeutralButtonStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_buttonBarPositiveButtonStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_buttonBarStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_buttonBarStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_buttonStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_buttonStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_buttonStyleSmall = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_buttonStyleSmall;
-			global::Prism.Resource.Styleable.AppCompatTheme_checkboxStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_checkboxStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_checkedTextViewStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_checkedTextViewStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_colorAccent = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_colorAccent;
-			global::Prism.Resource.Styleable.AppCompatTheme_colorBackgroundFloating = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_colorBackgroundFloating;
-			global::Prism.Resource.Styleable.AppCompatTheme_colorButtonNormal = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_colorButtonNormal;
-			global::Prism.Resource.Styleable.AppCompatTheme_colorControlActivated = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_colorControlActivated;
-			global::Prism.Resource.Styleable.AppCompatTheme_colorControlHighlight = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_colorControlHighlight;
-			global::Prism.Resource.Styleable.AppCompatTheme_colorControlNormal = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_colorControlNormal;
-			global::Prism.Resource.Styleable.AppCompatTheme_colorError = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_colorError;
-			global::Prism.Resource.Styleable.AppCompatTheme_colorPrimary = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_colorPrimary;
-			global::Prism.Resource.Styleable.AppCompatTheme_colorPrimaryDark = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_colorPrimaryDark;
-			global::Prism.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_colorSwitchThumbNormal;
-			global::Prism.Resource.Styleable.AppCompatTheme_controlBackground = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_controlBackground;
-			global::Prism.Resource.Styleable.AppCompatTheme_dialogPreferredPadding = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_dialogPreferredPadding;
-			global::Prism.Resource.Styleable.AppCompatTheme_dialogTheme = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_dialogTheme;
-			global::Prism.Resource.Styleable.AppCompatTheme_dividerHorizontal = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_dividerHorizontal;
-			global::Prism.Resource.Styleable.AppCompatTheme_dividerVertical = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_dividerVertical;
-			global::Prism.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_dropdownListPreferredItemHeight;
-			global::Prism.Resource.Styleable.AppCompatTheme_dropDownListViewStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_dropDownListViewStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_editTextBackground = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_editTextBackground;
-			global::Prism.Resource.Styleable.AppCompatTheme_editTextColor = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_editTextColor;
-			global::Prism.Resource.Styleable.AppCompatTheme_editTextStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_editTextStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_homeAsUpIndicator = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_homeAsUpIndicator;
-			global::Prism.Resource.Styleable.AppCompatTheme_imageButtonStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_imageButtonStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_listChoiceBackgroundIndicator;
-			global::Prism.Resource.Styleable.AppCompatTheme_listDividerAlertDialog = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_listDividerAlertDialog;
-			global::Prism.Resource.Styleable.AppCompatTheme_listMenuViewStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_listMenuViewStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_listPopupWindowStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_listPopupWindowStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_listPreferredItemHeight = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeight;
-			global::Prism.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightLarge;
-			global::Prism.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemHeightSmall;
-			global::Prism.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingLeft;
-			global::Prism.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_listPreferredItemPaddingRight;
-			global::Prism.Resource.Styleable.AppCompatTheme_panelBackground = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_panelBackground;
-			global::Prism.Resource.Styleable.AppCompatTheme_panelMenuListTheme = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_panelMenuListTheme;
-			global::Prism.Resource.Styleable.AppCompatTheme_panelMenuListWidth = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_panelMenuListWidth;
-			global::Prism.Resource.Styleable.AppCompatTheme_popupMenuStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_popupMenuStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_popupWindowStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_popupWindowStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_radioButtonStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_radioButtonStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_ratingBarStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleIndicator;
-			global::Prism.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_ratingBarStyleSmall;
-			global::Prism.Resource.Styleable.AppCompatTheme_searchViewStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_searchViewStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_seekBarStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_seekBarStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_selectableItemBackground = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackground;
-			global::Prism.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_selectableItemBackgroundBorderless;
-			global::Prism.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_spinnerDropDownItemStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_spinnerStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_spinnerStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_switchStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_switchStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_textAppearanceLargePopupMenu;
-			global::Prism.Resource.Styleable.AppCompatTheme_textAppearanceListItem = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItem;
-			global::Prism.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSecondary;
-			global::Prism.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_textAppearanceListItemSmall;
-			global::Prism.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_textAppearancePopupMenuHeader;
-			global::Prism.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultSubtitle;
-			global::Prism.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSearchResultTitle;
-			global::Prism.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_textAppearanceSmallPopupMenu;
-			global::Prism.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_textColorAlertDialogListItem;
-			global::Prism.Resource.Styleable.AppCompatTheme_textColorSearchUrl = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_textColorSearchUrl;
-			global::Prism.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_toolbarNavigationButtonStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_toolbarStyle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_toolbarStyle;
-			global::Prism.Resource.Styleable.AppCompatTheme_tooltipForegroundColor = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_tooltipForegroundColor;
-			global::Prism.Resource.Styleable.AppCompatTheme_tooltipFrameBackground = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_tooltipFrameBackground;
-			global::Prism.Resource.Styleable.AppCompatTheme_windowActionBar = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_windowActionBar;
-			global::Prism.Resource.Styleable.AppCompatTheme_windowActionBarOverlay = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_windowActionBarOverlay;
-			global::Prism.Resource.Styleable.AppCompatTheme_windowActionModeOverlay = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_windowActionModeOverlay;
-			global::Prism.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMajor;
-			global::Prism.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_windowFixedHeightMinor;
-			global::Prism.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMajor;
-			global::Prism.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_windowFixedWidthMinor;
-			global::Prism.Resource.Styleable.AppCompatTheme_windowMinWidthMajor = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMajor;
-			global::Prism.Resource.Styleable.AppCompatTheme_windowMinWidthMinor = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_windowMinWidthMinor;
-			global::Prism.Resource.Styleable.AppCompatTheme_windowNoTitle = global::PrismFullNavigation.Droid.Resource.Styleable.AppCompatTheme_windowNoTitle;
-			global::Prism.Resource.Styleable.BottomNavigationView = global::PrismFullNavigation.Droid.Resource.Styleable.BottomNavigationView;
-			global::Prism.Resource.Styleable.BottomNavigationView_elevation = global::PrismFullNavigation.Droid.Resource.Styleable.BottomNavigationView_elevation;
-			global::Prism.Resource.Styleable.BottomNavigationView_itemBackground = global::PrismFullNavigation.Droid.Resource.Styleable.BottomNavigationView_itemBackground;
-			global::Prism.Resource.Styleable.BottomNavigationView_itemIconTint = global::PrismFullNavigation.Droid.Resource.Styleable.BottomNavigationView_itemIconTint;
-			global::Prism.Resource.Styleable.BottomNavigationView_itemTextColor = global::PrismFullNavigation.Droid.Resource.Styleable.BottomNavigationView_itemTextColor;
-			global::Prism.Resource.Styleable.BottomNavigationView_menu = global::PrismFullNavigation.Droid.Resource.Styleable.BottomNavigationView_menu;
-			global::Prism.Resource.Styleable.BottomSheetBehavior_Layout = global::PrismFullNavigation.Droid.Resource.Styleable.BottomSheetBehavior_Layout;
-			global::Prism.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable = global::PrismFullNavigation.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_hideable;
-			global::Prism.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight = global::PrismFullNavigation.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_peekHeight;
-			global::Prism.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed = global::PrismFullNavigation.Droid.Resource.Styleable.BottomSheetBehavior_Layout_behavior_skipCollapsed;
-			global::Prism.Resource.Styleable.ButtonBarLayout = global::PrismFullNavigation.Droid.Resource.Styleable.ButtonBarLayout;
-			global::Prism.Resource.Styleable.ButtonBarLayout_allowStacking = global::PrismFullNavigation.Droid.Resource.Styleable.ButtonBarLayout_allowStacking;
-			global::Prism.Resource.Styleable.CardView = global::PrismFullNavigation.Droid.Resource.Styleable.CardView;
-			global::Prism.Resource.Styleable.CardView_android_minHeight = global::PrismFullNavigation.Droid.Resource.Styleable.CardView_android_minHeight;
-			global::Prism.Resource.Styleable.CardView_android_minWidth = global::PrismFullNavigation.Droid.Resource.Styleable.CardView_android_minWidth;
-			global::Prism.Resource.Styleable.CardView_cardBackgroundColor = global::PrismFullNavigation.Droid.Resource.Styleable.CardView_cardBackgroundColor;
-			global::Prism.Resource.Styleable.CardView_cardCornerRadius = global::PrismFullNavigation.Droid.Resource.Styleable.CardView_cardCornerRadius;
-			global::Prism.Resource.Styleable.CardView_cardElevation = global::PrismFullNavigation.Droid.Resource.Styleable.CardView_cardElevation;
-			global::Prism.Resource.Styleable.CardView_cardMaxElevation = global::PrismFullNavigation.Droid.Resource.Styleable.CardView_cardMaxElevation;
-			global::Prism.Resource.Styleable.CardView_cardPreventCornerOverlap = global::PrismFullNavigation.Droid.Resource.Styleable.CardView_cardPreventCornerOverlap;
-			global::Prism.Resource.Styleable.CardView_cardUseCompatPadding = global::PrismFullNavigation.Droid.Resource.Styleable.CardView_cardUseCompatPadding;
-			global::Prism.Resource.Styleable.CardView_contentPadding = global::PrismFullNavigation.Droid.Resource.Styleable.CardView_contentPadding;
-			global::Prism.Resource.Styleable.CardView_contentPaddingBottom = global::PrismFullNavigation.Droid.Resource.Styleable.CardView_contentPaddingBottom;
-			global::Prism.Resource.Styleable.CardView_contentPaddingLeft = global::PrismFullNavigation.Droid.Resource.Styleable.CardView_contentPaddingLeft;
-			global::Prism.Resource.Styleable.CardView_contentPaddingRight = global::PrismFullNavigation.Droid.Resource.Styleable.CardView_contentPaddingRight;
-			global::Prism.Resource.Styleable.CardView_contentPaddingTop = global::PrismFullNavigation.Droid.Resource.Styleable.CardView_contentPaddingTop;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout = global::PrismFullNavigation.Droid.Resource.Styleable.CollapsingToolbarLayout;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity = global::PrismFullNavigation.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleGravity;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance = global::PrismFullNavigation.Droid.Resource.Styleable.CollapsingToolbarLayout_collapsedTitleTextAppearance;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_contentScrim = global::PrismFullNavigation.Droid.Resource.Styleable.CollapsingToolbarLayout_contentScrim;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity = global::PrismFullNavigation.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleGravity;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin = global::PrismFullNavigation.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMargin;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom = global::PrismFullNavigation.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginBottom;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd = global::PrismFullNavigation.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginEnd;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart = global::PrismFullNavigation.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginStart;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop = global::PrismFullNavigation.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleMarginTop;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance = global::PrismFullNavigation.Droid.Resource.Styleable.CollapsingToolbarLayout_expandedTitleTextAppearance;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_Layout = global::PrismFullNavigation.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode = global::PrismFullNavigation.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseMode;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier = global::PrismFullNavigation.Droid.Resource.Styleable.CollapsingToolbarLayout_Layout_layout_collapseParallaxMultiplier;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration = global::PrismFullNavigation.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimAnimationDuration;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger = global::PrismFullNavigation.Droid.Resource.Styleable.CollapsingToolbarLayout_scrimVisibleHeightTrigger;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim = global::PrismFullNavigation.Droid.Resource.Styleable.CollapsingToolbarLayout_statusBarScrim;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_title = global::PrismFullNavigation.Droid.Resource.Styleable.CollapsingToolbarLayout_title;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_titleEnabled = global::PrismFullNavigation.Droid.Resource.Styleable.CollapsingToolbarLayout_titleEnabled;
-			global::Prism.Resource.Styleable.CollapsingToolbarLayout_toolbarId = global::PrismFullNavigation.Droid.Resource.Styleable.CollapsingToolbarLayout_toolbarId;
-			global::Prism.Resource.Styleable.ColorStateListItem = global::PrismFullNavigation.Droid.Resource.Styleable.ColorStateListItem;
-			global::Prism.Resource.Styleable.ColorStateListItem_alpha = global::PrismFullNavigation.Droid.Resource.Styleable.ColorStateListItem_alpha;
-			global::Prism.Resource.Styleable.ColorStateListItem_android_alpha = global::PrismFullNavigation.Droid.Resource.Styleable.ColorStateListItem_android_alpha;
-			global::Prism.Resource.Styleable.ColorStateListItem_android_color = global::PrismFullNavigation.Droid.Resource.Styleable.ColorStateListItem_android_color;
-			global::Prism.Resource.Styleable.CompoundButton = global::PrismFullNavigation.Droid.Resource.Styleable.CompoundButton;
-			global::Prism.Resource.Styleable.CompoundButton_android_button = global::PrismFullNavigation.Droid.Resource.Styleable.CompoundButton_android_button;
-			global::Prism.Resource.Styleable.CompoundButton_buttonTint = global::PrismFullNavigation.Droid.Resource.Styleable.CompoundButton_buttonTint;
-			global::Prism.Resource.Styleable.CompoundButton_buttonTintMode = global::PrismFullNavigation.Droid.Resource.Styleable.CompoundButton_buttonTintMode;
-			global::Prism.Resource.Styleable.CoordinatorLayout = global::PrismFullNavigation.Droid.Resource.Styleable.CoordinatorLayout;
-			global::Prism.Resource.Styleable.CoordinatorLayout_keylines = global::PrismFullNavigation.Droid.Resource.Styleable.CoordinatorLayout_keylines;
-			global::Prism.Resource.Styleable.CoordinatorLayout_Layout = global::PrismFullNavigation.Droid.Resource.Styleable.CoordinatorLayout_Layout;
-			global::Prism.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity = global::PrismFullNavigation.Droid.Resource.Styleable.CoordinatorLayout_Layout_android_layout_gravity;
-			global::Prism.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor = global::PrismFullNavigation.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchor;
-			global::Prism.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity = global::PrismFullNavigation.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_anchorGravity;
-			global::Prism.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior = global::PrismFullNavigation.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_behavior;
-			global::Prism.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges = global::PrismFullNavigation.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_dodgeInsetEdges;
-			global::Prism.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge = global::PrismFullNavigation.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_insetEdge;
-			global::Prism.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline = global::PrismFullNavigation.Droid.Resource.Styleable.CoordinatorLayout_Layout_layout_keyline;
-			global::Prism.Resource.Styleable.CoordinatorLayout_statusBarBackground = global::PrismFullNavigation.Droid.Resource.Styleable.CoordinatorLayout_statusBarBackground;
-			global::Prism.Resource.Styleable.DesignTheme = global::PrismFullNavigation.Droid.Resource.Styleable.DesignTheme;
-			global::Prism.Resource.Styleable.DesignTheme_bottomSheetDialogTheme = global::PrismFullNavigation.Droid.Resource.Styleable.DesignTheme_bottomSheetDialogTheme;
-			global::Prism.Resource.Styleable.DesignTheme_bottomSheetStyle = global::PrismFullNavigation.Droid.Resource.Styleable.DesignTheme_bottomSheetStyle;
-			global::Prism.Resource.Styleable.DrawerArrowToggle = global::PrismFullNavigation.Droid.Resource.Styleable.DrawerArrowToggle;
-			global::Prism.Resource.Styleable.DrawerArrowToggle_arrowHeadLength = global::PrismFullNavigation.Droid.Resource.Styleable.DrawerArrowToggle_arrowHeadLength;
-			global::Prism.Resource.Styleable.DrawerArrowToggle_arrowShaftLength = global::PrismFullNavigation.Droid.Resource.Styleable.DrawerArrowToggle_arrowShaftLength;
-			global::Prism.Resource.Styleable.DrawerArrowToggle_barLength = global::PrismFullNavigation.Droid.Resource.Styleable.DrawerArrowToggle_barLength;
-			global::Prism.Resource.Styleable.DrawerArrowToggle_color = global::PrismFullNavigation.Droid.Resource.Styleable.DrawerArrowToggle_color;
-			global::Prism.Resource.Styleable.DrawerArrowToggle_drawableSize = global::PrismFullNavigation.Droid.Resource.Styleable.DrawerArrowToggle_drawableSize;
-			global::Prism.Resource.Styleable.DrawerArrowToggle_gapBetweenBars = global::PrismFullNavigation.Droid.Resource.Styleable.DrawerArrowToggle_gapBetweenBars;
-			global::Prism.Resource.Styleable.DrawerArrowToggle_spinBars = global::PrismFullNavigation.Droid.Resource.Styleable.DrawerArrowToggle_spinBars;
-			global::Prism.Resource.Styleable.DrawerArrowToggle_thickness = global::PrismFullNavigation.Droid.Resource.Styleable.DrawerArrowToggle_thickness;
-			global::Prism.Resource.Styleable.FloatingActionButton = global::PrismFullNavigation.Droid.Resource.Styleable.FloatingActionButton;
-			global::Prism.Resource.Styleable.FloatingActionButton_backgroundTint = global::PrismFullNavigation.Droid.Resource.Styleable.FloatingActionButton_backgroundTint;
-			global::Prism.Resource.Styleable.FloatingActionButton_backgroundTintMode = global::PrismFullNavigation.Droid.Resource.Styleable.FloatingActionButton_backgroundTintMode;
-			global::Prism.Resource.Styleable.FloatingActionButton_Behavior_Layout = global::PrismFullNavigation.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout;
-			global::Prism.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide = global::PrismFullNavigation.Droid.Resource.Styleable.FloatingActionButton_Behavior_Layout_behavior_autoHide;
-			global::Prism.Resource.Styleable.FloatingActionButton_borderWidth = global::PrismFullNavigation.Droid.Resource.Styleable.FloatingActionButton_borderWidth;
-			global::Prism.Resource.Styleable.FloatingActionButton_elevation = global::PrismFullNavigation.Droid.Resource.Styleable.FloatingActionButton_elevation;
-			global::Prism.Resource.Styleable.FloatingActionButton_fabSize = global::PrismFullNavigation.Droid.Resource.Styleable.FloatingActionButton_fabSize;
-			global::Prism.Resource.Styleable.FloatingActionButton_pressedTranslationZ = global::PrismFullNavigation.Droid.Resource.Styleable.FloatingActionButton_pressedTranslationZ;
-			global::Prism.Resource.Styleable.FloatingActionButton_rippleColor = global::PrismFullNavigation.Droid.Resource.Styleable.FloatingActionButton_rippleColor;
-			global::Prism.Resource.Styleable.FloatingActionButton_useCompatPadding = global::PrismFullNavigation.Droid.Resource.Styleable.FloatingActionButton_useCompatPadding;
-			global::Prism.Resource.Styleable.FontFamily = global::PrismFullNavigation.Droid.Resource.Styleable.FontFamily;
-			global::Prism.Resource.Styleable.FontFamilyFont = global::PrismFullNavigation.Droid.Resource.Styleable.FontFamilyFont;
-			global::Prism.Resource.Styleable.FontFamilyFont_android_font = global::PrismFullNavigation.Droid.Resource.Styleable.FontFamilyFont_android_font;
-			global::Prism.Resource.Styleable.FontFamilyFont_android_fontStyle = global::PrismFullNavigation.Droid.Resource.Styleable.FontFamilyFont_android_fontStyle;
-			global::Prism.Resource.Styleable.FontFamilyFont_android_fontWeight = global::PrismFullNavigation.Droid.Resource.Styleable.FontFamilyFont_android_fontWeight;
-			global::Prism.Resource.Styleable.FontFamilyFont_font = global::PrismFullNavigation.Droid.Resource.Styleable.FontFamilyFont_font;
-			global::Prism.Resource.Styleable.FontFamilyFont_fontStyle = global::PrismFullNavigation.Droid.Resource.Styleable.FontFamilyFont_fontStyle;
-			global::Prism.Resource.Styleable.FontFamilyFont_fontWeight = global::PrismFullNavigation.Droid.Resource.Styleable.FontFamilyFont_fontWeight;
-			global::Prism.Resource.Styleable.FontFamily_fontProviderAuthority = global::PrismFullNavigation.Droid.Resource.Styleable.FontFamily_fontProviderAuthority;
-			global::Prism.Resource.Styleable.FontFamily_fontProviderCerts = global::PrismFullNavigation.Droid.Resource.Styleable.FontFamily_fontProviderCerts;
-			global::Prism.Resource.Styleable.FontFamily_fontProviderFetchStrategy = global::PrismFullNavigation.Droid.Resource.Styleable.FontFamily_fontProviderFetchStrategy;
-			global::Prism.Resource.Styleable.FontFamily_fontProviderFetchTimeout = global::PrismFullNavigation.Droid.Resource.Styleable.FontFamily_fontProviderFetchTimeout;
-			global::Prism.Resource.Styleable.FontFamily_fontProviderPackage = global::PrismFullNavigation.Droid.Resource.Styleable.FontFamily_fontProviderPackage;
-			global::Prism.Resource.Styleable.FontFamily_fontProviderQuery = global::PrismFullNavigation.Droid.Resource.Styleable.FontFamily_fontProviderQuery;
-			global::Prism.Resource.Styleable.ForegroundLinearLayout = global::PrismFullNavigation.Droid.Resource.Styleable.ForegroundLinearLayout;
-			global::Prism.Resource.Styleable.ForegroundLinearLayout_android_foreground = global::PrismFullNavigation.Droid.Resource.Styleable.ForegroundLinearLayout_android_foreground;
-			global::Prism.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity = global::PrismFullNavigation.Droid.Resource.Styleable.ForegroundLinearLayout_android_foregroundGravity;
-			global::Prism.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding = global::PrismFullNavigation.Droid.Resource.Styleable.ForegroundLinearLayout_foregroundInsidePadding;
-			global::Prism.Resource.Styleable.LinearLayoutCompat = global::PrismFullNavigation.Droid.Resource.Styleable.LinearLayoutCompat;
-			global::Prism.Resource.Styleable.LinearLayoutCompat_android_baselineAligned = global::PrismFullNavigation.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAligned;
-			global::Prism.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex = global::PrismFullNavigation.Droid.Resource.Styleable.LinearLayoutCompat_android_baselineAlignedChildIndex;
-			global::Prism.Resource.Styleable.LinearLayoutCompat_android_gravity = global::PrismFullNavigation.Droid.Resource.Styleable.LinearLayoutCompat_android_gravity;
-			global::Prism.Resource.Styleable.LinearLayoutCompat_android_orientation = global::PrismFullNavigation.Droid.Resource.Styleable.LinearLayoutCompat_android_orientation;
-			global::Prism.Resource.Styleable.LinearLayoutCompat_android_weightSum = global::PrismFullNavigation.Droid.Resource.Styleable.LinearLayoutCompat_android_weightSum;
-			global::Prism.Resource.Styleable.LinearLayoutCompat_divider = global::PrismFullNavigation.Droid.Resource.Styleable.LinearLayoutCompat_divider;
-			global::Prism.Resource.Styleable.LinearLayoutCompat_dividerPadding = global::PrismFullNavigation.Droid.Resource.Styleable.LinearLayoutCompat_dividerPadding;
-			global::Prism.Resource.Styleable.LinearLayoutCompat_Layout = global::PrismFullNavigation.Droid.Resource.Styleable.LinearLayoutCompat_Layout;
-			global::Prism.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity = global::PrismFullNavigation.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_gravity;
-			global::Prism.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height = global::PrismFullNavigation.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_height;
-			global::Prism.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight = global::PrismFullNavigation.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_weight;
-			global::Prism.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width = global::PrismFullNavigation.Droid.Resource.Styleable.LinearLayoutCompat_Layout_android_layout_width;
-			global::Prism.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild = global::PrismFullNavigation.Droid.Resource.Styleable.LinearLayoutCompat_measureWithLargestChild;
-			global::Prism.Resource.Styleable.LinearLayoutCompat_showDividers = global::PrismFullNavigation.Droid.Resource.Styleable.LinearLayoutCompat_showDividers;
-			global::Prism.Resource.Styleable.ListPopupWindow = global::PrismFullNavigation.Droid.Resource.Styleable.ListPopupWindow;
-			global::Prism.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset = global::PrismFullNavigation.Droid.Resource.Styleable.ListPopupWindow_android_dropDownHorizontalOffset;
-			global::Prism.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset = global::PrismFullNavigation.Droid.Resource.Styleable.ListPopupWindow_android_dropDownVerticalOffset;
-			global::Prism.Resource.Styleable.MenuGroup = global::PrismFullNavigation.Droid.Resource.Styleable.MenuGroup;
-			global::Prism.Resource.Styleable.MenuGroup_android_checkableBehavior = global::PrismFullNavigation.Droid.Resource.Styleable.MenuGroup_android_checkableBehavior;
-			global::Prism.Resource.Styleable.MenuGroup_android_enabled = global::PrismFullNavigation.Droid.Resource.Styleable.MenuGroup_android_enabled;
-			global::Prism.Resource.Styleable.MenuGroup_android_id = global::PrismFullNavigation.Droid.Resource.Styleable.MenuGroup_android_id;
-			global::Prism.Resource.Styleable.MenuGroup_android_menuCategory = global::PrismFullNavigation.Droid.Resource.Styleable.MenuGroup_android_menuCategory;
-			global::Prism.Resource.Styleable.MenuGroup_android_orderInCategory = global::PrismFullNavigation.Droid.Resource.Styleable.MenuGroup_android_orderInCategory;
-			global::Prism.Resource.Styleable.MenuGroup_android_visible = global::PrismFullNavigation.Droid.Resource.Styleable.MenuGroup_android_visible;
-			global::Prism.Resource.Styleable.MenuItem = global::PrismFullNavigation.Droid.Resource.Styleable.MenuItem;
-			global::Prism.Resource.Styleable.MenuItem_actionLayout = global::PrismFullNavigation.Droid.Resource.Styleable.MenuItem_actionLayout;
-			global::Prism.Resource.Styleable.MenuItem_actionProviderClass = global::PrismFullNavigation.Droid.Resource.Styleable.MenuItem_actionProviderClass;
-			global::Prism.Resource.Styleable.MenuItem_actionViewClass = global::PrismFullNavigation.Droid.Resource.Styleable.MenuItem_actionViewClass;
-			global::Prism.Resource.Styleable.MenuItem_alphabeticModifiers = global::PrismFullNavigation.Droid.Resource.Styleable.MenuItem_alphabeticModifiers;
-			global::Prism.Resource.Styleable.MenuItem_android_alphabeticShortcut = global::PrismFullNavigation.Droid.Resource.Styleable.MenuItem_android_alphabeticShortcut;
-			global::Prism.Resource.Styleable.MenuItem_android_checkable = global::PrismFullNavigation.Droid.Resource.Styleable.MenuItem_android_checkable;
-			global::Prism.Resource.Styleable.MenuItem_android_checked = global::PrismFullNavigation.Droid.Resource.Styleable.MenuItem_android_checked;
-			global::Prism.Resource.Styleable.MenuItem_android_enabled = global::PrismFullNavigation.Droid.Resource.Styleable.MenuItem_android_enabled;
-			global::Prism.Resource.Styleable.MenuItem_android_icon = global::PrismFullNavigation.Droid.Resource.Styleable.MenuItem_android_icon;
-			global::Prism.Resource.Styleable.MenuItem_android_id = global::PrismFullNavigation.Droid.Resource.Styleable.MenuItem_android_id;
-			global::Prism.Resource.Styleable.MenuItem_android_menuCategory = global::PrismFullNavigation.Droid.Resource.Styleable.MenuItem_android_menuCategory;
-			global::Prism.Resource.Styleable.MenuItem_android_numericShortcut = global::PrismFullNavigation.Droid.Resource.Styleable.MenuItem_android_numericShortcut;
-			global::Prism.Resource.Styleable.MenuItem_android_onClick = global::PrismFullNavigation.Droid.Resource.Styleable.MenuItem_android_onClick;
-			global::Prism.Resource.Styleable.MenuItem_android_orderInCategory = global::PrismFullNavigation.Droid.Resource.Styleable.MenuItem_android_orderInCategory;
-			global::Prism.Resource.Styleable.MenuItem_android_title = global::PrismFullNavigation.Droid.Resource.Styleable.MenuItem_android_title;
-			global::Prism.Resource.Styleable.MenuItem_android_titleCondensed = global::PrismFullNavigation.Droid.Resource.Styleable.MenuItem_android_titleCondensed;
-			global::Prism.Resource.Styleable.MenuItem_android_visible = global::PrismFullNavigation.Droid.Resource.Styleable.MenuItem_android_visible;
-			global::Prism.Resource.Styleable.MenuItem_contentDescription = global::PrismFullNavigation.Droid.Resource.Styleable.MenuItem_contentDescription;
-			global::Prism.Resource.Styleable.MenuItem_iconTint = global::PrismFullNavigation.Droid.Resource.Styleable.MenuItem_iconTint;
-			global::Prism.Resource.Styleable.MenuItem_iconTintMode = global::PrismFullNavigation.Droid.Resource.Styleable.MenuItem_iconTintMode;
-			global::Prism.Resource.Styleable.MenuItem_numericModifiers = global::PrismFullNavigation.Droid.Resource.Styleable.MenuItem_numericModifiers;
-			global::Prism.Resource.Styleable.MenuItem_showAsAction = global::PrismFullNavigation.Droid.Resource.Styleable.MenuItem_showAsAction;
-			global::Prism.Resource.Styleable.MenuItem_tooltipText = global::PrismFullNavigation.Droid.Resource.Styleable.MenuItem_tooltipText;
-			global::Prism.Resource.Styleable.MenuView = global::PrismFullNavigation.Droid.Resource.Styleable.MenuView;
-			global::Prism.Resource.Styleable.MenuView_android_headerBackground = global::PrismFullNavigation.Droid.Resource.Styleable.MenuView_android_headerBackground;
-			global::Prism.Resource.Styleable.MenuView_android_horizontalDivider = global::PrismFullNavigation.Droid.Resource.Styleable.MenuView_android_horizontalDivider;
-			global::Prism.Resource.Styleable.MenuView_android_itemBackground = global::PrismFullNavigation.Droid.Resource.Styleable.MenuView_android_itemBackground;
-			global::Prism.Resource.Styleable.MenuView_android_itemIconDisabledAlpha = global::PrismFullNavigation.Droid.Resource.Styleable.MenuView_android_itemIconDisabledAlpha;
-			global::Prism.Resource.Styleable.MenuView_android_itemTextAppearance = global::PrismFullNavigation.Droid.Resource.Styleable.MenuView_android_itemTextAppearance;
-			global::Prism.Resource.Styleable.MenuView_android_verticalDivider = global::PrismFullNavigation.Droid.Resource.Styleable.MenuView_android_verticalDivider;
-			global::Prism.Resource.Styleable.MenuView_android_windowAnimationStyle = global::PrismFullNavigation.Droid.Resource.Styleable.MenuView_android_windowAnimationStyle;
-			global::Prism.Resource.Styleable.MenuView_preserveIconSpacing = global::PrismFullNavigation.Droid.Resource.Styleable.MenuView_preserveIconSpacing;
-			global::Prism.Resource.Styleable.MenuView_subMenuArrow = global::PrismFullNavigation.Droid.Resource.Styleable.MenuView_subMenuArrow;
-			global::Prism.Resource.Styleable.NavigationView = global::PrismFullNavigation.Droid.Resource.Styleable.NavigationView;
-			global::Prism.Resource.Styleable.NavigationView_android_background = global::PrismFullNavigation.Droid.Resource.Styleable.NavigationView_android_background;
-			global::Prism.Resource.Styleable.NavigationView_android_fitsSystemWindows = global::PrismFullNavigation.Droid.Resource.Styleable.NavigationView_android_fitsSystemWindows;
-			global::Prism.Resource.Styleable.NavigationView_android_maxWidth = global::PrismFullNavigation.Droid.Resource.Styleable.NavigationView_android_maxWidth;
-			global::Prism.Resource.Styleable.NavigationView_elevation = global::PrismFullNavigation.Droid.Resource.Styleable.NavigationView_elevation;
-			global::Prism.Resource.Styleable.NavigationView_headerLayout = global::PrismFullNavigation.Droid.Resource.Styleable.NavigationView_headerLayout;
-			global::Prism.Resource.Styleable.NavigationView_itemBackground = global::PrismFullNavigation.Droid.Resource.Styleable.NavigationView_itemBackground;
-			global::Prism.Resource.Styleable.NavigationView_itemIconTint = global::PrismFullNavigation.Droid.Resource.Styleable.NavigationView_itemIconTint;
-			global::Prism.Resource.Styleable.NavigationView_itemTextAppearance = global::PrismFullNavigation.Droid.Resource.Styleable.NavigationView_itemTextAppearance;
-			global::Prism.Resource.Styleable.NavigationView_itemTextColor = global::PrismFullNavigation.Droid.Resource.Styleable.NavigationView_itemTextColor;
-			global::Prism.Resource.Styleable.NavigationView_menu = global::PrismFullNavigation.Droid.Resource.Styleable.NavigationView_menu;
-			global::Prism.Resource.Styleable.PopupWindow = global::PrismFullNavigation.Droid.Resource.Styleable.PopupWindow;
-			global::Prism.Resource.Styleable.PopupWindowBackgroundState = global::PrismFullNavigation.Droid.Resource.Styleable.PopupWindowBackgroundState;
-			global::Prism.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor = global::PrismFullNavigation.Droid.Resource.Styleable.PopupWindowBackgroundState_state_above_anchor;
-			global::Prism.Resource.Styleable.PopupWindow_android_popupAnimationStyle = global::PrismFullNavigation.Droid.Resource.Styleable.PopupWindow_android_popupAnimationStyle;
-			global::Prism.Resource.Styleable.PopupWindow_android_popupBackground = global::PrismFullNavigation.Droid.Resource.Styleable.PopupWindow_android_popupBackground;
-			global::Prism.Resource.Styleable.PopupWindow_overlapAnchor = global::PrismFullNavigation.Droid.Resource.Styleable.PopupWindow_overlapAnchor;
-			global::Prism.Resource.Styleable.RecycleListView = global::PrismFullNavigation.Droid.Resource.Styleable.RecycleListView;
-			global::Prism.Resource.Styleable.RecycleListView_paddingBottomNoButtons = global::PrismFullNavigation.Droid.Resource.Styleable.RecycleListView_paddingBottomNoButtons;
-			global::Prism.Resource.Styleable.RecycleListView_paddingTopNoTitle = global::PrismFullNavigation.Droid.Resource.Styleable.RecycleListView_paddingTopNoTitle;
-			global::Prism.Resource.Styleable.RecyclerView = global::PrismFullNavigation.Droid.Resource.Styleable.RecyclerView;
-			global::Prism.Resource.Styleable.RecyclerView_android_descendantFocusability = global::PrismFullNavigation.Droid.Resource.Styleable.RecyclerView_android_descendantFocusability;
-			global::Prism.Resource.Styleable.RecyclerView_android_orientation = global::PrismFullNavigation.Droid.Resource.Styleable.RecyclerView_android_orientation;
-			global::Prism.Resource.Styleable.RecyclerView_fastScrollEnabled = global::PrismFullNavigation.Droid.Resource.Styleable.RecyclerView_fastScrollEnabled;
-			global::Prism.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable = global::PrismFullNavigation.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalThumbDrawable;
-			global::Prism.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable = global::PrismFullNavigation.Droid.Resource.Styleable.RecyclerView_fastScrollHorizontalTrackDrawable;
-			global::Prism.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable = global::PrismFullNavigation.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalThumbDrawable;
-			global::Prism.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable = global::PrismFullNavigation.Droid.Resource.Styleable.RecyclerView_fastScrollVerticalTrackDrawable;
-			global::Prism.Resource.Styleable.RecyclerView_layoutManager = global::PrismFullNavigation.Droid.Resource.Styleable.RecyclerView_layoutManager;
-			global::Prism.Resource.Styleable.RecyclerView_reverseLayout = global::PrismFullNavigation.Droid.Resource.Styleable.RecyclerView_reverseLayout;
-			global::Prism.Resource.Styleable.RecyclerView_spanCount = global::PrismFullNavigation.Droid.Resource.Styleable.RecyclerView_spanCount;
-			global::Prism.Resource.Styleable.RecyclerView_stackFromEnd = global::PrismFullNavigation.Droid.Resource.Styleable.RecyclerView_stackFromEnd;
-			global::Prism.Resource.Styleable.ScrimInsetsFrameLayout = global::PrismFullNavigation.Droid.Resource.Styleable.ScrimInsetsFrameLayout;
-			global::Prism.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::PrismFullNavigation.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
-			global::Prism.Resource.Styleable.ScrollingViewBehavior_Layout = global::PrismFullNavigation.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
-			global::Prism.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::PrismFullNavigation.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
-			global::Prism.Resource.Styleable.SearchView = global::PrismFullNavigation.Droid.Resource.Styleable.SearchView;
-			global::Prism.Resource.Styleable.SearchView_android_focusable = global::PrismFullNavigation.Droid.Resource.Styleable.SearchView_android_focusable;
-			global::Prism.Resource.Styleable.SearchView_android_imeOptions = global::PrismFullNavigation.Droid.Resource.Styleable.SearchView_android_imeOptions;
-			global::Prism.Resource.Styleable.SearchView_android_inputType = global::PrismFullNavigation.Droid.Resource.Styleable.SearchView_android_inputType;
-			global::Prism.Resource.Styleable.SearchView_android_maxWidth = global::PrismFullNavigation.Droid.Resource.Styleable.SearchView_android_maxWidth;
-			global::Prism.Resource.Styleable.SearchView_closeIcon = global::PrismFullNavigation.Droid.Resource.Styleable.SearchView_closeIcon;
-			global::Prism.Resource.Styleable.SearchView_commitIcon = global::PrismFullNavigation.Droid.Resource.Styleable.SearchView_commitIcon;
-			global::Prism.Resource.Styleable.SearchView_defaultQueryHint = global::PrismFullNavigation.Droid.Resource.Styleable.SearchView_defaultQueryHint;
-			global::Prism.Resource.Styleable.SearchView_goIcon = global::PrismFullNavigation.Droid.Resource.Styleable.SearchView_goIcon;
-			global::Prism.Resource.Styleable.SearchView_iconifiedByDefault = global::PrismFullNavigation.Droid.Resource.Styleable.SearchView_iconifiedByDefault;
-			global::Prism.Resource.Styleable.SearchView_layout = global::PrismFullNavigation.Droid.Resource.Styleable.SearchView_layout;
-			global::Prism.Resource.Styleable.SearchView_queryBackground = global::PrismFullNavigation.Droid.Resource.Styleable.SearchView_queryBackground;
-			global::Prism.Resource.Styleable.SearchView_queryHint = global::PrismFullNavigation.Droid.Resource.Styleable.SearchView_queryHint;
-			global::Prism.Resource.Styleable.SearchView_searchHintIcon = global::PrismFullNavigation.Droid.Resource.Styleable.SearchView_searchHintIcon;
-			global::Prism.Resource.Styleable.SearchView_searchIcon = global::PrismFullNavigation.Droid.Resource.Styleable.SearchView_searchIcon;
-			global::Prism.Resource.Styleable.SearchView_submitBackground = global::PrismFullNavigation.Droid.Resource.Styleable.SearchView_submitBackground;
-			global::Prism.Resource.Styleable.SearchView_suggestionRowLayout = global::PrismFullNavigation.Droid.Resource.Styleable.SearchView_suggestionRowLayout;
-			global::Prism.Resource.Styleable.SearchView_voiceIcon = global::PrismFullNavigation.Droid.Resource.Styleable.SearchView_voiceIcon;
-			global::Prism.Resource.Styleable.SnackbarLayout = global::PrismFullNavigation.Droid.Resource.Styleable.SnackbarLayout;
-			global::Prism.Resource.Styleable.SnackbarLayout_android_maxWidth = global::PrismFullNavigation.Droid.Resource.Styleable.SnackbarLayout_android_maxWidth;
-			global::Prism.Resource.Styleable.SnackbarLayout_elevation = global::PrismFullNavigation.Droid.Resource.Styleable.SnackbarLayout_elevation;
-			global::Prism.Resource.Styleable.SnackbarLayout_maxActionInlineWidth = global::PrismFullNavigation.Droid.Resource.Styleable.SnackbarLayout_maxActionInlineWidth;
-			global::Prism.Resource.Styleable.Spinner = global::PrismFullNavigation.Droid.Resource.Styleable.Spinner;
-			global::Prism.Resource.Styleable.Spinner_android_dropDownWidth = global::PrismFullNavigation.Droid.Resource.Styleable.Spinner_android_dropDownWidth;
-			global::Prism.Resource.Styleable.Spinner_android_entries = global::PrismFullNavigation.Droid.Resource.Styleable.Spinner_android_entries;
-			global::Prism.Resource.Styleable.Spinner_android_popupBackground = global::PrismFullNavigation.Droid.Resource.Styleable.Spinner_android_popupBackground;
-			global::Prism.Resource.Styleable.Spinner_android_prompt = global::PrismFullNavigation.Droid.Resource.Styleable.Spinner_android_prompt;
-			global::Prism.Resource.Styleable.Spinner_popupTheme = global::PrismFullNavigation.Droid.Resource.Styleable.Spinner_popupTheme;
-			global::Prism.Resource.Styleable.SwitchCompat = global::PrismFullNavigation.Droid.Resource.Styleable.SwitchCompat;
-			global::Prism.Resource.Styleable.SwitchCompat_android_textOff = global::PrismFullNavigation.Droid.Resource.Styleable.SwitchCompat_android_textOff;
-			global::Prism.Resource.Styleable.SwitchCompat_android_textOn = global::PrismFullNavigation.Droid.Resource.Styleable.SwitchCompat_android_textOn;
-			global::Prism.Resource.Styleable.SwitchCompat_android_thumb = global::PrismFullNavigation.Droid.Resource.Styleable.SwitchCompat_android_thumb;
-			global::Prism.Resource.Styleable.SwitchCompat_showText = global::PrismFullNavigation.Droid.Resource.Styleable.SwitchCompat_showText;
-			global::Prism.Resource.Styleable.SwitchCompat_splitTrack = global::PrismFullNavigation.Droid.Resource.Styleable.SwitchCompat_splitTrack;
-			global::Prism.Resource.Styleable.SwitchCompat_switchMinWidth = global::PrismFullNavigation.Droid.Resource.Styleable.SwitchCompat_switchMinWidth;
-			global::Prism.Resource.Styleable.SwitchCompat_switchPadding = global::PrismFullNavigation.Droid.Resource.Styleable.SwitchCompat_switchPadding;
-			global::Prism.Resource.Styleable.SwitchCompat_switchTextAppearance = global::PrismFullNavigation.Droid.Resource.Styleable.SwitchCompat_switchTextAppearance;
-			global::Prism.Resource.Styleable.SwitchCompat_thumbTextPadding = global::PrismFullNavigation.Droid.Resource.Styleable.SwitchCompat_thumbTextPadding;
-			global::Prism.Resource.Styleable.SwitchCompat_thumbTint = global::PrismFullNavigation.Droid.Resource.Styleable.SwitchCompat_thumbTint;
-			global::Prism.Resource.Styleable.SwitchCompat_thumbTintMode = global::PrismFullNavigation.Droid.Resource.Styleable.SwitchCompat_thumbTintMode;
-			global::Prism.Resource.Styleable.SwitchCompat_track = global::PrismFullNavigation.Droid.Resource.Styleable.SwitchCompat_track;
-			global::Prism.Resource.Styleable.SwitchCompat_trackTint = global::PrismFullNavigation.Droid.Resource.Styleable.SwitchCompat_trackTint;
-			global::Prism.Resource.Styleable.SwitchCompat_trackTintMode = global::PrismFullNavigation.Droid.Resource.Styleable.SwitchCompat_trackTintMode;
-			global::Prism.Resource.Styleable.TabItem = global::PrismFullNavigation.Droid.Resource.Styleable.TabItem;
-			global::Prism.Resource.Styleable.TabItem_android_icon = global::PrismFullNavigation.Droid.Resource.Styleable.TabItem_android_icon;
-			global::Prism.Resource.Styleable.TabItem_android_layout = global::PrismFullNavigation.Droid.Resource.Styleable.TabItem_android_layout;
-			global::Prism.Resource.Styleable.TabItem_android_text = global::PrismFullNavigation.Droid.Resource.Styleable.TabItem_android_text;
-			global::Prism.Resource.Styleable.TabLayout = global::PrismFullNavigation.Droid.Resource.Styleable.TabLayout;
-			global::Prism.Resource.Styleable.TabLayout_tabBackground = global::PrismFullNavigation.Droid.Resource.Styleable.TabLayout_tabBackground;
-			global::Prism.Resource.Styleable.TabLayout_tabContentStart = global::PrismFullNavigation.Droid.Resource.Styleable.TabLayout_tabContentStart;
-			global::Prism.Resource.Styleable.TabLayout_tabGravity = global::PrismFullNavigation.Droid.Resource.Styleable.TabLayout_tabGravity;
-			global::Prism.Resource.Styleable.TabLayout_tabIndicatorColor = global::PrismFullNavigation.Droid.Resource.Styleable.TabLayout_tabIndicatorColor;
-			global::Prism.Resource.Styleable.TabLayout_tabIndicatorHeight = global::PrismFullNavigation.Droid.Resource.Styleable.TabLayout_tabIndicatorHeight;
-			global::Prism.Resource.Styleable.TabLayout_tabMaxWidth = global::PrismFullNavigation.Droid.Resource.Styleable.TabLayout_tabMaxWidth;
-			global::Prism.Resource.Styleable.TabLayout_tabMinWidth = global::PrismFullNavigation.Droid.Resource.Styleable.TabLayout_tabMinWidth;
-			global::Prism.Resource.Styleable.TabLayout_tabMode = global::PrismFullNavigation.Droid.Resource.Styleable.TabLayout_tabMode;
-			global::Prism.Resource.Styleable.TabLayout_tabPadding = global::PrismFullNavigation.Droid.Resource.Styleable.TabLayout_tabPadding;
-			global::Prism.Resource.Styleable.TabLayout_tabPaddingBottom = global::PrismFullNavigation.Droid.Resource.Styleable.TabLayout_tabPaddingBottom;
-			global::Prism.Resource.Styleable.TabLayout_tabPaddingEnd = global::PrismFullNavigation.Droid.Resource.Styleable.TabLayout_tabPaddingEnd;
-			global::Prism.Resource.Styleable.TabLayout_tabPaddingStart = global::PrismFullNavigation.Droid.Resource.Styleable.TabLayout_tabPaddingStart;
-			global::Prism.Resource.Styleable.TabLayout_tabPaddingTop = global::PrismFullNavigation.Droid.Resource.Styleable.TabLayout_tabPaddingTop;
-			global::Prism.Resource.Styleable.TabLayout_tabSelectedTextColor = global::PrismFullNavigation.Droid.Resource.Styleable.TabLayout_tabSelectedTextColor;
-			global::Prism.Resource.Styleable.TabLayout_tabTextAppearance = global::PrismFullNavigation.Droid.Resource.Styleable.TabLayout_tabTextAppearance;
-			global::Prism.Resource.Styleable.TabLayout_tabTextColor = global::PrismFullNavigation.Droid.Resource.Styleable.TabLayout_tabTextColor;
-			global::Prism.Resource.Styleable.TextAppearance = global::PrismFullNavigation.Droid.Resource.Styleable.TextAppearance;
-			global::Prism.Resource.Styleable.TextAppearance_android_fontFamily = global::PrismFullNavigation.Droid.Resource.Styleable.TextAppearance_android_fontFamily;
-			global::Prism.Resource.Styleable.TextAppearance_android_shadowColor = global::PrismFullNavigation.Droid.Resource.Styleable.TextAppearance_android_shadowColor;
-			global::Prism.Resource.Styleable.TextAppearance_android_shadowDx = global::PrismFullNavigation.Droid.Resource.Styleable.TextAppearance_android_shadowDx;
-			global::Prism.Resource.Styleable.TextAppearance_android_shadowDy = global::PrismFullNavigation.Droid.Resource.Styleable.TextAppearance_android_shadowDy;
-			global::Prism.Resource.Styleable.TextAppearance_android_shadowRadius = global::PrismFullNavigation.Droid.Resource.Styleable.TextAppearance_android_shadowRadius;
-			global::Prism.Resource.Styleable.TextAppearance_android_textColor = global::PrismFullNavigation.Droid.Resource.Styleable.TextAppearance_android_textColor;
-			global::Prism.Resource.Styleable.TextAppearance_android_textColorHint = global::PrismFullNavigation.Droid.Resource.Styleable.TextAppearance_android_textColorHint;
-			global::Prism.Resource.Styleable.TextAppearance_android_textColorLink = global::PrismFullNavigation.Droid.Resource.Styleable.TextAppearance_android_textColorLink;
-			global::Prism.Resource.Styleable.TextAppearance_android_textSize = global::PrismFullNavigation.Droid.Resource.Styleable.TextAppearance_android_textSize;
-			global::Prism.Resource.Styleable.TextAppearance_android_textStyle = global::PrismFullNavigation.Droid.Resource.Styleable.TextAppearance_android_textStyle;
-			global::Prism.Resource.Styleable.TextAppearance_android_typeface = global::PrismFullNavigation.Droid.Resource.Styleable.TextAppearance_android_typeface;
-			global::Prism.Resource.Styleable.TextAppearance_fontFamily = global::PrismFullNavigation.Droid.Resource.Styleable.TextAppearance_fontFamily;
-			global::Prism.Resource.Styleable.TextAppearance_textAllCaps = global::PrismFullNavigation.Droid.Resource.Styleable.TextAppearance_textAllCaps;
-			global::Prism.Resource.Styleable.TextInputLayout = global::PrismFullNavigation.Droid.Resource.Styleable.TextInputLayout;
-			global::Prism.Resource.Styleable.TextInputLayout_android_hint = global::PrismFullNavigation.Droid.Resource.Styleable.TextInputLayout_android_hint;
-			global::Prism.Resource.Styleable.TextInputLayout_android_textColorHint = global::PrismFullNavigation.Droid.Resource.Styleable.TextInputLayout_android_textColorHint;
-			global::Prism.Resource.Styleable.TextInputLayout_counterEnabled = global::PrismFullNavigation.Droid.Resource.Styleable.TextInputLayout_counterEnabled;
-			global::Prism.Resource.Styleable.TextInputLayout_counterMaxLength = global::PrismFullNavigation.Droid.Resource.Styleable.TextInputLayout_counterMaxLength;
-			global::Prism.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance = global::PrismFullNavigation.Droid.Resource.Styleable.TextInputLayout_counterOverflowTextAppearance;
-			global::Prism.Resource.Styleable.TextInputLayout_counterTextAppearance = global::PrismFullNavigation.Droid.Resource.Styleable.TextInputLayout_counterTextAppearance;
-			global::Prism.Resource.Styleable.TextInputLayout_errorEnabled = global::PrismFullNavigation.Droid.Resource.Styleable.TextInputLayout_errorEnabled;
-			global::Prism.Resource.Styleable.TextInputLayout_errorTextAppearance = global::PrismFullNavigation.Droid.Resource.Styleable.TextInputLayout_errorTextAppearance;
-			global::Prism.Resource.Styleable.TextInputLayout_hintAnimationEnabled = global::PrismFullNavigation.Droid.Resource.Styleable.TextInputLayout_hintAnimationEnabled;
-			global::Prism.Resource.Styleable.TextInputLayout_hintEnabled = global::PrismFullNavigation.Droid.Resource.Styleable.TextInputLayout_hintEnabled;
-			global::Prism.Resource.Styleable.TextInputLayout_hintTextAppearance = global::PrismFullNavigation.Droid.Resource.Styleable.TextInputLayout_hintTextAppearance;
-			global::Prism.Resource.Styleable.TextInputLayout_passwordToggleContentDescription = global::PrismFullNavigation.Droid.Resource.Styleable.TextInputLayout_passwordToggleContentDescription;
-			global::Prism.Resource.Styleable.TextInputLayout_passwordToggleDrawable = global::PrismFullNavigation.Droid.Resource.Styleable.TextInputLayout_passwordToggleDrawable;
-			global::Prism.Resource.Styleable.TextInputLayout_passwordToggleEnabled = global::PrismFullNavigation.Droid.Resource.Styleable.TextInputLayout_passwordToggleEnabled;
-			global::Prism.Resource.Styleable.TextInputLayout_passwordToggleTint = global::PrismFullNavigation.Droid.Resource.Styleable.TextInputLayout_passwordToggleTint;
-			global::Prism.Resource.Styleable.TextInputLayout_passwordToggleTintMode = global::PrismFullNavigation.Droid.Resource.Styleable.TextInputLayout_passwordToggleTintMode;
-			global::Prism.Resource.Styleable.Toolbar = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar;
-			global::Prism.Resource.Styleable.Toolbar_android_gravity = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar_android_gravity;
-			global::Prism.Resource.Styleable.Toolbar_android_minHeight = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar_android_minHeight;
-			global::Prism.Resource.Styleable.Toolbar_buttonGravity = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar_buttonGravity;
-			global::Prism.Resource.Styleable.Toolbar_collapseContentDescription = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar_collapseContentDescription;
-			global::Prism.Resource.Styleable.Toolbar_collapseIcon = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar_collapseIcon;
-			global::Prism.Resource.Styleable.Toolbar_contentInsetEnd = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar_contentInsetEnd;
-			global::Prism.Resource.Styleable.Toolbar_contentInsetEndWithActions = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar_contentInsetEndWithActions;
-			global::Prism.Resource.Styleable.Toolbar_contentInsetLeft = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar_contentInsetLeft;
-			global::Prism.Resource.Styleable.Toolbar_contentInsetRight = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar_contentInsetRight;
-			global::Prism.Resource.Styleable.Toolbar_contentInsetStart = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar_contentInsetStart;
-			global::Prism.Resource.Styleable.Toolbar_contentInsetStartWithNavigation = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar_contentInsetStartWithNavigation;
-			global::Prism.Resource.Styleable.Toolbar_logo = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar_logo;
-			global::Prism.Resource.Styleable.Toolbar_logoDescription = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar_logoDescription;
-			global::Prism.Resource.Styleable.Toolbar_maxButtonHeight = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar_maxButtonHeight;
-			global::Prism.Resource.Styleable.Toolbar_navigationContentDescription = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar_navigationContentDescription;
-			global::Prism.Resource.Styleable.Toolbar_navigationIcon = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar_navigationIcon;
-			global::Prism.Resource.Styleable.Toolbar_popupTheme = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar_popupTheme;
-			global::Prism.Resource.Styleable.Toolbar_subtitle = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar_subtitle;
-			global::Prism.Resource.Styleable.Toolbar_subtitleTextAppearance = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar_subtitleTextAppearance;
-			global::Prism.Resource.Styleable.Toolbar_subtitleTextColor = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar_subtitleTextColor;
-			global::Prism.Resource.Styleable.Toolbar_title = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar_title;
-			global::Prism.Resource.Styleable.Toolbar_titleMargin = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar_titleMargin;
-			global::Prism.Resource.Styleable.Toolbar_titleMarginBottom = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar_titleMarginBottom;
-			global::Prism.Resource.Styleable.Toolbar_titleMarginEnd = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar_titleMarginEnd;
-			global::Prism.Resource.Styleable.Toolbar_titleMargins = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar_titleMargins;
-			global::Prism.Resource.Styleable.Toolbar_titleMarginStart = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar_titleMarginStart;
-			global::Prism.Resource.Styleable.Toolbar_titleMarginTop = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar_titleMarginTop;
-			global::Prism.Resource.Styleable.Toolbar_titleTextAppearance = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar_titleTextAppearance;
-			global::Prism.Resource.Styleable.Toolbar_titleTextColor = global::PrismFullNavigation.Droid.Resource.Styleable.Toolbar_titleTextColor;
-			global::Prism.Resource.Styleable.View = global::PrismFullNavigation.Droid.Resource.Styleable.View;
-			global::Prism.Resource.Styleable.ViewBackgroundHelper = global::PrismFullNavigation.Droid.Resource.Styleable.ViewBackgroundHelper;
-			global::Prism.Resource.Styleable.ViewBackgroundHelper_android_background = global::PrismFullNavigation.Droid.Resource.Styleable.ViewBackgroundHelper_android_background;
-			global::Prism.Resource.Styleable.ViewBackgroundHelper_backgroundTint = global::PrismFullNavigation.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTint;
-			global::Prism.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode = global::PrismFullNavigation.Droid.Resource.Styleable.ViewBackgroundHelper_backgroundTintMode;
-			global::Prism.Resource.Styleable.ViewStubCompat = global::PrismFullNavigation.Droid.Resource.Styleable.ViewStubCompat;
-			global::Prism.Resource.Styleable.ViewStubCompat_android_id = global::PrismFullNavigation.Droid.Resource.Styleable.ViewStubCompat_android_id;
-			global::Prism.Resource.Styleable.ViewStubCompat_android_inflatedId = global::PrismFullNavigation.Droid.Resource.Styleable.ViewStubCompat_android_inflatedId;
-			global::Prism.Resource.Styleable.ViewStubCompat_android_layout = global::PrismFullNavigation.Droid.Resource.Styleable.ViewStubCompat_android_layout;
-			global::Prism.Resource.Styleable.View_android_focusable = global::PrismFullNavigation.Droid.Resource.Styleable.View_android_focusable;
-			global::Prism.Resource.Styleable.View_android_theme = global::PrismFullNavigation.Droid.Resource.Styleable.View_android_theme;
-			global::Prism.Resource.Styleable.View_paddingEnd = global::PrismFullNavigation.Droid.Resource.Styleable.View_paddingEnd;
-			global::Prism.Resource.Styleable.View_paddingStart = global::PrismFullNavigation.Droid.Resource.Styleable.View_paddingStart;
-			global::Prism.Resource.Styleable.View_theme = global::PrismFullNavigation.Droid.Resource.Styleable.View_theme;
 			global::Xamarin.Essentials.Resource.Attribute.alpha = global::PrismFullNavigation.Droid.Resource.Attribute.alpha;
 			global::Xamarin.Essentials.Resource.Attribute.coordinatorLayoutStyle = global::PrismFullNavigation.Droid.Resource.Attribute.coordinatorLayoutStyle;
 			global::Xamarin.Essentials.Resource.Attribute.font = global::PrismFullNavigation.Droid.Resource.Attribute.font;
@@ -2588,6 +641,7 @@ namespace PrismFullNavigation.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.scrimAnimationDuration = global::PrismFullNavigation.Droid.Resource.Attribute.scrimAnimationDuration;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.scrimBackground = global::PrismFullNavigation.Droid.Resource.Attribute.scrimBackground;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.scrimVisibleHeightTrigger = global::PrismFullNavigation.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Xamarin.Forms.Platform.Android.Resource.Attribute.scrollViewStyle = global::PrismFullNavigation.Droid.Resource.Attribute.scrollViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.searchHintIcon = global::PrismFullNavigation.Droid.Resource.Attribute.searchHintIcon;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.searchIcon = global::PrismFullNavigation.Droid.Resource.Attribute.searchIcon;
 			global::Xamarin.Forms.Platform.Android.Resource.Attribute.searchViewStyle = global::PrismFullNavigation.Droid.Resource.Attribute.searchViewStyle;
@@ -3790,7 +1844,6 @@ namespace PrismFullNavigation.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView = global::PrismFullNavigation.Droid.Resource.Style.CardView;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView_Dark = global::PrismFullNavigation.Droid.Resource.Style.CardView_Dark;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.CardView_Light = global::PrismFullNavigation.Droid.Resource.Style.CardView_Light;
-			global::Xamarin.Forms.Platform.Android.Resource.Style.collectionViewScrollBars = global::PrismFullNavigation.Droid.Resource.Style.collectionViewScrollBars;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.collectionViewTheme = global::PrismFullNavigation.Droid.Resource.Style.collectionViewTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.MainTheme = global::PrismFullNavigation.Droid.Resource.Style.MainTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.MainTheme_Base = global::PrismFullNavigation.Droid.Resource.Style.MainTheme_Base;
@@ -3825,6 +1878,8 @@ namespace PrismFullNavigation.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::PrismFullNavigation.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::PrismFullNavigation.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::PrismFullNavigation.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.scrollViewScrollBars = global::PrismFullNavigation.Droid.Resource.Style.scrollViewScrollBars;
+			global::Xamarin.Forms.Platform.Android.Resource.Style.scrollViewTheme = global::PrismFullNavigation.Droid.Resource.Style.scrollViewTheme;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Body1 = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
 			global::Xamarin.Forms.Platform.Android.Resource.Style.TextAppearance_AppCompat_Body2 = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
@@ -4693,6 +2748,8 @@ namespace PrismFullNavigation.Droid
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::PrismFullNavigation.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ScrollingViewBehavior_Layout = global::PrismFullNavigation.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::PrismFullNavigation.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ScrollViewRendererTheme = global::PrismFullNavigation.Droid.Resource.Styleable.ScrollViewRendererTheme;
+			global::Xamarin.Forms.Platform.Android.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle = global::PrismFullNavigation.Droid.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView = global::PrismFullNavigation.Droid.Resource.Styleable.SearchView;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_android_focusable = global::PrismFullNavigation.Droid.Resource.Styleable.SearchView_android_focusable;
 			global::Xamarin.Forms.Platform.Android.Resource.Styleable.SearchView_android_imeOptions = global::PrismFullNavigation.Droid.Resource.Styleable.SearchView_android_imeOptions;
@@ -5267,6 +3324,7 @@ namespace PrismFullNavigation.Droid
 			global::Xamarin.Forms.Platform.Resource.Attribute.scrimAnimationDuration = global::PrismFullNavigation.Droid.Resource.Attribute.scrimAnimationDuration;
 			global::Xamarin.Forms.Platform.Resource.Attribute.scrimBackground = global::PrismFullNavigation.Droid.Resource.Attribute.scrimBackground;
 			global::Xamarin.Forms.Platform.Resource.Attribute.scrimVisibleHeightTrigger = global::PrismFullNavigation.Droid.Resource.Attribute.scrimVisibleHeightTrigger;
+			global::Xamarin.Forms.Platform.Resource.Attribute.scrollViewStyle = global::PrismFullNavigation.Droid.Resource.Attribute.scrollViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Attribute.searchHintIcon = global::PrismFullNavigation.Droid.Resource.Attribute.searchHintIcon;
 			global::Xamarin.Forms.Platform.Resource.Attribute.searchIcon = global::PrismFullNavigation.Droid.Resource.Attribute.searchIcon;
 			global::Xamarin.Forms.Platform.Resource.Attribute.searchViewStyle = global::PrismFullNavigation.Droid.Resource.Attribute.searchViewStyle;
@@ -6469,7 +4527,6 @@ namespace PrismFullNavigation.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.CardView = global::PrismFullNavigation.Droid.Resource.Style.CardView;
 			global::Xamarin.Forms.Platform.Resource.Style.CardView_Dark = global::PrismFullNavigation.Droid.Resource.Style.CardView_Dark;
 			global::Xamarin.Forms.Platform.Resource.Style.CardView_Light = global::PrismFullNavigation.Droid.Resource.Style.CardView_Light;
-			global::Xamarin.Forms.Platform.Resource.Style.collectionViewScrollBars = global::PrismFullNavigation.Droid.Resource.Style.collectionViewScrollBars;
 			global::Xamarin.Forms.Platform.Resource.Style.collectionViewTheme = global::PrismFullNavigation.Droid.Resource.Style.collectionViewTheme;
 			global::Xamarin.Forms.Platform.Resource.Style.MainTheme = global::PrismFullNavigation.Droid.Resource.Style.MainTheme;
 			global::Xamarin.Forms.Platform.Resource.Style.MainTheme_Base = global::PrismFullNavigation.Droid.Resource.Style.MainTheme_Base;
@@ -6504,6 +4561,8 @@ namespace PrismFullNavigation.Droid
 			global::Xamarin.Forms.Platform.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text = global::PrismFullNavigation.Droid.Resource.Style.RtlOverlay_Widget_AppCompat_Search_DropDown_Text;
 			global::Xamarin.Forms.Platform.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton = global::PrismFullNavigation.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton;
 			global::Xamarin.Forms.Platform.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = global::PrismFullNavigation.Droid.Resource.Style.RtlUnderlay_Widget_AppCompat_ActionButton_Overflow;
+			global::Xamarin.Forms.Platform.Resource.Style.scrollViewScrollBars = global::PrismFullNavigation.Droid.Resource.Style.scrollViewScrollBars;
+			global::Xamarin.Forms.Platform.Resource.Style.scrollViewTheme = global::PrismFullNavigation.Droid.Resource.Style.scrollViewTheme;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Body1 = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Body1;
 			global::Xamarin.Forms.Platform.Resource.Style.TextAppearance_AppCompat_Body2 = global::PrismFullNavigation.Droid.Resource.Style.TextAppearance_AppCompat_Body2;
@@ -7372,6 +5431,8 @@ namespace PrismFullNavigation.Droid
 			global::Xamarin.Forms.Platform.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground = global::PrismFullNavigation.Droid.Resource.Styleable.ScrimInsetsFrameLayout_insetForeground;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ScrollingViewBehavior_Layout = global::PrismFullNavigation.Droid.Resource.Styleable.ScrollingViewBehavior_Layout;
 			global::Xamarin.Forms.Platform.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop = global::PrismFullNavigation.Droid.Resource.Styleable.ScrollingViewBehavior_Layout_behavior_overlapTop;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ScrollViewRendererTheme = global::PrismFullNavigation.Droid.Resource.Styleable.ScrollViewRendererTheme;
+			global::Xamarin.Forms.Platform.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle = global::PrismFullNavigation.Droid.Resource.Styleable.ScrollViewRendererTheme_scrollViewStyle;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SearchView = global::PrismFullNavigation.Droid.Resource.Styleable.SearchView;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SearchView_android_focusable = global::PrismFullNavigation.Droid.Resource.Styleable.SearchView_android_focusable;
 			global::Xamarin.Forms.Platform.Resource.Styleable.SearchView_android_imeOptions = global::PrismFullNavigation.Droid.Resource.Styleable.SearchView_android_imeOptions;
@@ -8766,427 +6827,430 @@ namespace PrismFullNavigation.Droid
 			public const int scrimVisibleHeightTrigger = 2130903391;
 			
 			// aapt resource value: 0x7F030160
-			public const int searchHintIcon = 2130903392;
+			public const int scrollViewStyle = 2130903392;
 			
 			// aapt resource value: 0x7F030161
-			public const int searchIcon = 2130903393;
+			public const int searchHintIcon = 2130903393;
 			
 			// aapt resource value: 0x7F030162
-			public const int searchViewStyle = 2130903394;
+			public const int searchIcon = 2130903394;
 			
 			// aapt resource value: 0x7F030163
-			public const int seekBarStyle = 2130903395;
+			public const int searchViewStyle = 2130903395;
 			
 			// aapt resource value: 0x7F030164
-			public const int selectableItemBackground = 2130903396;
+			public const int seekBarStyle = 2130903396;
 			
 			// aapt resource value: 0x7F030165
-			public const int selectableItemBackgroundBorderless = 2130903397;
+			public const int selectableItemBackground = 2130903397;
 			
 			// aapt resource value: 0x7F030166
-			public const int showAsAction = 2130903398;
+			public const int selectableItemBackgroundBorderless = 2130903398;
 			
 			// aapt resource value: 0x7F030167
-			public const int showDividers = 2130903399;
+			public const int showAsAction = 2130903399;
 			
 			// aapt resource value: 0x7F030168
-			public const int showMotionSpec = 2130903400;
+			public const int showDividers = 2130903400;
 			
 			// aapt resource value: 0x7F030169
-			public const int showText = 2130903401;
+			public const int showMotionSpec = 2130903401;
 			
 			// aapt resource value: 0x7F03016A
-			public const int showTitle = 2130903402;
+			public const int showText = 2130903402;
 			
 			// aapt resource value: 0x7F03016B
-			public const int singleChoiceItemLayout = 2130903403;
+			public const int showTitle = 2130903403;
 			
 			// aapt resource value: 0x7F03016C
-			public const int singleLine = 2130903404;
+			public const int singleChoiceItemLayout = 2130903404;
 			
 			// aapt resource value: 0x7F03016D
-			public const int singleSelection = 2130903405;
+			public const int singleLine = 2130903405;
 			
 			// aapt resource value: 0x7F03016E
-			public const int snackbarButtonStyle = 2130903406;
+			public const int singleSelection = 2130903406;
 			
 			// aapt resource value: 0x7F03016F
-			public const int snackbarStyle = 2130903407;
+			public const int snackbarButtonStyle = 2130903407;
 			
 			// aapt resource value: 0x7F030170
-			public const int spanCount = 2130903408;
+			public const int snackbarStyle = 2130903408;
 			
 			// aapt resource value: 0x7F030171
-			public const int spinBars = 2130903409;
+			public const int spanCount = 2130903409;
 			
 			// aapt resource value: 0x7F030172
-			public const int spinnerDropDownItemStyle = 2130903410;
+			public const int spinBars = 2130903410;
 			
 			// aapt resource value: 0x7F030173
-			public const int spinnerStyle = 2130903411;
+			public const int spinnerDropDownItemStyle = 2130903411;
 			
 			// aapt resource value: 0x7F030174
-			public const int splitTrack = 2130903412;
+			public const int spinnerStyle = 2130903412;
 			
 			// aapt resource value: 0x7F030175
-			public const int srcCompat = 2130903413;
+			public const int splitTrack = 2130903413;
 			
 			// aapt resource value: 0x7F030176
-			public const int stackFromEnd = 2130903414;
+			public const int srcCompat = 2130903414;
 			
 			// aapt resource value: 0x7F030177
-			public const int state_above_anchor = 2130903415;
+			public const int stackFromEnd = 2130903415;
 			
 			// aapt resource value: 0x7F030178
-			public const int state_collapsed = 2130903416;
+			public const int state_above_anchor = 2130903416;
 			
 			// aapt resource value: 0x7F030179
-			public const int state_collapsible = 2130903417;
+			public const int state_collapsed = 2130903417;
 			
 			// aapt resource value: 0x7F03017A
-			public const int state_liftable = 2130903418;
+			public const int state_collapsible = 2130903418;
 			
 			// aapt resource value: 0x7F03017B
-			public const int state_lifted = 2130903419;
+			public const int state_liftable = 2130903419;
 			
 			// aapt resource value: 0x7F03017C
-			public const int statusBarBackground = 2130903420;
+			public const int state_lifted = 2130903420;
 			
 			// aapt resource value: 0x7F03017D
-			public const int statusBarScrim = 2130903421;
+			public const int statusBarBackground = 2130903421;
 			
 			// aapt resource value: 0x7F03017E
-			public const int strokeColor = 2130903422;
+			public const int statusBarScrim = 2130903422;
 			
 			// aapt resource value: 0x7F03017F
-			public const int strokeWidth = 2130903423;
+			public const int strokeColor = 2130903423;
 			
 			// aapt resource value: 0x7F030180
-			public const int subMenuArrow = 2130903424;
+			public const int strokeWidth = 2130903424;
 			
 			// aapt resource value: 0x7F030181
-			public const int submitBackground = 2130903425;
+			public const int subMenuArrow = 2130903425;
 			
 			// aapt resource value: 0x7F030182
-			public const int subtitle = 2130903426;
+			public const int submitBackground = 2130903426;
 			
 			// aapt resource value: 0x7F030183
-			public const int subtitleTextAppearance = 2130903427;
+			public const int subtitle = 2130903427;
 			
 			// aapt resource value: 0x7F030184
-			public const int subtitleTextColor = 2130903428;
+			public const int subtitleTextAppearance = 2130903428;
 			
 			// aapt resource value: 0x7F030185
-			public const int subtitleTextStyle = 2130903429;
+			public const int subtitleTextColor = 2130903429;
 			
 			// aapt resource value: 0x7F030186
-			public const int suggestionRowLayout = 2130903430;
+			public const int subtitleTextStyle = 2130903430;
 			
 			// aapt resource value: 0x7F030187
-			public const int switchMinWidth = 2130903431;
+			public const int suggestionRowLayout = 2130903431;
 			
 			// aapt resource value: 0x7F030188
-			public const int switchPadding = 2130903432;
+			public const int switchMinWidth = 2130903432;
 			
 			// aapt resource value: 0x7F030189
-			public const int switchStyle = 2130903433;
+			public const int switchPadding = 2130903433;
 			
 			// aapt resource value: 0x7F03018A
-			public const int switchTextAppearance = 2130903434;
+			public const int switchStyle = 2130903434;
 			
 			// aapt resource value: 0x7F03018B
-			public const int tabBackground = 2130903435;
+			public const int switchTextAppearance = 2130903435;
 			
 			// aapt resource value: 0x7F03018C
-			public const int tabContentStart = 2130903436;
+			public const int tabBackground = 2130903436;
 			
 			// aapt resource value: 0x7F03018D
-			public const int tabGravity = 2130903437;
+			public const int tabContentStart = 2130903437;
 			
 			// aapt resource value: 0x7F03018E
-			public const int tabIconTint = 2130903438;
+			public const int tabGravity = 2130903438;
 			
 			// aapt resource value: 0x7F03018F
-			public const int tabIconTintMode = 2130903439;
+			public const int tabIconTint = 2130903439;
 			
 			// aapt resource value: 0x7F030190
-			public const int tabIndicator = 2130903440;
+			public const int tabIconTintMode = 2130903440;
 			
 			// aapt resource value: 0x7F030191
-			public const int tabIndicatorAnimationDuration = 2130903441;
+			public const int tabIndicator = 2130903441;
 			
 			// aapt resource value: 0x7F030192
-			public const int tabIndicatorColor = 2130903442;
+			public const int tabIndicatorAnimationDuration = 2130903442;
 			
 			// aapt resource value: 0x7F030193
-			public const int tabIndicatorFullWidth = 2130903443;
+			public const int tabIndicatorColor = 2130903443;
 			
 			// aapt resource value: 0x7F030194
-			public const int tabIndicatorGravity = 2130903444;
+			public const int tabIndicatorFullWidth = 2130903444;
 			
 			// aapt resource value: 0x7F030195
-			public const int tabIndicatorHeight = 2130903445;
+			public const int tabIndicatorGravity = 2130903445;
 			
 			// aapt resource value: 0x7F030196
-			public const int tabInlineLabel = 2130903446;
+			public const int tabIndicatorHeight = 2130903446;
 			
 			// aapt resource value: 0x7F030197
-			public const int tabMaxWidth = 2130903447;
+			public const int tabInlineLabel = 2130903447;
 			
 			// aapt resource value: 0x7F030198
-			public const int tabMinWidth = 2130903448;
+			public const int tabMaxWidth = 2130903448;
 			
 			// aapt resource value: 0x7F030199
-			public const int tabMode = 2130903449;
+			public const int tabMinWidth = 2130903449;
 			
 			// aapt resource value: 0x7F03019A
-			public const int tabPadding = 2130903450;
+			public const int tabMode = 2130903450;
 			
 			// aapt resource value: 0x7F03019B
-			public const int tabPaddingBottom = 2130903451;
+			public const int tabPadding = 2130903451;
 			
 			// aapt resource value: 0x7F03019C
-			public const int tabPaddingEnd = 2130903452;
+			public const int tabPaddingBottom = 2130903452;
 			
 			// aapt resource value: 0x7F03019D
-			public const int tabPaddingStart = 2130903453;
+			public const int tabPaddingEnd = 2130903453;
 			
 			// aapt resource value: 0x7F03019E
-			public const int tabPaddingTop = 2130903454;
+			public const int tabPaddingStart = 2130903454;
 			
 			// aapt resource value: 0x7F03019F
-			public const int tabRippleColor = 2130903455;
+			public const int tabPaddingTop = 2130903455;
 			
 			// aapt resource value: 0x7F0301A0
-			public const int tabSelectedTextColor = 2130903456;
+			public const int tabRippleColor = 2130903456;
 			
 			// aapt resource value: 0x7F0301A1
-			public const int tabStyle = 2130903457;
+			public const int tabSelectedTextColor = 2130903457;
 			
 			// aapt resource value: 0x7F0301A2
-			public const int tabTextAppearance = 2130903458;
+			public const int tabStyle = 2130903458;
 			
 			// aapt resource value: 0x7F0301A3
-			public const int tabTextColor = 2130903459;
+			public const int tabTextAppearance = 2130903459;
 			
 			// aapt resource value: 0x7F0301A4
-			public const int tabUnboundedRipple = 2130903460;
+			public const int tabTextColor = 2130903460;
 			
 			// aapt resource value: 0x7F0301A5
-			public const int textAllCaps = 2130903461;
+			public const int tabUnboundedRipple = 2130903461;
 			
 			// aapt resource value: 0x7F0301A6
-			public const int textAppearanceBody1 = 2130903462;
+			public const int textAllCaps = 2130903462;
 			
 			// aapt resource value: 0x7F0301A7
-			public const int textAppearanceBody2 = 2130903463;
+			public const int textAppearanceBody1 = 2130903463;
 			
 			// aapt resource value: 0x7F0301A8
-			public const int textAppearanceButton = 2130903464;
+			public const int textAppearanceBody2 = 2130903464;
 			
 			// aapt resource value: 0x7F0301A9
-			public const int textAppearanceCaption = 2130903465;
+			public const int textAppearanceButton = 2130903465;
 			
 			// aapt resource value: 0x7F0301AA
-			public const int textAppearanceHeadline1 = 2130903466;
+			public const int textAppearanceCaption = 2130903466;
 			
 			// aapt resource value: 0x7F0301AB
-			public const int textAppearanceHeadline2 = 2130903467;
+			public const int textAppearanceHeadline1 = 2130903467;
 			
 			// aapt resource value: 0x7F0301AC
-			public const int textAppearanceHeadline3 = 2130903468;
+			public const int textAppearanceHeadline2 = 2130903468;
 			
 			// aapt resource value: 0x7F0301AD
-			public const int textAppearanceHeadline4 = 2130903469;
+			public const int textAppearanceHeadline3 = 2130903469;
 			
 			// aapt resource value: 0x7F0301AE
-			public const int textAppearanceHeadline5 = 2130903470;
+			public const int textAppearanceHeadline4 = 2130903470;
 			
 			// aapt resource value: 0x7F0301AF
-			public const int textAppearanceHeadline6 = 2130903471;
+			public const int textAppearanceHeadline5 = 2130903471;
 			
 			// aapt resource value: 0x7F0301B0
-			public const int textAppearanceLargePopupMenu = 2130903472;
+			public const int textAppearanceHeadline6 = 2130903472;
 			
 			// aapt resource value: 0x7F0301B1
-			public const int textAppearanceListItem = 2130903473;
+			public const int textAppearanceLargePopupMenu = 2130903473;
 			
 			// aapt resource value: 0x7F0301B2
-			public const int textAppearanceListItemSecondary = 2130903474;
+			public const int textAppearanceListItem = 2130903474;
 			
 			// aapt resource value: 0x7F0301B3
-			public const int textAppearanceListItemSmall = 2130903475;
+			public const int textAppearanceListItemSecondary = 2130903475;
 			
 			// aapt resource value: 0x7F0301B4
-			public const int textAppearanceOverline = 2130903476;
+			public const int textAppearanceListItemSmall = 2130903476;
 			
 			// aapt resource value: 0x7F0301B5
-			public const int textAppearancePopupMenuHeader = 2130903477;
+			public const int textAppearanceOverline = 2130903477;
 			
 			// aapt resource value: 0x7F0301B6
-			public const int textAppearanceSearchResultSubtitle = 2130903478;
+			public const int textAppearancePopupMenuHeader = 2130903478;
 			
 			// aapt resource value: 0x7F0301B7
-			public const int textAppearanceSearchResultTitle = 2130903479;
+			public const int textAppearanceSearchResultSubtitle = 2130903479;
 			
 			// aapt resource value: 0x7F0301B8
-			public const int textAppearanceSmallPopupMenu = 2130903480;
+			public const int textAppearanceSearchResultTitle = 2130903480;
 			
 			// aapt resource value: 0x7F0301B9
-			public const int textAppearanceSubtitle1 = 2130903481;
+			public const int textAppearanceSmallPopupMenu = 2130903481;
 			
 			// aapt resource value: 0x7F0301BA
-			public const int textAppearanceSubtitle2 = 2130903482;
+			public const int textAppearanceSubtitle1 = 2130903482;
 			
 			// aapt resource value: 0x7F0301BB
-			public const int textColorAlertDialogListItem = 2130903483;
+			public const int textAppearanceSubtitle2 = 2130903483;
 			
 			// aapt resource value: 0x7F0301BC
-			public const int textColorSearchUrl = 2130903484;
+			public const int textColorAlertDialogListItem = 2130903484;
 			
 			// aapt resource value: 0x7F0301BD
-			public const int textEndPadding = 2130903485;
+			public const int textColorSearchUrl = 2130903485;
 			
 			// aapt resource value: 0x7F0301BE
-			public const int textInputStyle = 2130903486;
+			public const int textEndPadding = 2130903486;
 			
 			// aapt resource value: 0x7F0301BF
-			public const int textLocale = 2130903487;
+			public const int textInputStyle = 2130903487;
 			
 			// aapt resource value: 0x7F0301C0
-			public const int textStartPadding = 2130903488;
+			public const int textLocale = 2130903488;
 			
 			// aapt resource value: 0x7F0301C1
-			public const int theme = 2130903489;
+			public const int textStartPadding = 2130903489;
 			
 			// aapt resource value: 0x7F0301C2
-			public const int thickness = 2130903490;
+			public const int theme = 2130903490;
 			
 			// aapt resource value: 0x7F0301C3
-			public const int thumbTextPadding = 2130903491;
+			public const int thickness = 2130903491;
 			
 			// aapt resource value: 0x7F0301C4
-			public const int thumbTint = 2130903492;
+			public const int thumbTextPadding = 2130903492;
 			
 			// aapt resource value: 0x7F0301C5
-			public const int thumbTintMode = 2130903493;
+			public const int thumbTint = 2130903493;
 			
 			// aapt resource value: 0x7F0301C6
-			public const int tickMark = 2130903494;
+			public const int thumbTintMode = 2130903494;
 			
 			// aapt resource value: 0x7F0301C7
-			public const int tickMarkTint = 2130903495;
+			public const int tickMark = 2130903495;
 			
 			// aapt resource value: 0x7F0301C8
-			public const int tickMarkTintMode = 2130903496;
+			public const int tickMarkTint = 2130903496;
 			
 			// aapt resource value: 0x7F0301C9
-			public const int tint = 2130903497;
+			public const int tickMarkTintMode = 2130903497;
 			
 			// aapt resource value: 0x7F0301CA
-			public const int tintMode = 2130903498;
+			public const int tint = 2130903498;
 			
 			// aapt resource value: 0x7F0301CB
-			public const int title = 2130903499;
+			public const int tintMode = 2130903499;
 			
 			// aapt resource value: 0x7F0301CC
-			public const int titleEnabled = 2130903500;
+			public const int title = 2130903500;
 			
 			// aapt resource value: 0x7F0301CD
-			public const int titleMargin = 2130903501;
+			public const int titleEnabled = 2130903501;
 			
 			// aapt resource value: 0x7F0301CE
-			public const int titleMarginBottom = 2130903502;
+			public const int titleMargin = 2130903502;
 			
 			// aapt resource value: 0x7F0301CF
-			public const int titleMarginEnd = 2130903503;
-			
-			// aapt resource value: 0x7F0301D2
-			public const int titleMargins = 2130903506;
+			public const int titleMarginBottom = 2130903503;
 			
 			// aapt resource value: 0x7F0301D0
-			public const int titleMarginStart = 2130903504;
-			
-			// aapt resource value: 0x7F0301D1
-			public const int titleMarginTop = 2130903505;
+			public const int titleMarginEnd = 2130903504;
 			
 			// aapt resource value: 0x7F0301D3
-			public const int titleTextAppearance = 2130903507;
+			public const int titleMargins = 2130903507;
+			
+			// aapt resource value: 0x7F0301D1
+			public const int titleMarginStart = 2130903505;
+			
+			// aapt resource value: 0x7F0301D2
+			public const int titleMarginTop = 2130903506;
 			
 			// aapt resource value: 0x7F0301D4
-			public const int titleTextColor = 2130903508;
+			public const int titleTextAppearance = 2130903508;
 			
 			// aapt resource value: 0x7F0301D5
-			public const int titleTextStyle = 2130903509;
+			public const int titleTextColor = 2130903509;
 			
 			// aapt resource value: 0x7F0301D6
-			public const int toolbarId = 2130903510;
+			public const int titleTextStyle = 2130903510;
 			
 			// aapt resource value: 0x7F0301D7
-			public const int toolbarNavigationButtonStyle = 2130903511;
+			public const int toolbarId = 2130903511;
 			
 			// aapt resource value: 0x7F0301D8
-			public const int toolbarStyle = 2130903512;
+			public const int toolbarNavigationButtonStyle = 2130903512;
 			
 			// aapt resource value: 0x7F0301D9
-			public const int tooltipForegroundColor = 2130903513;
+			public const int toolbarStyle = 2130903513;
 			
 			// aapt resource value: 0x7F0301DA
-			public const int tooltipFrameBackground = 2130903514;
+			public const int tooltipForegroundColor = 2130903514;
 			
 			// aapt resource value: 0x7F0301DB
-			public const int tooltipText = 2130903515;
+			public const int tooltipFrameBackground = 2130903515;
 			
 			// aapt resource value: 0x7F0301DC
-			public const int track = 2130903516;
+			public const int tooltipText = 2130903516;
 			
 			// aapt resource value: 0x7F0301DD
-			public const int trackTint = 2130903517;
+			public const int track = 2130903517;
 			
 			// aapt resource value: 0x7F0301DE
-			public const int trackTintMode = 2130903518;
+			public const int trackTint = 2130903518;
 			
 			// aapt resource value: 0x7F0301DF
-			public const int ttcIndex = 2130903519;
+			public const int trackTintMode = 2130903519;
 			
 			// aapt resource value: 0x7F0301E0
-			public const int useCompatPadding = 2130903520;
+			public const int ttcIndex = 2130903520;
 			
 			// aapt resource value: 0x7F0301E1
-			public const int viewInflaterClass = 2130903521;
+			public const int useCompatPadding = 2130903521;
 			
 			// aapt resource value: 0x7F0301E2
-			public const int voiceIcon = 2130903522;
+			public const int viewInflaterClass = 2130903522;
 			
 			// aapt resource value: 0x7F0301E3
-			public const int windowActionBar = 2130903523;
+			public const int voiceIcon = 2130903523;
 			
 			// aapt resource value: 0x7F0301E4
-			public const int windowActionBarOverlay = 2130903524;
+			public const int windowActionBar = 2130903524;
 			
 			// aapt resource value: 0x7F0301E5
-			public const int windowActionModeOverlay = 2130903525;
+			public const int windowActionBarOverlay = 2130903525;
 			
 			// aapt resource value: 0x7F0301E6
-			public const int windowFixedHeightMajor = 2130903526;
+			public const int windowActionModeOverlay = 2130903526;
 			
 			// aapt resource value: 0x7F0301E7
-			public const int windowFixedHeightMinor = 2130903527;
+			public const int windowFixedHeightMajor = 2130903527;
 			
 			// aapt resource value: 0x7F0301E8
-			public const int windowFixedWidthMajor = 2130903528;
+			public const int windowFixedHeightMinor = 2130903528;
 			
 			// aapt resource value: 0x7F0301E9
-			public const int windowFixedWidthMinor = 2130903529;
+			public const int windowFixedWidthMajor = 2130903529;
 			
 			// aapt resource value: 0x7F0301EA
-			public const int windowMinWidthMajor = 2130903530;
+			public const int windowFixedWidthMinor = 2130903530;
 			
 			// aapt resource value: 0x7F0301EB
-			public const int windowMinWidthMinor = 2130903531;
+			public const int windowMinWidthMajor = 2130903531;
 			
 			// aapt resource value: 0x7F0301EC
-			public const int windowNoTitle = 2130903532;
+			public const int windowMinWidthMinor = 2130903532;
+			
+			// aapt resource value: 0x7F0301ED
+			public const int windowNoTitle = 2130903533;
 			
 			static Attribute()
 			{
@@ -12578,10 +10642,7 @@ namespace PrismFullNavigation.Droid
 			public const int CardView_Light = 2131624134;
 			
 			// aapt resource value: 0x7F0E01FB
-			public const int collectionViewScrollBars = 2131624443;
-			
-			// aapt resource value: 0x7F0E01FC
-			public const int collectionViewTheme = 2131624444;
+			public const int collectionViewTheme = 2131624443;
 			
 			// aapt resource value: 0x7F0E00C7
 			public const int MainTheme = 2131624135;
@@ -12681,6 +10742,12 @@ namespace PrismFullNavigation.Droid
 			
 			// aapt resource value: 0x7F0E00E7
 			public const int RtlUnderlay_Widget_AppCompat_ActionButton_Overflow = 2131624167;
+			
+			// aapt resource value: 0x7F0E01FC
+			public const int scrollViewScrollBars = 2131624444;
+			
+			// aapt resource value: 0x7F0E01FD
+			public const int scrollViewTheme = 2131624445;
 			
 			// aapt resource value: 0x7F0E00E8
 			public const int TextAppearance_AppCompat = 2131624168;
@@ -13520,7 +11587,7 @@ namespace PrismFullNavigation.Droid
 		public partial class Styleable
 		{
 			
-			// aapt resource value: { 0x7F030031,0x7F030032,0x7F030033,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030097,0x7F030098,0x7F0300A6,0x7F0300AB,0x7F0300AC,0x7F0300BF,0x7F0300E9,0x7F0300EE,0x7F0300F3,0x7F0300F4,0x7F0300F6,0x7F030100,0x7F03010A,0x7F030131,0x7F03013D,0x7F03014E,0x7F030152,0x7F030153,0x7F030182,0x7F030185,0x7F0301CB,0x7F0301D5 }
+			// aapt resource value: { 0x7F030031,0x7F030032,0x7F030033,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030097,0x7F030098,0x7F0300A6,0x7F0300AB,0x7F0300AC,0x7F0300BF,0x7F0300E9,0x7F0300EE,0x7F0300F3,0x7F0300F4,0x7F0300F6,0x7F030100,0x7F03010A,0x7F030131,0x7F03013D,0x7F03014E,0x7F030152,0x7F030153,0x7F030183,0x7F030186,0x7F0301CC,0x7F0301D6 }
 			public static int[] ActionBar = new int[] {
 					2130903089,
 					2130903090,
@@ -13547,10 +11614,10 @@ namespace PrismFullNavigation.Droid
 					2130903374,
 					2130903378,
 					2130903379,
-					2130903426,
-					2130903429,
-					2130903499,
-					2130903509};
+					2130903427,
+					2130903430,
+					2130903500,
+					2130903510};
 			
 			// aapt resource value: { 0x10100B3 }
 			public static int[] ActionBarLayout = new int[] {
@@ -13657,14 +11724,14 @@ namespace PrismFullNavigation.Droid
 			public static int[] ActionMenuView = new int[] {
 					-1};
 			
-			// aapt resource value: { 0x7F030031,0x7F030032,0x7F03007F,0x7F0300E9,0x7F030185,0x7F0301D5 }
+			// aapt resource value: { 0x7F030031,0x7F030032,0x7F03007F,0x7F0300E9,0x7F030186,0x7F0301D6 }
 			public static int[] ActionMode = new int[] {
 					2130903089,
 					2130903090,
 					2130903167,
 					2130903273,
-					2130903429,
-					2130903509};
+					2130903430,
+					2130903510};
 			
 			// aapt resource value: 0
 			public const int ActionMode_background = 0;
@@ -13695,7 +11762,7 @@ namespace PrismFullNavigation.Droid
 			// aapt resource value: 1
 			public const int ActivityChooserView_initialActivityCount = 1;
 			
-			// aapt resource value: { 0x10100F2,0x7F030053,0x7F030054,0x7F030126,0x7F030127,0x7F03013A,0x7F03016A,0x7F03016B }
+			// aapt resource value: { 0x10100F2,0x7F030053,0x7F030054,0x7F030126,0x7F030127,0x7F03013A,0x7F03016B,0x7F03016C }
 			public static int[] AlertDialog = new int[] {
 					16842994,
 					2130903123,
@@ -13703,8 +11770,8 @@ namespace PrismFullNavigation.Droid
 					2130903334,
 					2130903335,
 					2130903354,
-					2130903402,
-					2130903403};
+					2130903403,
+					2130903404};
 			
 			// aapt resource value: 0
 			public const int AlertDialog_android_layout = 0;
@@ -13796,12 +11863,12 @@ namespace PrismFullNavigation.Droid
 					2130903237,
 					2130903327};
 			
-			// aapt resource value: { 0x7F030178,0x7F030179,0x7F03017A,0x7F03017B }
+			// aapt resource value: { 0x7F030179,0x7F03017A,0x7F03017B,0x7F03017C }
 			public static int[] AppBarLayoutStates = new int[] {
-					2130903416,
 					2130903417,
 					2130903418,
-					2130903419};
+					2130903419,
+					2130903420};
 			
 			// aapt resource value: 0
 			public const int AppBarLayoutStates_state_collapsed = 0;
@@ -13844,12 +11911,12 @@ namespace PrismFullNavigation.Droid
 			// aapt resource value: 5
 			public const int AppBarLayout_liftOnScroll = 5;
 			
-			// aapt resource value: { 0x1010119,0x7F030175,0x7F0301C9,0x7F0301CA }
+			// aapt resource value: { 0x1010119,0x7F030176,0x7F0301CA,0x7F0301CB }
 			public static int[] AppCompatImageView = new int[] {
 					16843033,
-					2130903413,
-					2130903497,
-					2130903498};
+					2130903414,
+					2130903498,
+					2130903499};
 			
 			// aapt resource value: 0
 			public const int AppCompatImageView_android_src = 0;
@@ -13863,12 +11930,12 @@ namespace PrismFullNavigation.Droid
 			// aapt resource value: 3
 			public const int AppCompatImageView_tintMode = 3;
 			
-			// aapt resource value: { 0x1010142,0x7F0301C6,0x7F0301C7,0x7F0301C8 }
+			// aapt resource value: { 0x1010142,0x7F0301C7,0x7F0301C8,0x7F0301C9 }
 			public static int[] AppCompatSeekBar = new int[] {
 					16843074,
-					2130903494,
 					2130903495,
-					2130903496};
+					2130903496,
+					2130903497};
 			
 			// aapt resource value: 0
 			public const int AppCompatSeekBar_android_thumb = 0;
@@ -13913,7 +11980,7 @@ namespace PrismFullNavigation.Droid
 			// aapt resource value: 0
 			public const int AppCompatTextHelper_android_textAppearance = 0;
 			
-			// aapt resource value: { 0x1010034,0x7F03002C,0x7F03002D,0x7F03002E,0x7F03002F,0x7F030030,0x7F0300B0,0x7F0300B1,0x7F0300B2,0x7F0300B3,0x7F0300B5,0x7F0300B6,0x7F0300B7,0x7F0300B8,0x7F0300D8,0x7F0300DB,0x7F0300E3,0x7F030112,0x7F030120,0x7F0301A5,0x7F0301BF }
+			// aapt resource value: { 0x1010034,0x7F03002C,0x7F03002D,0x7F03002E,0x7F03002F,0x7F030030,0x7F0300B0,0x7F0300B1,0x7F0300B2,0x7F0300B3,0x7F0300B5,0x7F0300B6,0x7F0300B7,0x7F0300B8,0x7F0300D8,0x7F0300DB,0x7F0300E3,0x7F030112,0x7F030120,0x7F0301A6,0x7F0301C0 }
 			public static int[] AppCompatTextView = new int[] {
 					16842804,
 					2130903084,
@@ -13934,8 +12001,8 @@ namespace PrismFullNavigation.Droid
 					2130903267,
 					2130903314,
 					2130903328,
-					2130903461,
-					2130903487};
+					2130903462,
+					2130903488};
 			
 			// aapt resource value: 0
 			public const int AppCompatTextView_android_textAppearance = 0;
@@ -14000,7 +12067,7 @@ namespace PrismFullNavigation.Droid
 			// aapt resource value: 20
 			public const int AppCompatTextView_textLocale = 20;
 			
-			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F03002B,0x7F03003E,0x7F03004C,0x7F03004D,0x7F03004E,0x7F03004F,0x7F030050,0x7F030055,0x7F030056,0x7F030060,0x7F030065,0x7F030086,0x7F030087,0x7F030088,0x7F030089,0x7F03008A,0x7F03008B,0x7F03008C,0x7F03008D,0x7F03008E,0x7F030090,0x7F03009F,0x7F0300A8,0x7F0300A9,0x7F0300AA,0x7F0300AD,0x7F0300AF,0x7F0300BA,0x7F0300BB,0x7F0300BC,0x7F0300BD,0x7F0300BE,0x7F0300F3,0x7F0300FF,0x7F030122,0x7F030123,0x7F030124,0x7F030125,0x7F030128,0x7F030129,0x7F03012A,0x7F03012B,0x7F03012C,0x7F03012D,0x7F03012E,0x7F03012F,0x7F030130,0x7F030145,0x7F030146,0x7F030147,0x7F03014D,0x7F03014F,0x7F030156,0x7F030157,0x7F030158,0x7F030159,0x7F030162,0x7F030163,0x7F030164,0x7F030165,0x7F030172,0x7F030173,0x7F030189,0x7F0301B0,0x7F0301B1,0x7F0301B2,0x7F0301B3,0x7F0301B5,0x7F0301B6,0x7F0301B7,0x7F0301B8,0x7F0301BB,0x7F0301BC,0x7F0301D7,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301E1,0x7F0301E3,0x7F0301E4,0x7F0301E5,0x7F0301E6,0x7F0301E7,0x7F0301E8,0x7F0301E9,0x7F0301EA,0x7F0301EB,0x7F0301EC }
+			// aapt resource value: { 0x1010057,0x10100AE,0x7F030000,0x7F030001,0x7F030002,0x7F030003,0x7F030004,0x7F030005,0x7F030006,0x7F030007,0x7F030008,0x7F030009,0x7F03000A,0x7F03000B,0x7F03000C,0x7F03000E,0x7F03000F,0x7F030010,0x7F030011,0x7F030012,0x7F030013,0x7F030014,0x7F030015,0x7F030016,0x7F030017,0x7F030018,0x7F030019,0x7F03001A,0x7F03001B,0x7F03001C,0x7F03001D,0x7F03001E,0x7F030021,0x7F030022,0x7F030023,0x7F030024,0x7F030025,0x7F03002B,0x7F03003E,0x7F03004C,0x7F03004D,0x7F03004E,0x7F03004F,0x7F030050,0x7F030055,0x7F030056,0x7F030060,0x7F030065,0x7F030086,0x7F030087,0x7F030088,0x7F030089,0x7F03008A,0x7F03008B,0x7F03008C,0x7F03008D,0x7F03008E,0x7F030090,0x7F03009F,0x7F0300A8,0x7F0300A9,0x7F0300AA,0x7F0300AD,0x7F0300AF,0x7F0300BA,0x7F0300BB,0x7F0300BC,0x7F0300BD,0x7F0300BE,0x7F0300F3,0x7F0300FF,0x7F030122,0x7F030123,0x7F030124,0x7F030125,0x7F030128,0x7F030129,0x7F03012A,0x7F03012B,0x7F03012C,0x7F03012D,0x7F03012E,0x7F03012F,0x7F030130,0x7F030145,0x7F030146,0x7F030147,0x7F03014D,0x7F03014F,0x7F030156,0x7F030157,0x7F030158,0x7F030159,0x7F030163,0x7F030164,0x7F030165,0x7F030166,0x7F030173,0x7F030174,0x7F03018A,0x7F0301B1,0x7F0301B2,0x7F0301B3,0x7F0301B4,0x7F0301B6,0x7F0301B7,0x7F0301B8,0x7F0301B9,0x7F0301BC,0x7F0301BD,0x7F0301D8,0x7F0301D9,0x7F0301DA,0x7F0301DB,0x7F0301E2,0x7F0301E4,0x7F0301E5,0x7F0301E6,0x7F0301E7,0x7F0301E8,0x7F0301E9,0x7F0301EA,0x7F0301EB,0x7F0301EC,0x7F0301ED }
 			public static int[] AppCompatTheme = new int[] {
 					16842839,
 					16842926,
@@ -14095,29 +12162,28 @@ namespace PrismFullNavigation.Droid
 					2130903383,
 					2130903384,
 					2130903385,
-					2130903394,
 					2130903395,
 					2130903396,
 					2130903397,
-					2130903410,
+					2130903398,
 					2130903411,
-					2130903433,
-					2130903472,
+					2130903412,
+					2130903434,
 					2130903473,
 					2130903474,
 					2130903475,
-					2130903477,
+					2130903476,
 					2130903478,
 					2130903479,
 					2130903480,
-					2130903483,
+					2130903481,
 					2130903484,
-					2130903511,
+					2130903485,
 					2130903512,
 					2130903513,
 					2130903514,
-					2130903521,
-					2130903523,
+					2130903515,
+					2130903522,
 					2130903524,
 					2130903525,
 					2130903526,
@@ -14126,7 +12192,8 @@ namespace PrismFullNavigation.Droid
 					2130903529,
 					2130903530,
 					2130903531,
-					2130903532};
+					2130903532,
+					2130903533};
 			
 			// aapt resource value: 2
 			public const int AppCompatTheme_actionBarDivider = 2;
@@ -14654,7 +12721,7 @@ namespace PrismFullNavigation.Droid
 			// aapt resource value: 12
 			public const int CardView_contentPaddingTop = 12;
 			
-			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030062,0x7F030063,0x7F030064,0x7F030066,0x7F030067,0x7F030068,0x7F03006A,0x7F03006B,0x7F03006C,0x7F03006D,0x7F03006E,0x7F03006F,0x7F030074,0x7F030075,0x7F030076,0x7F030078,0x7F030079,0x7F03007A,0x7F03007B,0x7F03007C,0x7F03007D,0x7F03007E,0x7F0300ED,0x7F0300F7,0x7F0300FB,0x7F03015C,0x7F030168,0x7F0301BD,0x7F0301C0 }
+			// aapt resource value: { 0x1010034,0x10100AB,0x101011F,0x101014F,0x10101E5,0x7F030062,0x7F030063,0x7F030064,0x7F030066,0x7F030067,0x7F030068,0x7F03006A,0x7F03006B,0x7F03006C,0x7F03006D,0x7F03006E,0x7F03006F,0x7F030074,0x7F030075,0x7F030076,0x7F030078,0x7F030079,0x7F03007A,0x7F03007B,0x7F03007C,0x7F03007D,0x7F03007E,0x7F0300ED,0x7F0300F7,0x7F0300FB,0x7F03015C,0x7F030169,0x7F0301BE,0x7F0301C1 }
 			public static int[] Chip = new int[] {
 					16842804,
 					16842923,
@@ -14687,18 +12754,18 @@ namespace PrismFullNavigation.Droid
 					2130903287,
 					2130903291,
 					2130903388,
-					2130903400,
-					2130903485,
-					2130903488};
+					2130903401,
+					2130903486,
+					2130903489};
 			
-			// aapt resource value: { 0x7F030061,0x7F030070,0x7F030071,0x7F030072,0x7F03016C,0x7F03016D }
+			// aapt resource value: { 0x7F030061,0x7F030070,0x7F030071,0x7F030072,0x7F03016D,0x7F03016E }
 			public static int[] ChipGroup = new int[] {
 					2130903137,
 					2130903152,
 					2130903153,
 					2130903154,
-					2130903404,
-					2130903405};
+					2130903405,
+					2130903406};
 			
 			// aapt resource value: 0
 			public const int ChipGroup_checkedChip = 0;
@@ -14820,7 +12887,7 @@ namespace PrismFullNavigation.Droid
 			// aapt resource value: 33
 			public const int Chip_textStartPadding = 33;
 			
-			// aapt resource value: { 0x7F030082,0x7F030083,0x7F03009E,0x7F0300C6,0x7F0300C7,0x7F0300C8,0x7F0300C9,0x7F0300CA,0x7F0300CB,0x7F0300CC,0x7F03015D,0x7F03015F,0x7F03017D,0x7F0301CB,0x7F0301CC,0x7F0301D6 }
+			// aapt resource value: { 0x7F030082,0x7F030083,0x7F03009E,0x7F0300C6,0x7F0300C7,0x7F0300C8,0x7F0300C9,0x7F0300CA,0x7F0300CB,0x7F0300CC,0x7F03015D,0x7F03015F,0x7F03017E,0x7F0301CC,0x7F0301CD,0x7F0301D7 }
 			public static int[] CollapsingToolbarLayout = new int[] {
 					2130903170,
 					2130903171,
@@ -14834,10 +12901,10 @@ namespace PrismFullNavigation.Droid
 					2130903244,
 					2130903389,
 					2130903391,
-					2130903421,
-					2130903499,
+					2130903422,
 					2130903500,
-					2130903510};
+					2130903501,
+					2130903511};
 			
 			// aapt resource value: 0
 			public const int CollapsingToolbarLayout_collapsedTitleGravity = 0;
@@ -14932,10 +12999,10 @@ namespace PrismFullNavigation.Droid
 			// aapt resource value: 3
 			public const int CompoundButton_buttonTintMode = 3;
 			
-			// aapt resource value: { 0x7F030110,0x7F03017C }
+			// aapt resource value: { 0x7F030110,0x7F03017D }
 			public static int[] CoordinatorLayout = new int[] {
 					2130903312,
-					2130903420};
+					2130903421};
 			
 			// aapt resource value: 0
 			public const int CoordinatorLayout_keylines = 0;
@@ -14985,7 +13052,7 @@ namespace PrismFullNavigation.Droid
 			// aapt resource value: 1
 			public const int DesignTheme_bottomSheetStyle = 1;
 			
-			// aapt resource value: { 0x7F030029,0x7F03002A,0x7F030036,0x7F030085,0x7F0300B4,0x7F0300E6,0x7F030171,0x7F0301C2 }
+			// aapt resource value: { 0x7F030029,0x7F03002A,0x7F030036,0x7F030085,0x7F0300B4,0x7F0300E6,0x7F030172,0x7F0301C3 }
 			public static int[] DrawerArrowToggle = new int[] {
 					2130903081,
 					2130903082,
@@ -14993,8 +13060,8 @@ namespace PrismFullNavigation.Droid
 					2130903173,
 					2130903220,
 					2130903270,
-					2130903409,
-					2130903490};
+					2130903410,
+					2130903491};
 			
 			// aapt resource value: 0
 			public const int DrawerArrowToggle_arrowHeadLength = 0;
@@ -15020,7 +13087,7 @@ namespace PrismFullNavigation.Droid
 			// aapt resource value: 7
 			public const int DrawerArrowToggle_thickness = 7;
 			
-			// aapt resource value: { 0x7F030034,0x7F030035,0x7F03003D,0x7F0300BF,0x7F0300D1,0x7F0300D2,0x7F0300ED,0x7F0300F5,0x7F030137,0x7F030151,0x7F03015C,0x7F030168,0x7F0301E0 }
+			// aapt resource value: { 0x7F030034,0x7F030035,0x7F03003D,0x7F0300BF,0x7F0300D1,0x7F0300D2,0x7F0300ED,0x7F0300F5,0x7F030137,0x7F030151,0x7F03015C,0x7F030169,0x7F0301E1 }
 			public static int[] FloatingActionButton = new int[] {
 					2130903092,
 					2130903093,
@@ -15033,8 +13100,8 @@ namespace PrismFullNavigation.Droid
 					2130903351,
 					2130903377,
 					2130903388,
-					2130903400,
-					2130903520};
+					2130903401,
+					2130903521};
 			
 			// aapt resource value: 0
 			public const int FloatingActionButton_backgroundTint = 0;
@@ -15102,7 +13169,7 @@ namespace PrismFullNavigation.Droid
 					2130903264,
 					2130903265};
 			
-			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0300DA,0x7F0300E2,0x7F0300E3,0x7F0300E4,0x7F0301DF }
+			// aapt resource value: { 0x1010532,0x1010533,0x101053F,0x101056F,0x1010570,0x7F0300DA,0x7F0300E2,0x7F0300E3,0x7F0300E4,0x7F0301E0 }
 			public static int[] FontFamilyFont = new int[] {
 					16844082,
 					16844083,
@@ -15113,7 +13180,7 @@ namespace PrismFullNavigation.Droid
 					2130903266,
 					2130903267,
 					2130903268,
-					2130903519};
+					2130903520};
 			
 			// aapt resource value: 0
 			public const int FontFamilyFont_android_font = 0;
@@ -15247,7 +13314,7 @@ namespace PrismFullNavigation.Droid
 			// aapt resource value: 0
 			public const int ItemsViewRendererTheme_collectionViewStyle = 0;
 			
-			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300AC,0x7F0300AE,0x7F030138,0x7F030167 }
+			// aapt resource value: { 0x10100AF,0x10100C4,0x1010126,0x1010127,0x1010128,0x7F0300AC,0x7F0300AE,0x7F030138,0x7F030168 }
 			public static int[] LinearLayoutCompat = new int[] {
 					16842927,
 					16842948,
@@ -15257,7 +13324,7 @@ namespace PrismFullNavigation.Droid
 					2130903212,
 					2130903214,
 					2130903352,
-					2130903399};
+					2130903400};
 			
 			// aapt resource value: 2
 			public const int LinearLayoutCompat_android_baselineAligned = 2;
@@ -15316,7 +13383,7 @@ namespace PrismFullNavigation.Droid
 			// aapt resource value: 1
 			public const int ListPopupWindow_android_dropDownVerticalOffset = 1;
 			
-			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F030034,0x7F030035,0x7F0300A1,0x7F0300F6,0x7F0300F8,0x7F0300F9,0x7F0300FA,0x7F0300FC,0x7F0300FD,0x7F03015C,0x7F03017E,0x7F03017F }
+			// aapt resource value: { 0x10101B7,0x10101B8,0x10101B9,0x10101BA,0x7F030034,0x7F030035,0x7F0300A1,0x7F0300F6,0x7F0300F8,0x7F0300F9,0x7F0300FA,0x7F0300FC,0x7F0300FD,0x7F03015C,0x7F03017F,0x7F030180 }
 			public static int[] MaterialButton = new int[] {
 					16843191,
 					16843192,
@@ -15332,8 +13399,8 @@ namespace PrismFullNavigation.Droid
 					2130903292,
 					2130903293,
 					2130903388,
-					2130903422,
-					2130903423};
+					2130903423,
+					2130903424};
 			
 			// aapt resource value: 3
 			public const int MaterialButton_android_insetBottom = 3;
@@ -15383,10 +13450,10 @@ namespace PrismFullNavigation.Droid
 			// aapt resource value: 15
 			public const int MaterialButton_strokeWidth = 15;
 			
-			// aapt resource value: { 0x7F03017E,0x7F03017F }
+			// aapt resource value: { 0x7F03017F,0x7F030180 }
 			public static int[] MaterialCardView = new int[] {
-					2130903422,
-					2130903423};
+					2130903423,
+					2130903424};
 			
 			// aapt resource value: 0
 			public const int MaterialCardView_strokeColor = 0;
@@ -15394,7 +13461,7 @@ namespace PrismFullNavigation.Droid
 			// aapt resource value: 1
 			public const int MaterialCardView_strokeWidth = 1;
 			
-			// aapt resource value: { 0x7F030041,0x7F030042,0x7F030069,0x7F030073,0x7F030077,0x7F030086,0x7F030087,0x7F03008D,0x7F03008E,0x7F03008F,0x7F0300BE,0x7F0300D9,0x7F030133,0x7F030134,0x7F03013E,0x7F03015E,0x7F03016E,0x7F0301A1,0x7F0301A6,0x7F0301A7,0x7F0301A8,0x7F0301A9,0x7F0301AA,0x7F0301AB,0x7F0301AC,0x7F0301AD,0x7F0301AE,0x7F0301AF,0x7F0301B4,0x7F0301B9,0x7F0301BA,0x7F0301BE }
+			// aapt resource value: { 0x7F030041,0x7F030042,0x7F030069,0x7F030073,0x7F030077,0x7F030086,0x7F030087,0x7F03008D,0x7F03008E,0x7F03008F,0x7F0300BE,0x7F0300D9,0x7F030133,0x7F030134,0x7F03013E,0x7F03015E,0x7F03016F,0x7F0301A2,0x7F0301A7,0x7F0301A8,0x7F0301A9,0x7F0301AA,0x7F0301AB,0x7F0301AC,0x7F0301AD,0x7F0301AE,0x7F0301AF,0x7F0301B0,0x7F0301B5,0x7F0301BA,0x7F0301BB,0x7F0301BF }
 			public static int[] MaterialComponentsTheme = new int[] {
 					2130903105,
 					2130903106,
@@ -15412,9 +13479,8 @@ namespace PrismFullNavigation.Droid
 					2130903348,
 					2130903358,
 					2130903390,
-					2130903406,
-					2130903457,
-					2130903462,
+					2130903407,
+					2130903458,
 					2130903463,
 					2130903464,
 					2130903465,
@@ -15424,10 +13490,11 @@ namespace PrismFullNavigation.Droid
 					2130903469,
 					2130903470,
 					2130903471,
-					2130903476,
-					2130903481,
+					2130903472,
+					2130903477,
 					2130903482,
-					2130903486};
+					2130903483,
+					2130903487};
 			
 			// aapt resource value: 0
 			public const int MaterialComponentsTheme_bottomSheetDialogTheme = 0;
@@ -15552,7 +13619,7 @@ namespace PrismFullNavigation.Droid
 			// aapt resource value: 2
 			public const int MenuGroup_android_visible = 2;
 			
-			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030020,0x7F030028,0x7F030092,0x7F0300FC,0x7F0300FD,0x7F03013F,0x7F030166,0x7F0301DB }
+			// aapt resource value: { 0x1010002,0x101000E,0x10100D0,0x1010106,0x1010194,0x10101DE,0x10101DF,0x10101E1,0x10101E2,0x10101E3,0x10101E4,0x10101E5,0x101026F,0x7F03000D,0x7F03001F,0x7F030020,0x7F030028,0x7F030092,0x7F0300FC,0x7F0300FD,0x7F03013F,0x7F030167,0x7F0301DC }
 			public static int[] MenuItem = new int[] {
 					16842754,
 					16842766,
@@ -15575,8 +13642,8 @@ namespace PrismFullNavigation.Droid
 					2130903292,
 					2130903293,
 					2130903359,
-					2130903398,
-					2130903515};
+					2130903399,
+					2130903516};
 			
 			// aapt resource value: 13
 			public const int MenuItem_actionLayout = 13;
@@ -15647,7 +13714,7 @@ namespace PrismFullNavigation.Droid
 			// aapt resource value: 22
 			public const int MenuItem_tooltipText = 22;
 			
-			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030150,0x7F030180 }
+			// aapt resource value: { 0x10100AE,0x101012C,0x101012D,0x101012E,0x101012F,0x1010130,0x1010131,0x7F030150,0x7F030181 }
 			public static int[] MenuView = new int[] {
 					16842926,
 					16843052,
@@ -15657,7 +13724,7 @@ namespace PrismFullNavigation.Droid
 					16843056,
 					16843057,
 					2130903376,
-					2130903424};
+					2130903425};
 			
 			// aapt resource value: 4
 			public const int MenuView_android_headerBackground = 4;
@@ -15743,9 +13810,9 @@ namespace PrismFullNavigation.Droid
 					16843465,
 					2130903360};
 			
-			// aapt resource value: { 0x7F030177 }
+			// aapt resource value: { 0x7F030178 }
 			public static int[] PopupWindowBackgroundState = new int[] {
-					2130903415};
+					2130903416};
 			
 			// aapt resource value: 0
 			public const int PopupWindowBackgroundState_state_above_anchor = 0;
@@ -15770,7 +13837,7 @@ namespace PrismFullNavigation.Droid
 			// aapt resource value: 1
 			public const int RecycleListView_paddingTopNoTitle = 1;
 			
-			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F0300D3,0x7F0300D4,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F030114,0x7F03015B,0x7F030170,0x7F030176 }
+			// aapt resource value: { 0x10100C4,0x10100EB,0x10100F1,0x7F0300D3,0x7F0300D4,0x7F0300D5,0x7F0300D6,0x7F0300D7,0x7F030114,0x7F03015B,0x7F030171,0x7F030177 }
 			public static int[] RecyclerView = new int[] {
 					16842948,
 					16842987,
@@ -15782,8 +13849,8 @@ namespace PrismFullNavigation.Droid
 					2130903255,
 					2130903316,
 					2130903387,
-					2130903408,
-					2130903414};
+					2130903409,
+					2130903415};
 			
 			// aapt resource value: 1
 			public const int RecyclerView_android_clipToPadding = 1;
@@ -15835,7 +13902,14 @@ namespace PrismFullNavigation.Droid
 			// aapt resource value: 0
 			public const int ScrollingViewBehavior_Layout_behavior_overlapTop = 0;
 			
-			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030078,0x7F030091,0x7F0300A7,0x7F0300E7,0x7F0300FE,0x7F030113,0x7F030154,0x7F030155,0x7F030160,0x7F030161,0x7F030181,0x7F030186,0x7F0301E2 }
+			// aapt resource value: { 0x7F030160 }
+			public static int[] ScrollViewRendererTheme = new int[] {
+					2130903392};
+			
+			// aapt resource value: 0
+			public const int ScrollViewRendererTheme_scrollViewStyle = 0;
+			
+			// aapt resource value: { 0x10100DA,0x101011F,0x1010220,0x1010264,0x7F030078,0x7F030091,0x7F0300A7,0x7F0300E7,0x7F0300FE,0x7F030113,0x7F030154,0x7F030155,0x7F030161,0x7F030162,0x7F030182,0x7F030187,0x7F0301E3 }
 			public static int[] SearchView = new int[] {
 					16842970,
 					16843039,
@@ -15849,11 +13923,11 @@ namespace PrismFullNavigation.Droid
 					2130903315,
 					2130903380,
 					2130903381,
-					2130903392,
 					2130903393,
-					2130903425,
-					2130903430,
-					2130903522};
+					2130903394,
+					2130903426,
+					2130903431,
+					2130903523};
 			
 			// aapt resource value: 0
 			public const int SearchView_android_focusable = 0;
@@ -15906,10 +13980,10 @@ namespace PrismFullNavigation.Droid
 			// aapt resource value: 16
 			public const int SearchView_voiceIcon = 16;
 			
-			// aapt resource value: { 0x7F03016E,0x7F03016F }
+			// aapt resource value: { 0x7F03016F,0x7F030170 }
 			public static int[] Snackbar = new int[] {
-					2130903406,
-					2130903407};
+					2130903407,
+					2130903408};
 			
 			// aapt resource value: { 0x101011F,0x7F0300BF,0x7F030135 }
 			public static int[] SnackbarLayout = new int[] {
@@ -15989,22 +14063,22 @@ namespace PrismFullNavigation.Droid
 			// aapt resource value: 1
 			public const int StateListDrawable_android_visible = 1;
 			
-			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F030169,0x7F030174,0x7F030187,0x7F030188,0x7F03018A,0x7F0301C3,0x7F0301C4,0x7F0301C5,0x7F0301DC,0x7F0301DD,0x7F0301DE }
+			// aapt resource value: { 0x1010124,0x1010125,0x1010142,0x7F03016A,0x7F030175,0x7F030188,0x7F030189,0x7F03018B,0x7F0301C4,0x7F0301C5,0x7F0301C6,0x7F0301DD,0x7F0301DE,0x7F0301DF }
 			public static int[] SwitchCompat = new int[] {
 					16843044,
 					16843045,
 					16843074,
-					2130903401,
-					2130903412,
-					2130903431,
+					2130903402,
+					2130903413,
 					2130903432,
-					2130903434,
-					2130903491,
+					2130903433,
+					2130903435,
 					2130903492,
 					2130903493,
-					2130903516,
+					2130903494,
 					2130903517,
-					2130903518};
+					2130903518,
+					2130903519};
 			
 			// aapt resource value: 1
 			public const int SwitchCompat_android_textOff = 1;
@@ -16063,9 +14137,8 @@ namespace PrismFullNavigation.Droid
 			// aapt resource value: 2
 			public const int TabItem_android_text = 2;
 			
-			// aapt resource value: { 0x7F03018B,0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030198,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A2,0x7F0301A3,0x7F0301A4 }
+			// aapt resource value: { 0x7F03018C,0x7F03018D,0x7F03018E,0x7F03018F,0x7F030190,0x7F030191,0x7F030192,0x7F030193,0x7F030194,0x7F030195,0x7F030196,0x7F030197,0x7F030198,0x7F030199,0x7F03019A,0x7F03019B,0x7F03019C,0x7F03019D,0x7F03019E,0x7F03019F,0x7F0301A0,0x7F0301A1,0x7F0301A3,0x7F0301A4,0x7F0301A5 }
 			public static int[] TabLayout = new int[] {
-					2130903435,
 					2130903436,
 					2130903437,
 					2130903438,
@@ -16087,9 +14160,10 @@ namespace PrismFullNavigation.Droid
 					2130903454,
 					2130903455,
 					2130903456,
-					2130903458,
+					2130903457,
 					2130903459,
-					2130903460};
+					2130903460,
+					2130903461};
 			
 			// aapt resource value: 0
 			public const int TabLayout_tabBackground = 0;
@@ -16166,7 +14240,7 @@ namespace PrismFullNavigation.Droid
 			// aapt resource value: 24
 			public const int TabLayout_tabUnboundedRipple = 24;
 			
-			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F0300DB,0x7F0300E3,0x7F0301A5,0x7F0301BF }
+			// aapt resource value: { 0x1010095,0x1010096,0x1010097,0x1010098,0x101009A,0x101009B,0x1010161,0x1010162,0x1010163,0x1010164,0x10103AC,0x1010585,0x7F0300DB,0x7F0300E3,0x7F0301A6,0x7F0301C0 }
 			public static int[] TextAppearance = new int[] {
 					16842901,
 					16842902,
@@ -16182,8 +14256,8 @@ namespace PrismFullNavigation.Droid
 					16844165,
 					2130903259,
 					2130903267,
-					2130903461,
-					2130903487};
+					2130903462,
+					2130903488};
 			
 			// aapt resource value: 10
 			public const int TextAppearance_android_fontFamily = 10;
@@ -16363,7 +14437,7 @@ namespace PrismFullNavigation.Droid
 			// aapt resource value: 2
 			public const int ThemeEnforcement_enforceTextAppearance = 2;
 			
-			// aapt resource value: { 0x10100AF,0x1010140,0x7F030052,0x7F030080,0x7F030081,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030097,0x7F030098,0x7F030131,0x7F030132,0x7F030136,0x7F030139,0x7F03013B,0x7F03013C,0x7F03014E,0x7F030182,0x7F030183,0x7F030184,0x7F0301CB,0x7F0301CD,0x7F0301CE,0x7F0301CF,0x7F0301D0,0x7F0301D1,0x7F0301D2,0x7F0301D3,0x7F0301D4 }
+			// aapt resource value: { 0x10100AF,0x1010140,0x7F030052,0x7F030080,0x7F030081,0x7F030093,0x7F030094,0x7F030095,0x7F030096,0x7F030097,0x7F030098,0x7F030131,0x7F030132,0x7F030136,0x7F030139,0x7F03013B,0x7F03013C,0x7F03014E,0x7F030183,0x7F030184,0x7F030185,0x7F0301CC,0x7F0301CE,0x7F0301CF,0x7F0301D0,0x7F0301D1,0x7F0301D2,0x7F0301D3,0x7F0301D4,0x7F0301D5 }
 			public static int[] Toolbar = new int[] {
 					16842927,
 					16843072,
@@ -16383,18 +14457,18 @@ namespace PrismFullNavigation.Droid
 					2130903355,
 					2130903356,
 					2130903374,
-					2130903426,
 					2130903427,
 					2130903428,
-					2130903499,
-					2130903501,
+					2130903429,
+					2130903500,
 					2130903502,
 					2130903503,
 					2130903504,
 					2130903505,
 					2130903506,
 					2130903507,
-					2130903508};
+					2130903508,
+					2130903509};
 			
 			// aapt resource value: 0
 			public const int Toolbar_android_gravity = 0;
@@ -16486,13 +14560,13 @@ namespace PrismFullNavigation.Droid
 			// aapt resource value: 29
 			public const int Toolbar_titleTextColor = 29;
 			
-			// aapt resource value: { 0x1010000,0x10100DA,0x7F030142,0x7F030143,0x7F0301C1 }
+			// aapt resource value: { 0x1010000,0x10100DA,0x7F030142,0x7F030143,0x7F0301C2 }
 			public static int[] View = new int[] {
 					16842752,
 					16842970,
 					2130903362,
 					2130903363,
-					2130903489};
+					2130903490};
 			
 			// aapt resource value: { 0x10100D4,0x7F030034,0x7F030035 }
 			public static int[] ViewBackgroundHelper = new int[] {
