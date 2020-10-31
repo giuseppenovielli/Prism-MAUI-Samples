@@ -1,4 +1,4 @@
-# Xamarin Forms 4.8 with Prism 7.2 FullNavigation Example
+# Xamarin Forms 4.8 with Prism 8.0.0.1909 FullNavigation Example
 A full example of prism's navigation with Xamarin Forms
 
 # Obfuscate Xamarin.Android with ConfuserEx https://github.com/mkaring/ConfuserEx 
