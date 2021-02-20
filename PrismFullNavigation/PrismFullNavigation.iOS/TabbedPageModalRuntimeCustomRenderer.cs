@@ -20,7 +20,7 @@ namespace PrismFullNavigation.iOS
 
             var leftItem = new UIBarButtonItem(UIBarButtonSystemItem.Cancel, (sender, e) =>
             {
-                ((Element as TabbedPageRuntimeModal).BindingContext as TabbedPageRuntimeModalViewModel).PopModalAsync();
+                _ = ((Element as TabbedPageRuntimeModal).BindingContext as TabbedPageRuntimeModalViewModel).PopModalAsync();
 
             });
             NavigationController.TopViewController.NavigationItem.LeftBarButtonItem = leftItem;

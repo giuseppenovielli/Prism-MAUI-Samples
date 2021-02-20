@@ -1,5 +1,7 @@
 ﻿using Prism.Commands;
 using Prism.Navigation;
+using PrismFullNavigation.Services.Data;
+using PrismFullNavigation.Views;
 
 namespace PrismFullNavigation.ViewModels
 {
@@ -10,23 +12,17 @@ namespace PrismFullNavigation.ViewModels
         string _name;
         public string Name
         {
-            get
-            {
-                return _name;
-
-            }
-            set
-            {
-                SetProperty(ref _name, value, "Name");
-                UpdateButtonStatus();
-            }
+            get => _name;
+            set => SetProperty(ref _name, value, UpdateButtonStatus);
         }
 
 
         public DelegateCommand SendCommandClick { get; set; }
 
 
-        public Page1PageViewModel(INavigationService navigationService) : base(navigationService)
+        public Page1PageViewModel(
+            INavigationService navigationService,
+            IDataService dataService) : base(navigationService, dataService)
         {
             TitlePage = "Page1";
 
@@ -38,7 +34,7 @@ namespace PrismFullNavigation.ViewModels
                 navParameters.Add("name", Name);
 
                 //Navigate to Page2Page
-                var result = await NavigationService.NavigateAsync("Page2Page", navParameters);
+                var result = await NavigationService.NavigateAsync(nameof(Page2Page), navParameters);
 
 
             },
@@ -49,7 +45,16 @@ namespace PrismFullNavigation.ViewModels
            }).ObservesProperty(() => ButtonIsEnable);
         }
 
- 
+        public override void OnNavigatedFrom(INavigationParameters parameters)
+        {
+            base.OnNavigatedFrom(parameters);
+
+            if (parameters.GetNavigationMode() == Prism.Navigation.NavigationMode.Back)
+            {
+                System.Diagnostics.Debug.WriteLine("NavigationMode.Back");
+            }
+        }
+
 
         public override void OnNavigatedTo(INavigationParameters parameters)
         {

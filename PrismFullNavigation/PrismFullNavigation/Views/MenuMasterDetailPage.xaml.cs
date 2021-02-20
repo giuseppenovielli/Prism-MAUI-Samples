@@ -1,12 +1,28 @@
-﻿using Xamarin.Forms;
+﻿using Prism.Navigation;
+using Xamarin.Forms;
 
 namespace PrismFullNavigation.Views
 {
-    public partial class MenuMasterDetailPage : MasterDetailPage
+    public partial class MenuMasterDetailPage : MasterDetailPage, IMasterDetailPageOptions
     {
+        public static readonly BindableProperty IsPresentedAfterNavigationProperty =
+            BindableProperty.Create(
+                nameof(IsPresentedAfterNavigation),
+                typeof(bool),
+                typeof(MenuMasterDetailPage),
+                false);
+
+
+
         public MenuMasterDetailPage()
         {
             InitializeComponent();
+        }
+
+        public bool IsPresentedAfterNavigation
+        {
+            get => (bool)GetValue(IsPresentedAfterNavigationProperty);
+            set => SetValue(IsPresentedAfterNavigationProperty, value);
         }
     }
 }

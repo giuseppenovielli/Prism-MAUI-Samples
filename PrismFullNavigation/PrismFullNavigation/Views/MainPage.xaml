@@ -3,10 +3,12 @@
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="PrismFullNavigation.Views.MainPage"
-            xmlns:local="clr-namespace:PrismFullNavigation.Views"
-           xmlns:viewmodels="clr-namespace:PrismFullNavigation.ViewModels"
+    xmlns:local="clr-namespace:PrismFullNavigation.Views"
+    xmlns:viewmodels="clr-namespace:PrismFullNavigation.ViewModels"
     x:DataType="viewmodels:MainPageViewModel"
     Title="{Binding TitlePage}"
+    xmlns:prism="http://prismlibrary.com"
+    prism:ViewModelLocator.AutowireViewModel="True"
     Padding="10">
 
     <StackLayout

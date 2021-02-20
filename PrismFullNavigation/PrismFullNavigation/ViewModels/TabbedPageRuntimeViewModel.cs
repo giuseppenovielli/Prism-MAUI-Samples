@@ -1,12 +1,14 @@
-﻿using System;
-using Prism.Navigation;
+﻿using Prism.Navigation;
+using PrismFullNavigation.Services.Data;
 
 namespace PrismFullNavigation.ViewModels
 {
     public class TabbedPageRuntimeViewModel : BaseViewModel
     {
     
-        public TabbedPageRuntimeViewModel(INavigationService navigationService) : base(navigationService)
+        public TabbedPageRuntimeViewModel(
+            INavigationService navigationService,
+            IDataService dataService) : base(navigationService, dataService)
         {
         }
 

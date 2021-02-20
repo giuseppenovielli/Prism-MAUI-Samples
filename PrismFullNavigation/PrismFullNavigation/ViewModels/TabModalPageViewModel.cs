@@ -1,18 +1,15 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Prism.Navigation;
+using PrismFullNavigation.Services.Data;
 
 namespace PrismFullNavigation.ViewModels
 {
     public class TabModalPageViewModel : BaseViewModel
     {
-        public Tab1PageViewModel TabPage1 { get; set; }
-        public Tab2PageViewModel TabPage2 { get; set; }
-
-        public TabModalPageViewModel(INavigationService navigationService) : base(navigationService)
+        public TabModalPageViewModel(
+            INavigationService navigationService,
+            IDataService dataService) : base(navigationService, dataService)
         {
-            TabPage1 = new Tab1PageViewModel(navigationService);
-            TabPage2 = new Tab2PageViewModel(navigationService);
         }
 
         public override void Initialize(INavigationParameters parameters)

@@ -1,6 +1,7 @@
 ﻿using System.Threading.Tasks;
 using Prism.Commands;
 using Prism.Navigation;
+using PrismFullNavigation.Services.Data;
 
 namespace PrismFullNavigation.ViewModels
 {
@@ -11,23 +12,17 @@ namespace PrismFullNavigation.ViewModels
         string _name;
         public string Name
         {
-            get
-            {
-                return _name;
-
-            }
-            set
-            {
-                SetProperty(ref _name, value, "Name");
-                UpdateButtonStatus();
-            }
+            get => _name;
+            set => SetProperty(ref _name, value, UpdateButtonStatus);
         }
 
 
         public DelegateCommand SendCommandClick { get; set; }
 
 
-        public Page1ModalPageViewModel(INavigationService navigationService) : base(navigationService)
+        public Page1ModalPageViewModel(
+            INavigationService navigationService,
+            IDataService dataService) : base(navigationService, dataService)
         {
             TitlePage = "Page1 Modal Page";
 

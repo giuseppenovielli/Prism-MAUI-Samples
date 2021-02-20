@@ -1,7 +1,8 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using System.Windows.Input;
 using Prism.Navigation;
+using PrismFullNavigation.Services.Data;
+using PrismFullNavigation.Views;
 using Xamarin.Forms;
 
 namespace PrismFullNavigation.ViewModels
@@ -16,7 +17,9 @@ namespace PrismFullNavigation.ViewModels
         public ICommand TabbedPageModalClickCommand { get; private set; }
 
 
-        public MainPageViewModel(INavigationService navigationService) : base(navigationService)
+        public MainPageViewModel(
+            INavigationService navigationService,
+            IDataService dataService) : base(navigationService, dataService)
         {
             TitlePage = "StartPage";
 
@@ -33,30 +36,30 @@ namespace PrismFullNavigation.ViewModels
 
         private async Task PageClickAsync()
         {
-            var navResult = await NavigationService.NavigateAsync("Page1Page");
+            var navResult = await NavigationService.NavigateAsync(nameof(Page1Page));
 
         }
 
         private async Task TabbedPageClick()
         {
-            var navResult = await NavigationService.NavigateAsync("TabPageExample");
+            var navResult = await NavigationService.NavigateAsync(nameof(TabPageExample));
 
         }
 
         private async Task MasterDetailClick()
         {
-            var navResult = await NavigationService.NavigateAsync("/MenuMasterDetailPage/NavigationPage/Page1Page");
+            var navResult = await NavigationService.NavigateAsync("/" + nameof(MenuMasterDetailPage) +"/"+ nameof(NavigationPage) +"/"+nameof(Page1Page));
         }
 
 
         private async Task TabbedPageModalClick()
         {
-            var navResult = await NavigationService.NavigateAsync("NavigationPage/TabModalPage",null, true, true);
+            var navResult = await NavigationService.NavigateAsync(nameof(NavigationPage) +"/" +nameof(TabModalPage) ,null, true, true);
         }
 
         private async Task PageModalClick()
         {
-            var navResult = await NavigationService.NavigateAsync("NavigationPage/Page1ModalPage", null, true, true);
+            var navResult = await NavigationService.NavigateAsync(nameof(NavigationPage) + "/" + nameof(Page1ModalPage), null, true, true);
 
         }
     }

@@ -3,6 +3,8 @@ using Prism;
 using Prism.Commands;
 using Prism.Navigation;
 using Prism.Navigation.TabbedPages;
+using PrismFullNavigation.Services.Data;
+using PrismFullNavigation.Views;
 
 namespace PrismFullNavigation.ViewModels
 {
@@ -13,16 +15,8 @@ namespace PrismFullNavigation.ViewModels
         string _name;
         public string Name
         {
-            get
-            {
-                return _name;
-
-            }
-            set
-            {
-                SetProperty(ref _name, value, "Name");
-                UpdateButtonStatus();
-            }
+            get => _name;
+            set => SetProperty(ref _name, value, UpdateButtonStatus);
         }
 
         public event EventHandler IsActiveChanged;
@@ -39,7 +33,9 @@ namespace PrismFullNavigation.ViewModels
         public DelegateCommand SendCommandClick { get; set; }
 
 
-        public Tab1PageViewModel(INavigationService navigationService) : base(navigationService)
+        public Tab1PageViewModel(
+            INavigationService navigationService,
+            IDataService dataService) : base(navigationService, dataService)
         {
             TitlePage = "Tab1";
 
@@ -50,7 +46,7 @@ namespace PrismFullNavigation.ViewModels
                 var navParameters = new NavigationParameters();
                 navParameters.Add("name", Name);
 
-                var result = await NavigationService.SelectTabAsync("Tab2Page", navParameters);
+                var result = await NavigationService.SelectTabAsync(nameof(Tab2Page), navParameters);
 
 
             },

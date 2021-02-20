@@ -1,25 +1,19 @@
-﻿using System;
-using Prism.Commands;
+﻿using Prism.Commands;
 using Prism.Navigation;
+using PrismFullNavigation.Services.Data;
 
 namespace PrismFullNavigation.ViewModels
 {
-    public class MenuMasterDetailPageViewModel : BaseViewModel, IMasterDetailPageOptions
+    public class MenuMasterDetailPageViewModel : BaseViewModel
     {
         public DelegateCommand PresentedChangedCommand { get; private set; }
 
-        public MenuPageViewModel MenuPageViewModel { get; set; }
-
-        //false => closed after open new detail page
-        //true => Remain opened after open new detail page
-        public bool IsPresentedAfterNavigation => false;
-
-        public MenuMasterDetailPageViewModel(INavigationService navigationService) : base(navigationService)
+        public MenuMasterDetailPageViewModel(
+            INavigationService navigationService,
+            IDataService dataService) : base(navigationService, dataService)
         {
             TitlePage = "MasterDetail";
             PresentedChangedCommand = new DelegateCommand(PresentedChanged);
-
-            MenuPageViewModel = new MenuPageViewModel(navigationService);
         }
 
         private void PresentedChanged()

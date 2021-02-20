@@ -1,6 +1,7 @@
 ﻿using Prism.AppModel;
 using Prism.Mvvm;
 using Prism.Navigation;
+using PrismFullNavigation.Services.Data;
 
 namespace PrismFullNavigation.ViewModels
 {
@@ -9,16 +10,16 @@ namespace PrismFullNavigation.ViewModels
         public string TitlePage { get; set; }
 
         public INavigationService NavigationService { get; }
+        public IDataService DataService { get; }
 
-        //MasterDetailPage
-        //When choose Master page
-        //true => Don't push page to detail stack navigation, but clear navigation stack detail page
-        //false => push page to detail stack navigation
-        public virtual bool ClearNavigationStackOnNavigation => App.Instance.ClearDetailNavStack;
+        public bool ClearNavigationStackOnNavigation => DataService.ClearDetailPageStack;
 
-        public BaseViewModel(INavigationService navigationService)
+        public BaseViewModel(
+            INavigationService navigationService,
+            IDataService dataService)
         {
             NavigationService = navigationService;
+            DataService = dataService;
         }
 
         public virtual void OnResume()

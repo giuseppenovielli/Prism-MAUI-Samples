@@ -1,17 +1,20 @@
-﻿using System;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
 using Prism.Navigation;
+using PrismFullNavigation.Services.Data;
 
 namespace PrismFullNavigation.ViewModels
 {
     public class TabbedPageRuntimeModalViewModel : BaseViewModel
     {
     
-        public TabbedPageRuntimeModalViewModel(INavigationService navigationService) : base(navigationService)
+        public TabbedPageRuntimeModalViewModel(
+            INavigationService navigationService,
+            IDataService dataService) : base(navigationService, dataService)
         {
         }
 
-        public override void Initialize(INavigationParameters parameters)
+        public override void Initialize(
+            INavigationParameters parameters)
         {
             base.Initialize(parameters);
 

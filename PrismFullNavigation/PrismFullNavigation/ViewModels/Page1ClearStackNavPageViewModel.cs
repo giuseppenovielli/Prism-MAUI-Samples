@@ -1,5 +1,7 @@
 ﻿using Prism.Commands;
 using Prism.Navigation;
+using PrismFullNavigation.Services.Data;
+using PrismFullNavigation.Views;
 
 namespace PrismFullNavigation.ViewModels
 {
@@ -10,36 +12,26 @@ namespace PrismFullNavigation.ViewModels
         string _name;
         public string Name
         {
-            get
-            {
-                return _name;
-
-            }
-            set
-            {
-                SetProperty(ref _name, value, "Name");
-                UpdateButtonStatus();
-            }
+            get => _name;
+            set => SetProperty(ref _name, value, UpdateButtonStatus);
         }
-
-        //not working
-        public override bool ClearNavigationStackOnNavigation => false;
 
 
         public DelegateCommand SendCommandClick { get; set; }
 
 
-        public Page1ClearStackNavPageViewModel(INavigationService navigationService) : base(navigationService)
+        public Page1ClearStackNavPageViewModel(
+            INavigationService navigationService,
+            IDataService dataService) : base(navigationService, dataService)
         {
             TitlePage = "Page1 - Push Detail Page";
-
 
             SendCommandClick = new DelegateCommand(async delegate
             {
                 var navParameters = new NavigationParameters();
                 navParameters.Add("name", Name);
 
-                var result = await NavigationService.NavigateAsync("Page2Page", navParameters);
+                var result = await NavigationService.NavigateAsync(nameof(Page2Page), navParameters);
 
 
             },

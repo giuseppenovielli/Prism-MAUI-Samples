@@ -6,15 +6,11 @@
     xmlns:viewmodels="clr-namespace:PrismFullNavigation.ViewModels"
     xmlns:prism="http://prismlibrary.com"
     x:DataType="viewmodels:TabModalPageViewModel"
-                xmlns:local="clr-namespace:PrismFullNavigation.Views"
+    xmlns:local="clr-namespace:PrismFullNavigation.Views"
     Title="{Binding TitlePage}">
 
-    <local:Tab1Page
-        prism:ViewModelLocator.AutowireViewModel="False"
-        BindingContext="{Binding TabPage1}"/>
+    <local:Tab1Page/>
 
-    <local:Tab2Page
-        prism:ViewModelLocator.AutowireViewModel="False"
-        BindingContext="{Binding TabPage2}"/>
+    <local:Tab2Page/>
 
 </TabbedPage>

@@ -3,6 +3,8 @@ using Prism;
 using Prism.Commands;
 using Prism.Navigation;
 using Prism.Navigation.TabbedPages;
+using PrismFullNavigation.Services.Data;
+using PrismFullNavigation.Views;
 
 namespace PrismFullNavigation.ViewModels
 {
@@ -13,16 +15,8 @@ namespace PrismFullNavigation.ViewModels
         string _name;
         public string Name
         {
-            get
-            {
-                return _name;
-
-            }
-            set
-            {
-                SetProperty(ref _name, value, "Name");
-                UpdateButtonStatus();
-            }
+            get => _name;
+            set => SetProperty(ref _name, value, UpdateButtonStatus);
         }
 
         public event EventHandler IsActiveChanged;
@@ -41,7 +35,9 @@ namespace PrismFullNavigation.ViewModels
 
         
 
-        public Tab2PageViewModel(INavigationService navigationService) : base(navigationService)
+        public Tab2PageViewModel(
+            INavigationService navigationService,
+            IDataService dataService) : base(navigationService, dataService)
         {
             TitlePage = "Tab2";
 
@@ -51,7 +47,7 @@ namespace PrismFullNavigation.ViewModels
                 var navParameters = new NavigationParameters();
                 navParameters.Add("name", Name);
 
-                var result = await NavigationService.SelectTabAsync("Tab1Page", navParameters);
+                var result = await NavigationService.SelectTabAsync(nameof(Tab1Page), navParameters);
 
 
             },
@@ -70,7 +66,7 @@ namespace PrismFullNavigation.ViewModels
                 navParameters.Add("name", Name);
                 navParameters.Add("isTabbed", true);
 
-                var result = await NavigationService.NavigateAsync("Page2Page", navParameters);
+                var result = await NavigationService.NavigateAsync(nameof(Page2Page), navParameters);
 
 
             },

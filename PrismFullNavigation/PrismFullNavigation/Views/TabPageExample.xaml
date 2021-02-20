@@ -10,12 +10,8 @@
     Title="{Binding TitlePage}">
 
 
-    <local:Tab1Page
-        prism:ViewModelLocator.AutowireViewModel="False"
-        BindingContext="{Binding TabPage1}"/>
+    <local:Tab1Page/>
 
-    <local:Tab2Page
-        prism:ViewModelLocator.AutowireViewModel="False"
-        BindingContext="{Binding TabPage2}"/>
+    <local:Tab2Page/>
 
 </TabbedPage>

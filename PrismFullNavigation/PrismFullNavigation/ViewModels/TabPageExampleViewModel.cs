@@ -1,17 +1,14 @@
-﻿using System;
-using Prism.Navigation;
+﻿using Prism.Navigation;
+using PrismFullNavigation.Services.Data;
 
 namespace PrismFullNavigation.ViewModels
 {
     public class TabPageExampleViewModel : BaseViewModel
     {
-        public Tab1PageViewModel TabPage1 { get; set; }
-        public Tab2PageViewModel TabPage2 { get; set; }
-
-        public TabPageExampleViewModel(INavigationService navigationService) : base(navigationService)
+        public TabPageExampleViewModel(
+            INavigationService navigationService,
+            IDataService dataService) : base(navigationService, dataService)
         {
-            TabPage1 = new Tab1PageViewModel(navigationService);
-            TabPage2 = new Tab2PageViewModel(navigationService);
         }
 
         public override void Initialize(INavigationParameters parameters)
@@ -20,7 +17,6 @@ namespace PrismFullNavigation.ViewModels
 
             TitlePage = "TabbedPage";
 
-            
         }
     }
 }

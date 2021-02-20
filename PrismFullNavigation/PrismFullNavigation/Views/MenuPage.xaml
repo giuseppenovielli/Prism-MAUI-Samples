@@ -2,34 +2,40 @@
 <local:BasePage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-                xmlns:local="clr-namespace:PrismFullNavigation.Views"
+    xmlns:local="clr-namespace:PrismFullNavigation.Views"
+    xmlns:viewmodels="clr-namespace:PrismFullNavigation.ViewModels"
     x:Class="PrismFullNavigation.Views.MenuPage"
+    x:DataType="viewmodels:MenuPageViewModel"
+    xmlns:prism="http://prismlibrary.com"
+    prism:ViewModelLocator.AutowireViewModel="True"
     Title="Menu"
-          xmlns:prism="http://prismlibrary.com"
-            prism:ViewModelLocator.AutowireViewModel="False"
     Padding="10">
 
 
-          <ListView
+        <CollectionView
             SelectionMode="Single"
-              HasUnevenRows="True"
-            SelectedItem="{Binding SelectedItem, Mode=TwoWay}"
+            SelectedItem="{Binding SelectedItem}"
             ItemsSource="{Binding MenuItemsList}">
        
-            <ListView.ItemTemplate>
+            <CollectionView.ItemTemplate>
                 
-                <DataTemplate>
-                    <ViewCell>
-                               <Label
-                                Padding="10"
-                                Text="{Binding .}"
-                                   FontSize="20" />
+                <DataTemplate
+                    x:DataType="viewmodels:MenuItem">
 
-                    </ViewCell>
-                     
+                    <StackLayout
+                        Padding="10">
+                        <Label
+                            Text="{Binding Item}"
+                            TextColor="Black"
+                           FontSize="Body" />
+
+                    </StackLayout>
+                        
+                        
+                        
                 </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+            </CollectionView.ItemTemplate>
+    </CollectionView>
+    
 
-      
 </local:BasePage>

@@ -9,16 +9,10 @@
      xmlns:prism="http://prismlibrary.com"
     Title="{Binding TitlePage}">
 
-    <local:MenuMasterDetailPage
-        prism:ViewModelLocator.AutowireViewModel="False"
-        BindingContext="{Binding MenuMasterDetailPageVM1}"/>
+    <local:MenuMasterDetailPage />
 
-    <local:MenuMasterDetailPage
-        prism:ViewModelLocator.AutowireViewModel="False"
-        BindingContext="{Binding MenuMasterDetailPageVM2}"/>
+    <local:MenuMasterDetailPage />
 
-     <local:MenuMasterDetailPage
-        prism:ViewModelLocator.AutowireViewModel="False"
-        BindingContext="{Binding MenuMasterDetailPageVM3}"/>
+     <local:MenuMasterDetailPage />
 
 </TabbedPage>
