@@ -24,7 +24,7 @@ namespace PrismFullNavigation.ViewModels
 
             MenuItemsList = new ObservableCollection<MenuItem>();
 
-            MenuItemsList.Add(new MenuItem("TabbedPage Runtime"));
+            MenuItemsList.Add(new MenuItem("TabbedPage"));
             MenuItemsList.Add(new MenuItem("TabbedPage - Modal"));
             MenuItemsList.Add(new MenuItem("TabbedPage Runtime"));
             MenuItemsList.Add(new MenuItem("TabbedPage Runtime - Modal"));
@@ -49,11 +49,11 @@ namespace PrismFullNavigation.ViewModels
                 switch (index)
                 {
                     case 0:
-                        var navResult = await NavigationService.NavigateAsync("NavigationPage/TabPageExample");
+                        var navResult = await NavigationService.NavigateAsync(nameof(NavigationPage) + "/"+ nameof(TabPageExample));
                         break;
 
                     case 1:
-                        navResult = await NavigationService.NavigateAsync("NavigationPage/TabModalPage", null, true, true);
+                        navResult = await NavigationService.NavigateAsync(nameof(NavigationPage) + "/" + nameof(TabModalPage), useModalNavigation: true);
                         break;
 
                     case 2:
@@ -66,10 +66,10 @@ namespace PrismFullNavigation.ViewModels
                         navResult = await NavigationService.NavigateAsync("NavigationPage/" +
                             "TabbedPageRuntimeModal?" +
                             "createTab=Tab1Page&" +
-                            "createTab=Tab2Page", null, true, true);
+                            "createTab=Tab2Page", useModalNavigation: true);
                         break;
                     case 4:
-                         navResult = await NavigationService.NavigateAsync("NavigationPage/Page1Page");
+                         navResult = await NavigationService.NavigateAsync(nameof(NavigationPage) + "/" +nameof(Page1Page));
                         break;
                     case 5:
                         DataService.ClearDetailPageStack = false;
@@ -80,7 +80,7 @@ namespace PrismFullNavigation.ViewModels
                         navResult = await NavigationService.NavigateAsync(nameof(MasterDetailNavigationPage) + "/" + nameof(Page1ClearStackNavPage));
                         break;
                     case 7:
-                        navResult = await NavigationService.NavigateAsync("NavigationPage/Page1ModalPage", null, true, true);
+                        navResult = await NavigationService.NavigateAsync(nameof(NavigationPage) + "/" + nameof(Page1ModalPage), useModalNavigation: true);
                         break;
                     case 8:
                          navResult = await NavigationService.NavigateAsync(nameof(NavigationPage) + "/"+ nameof(MenuMasterDetailPage) + "/" + nameof(NavigationPage) + "/" + nameof(Page1Page));

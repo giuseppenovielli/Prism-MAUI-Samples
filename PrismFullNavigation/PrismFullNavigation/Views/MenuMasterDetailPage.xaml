@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<MasterDetailPage
+<FlyoutPage
     xmlns="http://xamarin.com/schemas/2014/forms"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
@@ -13,13 +13,13 @@
     x:DataType="viewmodels:MenuMasterDetailPageViewModel"
     Title="{Binding TitlePage}">
 
-    <MasterDetailPage.Behaviors>
+    <FlyoutPage.Behaviors>
         <prism:EventToCommandBehavior EventName="IsPresentedChanged"
                                           Command="{Binding PresentedChangedCommand}"
                                           CommandParameter="{Binding .}" />
-    </MasterDetailPage.Behaviors>
+    </FlyoutPage.Behaviors>
 
-    <MasterDetailPage.Master>
+    <FlyoutPage.Flyout>
         <views:MenuPage/>
-    </MasterDetailPage.Master>
-</MasterDetailPage>
+    </FlyoutPage.Flyout>
+</FlyoutPage>

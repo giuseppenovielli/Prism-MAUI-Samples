@@ -48,18 +48,19 @@ namespace PrismFullNavigation.ViewModels
 
         private async Task MasterDetailClick()
         {
-            var navResult = await NavigationService.NavigateAsync("/" + nameof(MenuMasterDetailPage) +"/"+ nameof(NavigationPage) +"/"+nameof(Page1Page));
+            var navResult = await NavigationService.NavigateAsync("/" + nameof(MenuMasterDetailPage) + "/" + nameof(NavigationPage) + "/" + nameof(Page1Page));
+
         }
 
 
         private async Task TabbedPageModalClick()
         {
-            var navResult = await NavigationService.NavigateAsync(nameof(NavigationPage) +"/" +nameof(TabModalPage) ,null, true, true);
+            var navResult = await NavigationService.NavigateAsync(nameof(NavigationPage) +"/" +nameof(TabModalPage), useModalNavigation:true);
         }
 
         private async Task PageModalClick()
         {
-            var navResult = await NavigationService.NavigateAsync(nameof(NavigationPage) + "/" + nameof(Page1ModalPage), null, true, true);
+            var navResult = await NavigationService.NavigateAsync(nameof(NavigationPage) + "/" + nameof(Page1ModalPage), useModalNavigation: true);
 
         }
     }

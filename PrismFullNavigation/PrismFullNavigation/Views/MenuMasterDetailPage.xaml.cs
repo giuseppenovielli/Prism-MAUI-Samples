@@ -3,7 +3,7 @@ using Xamarin.Forms;
 
 namespace PrismFullNavigation.Views
 {
-    public partial class MenuMasterDetailPage : MasterDetailPage, IMasterDetailPageOptions
+    public partial class MenuMasterDetailPage : FlyoutPage, IFlyoutPageOptions
     {
         public static readonly BindableProperty IsPresentedAfterNavigationProperty =
             BindableProperty.Create(
