@@ -1,4 +1,4 @@
-# Xamarin Forms 5.0.0.2012 with Prism 8.0.0.1909 FullNavigation Example
+# Xamarin Forms 5.0.0.2012 with Prism 8.1.97 FullNavigation Example
 A full example of prism's navigation with Xamarin Forms
 
 Provide examples with prism's navigation:
