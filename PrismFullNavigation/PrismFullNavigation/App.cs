@@ -42,7 +42,6 @@ namespace PrismFullNavigation
             containerRegistry.RegisterForNavigation<MasterDetailNavigationPage>();
 
             containerRegistry.RegisterForNavigation<MainPage, MainPageViewModel>();
-            containerRegistry.RegisterForNavigation<MenuPage, MenuPageViewModel>();
             containerRegistry.RegisterForNavigation<MenuMasterDetailPage, MenuMasterDetailPageViewModel>();
             containerRegistry.RegisterForNavigation<TabbedMasterDetailPage, TabbedMasterDetailPageViewModel>();
             containerRegistry.RegisterForNavigation<TabbedPageRuntimeModal, TabbedPageRuntimeModalViewModel>();

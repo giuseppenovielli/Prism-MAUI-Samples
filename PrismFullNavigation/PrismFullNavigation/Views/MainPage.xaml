@@ -8,7 +8,6 @@
     x:DataType="viewmodels:MainPageViewModel"
     Title="{Binding TitlePage}"
     xmlns:prism="http://prismlibrary.com"
-    prism:ViewModelLocator.AutowireViewModel="True"
     Padding="10">
 
     <StackLayout

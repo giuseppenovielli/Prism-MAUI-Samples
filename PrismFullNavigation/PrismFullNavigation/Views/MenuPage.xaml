@@ -5,9 +5,7 @@
     xmlns:local="clr-namespace:PrismFullNavigation.Views"
     xmlns:viewmodels="clr-namespace:PrismFullNavigation.ViewModels"
     x:Class="PrismFullNavigation.Views.MenuPage"
-    x:DataType="viewmodels:MenuPageViewModel"
-    xmlns:prism="http://prismlibrary.com"
-    prism:ViewModelLocator.AutowireViewModel="True"
+    x:DataType="viewmodels:MenuMasterDetailPageViewModel"
     Title="Menu"
     Padding="10">
 

@@ -7,7 +7,6 @@
           xmlns:viewmodels="clr-namespace:PrismFullNavigation.ViewModels"
     x:DataType="viewmodels:Tab2PageViewModel"
     xmlns:prism="http://prismlibrary.com"
-    prism:ViewModelLocator.AutowireViewModel="True"
     Title="{Binding TitlePage}">
 
      <StackLayout

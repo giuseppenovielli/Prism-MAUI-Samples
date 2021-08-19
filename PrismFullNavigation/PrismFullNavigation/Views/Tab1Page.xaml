@@ -7,7 +7,6 @@
            xmlns:viewmodels="clr-namespace:PrismFullNavigation.ViewModels"
     x:DataType="viewmodels:Tab1PageViewModel"
     xmlns:prism="http://prismlibrary.com"
-    prism:ViewModelLocator.AutowireViewModel="True"
     Title="{Binding TitlePage}"
     Padding="10">
 

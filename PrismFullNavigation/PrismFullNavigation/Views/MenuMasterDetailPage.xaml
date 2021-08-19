@@ -8,7 +8,6 @@
     xmlns:views="clr-namespace:PrismFullNavigation.Views"
     xmlns:viewmodels="clr-namespace:PrismFullNavigation.ViewModels"
     xmlns:prism="http://prismlibrary.com"
-    prism:ViewModelLocator.AutowireViewModel="True"
     x:Class="PrismFullNavigation.Views.MenuMasterDetailPage"
     x:DataType="viewmodels:MenuMasterDetailPageViewModel"
     Title="{Binding TitlePage}">
