@@ -14,7 +14,4 @@ PrismFullNavigation/xamarin_forms_5/PrismFullNavigation.GTK/obj/
 PrismFullNavigation/xamarin_forms_5/PrismFullNavigation.MacOs/bin/
 PrismFullNavigation/xamarin_forms_5/PrismFullNavigation.MacOs/obj/
 
-PrismFullNavigation/maui_net7/.vs/
-PrismFullNavigation/maui_net7/.DS_Store/
-PrismFullNavigation/maui_net7/PrismFullNavigation/bin/
-PrismFullNavigation/maui_net7/PrismFullNavigation/obj/
+PrismFullNavigation/maui_net7/
