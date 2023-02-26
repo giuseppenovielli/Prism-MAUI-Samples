@@ -1,0 +1,20 @@
+﻿<Properties StartupConfiguration="{735A2A8F-5190-4F40-9B80-3B22BA6AB034}|Default">
+  <AuthorInfo Name="" Email="" Copyright="" Company="" Trademark="" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="PrismFullNavigation" expanded="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.PrismFullNavigation.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.CD5173E2-F667-4EAE-B0E9-9E7EBC2A8191" Xamarin.HotReload.DebuggerTimeoutException.PrismFullNavigation.iOS.HideInfoBar="True" automaticSigning="False" />
+  <MonoDevelop.Ide.ItemProperties.PrismFullNavigation.Android PreferredExecutionTarget="Android.07adc3c2" AndroidDesignerPreferredTheme="Theme.AppCompat.Light.NoActionBar" />
+</Properties>
