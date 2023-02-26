@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<local:BasePage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:PrismFullNavigation.Views"
+    xmlns:viewmodels="clr-namespace:PrismFullNavigation.ViewModels"
+    x:Class="PrismFullNavigation.Views.MenuPage"
+    x:DataType="viewmodels:MenuMasterDetailPageViewModel"
+    Title="Menu"
+    Padding="10">
+
+
+        <CollectionView
+            SelectionMode="Single"
+            SelectedItem="{Binding SelectedItem}"
+            ItemsSource="{Binding MenuItemsList}">
+       
+            <CollectionView.ItemTemplate>
+                
+                <DataTemplate
+                    x:DataType="viewmodels:MenuItem">
+
+                    <StackLayout
+                        Padding="10">
+                        <Label
+                            Text="{Binding Item}"
+                            TextColor="Black"
+                           FontSize="Body" />
+
+                    </StackLayout>
+                        
+                        
+                        
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+    </CollectionView>
+    
+
+</local:BasePage>
