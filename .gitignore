@@ -1,9 +1,8 @@
 .DS_Store/
 PrismFullNavigation/.DS_Store/
 
-PrismFullNavigation/xamarin_forms_5/
+PrismFullNavigation/src/PrismFullNavigation/bin/
+PrismFullNavigation/src/PrismFullNavigation/obj/
 
-PrismFullNavigation/maui_net7/.vs/
-PrismFullNavigation/maui_net7/.DS_Store/
-PrismFullNavigation/maui_net7/PrismFullNavigation/bin/
-PrismFullNavigation/maui_net7/PrismFullNavigation/obj/
+PrismFullNavigation/src/.vs/
+PrismFullNavigation/src/.DS_Store/
