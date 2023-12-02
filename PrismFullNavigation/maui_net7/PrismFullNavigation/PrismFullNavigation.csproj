@@ -1,13 +1,15 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net7.0-android;net7.0-ios;net7.0-maccatalyst</TargetFrameworks>
+		<!--<TargetFrameworks>net8.0-android;net8.0-ios;net8.0-maccatalyst</TargetFrameworks>-->
+		<TargetFrameworks>net8.0-android</TargetFrameworks>
 		<TargetFrameworks Condition="$([MSBuild]::IsOSPlatform('windows'))">$(TargetFrameworks);net7.0-windows10.0.19041.0</TargetFrameworks>
 		<!-- Uncomment to also build the tizen app. You will need to install tizen by following this: https://github.com/Samsung/Tizen.NET -->
 		<!-- <TargetFrameworks>$(TargetFrameworks);net7.0-tizen</TargetFrameworks> -->
 		<OutputType>Exe</OutputType>
 		<RootNamespace>PrismFullNavigation</RootNamespace>
 		<UseMaui>true</UseMaui>
+		<MauiVersion>8.0.3</MauiVersion>
 		<SingleProject>true</SingleProject>
 		<ImplicitUsings>enable</ImplicitUsings>
 
@@ -49,23 +51,10 @@
 	</ItemGroup>
 
 	<ItemGroup>
-		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="7.0.0" />
-		<PackageReference Include="Prism.DryIoc.Maui" Version="8.1.273-pre" />
+		<PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="8.0.0" />
+		<PackageReference Include="Prism.DryIoc.Maui" Version="9.0.271-pre" />
 		<PackageReference Include="PropertyChanged.Fody" Version="4.1.0" />
-	</ItemGroup>
-
-	<ItemGroup>
-	  <None Remove="Prism.DryIoc.Maui" />
-	  <None Remove="PropertyChanged.Fody" />
-	  <None Remove="Views\" />
-	  <None Remove="ViewModels\" />
-	  <None Remove="Services\" />
-	  <None Remove="Platforms\iOS\Views\" />
-	</ItemGroup>
-	<ItemGroup>
-	  <Folder Include="Views\" />
-	  <Folder Include="ViewModels\" />
-	  <Folder Include="Services\" />
-	  <Folder Include="Platforms\iOS\Views\" />
+		<PackageReference Include="Microsoft.Maui.Controls" Version="$(MauiVersion)" />
+		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="$(MauiVersion)" />
 	</ItemGroup>
 </Project>
