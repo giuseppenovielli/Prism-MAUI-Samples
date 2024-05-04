@@ -1,6 +1,4 @@
-﻿using Prism.Commands;
-using Prism.Navigation;
-using PrismFullNavigation.Services.Data;
+﻿using PrismFullNavigation.Services.Data;
 using PrismFullNavigation.Views;
 
 namespace PrismFullNavigation.ViewModels
@@ -19,6 +17,7 @@ namespace PrismFullNavigation.ViewModels
 
         public DelegateCommand SendCommandClick { get; set; }
 
+        public override bool ClearNavigationStackOnNavigation => false;
 
         public Page1ClearStackNavPageViewModel(
             INavigationService navigationService,
@@ -28,8 +27,10 @@ namespace PrismFullNavigation.ViewModels
 
             SendCommandClick = new DelegateCommand(async delegate
             {
-                var navParameters = new NavigationParameters();
-                navParameters.Add("name", Name);
+                var navParameters = new NavigationParameters
+                {
+                    { "name", Name }
+                };
 
                 var result = await NavigationService.NavigateAsync(nameof(Page2Page), navParameters);
 

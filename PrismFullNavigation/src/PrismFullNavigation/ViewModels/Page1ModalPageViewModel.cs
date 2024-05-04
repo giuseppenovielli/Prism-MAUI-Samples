@@ -1,7 +1,4 @@
-﻿using System.Threading.Tasks;
-using Prism.Commands;
-using Prism.Navigation;
-using PrismFullNavigation.Services.Data;
+﻿using PrismFullNavigation.Services.Data;
 
 namespace PrismFullNavigation.ViewModels
 {
@@ -29,8 +26,10 @@ namespace PrismFullNavigation.ViewModels
 
             SendCommandClick = new DelegateCommand(async delegate
             {
-                var navParameters = new NavigationParameters();
-                navParameters.Add("name", Name);
+                var navParameters = new NavigationParameters
+                {
+                    { "name", Name }
+                };
 
                 var result = await NavigationService.NavigateAsync("Page2Page", navParameters);
 
@@ -38,7 +37,7 @@ namespace PrismFullNavigation.ViewModels
             },
            delegate
            {
-               return ButtonIsEnable == true ? true : false;
+               return ButtonIsEnable == true;
 
            }).ObservesProperty(() => ButtonIsEnable);
         }

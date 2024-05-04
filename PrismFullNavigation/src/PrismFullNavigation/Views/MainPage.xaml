@@ -7,7 +7,6 @@
     xmlns:viewmodels="clr-namespace:PrismFullNavigation.ViewModels"
     x:DataType="viewmodels:MainPageViewModel"
     Title="{Binding TitlePage}"
-    xmlns:prism="http://prismlibrary.com"
     Padding="10">
 
     <StackLayout
@@ -15,27 +14,27 @@
         HorizontalOptions="CenterAndExpand"
         Spacing="5">
 
-          <Button
+        <Button
             Text="Push MasterDetailPage"
             Command="{Binding MasterDetailClickCommand}"
             CommandParameter="{Binding .}"/>
      
-          <Button
+        <Button
             Text="Push TabbedPage"
             Command="{Binding TabbedPageClickCommand}"
             CommandParameter="{Binding .}"/>
 
-                  <Button
+        <Button
             Text="Push Page"
             Command="{Binding PageClickCommand}"
             CommandParameter="{Binding .}"/>
 
-          <Button
+        <Button
             Text="Push Modal Page"
             Command="{Binding PageModalClickCommand}"
             CommandParameter="{Binding .}"/>
 
-              <Button
+        <Button
             Text="Push Modal Tabbed Page"
             Command="{Binding TabbedPageModalClickCommand}"
             CommandParameter="{Binding .}"/>

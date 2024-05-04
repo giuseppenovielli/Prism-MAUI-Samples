@@ -1,15 +1,14 @@
-﻿using System;
+﻿using Microsoft.Maui.Controls.Compatibility;
 using Microsoft.Maui.Controls.Compatibility.Platform.iOS;
-using UIKit;
-using PrismFullNavigation.Views;
+using PrismFullNavigation.Platforms.iOS.Renderers;
 using PrismFullNavigation.ViewModels;
-using Microsoft.Maui.Controls.Compatibility;
-using PrismFullNavigation.Platforms.iOS.Views;
+using PrismFullNavigation.Views;
+using UIKit;
 
 [assembly: ExportRenderer(typeof(Page1ModalPage), typeof(ModalPageCustomRenderer))]
 [assembly: ExportRenderer(typeof(TabbedPageRuntimeModal), typeof(ModalPageCustomRenderer))]
 [assembly: ExportRenderer(typeof(TabModalPage), typeof(ModalPageCustomRenderer))]
-namespace PrismFullNavigation.Platforms.iOS.Views
+namespace PrismFullNavigation.Platforms.iOS.Renderers
 {
     public class ModalPageCustomRenderer : PageRenderer
     {

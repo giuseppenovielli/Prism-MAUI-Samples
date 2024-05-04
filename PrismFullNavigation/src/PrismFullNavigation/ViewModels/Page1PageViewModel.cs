@@ -1,5 +1,4 @@
-﻿using Prism.Commands;
-using Prism.Navigation;
+﻿using System.Diagnostics;
 using PrismFullNavigation.Services.Data;
 using PrismFullNavigation.Views;
 
@@ -30,8 +29,10 @@ namespace PrismFullNavigation.ViewModels
             SendCommandClick = new DelegateCommand(async delegate
             {
                 //Set parameters to Send
-                var navParameters = new NavigationParameters();
-                navParameters.Add("name", Name);
+                var navParameters = new NavigationParameters
+                {
+                    { "name", Name }
+                };
 
                 //Navigate to Page2Page
                 var result = await NavigationService.NavigateAsync(nameof(Page2Page), navParameters);
@@ -51,7 +52,7 @@ namespace PrismFullNavigation.ViewModels
 
             if (parameters.GetNavigationMode() == Prism.Navigation.NavigationMode.Back)
             {
-                System.Diagnostics.Debug.WriteLine("NavigationMode.Back");
+                Debug.WriteLine("NavigationMode.Back");
             }
         }
 

@@ -1,8 +1,4 @@
-﻿using System;
-using Prism;
-using Prism.Commands;
-using Prism.Navigation;
-using PrismFullNavigation.Services.Data;
+﻿using PrismFullNavigation.Services.Data;
 using PrismFullNavigation.Views;
 
 namespace PrismFullNavigation.ViewModels
@@ -41,21 +37,24 @@ namespace PrismFullNavigation.ViewModels
 
             SendCommandClick = new DelegateCommand(async delegate
             {
-                var navParameters = new NavigationParameters();
-                navParameters.Add("name", Name);
-                //navParameters.Add(KnownNavigationParameters.SelectedTab, nameof(Tab2Page));
+                var navParameters = new NavigationParameters
+                {
+                    { "name", Name },
+                    //{ KnownNavigationParameters.SelectedTab, nameof(Tab2Page) }
+                };
 
                 //var result = await NavigationService.NavigateAsync(nameof(Tab2Page), navParameters);
 
                 var result = await NavigationService.CreateBuilder()
-                    .AddTabbedSegment(b => b.SelectedTab(nameof(Tab2Page)))
+                    .AddTabbedSegment(nameof(Tab2Page), b => b.SelectedTab(nameof(Tab2Page)))
                     .WithParameters(navParameters)
                     .NavigateAsync();
+                    
 
             },
            delegate
            {
-               return ButtonIsEnable == true ? true : false;
+               return ButtonIsEnable == true;
 
            }).ObservesProperty(() => ButtonIsEnable);
         }

@@ -1,8 +1,4 @@
-﻿using System;
-using Prism;
-using Prism.Commands;
-using Prism.Navigation;
-using PrismFullNavigation.Services.Data;
+﻿using PrismFullNavigation.Services.Data;
 using PrismFullNavigation.Views;
 
 namespace PrismFullNavigation.ViewModels
@@ -43,11 +39,15 @@ namespace PrismFullNavigation.ViewModels
 
             SendCommandClick = new DelegateCommand(async delegate
             {
-                var navParameters = new NavigationParameters();
-                navParameters.Add("name", Name);
+                var navParameters = new NavigationParameters
+                {
+                    { "name", Name }
+                };
 
-               // var result = await NavigationService.SelectTabAsync(nameof(Tab1Page), navParameters);
-
+                var result = await NavigationService.CreateBuilder()
+                    .AddTabbedSegment(nameof(TabPageExample), b => b.SelectedTab(nameof(Tab1Page)))
+                    .WithParameters(navParameters)
+                    .NavigateAsync();
 
             },
            delegate
@@ -61,9 +61,11 @@ namespace PrismFullNavigation.ViewModels
 
             SendPage2CommandClick = new DelegateCommand(async delegate
             {
-                var navParameters = new NavigationParameters();
-                navParameters.Add("name", Name);
-                navParameters.Add("isTabbed", true);
+                var navParameters = new NavigationParameters
+                {
+                    { "name", Name },
+                    { "isTabbed", true }
+                };
 
                 var result = await NavigationService.NavigateAsync(nameof(Page2Page), navParameters);
 

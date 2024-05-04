@@ -1,24 +1,9 @@
-﻿using Prism.Navigation;
-
-
-namespace PrismFullNavigation.Views
+﻿namespace PrismFullNavigation.Views
 {
-    public class MasterDetailNavigationPage : NavigationPage, INavigationPageOptions
+    public class MasterDetailNavigationPage : NavigationPage
     {
         public MasterDetailNavigationPage()
         {
         }
-
-
-        public bool ClearNavigationStackOnNavigation
-        {
-            get { return false; }
-        }
-
-        public void Destroy()
-        {
-
-        }
-        
     }
 }

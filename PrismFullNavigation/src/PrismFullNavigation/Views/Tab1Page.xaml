@@ -3,8 +3,8 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="PrismFullNavigation.Views.Tab1Page"
-            xmlns:local="clr-namespace:PrismFullNavigation.Views"
-           xmlns:viewmodels="clr-namespace:PrismFullNavigation.ViewModels"
+    xmlns:local="clr-namespace:PrismFullNavigation.Views"
+    xmlns:viewmodels="clr-namespace:PrismFullNavigation.ViewModels"
     x:DataType="viewmodels:Tab1PageViewModel"
     xmlns:prism="http://prismlibrary.com"
     Title="{Binding TitlePage}"
@@ -15,30 +15,16 @@
         HorizontalOptions="CenterAndExpand"
         Spacing="5">
 
-            <Entry
-        Text="{Binding Name}"
-        Placeholder="Write your name"/>
+        <Entry
+            Text="{Binding Name}"
+            Placeholder="Write your name"/>
 
-        <StackLayout
-            HorizontalOptions="Center">
-                    <Button
+        <Button
             IsEnabled="{Binding ButtonIsEnable}"
             Text="Send Name to Tab2"
             Command="{Binding SendCommandClick}"
             CommandParameter="{Binding .}"/>
 
-        </StackLayout>
-
-
-
-
     </StackLayout>
-
-
-
-
-
-
-
 
 </local:BasePage>

@@ -1,7 +1,4 @@
-﻿using Prism.AppModel;
-using Prism.Mvvm;
-using Prism.Navigation;
-using PrismFullNavigation.Services.Data;
+﻿using PrismFullNavigation.Services.Data;
 
 namespace PrismFullNavigation.ViewModels
 {
@@ -12,7 +9,7 @@ namespace PrismFullNavigation.ViewModels
         public INavigationService NavigationService { get; }
         public IDataService DataService { get; }
 
-        public bool ClearNavigationStackOnNavigation => DataService.ClearDetailPageStack;
+        public virtual bool ClearNavigationStackOnNavigation => true;
 
         public BaseViewModel(
             INavigationService navigationService,

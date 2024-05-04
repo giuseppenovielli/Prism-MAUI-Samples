@@ -1,7 +1,4 @@
-﻿using Prism.Navigation;
-
-
-namespace PrismFullNavigation.Views
+﻿namespace PrismFullNavigation.Views
 {
     public partial class MenuMasterDetailPage : FlyoutPage, IFlyoutPageOptions
     {

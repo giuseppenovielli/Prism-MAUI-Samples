@@ -1,6 +1,5 @@
 ﻿using System.Collections.ObjectModel;
-using Prism.Commands;
-using Prism.Navigation;
+using System.Diagnostics;
 using PrismFullNavigation.Services.Data;
 using PrismFullNavigation.Views;
 
@@ -27,19 +26,20 @@ namespace PrismFullNavigation.ViewModels
             TitlePage = "MasterDetail";
             PresentedChangedCommand = new DelegateCommand(PresentedChanged);
 
-            MenuItemsList = new ObservableCollection<MenuItem>();
+            MenuItemsList = new ObservableCollection<MenuItem>()
+            {
+                new MenuItem("0: TabbedPage"),
+                new MenuItem("1: TabbedPage - Modal"),
+                new MenuItem("2: TabbedPage Runtime"),
+                new MenuItem("3: TabbedPage Runtime - Modal"),
+                new MenuItem("4: PageParameters"),
+                new MenuItem("5: PageParameters - Push Detail"),
+                new MenuItem("6: PageParameters - Modal Page"),
+                new MenuItem("7: MasterDetail inside Detail Page"),
+                new MenuItem("8: MasterDetail inside TabbedPage"),
+                new MenuItem("9: RootPage")
+            };
 
-            MenuItemsList.Add(new MenuItem("TabbedPage"));
-            MenuItemsList.Add(new MenuItem("TabbedPage - Modal"));
-            MenuItemsList.Add(new MenuItem("TabbedPage Runtime"));
-            MenuItemsList.Add(new MenuItem("TabbedPage Runtime - Modal"));
-            MenuItemsList.Add(new MenuItem("PageParameters"));
-            MenuItemsList.Add(new MenuItem("PageParameters - Push Detail - Working"));
-            MenuItemsList.Add(new MenuItem("PageParameters - Push Detail - Not Working"));
-            MenuItemsList.Add(new MenuItem("PageParameters - Modal Page"));
-            MenuItemsList.Add(new MenuItem("MasterDetail inside Detail Page"));
-            MenuItemsList.Add(new MenuItem("MasterDetail inside TabbedPage"));
-            MenuItemsList.Add(new MenuItem("RootPage"));
         }
 
         private async void NavigateToPageAsync()
@@ -55,42 +55,71 @@ namespace PrismFullNavigation.ViewModels
                         break;
 
                     case 1:
-                        //navResult = await NavigationService.NavigateAsync(nameof(NavigationPage) + "/" + nameof(TabModalPage), useModalNavigation: true);
+                        var result = await NavigationService.CreateBuilder()
+                            .AddSegment(nameof(NavigationPage), s => s.UseModalNavigation())
+                            .AddSegment(nameof(TabModalPage))
+                            .NavigateAsync();
                         break;
 
                     case 2:
-                        navResult = await NavigationService.NavigateAsync("NavigationPage/" +
-                            "TabbedPageRuntime?" +
-                            "createTab=Tab1Page&" +
-                            "createTab=Tab2Page");
+
+                        navResult = await NavigationService.CreateBuilder()
+                            .AddSegment(nameof(NavigationPage))
+                            .AddTabbedSegment(
+                                nameof(TabbedPageRuntime),
+                                (Prism.Navigation.Builder.ITabbedSegmentBuilder obj) =>
+                                {
+                                    obj.CreateTab(nameof(Tab1Page));
+                                    obj.CreateTab(nameof(Tab2Page));
+                                })
+                            .NavigateAsync();
+
                         break;
                     case 3:
-                        //navResult = await NavigationService.NavigateAsync("NavigationPage/" +
-                        //    "TabbedPageRuntimeModal?" +
-                        //    "createTab=Tab1Page&" +
-                        //    "createTab=Tab2Page", useModalNavigation: true);
+
+                        navResult = await NavigationService.CreateBuilder()
+                            .AddSegment(nameof(NavigationPage), useModalNavigation: true)
+                            .AddTabbedSegment(
+                                nameof(TabbedPageRuntimeModal),
+                                (Prism.Navigation.Builder.ITabbedSegmentBuilder obj) =>
+                                {
+                                    obj.CreateTab(nameof(Tab1Page));
+                                    obj.CreateTab(nameof(Tab2Page));
+                                })
+                            .NavigateAsync();
+
                         break;
                     case 4:
                         navResult = await NavigationService.NavigateAsync(nameof(NavigationPage) + "/" + nameof(Page1Page));
                         break;
                     case 5:
-                        DataService.ClearDetailPageStack = false;
-                        navResult = await NavigationService.NavigateAsync(nameof(NavigationPage) + "/" + nameof(Page1ClearStackNavPage));
-                        DataService.ClearDetailPageStack = true;
+
+                        navResult = await NavigationService.CreateBuilder()
+                            .AddSegment(nameof(NavigationPage))
+                            .AddSegment(nameof(Page1ClearStackNavPage))
+                            .NavigateAsync();
+
                         break;
                     case 6:
-                        navResult = await NavigationService.NavigateAsync(nameof(MasterDetailNavigationPage) + "/" + nameof(Page1ClearStackNavPage));
+                        navResult = await NavigationService.CreateBuilder()
+                            .AddSegment(nameof(NavigationPage), useModalNavigation:true)
+                            .AddSegment(nameof(Page1ModalPage))
+                            .NavigateAsync();
                         break;
                     case 7:
-                        //navResult = await NavigationService.NavigateAsync(nameof(NavigationPage) + "/" + nameof(Page1ModalPage), useModalNavigation: true);
+                        navResult = await NavigationService.CreateBuilder()
+                                .AddSegment(nameof(MenuMasterDetailPage))
+                                .AddSegment(nameof(NavigationPage))
+                                .AddSegment(nameof(Page1Page))
+                                .NavigateAsync();
                         break;
                     case 8:
-                        navResult = await NavigationService.NavigateAsync(nameof(NavigationPage) + "/" + nameof(MenuMasterDetailPage) + "/" + nameof(NavigationPage) + "/" + nameof(Page1Page));
+                        navResult = await NavigationService.CreateBuilder()
+                                .AddSegment(nameof(NavigationPage))
+                                .AddSegment(nameof(TabbedMasterDetailPage))
+                                .NavigateAsync();
                         break;
                     case 9:
-                        navResult = await NavigationService.NavigateAsync(nameof(NavigationPage) + "/" + nameof(TabbedMasterDetailPage));
-                        break;
-                    case 10:
                         navResult = await NavigationService.NavigateAsync("/NavigationPage/MainPage");
                         break;
                 }
@@ -101,7 +130,7 @@ namespace PrismFullNavigation.ViewModels
 
         private void PresentedChanged()
         {
-            System.Diagnostics.Debug.WriteLine("PresentedChanged");
+            Debug.WriteLine("PresentedChanged");
         }
     }
 

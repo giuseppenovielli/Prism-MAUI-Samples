@@ -1,6 +1,4 @@
-﻿using System.Threading.Tasks;
-using System.Windows.Input;
-using Prism.Navigation;
+﻿using System.Windows.Input;
 using PrismFullNavigation.Services.Data;
 using PrismFullNavigation.Views;
 
@@ -37,7 +35,6 @@ namespace PrismFullNavigation.ViewModels
         private async Task PageClickAsync()
         {
             var navResult = await NavigationService.NavigateAsync(nameof(Page1Page));
-
         }
 
         private async Task TabbedPageClick()
@@ -49,24 +46,22 @@ namespace PrismFullNavigation.ViewModels
         private async Task MasterDetailClick()
         {
             var navResult = await NavigationService.NavigateAsync("/" + nameof(MenuMasterDetailPage) + "/" + nameof(NavigationPage) + "/" + nameof(Page1Page));
-
         }
 
 
         private async Task TabbedPageModalClick()
         {
-            //var navResult = await NavigationService.NavigateAsync(nameof(NavigationPage) +"/" +nameof(TabModalPage), useModalNavigation:true);
+            var result = await NavigationService.CreateBuilder()
+                    .AddSegment(nameof(NavigationPage), useModalNavigation: true)
+                    .AddSegment(nameof(TabModalPage))
+                    .NavigateAsync();
         }
 
         private async Task PageModalClick()
         {
-            //var navParameters = new NavigationParameters();
-            //navParameters.Add(KnownNavigationParameters.UseModalNavigation, true);
-            //var navResult = await NavigationService.NavigateAsync(nameof(NavigationPage) + "/" + nameof(Page1ModalPage), navParameters);
-
             var result = await NavigationService.CreateBuilder()
-                    .AddNavigationPage(true)
-                    .AddSegment(nameof(Page1ModalPage), s => s.UseModalNavigation())
+                    .AddSegment(nameof(NavigationPage), useModalNavigation: true)
+                    .AddSegment(nameof(Page1ModalPage))
                     .NavigateAsync();
         }
     }
