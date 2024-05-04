@@ -3,31 +3,38 @@
     xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
     xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
     x:Class="PrismFullNavigation.Views.Page1ModalPage"
-            xmlns:local="clr-namespace:PrismFullNavigation.Views"
-           xmlns:viewmodels="clr-namespace:PrismFullNavigation.ViewModels"
+    xmlns:local="clr-namespace:PrismFullNavigation.Views"
+    xmlns:viewmodels="clr-namespace:PrismFullNavigation.ViewModels"
     x:DataType="viewmodels:Page1ModalPageViewModel"
     Title="{Binding TitlePage}"
     Padding="10">
 
-    <StackLayout
-        VerticalOptions="Center"
-        HorizontalOptions="CenterAndExpand"
-        Spacing="5">
-
-            <Entry
-        Text="{Binding Name}"
-        Placeholder="Write your name"/>
+    <StackLayout>
 
         <StackLayout
-            HorizontalOptions="Center">
-                    <Button
-            IsEnabled="{Binding ButtonIsEnable}"
-            Text="Send Name to Page2"
-            Command="{Binding SendCommandClick}"
-            CommandParameter="{Binding .}"/>
+            VerticalOptions="CenterAndExpand"
+            HorizontalOptions="CenterAndExpand"
+            Spacing="5">
+
+            <Entry
+                Text="{Binding Name}"
+                Placeholder="Write your name"/>
+
+            <Button
+                IsEnabled="{Binding ButtonIsEnable}"
+                Text="Send Name to Page2"
+                Command="{Binding SendCommandClick}"
+                CommandParameter="{Binding .}"/>
 
         </StackLayout>
 
+        <Button
+            VerticalOptions="EndAndExpand"
+            Text="Close this Page"
+            Command="{Binding ClosePage}"
+            CommandParameter="{Binding .}"/>
+
     </StackLayout>
+    
 
 </local:BasePage>

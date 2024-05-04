@@ -27,8 +27,8 @@ namespace PrismFullNavigation.ViewModels
 
         public DelegateCommand SendCommandClick { get; set; }
         public DelegateCommand SendPage2CommandClick { get; set; }
+        public DelegateCommand ClosePage { get; set; }
 
-        
 
         public Tab2PageViewModel(
             INavigationService navigationService,
@@ -76,6 +76,12 @@ namespace PrismFullNavigation.ViewModels
               return ButtonIsEnable == true ? true : false;
 
           }).ObservesProperty(() => ButtonIsEnable);
+
+
+            ClosePage = new DelegateCommand(async () =>
+            {
+                var navResult = await GoBackAsync();
+            });
         }
 
  

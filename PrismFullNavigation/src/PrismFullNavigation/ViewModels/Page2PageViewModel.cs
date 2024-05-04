@@ -1,6 +1,4 @@
-﻿using Prism.Commands;
-using Prism.Navigation;
-using PrismFullNavigation.Services.Data;
+﻿using PrismFullNavigation.Services.Data;
 
 namespace PrismFullNavigation.ViewModels
 {
@@ -19,7 +17,6 @@ namespace PrismFullNavigation.ViewModels
 
 
         public DelegateCommand SendCommandClick { get; set; }
-
 
         public Page2PageViewModel(
             INavigationService navigationService,
@@ -44,6 +41,8 @@ namespace PrismFullNavigation.ViewModels
                return ButtonIsEnable == true ? true : false;
 
            }).ObservesProperty(() => ButtonIsEnable);
+
+            
         }
 
         public override void Initialize(INavigationParameters parameters)

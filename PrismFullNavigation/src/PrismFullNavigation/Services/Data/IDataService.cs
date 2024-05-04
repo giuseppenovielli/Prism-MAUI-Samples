@@ -2,6 +2,5 @@
 {
     public interface IDataService
     {
-        bool ClearDetailPageStack { get; set; }
     }
 }

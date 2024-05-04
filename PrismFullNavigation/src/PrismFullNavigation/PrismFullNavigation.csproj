@@ -8,7 +8,6 @@
 		<OutputType>Exe</OutputType>
 		<RootNamespace>PrismFullNavigation</RootNamespace>
 		<UseMaui>true</UseMaui>
-		<MauiVersion>8.0.21</MauiVersion>
 		<SingleProject>true</SingleProject>
 		<ImplicitUsings>enable</ImplicitUsings>
 
@@ -55,5 +54,13 @@
 		<PackageReference Include="PropertyChanged.Fody" Version="4.1.0" />
 		<PackageReference Include="Microsoft.Maui.Controls" Version="8.0.21" />
 		<PackageReference Include="Microsoft.Maui.Controls.Compatibility" Version="8.0.21" />
+	</ItemGroup>
+	<ItemGroup>
+	  <None Remove="Extensions\" />
+	  <None Remove="Helpers\" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="Extensions\" />
+	  <Folder Include="Helpers\" />
 	</ItemGroup>
 </Project>

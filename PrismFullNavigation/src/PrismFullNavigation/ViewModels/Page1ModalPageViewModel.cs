@@ -16,6 +16,8 @@ namespace PrismFullNavigation.ViewModels
 
         public DelegateCommand SendCommandClick { get; set; }
 
+        public DelegateCommand ClosePage { get; set; }
+
 
         public Page1ModalPageViewModel(
             INavigationService navigationService,
@@ -40,6 +42,11 @@ namespace PrismFullNavigation.ViewModels
                return ButtonIsEnable == true;
 
            }).ObservesProperty(() => ButtonIsEnable);
+
+            ClosePage = new DelegateCommand(async () =>
+            {
+                var navResult = await GoBackAsync();
+            });
         }
 
 

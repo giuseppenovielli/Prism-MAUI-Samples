@@ -1,4 +1,5 @@
-﻿using PrismFullNavigation.Services.Data;
+﻿using PrismFullNavigation.Helpers;
+using PrismFullNavigation.Services.Data;
 
 namespace PrismFullNavigation.ViewModels
 {
@@ -58,9 +59,25 @@ namespace PrismFullNavigation.ViewModels
         {
         }
 
-        public async Task PopModalAsync()
+        public async Task<INavigationResult> GoBackAsync()
         {
-            var navResult = await NavigationService.GoBackAsync();
+            var isModal = PageHelpers.IsCurrentPageModal();
+
+            var navResult = await NavigateGoBack(isModal);
+            if (!navResult.Success)
+                navResult = await NavigateGoBack(!isModal);
+
+            return navResult;
+        }
+
+        async Task<INavigationResult> NavigateGoBack(bool isModal = false)
+        {
+            var navParams = new NavigationParameters()
+            {
+                {KnownNavigationParameters.UseModalNavigation, isModal }
+            };
+
+            return await NavigationService.GoBackAsync(navParams);
         }
     }
 }

@@ -33,10 +33,10 @@ namespace PrismFullNavigation.ViewModels
                 new MenuItem("2: TabbedPage Runtime"),
                 new MenuItem("3: TabbedPage Runtime - Modal"),
                 new MenuItem("4: PageParameters"),
-                new MenuItem("5: PageParameters - Push Detail"),
+                new MenuItem("5:  ̶P̶a̶g̶e̶P̶a̶r̶a̶m̶e̶t̶e̶r̶s̶ ̶-̶ ̶P̶u̶s̶h̶ ̶D̶e̶t̶a̶i̶l̶"),
                 new MenuItem("6: PageParameters - Modal Page"),
-                new MenuItem("7: MasterDetail inside Detail Page"),
-                new MenuItem("8: MasterDetail inside TabbedPage"),
+                new MenuItem("7:  ̶M̶a̶s̶t̶e̶r̶D̶e̶t̶a̶i̶l̶ ̶i̶n̶s̶i̶d̶e̶ ̶D̶e̶t̶a̶i̶l̶ ̶P̶a̶g̶e̶"),
+                new MenuItem("8:  ̶M̶a̶s̶t̶e̶r̶D̶e̶t̶a̶i̶l̶ ̶i̶n̶s̶i̶d̶e̶ ̶T̶a̶b̶b̶e̶d̶P̶a̶g̶e̶"),
                 new MenuItem("9: RootPage")
             };
 

@@ -5,14 +5,6 @@ using PrismFullNavigation.Services.Data;
 using PrismFullNavigation.ViewModels;
 using PrismFullNavigation.Views;
 
-#if IOS
-using PrismFullNavigation.Platforms.iOS.Renderers;
-#endif
-
-#if MACCATALYST
-using PrismFullNavigation.Platforms.MacCatalyst.Renderers;
-#endif
-
 namespace PrismFullNavigation;
 
 public static class MauiProgram
@@ -30,17 +22,7 @@ public static class MauiProgram
         })
         .ConfigureMauiHandlers(handlers =>
         {
-#if IOS
-            handlers.AddCompatibilityRenderer(typeof(Page1ModalPage), typeof(ModalPageCustomRenderer));
-            handlers.AddCompatibilityRenderer(typeof(TabbedPageRuntimeModal), typeof(ModalPageCustomRenderer));
-            handlers.AddCompatibilityRenderer(typeof(TabModalPage), typeof(ModalPageCustomRenderer));
-#endif
 
-#if MACCATALYST
-            handlers.AddCompatibilityRenderer(typeof(Page1ModalPage), typeof(ModalPageCustomRenderer));
-            handlers.AddCompatibilityRenderer(typeof(TabbedPageRuntimeModal), typeof(ModalPageCustomRenderer));
-            handlers.AddCompatibilityRenderer(typeof(TabModalPage), typeof(ModalPageCustomRenderer));
-#endif
         })
         .UsePrism(prism =>
 

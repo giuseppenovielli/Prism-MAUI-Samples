@@ -1,5 +1,4 @@
-﻿using Prism.Navigation;
-using PrismFullNavigation.Services.Data;
+﻿using PrismFullNavigation.Services.Data;
 
 namespace PrismFullNavigation.ViewModels
 {

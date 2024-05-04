@@ -26,7 +26,7 @@ namespace PrismFullNavigation.ViewModels
 
 
         public DelegateCommand SendCommandClick { get; set; }
-
+        public DelegateCommand ClosePage { get; set; }
 
         public Tab1PageViewModel(
             INavigationService navigationService,
@@ -46,7 +46,7 @@ namespace PrismFullNavigation.ViewModels
                 //var result = await NavigationService.NavigateAsync(nameof(Tab2Page), navParameters);
 
                 var result = await NavigationService.CreateBuilder()
-                    .AddTabbedSegment(nameof(Tab2Page), b => b.SelectedTab(nameof(Tab2Page)))
+                    .AddTabbedSegment(nameof(TabPageExample), b => b.SelectedTab(nameof(Tab2Page)))
                     .WithParameters(navParameters)
                     .NavigateAsync();
                     
@@ -57,6 +57,11 @@ namespace PrismFullNavigation.ViewModels
                return ButtonIsEnable == true;
 
            }).ObservesProperty(() => ButtonIsEnable);
+
+            ClosePage = new DelegateCommand(async () =>
+            {
+                var navResult = await GoBackAsync();
+            });
         }
 
  
