@@ -1,5 +1,4 @@
-# Xamarin Forms 5.0.0.2083 with Prism 8.1.97 FullNavigation Example
-A full example of prism's navigation with Xamarin Forms
+# .NET MAUI 8 with Prism 9.0.401-pre FullNavigation Example
 
 Provide examples with prism's navigation:
 
@@ -9,9 +8,6 @@ Provide examples with prism's navigation:
 
 - MasterDetailPage which contains
     - Pages, modal, pass and return parameters
-    - TabbedPages, modal, pass and return parameters, selected tabbed, runtime generate
-    - Master Detail inside Master Detail Page
-    - Master Detail inside TabbedPage
+    - TabbedPages, modal, pass and return parameters, runtime generate
     - Set Root Page
-    
-    and other...
+    and others...
